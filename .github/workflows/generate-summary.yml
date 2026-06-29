@@ -44,10 +44,9 @@ jobs:
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          python agent/generate_summary.py \
-            --query "${{ github.event.inputs.search_query }}" \
-            --domain "${{ github.event.inputs.domain }}"
+          SEARCH_QUERY: ${{ github.event.inputs.search_query }}
+          SEARCH_DOMAIN: ${{ github.event.inputs.domain }}
+        run: python agent/generate_summary.py
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7

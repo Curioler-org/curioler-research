@@ -127,18 +127,25 @@ def save_draft(content: str, query: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser(description="Curioler research summary agent")
-    parser.add_argument("--query", required=True, help="Search topic")
-    parser.add_argument("--domain", required=True, help="Research domain")
+    parser.add_argument("--query", default="", help="Search topic")
+    parser.add_argument("--domain", default="", help="Research domain")
     args = parser.parse_args()
 
-    print(f"Searching: {args.query}")
-    results = search_web(args.query)
+    # Prefer env vars — avoids shell quoting issues with multi-line queries
+    query = os.environ.get("SEARCH_QUERY", args.query).strip()
+    domain = os.environ.get("SEARCH_DOMAIN", args.domain).strip()
+
+    if not query or not domain:
+        raise SystemExit("Error: search query and domain are required (via SEARCH_QUERY/SEARCH_DOMAIN env vars or --query/--domain args)")
+
+    print(f"Searching: {query}")
+    results = search_web(query)
     print(f"Found {len(results)} sources")
 
     print("Generating summary with Claude...")
-    summary = generate_summary(args.query, args.domain, results)
+    summary = generate_summary(query, domain, results)
 
-    save_draft(summary, args.query)
+    save_draft(summary, query)
 
 
 if __name__ == "__main__":
