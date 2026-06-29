@@ -1,0 +1,20 @@
+title: Curioler Research
+description: Evidence-based research summaries for caregivers of autistic children.
+baseurl: ""
+url: ""
+
+theme: minima
+
+collections:
+  summaries:
+    output: true
+    permalink: /summaries/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: summaries
+    values:
+      layout: post
+
+markdown: kramdown
