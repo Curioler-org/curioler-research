@@ -43,10 +43,12 @@ jobs:
       - name: Run research agent
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SEARCH_QUERY: ${{ github.event.inputs.search_query }}
           SEARCH_DOMAIN: ${{ github.event.inputs.domain }}
-        run: python agent/generate_summary.py
+        run: |
+          echo "⚠️  This workflow requires the claude CLI with an authenticated session."
+          echo "Run locally instead: SEARCH_QUERY='...' SEARCH_DOMAIN='...' python agent/generate_summary.py"
+          exit 1
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7

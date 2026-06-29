@@ -2,9 +2,9 @@ import os
 import re
 import json
 import glob
+import subprocess
 from datetime import date
 
-import anthropic
 from tavily import TavilyClient
 
 
@@ -96,10 +96,13 @@ def build_sources_text(results: list[dict]) -> str:
 
 
 def extract_structured_data(query: str, domain: str, sources_text: str) -> dict:
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     today = date.today().isoformat()
 
-    user_message = f"""Topic: "{query}"
+    # Combine system prompt + extraction instructions + sources into one prompt
+    # so we can drive Claude via the Claude Code CLI (no separate API key needed)
+    full_prompt = f"""{SYSTEM_PROMPT}
+
+Topic: "{query}"
 Domain: {domain}
 Date: {today}
 
@@ -108,14 +111,18 @@ Date: {today}
 Sources:
 {sources_text}
 """
-    message = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=4096,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
+
+    result = subprocess.run(
+        ["claude", "-p", full_prompt, "--model", "claude-haiku-4-5-20251001"],
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
     )
-    raw = message.content[0].text.strip()
-    # Strip markdown fences if the model added them despite instructions
+
+    if result.returncode != 0:
+        raise RuntimeError(f"Claude CLI error:\n{result.stderr}")
+
+    raw = result.stdout.strip()
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw)
     return json.loads(raw)

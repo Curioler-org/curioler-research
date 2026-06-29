@@ -1,6 +1,6 @@
 # /research — Curioler Research Summariser
 
-Generate a structured two-tier research summary from Tavily search results and save it to the Jekyll site.
+Generate a structured two-tier research summary from Tavily search results and publish it to the Jekyll site. Uses Claude Code's built-in model — no separate Anthropic API billing.
 
 ## Usage
 
@@ -15,27 +15,26 @@ Examples:
 
 ## What it does
 
-1. Searches the web via Tavily (5 sources, full raw content)
+1. Searches the web via Tavily (5 sources, full raw content, no truncation)
 2. Detects content type (clinical trial, research paper, systematic review, guideline, commentary)
 3. Extracts structured fields: sample size, demographics, researchers, institutes, methodology, key outcome, limitations
-4. Generates a short summary (card) + full structured breakdown (detail page)
-5. Finds related topics from existing summaries
+4. Generates a short summary (card excerpt) + full structured breakdown (detail page)
+5. Links related topics from existing summaries automatically
 6. Saves to `docs/_summaries/YYYY-MM-DD-<slug>.md`
 7. Commits and pushes → GitHub Pages auto-publishes
 
 ## Steps to run
 
-Run these commands in order from the repo root (`curioler-research/`):
+From the repo root (`curioler-research/`):
 
 ```bash
 cd "C:\Users\Bhavin\Desktop\Git Projects\Curioler-org\curioler-research"
 
-# Set your keys (skip if already in environment)
-export TAVILY_API_KEY=your_key_here
-export ANTHROPIC_API_KEY=your_key_here
+# Only Tavily key needed — Claude runs via Claude Code subscription
+export TAVILY_API_KEY=your_tavily_key
 
-# Run with your topic
-SEARCH_QUERY="<topic>" SEARCH_DOMAIN="<domain>" python agent/generate_summary.py
+# Run
+SEARCH_QUERY="melatonin autism sleep clinical trial" SEARCH_DOMAIN="Behaviour" python agent/generate_summary.py
 
 # Commit and push
 git add docs/_summaries/
@@ -49,6 +48,6 @@ Communication, Social, Sensory, Behaviour, Adaptive, Motor, General
 
 ## Notes
 
-- The `ANTHROPIC_API_KEY` here uses your own key. To use Claude Code subscription instead, run this skill directly from Claude Code and ask Claude to call the Anthropic API on your behalf using the built-in model access.
-- Tavily free tier: 1,000 searches/month — sufficient for regular use.
-- No token truncation — full raw content is passed for richer extraction.
+- No `ANTHROPIC_API_KEY` needed — uses `claude` CLI via your Claude Code subscription
+- Tavily free tier: 1,000 searches/month
+- Full raw content passed to Claude — richer extraction than the truncated version
