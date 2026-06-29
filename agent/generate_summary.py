@@ -68,13 +68,15 @@ def slugify(text: str) -> str:
     return text[:60]
 
 
+MAX_CHARS_PER_SOURCE = 3000
+
 def search_web(query: str) -> list[dict]:
     client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
     search_query = query[:400]
     response = client.search(
         query=search_query,
         search_depth="advanced",
-        max_results=5,
+        max_results=3,
         include_raw_content=True,
     )
     return response.get("results", [])
@@ -83,9 +85,10 @@ def search_web(query: str) -> list[dict]:
 def build_user_prompt(query: str, domain: str, results: list[dict]) -> str:
     sources_text = ""
     for i, r in enumerate(results, 1):
+        raw = r.get('raw_content') or r.get('content', '')
         sources_text += f"\n\n### Source {i}: {r.get('title', 'Untitled')}\n"
         sources_text += f"URL: {r.get('url', '')}\n"
-        sources_text += f"Content:\n{r.get('raw_content') or r.get('content', '')}\n"
+        sources_text += f"Content:\n{raw[:MAX_CHARS_PER_SOURCE]}\n"
 
     today = date.today().isoformat()
 
@@ -105,8 +108,8 @@ Sources to summarise:
 def generate_summary(query: str, domain: str, results: list[dict]) -> str:
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     message = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=4096,
+        model="claude-haiku-4-5-20251001",
+        max_tokens=2048,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": build_user_prompt(query, domain, results)}],
     )
