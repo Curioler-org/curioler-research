@@ -116,8 +116,8 @@ def save_draft(content: str, query: str) -> str:
     today = date.today().isoformat()
     slug = slugify(query)
     filename = f"{today}-{slug}.md"
-    path = os.path.join("_drafts", filename)
-    os.makedirs("_drafts", exist_ok=True)
+    path = os.path.join("docs", "_summaries", filename)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"Saved: {path}")

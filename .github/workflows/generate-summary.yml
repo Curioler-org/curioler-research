@@ -61,7 +61,7 @@ jobs:
             **Topic:** ${{ github.event.inputs.search_query }}
             **Domain:** ${{ github.event.inputs.domain }}
 
-            Review the file in `_drafts/` before merging.
-            On merge, move the file to `docs/_summaries/` to publish it on GitHub Pages.
+            Review the file in `docs/_summaries/` before merging.
+            Merging this PR publishes the summary directly to GitHub Pages.
           commit-message: "Add draft summary: ${{ github.event.inputs.search_query }}"
           labels: draft, research-summary
