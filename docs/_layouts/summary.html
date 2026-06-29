@@ -10,11 +10,23 @@ layout: default
     <header class="summary-header">
       <div class="summary-meta-top">
         <span class="domain-tag">{{ page.domain }}</span>
-        <span class="tier-badge tier-{{ page.trust_tier }}">Tier {{ page.trust_tier }} — {{ page.trust_tier_label }}</span>
+        <span class="tier-badge tier-{{ page.trust_tier }}">
+          Tier {{ page.trust_tier }} — {{ page.trust_tier_label }}
+        </span>
+        {% if page.content_type %}
+        <span class="content-type-badge content-type-{{ page.content_type | replace: '_', '-' }}">
+          {{ page.content_type | replace: '_', ' ' | capitalize }}
+        </span>
+        {% endif %}
       </div>
       <h1 class="summary-title">{{ page.title }}</h1>
-      <p class="summary-topic">Search topic: <em>{{ page.search_topic }}</em></p>
-      <time class="summary-date">{{ page.summary_date | date: "%d %B %Y" }}</time>
+      {% if page.short_summary %}
+      <p class="summary-short">{{ page.short_summary }}</p>
+      {% endif %}
+      <div class="summary-byline">
+        <span>Search topic: <em>{{ page.search_topic }}</em></span>
+        <time>{{ page.summary_date | date: "%d %B %Y" }}</time>
+      </div>
     </header>
 
     <div class="summary-body">

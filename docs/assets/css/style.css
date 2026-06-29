@@ -193,6 +193,41 @@ a { color: inherit; text-decoration: none; }
 .tier-3 { background: var(--tier-3-bg); color: var(--tier-3); }
 .tier-4 { background: var(--tier-4-bg); color: var(--tier-4); }
 
+.content-type-badge {
+  font-size: .75rem; font-weight: 600;
+  padding: 3px 10px; border-radius: 99px;
+  background: #f0f0f5; color: #555;
+}
+.content-type-clinical-trial   { background: #e8f4fd; color: #1565c0; }
+.content-type-research-paper   { background: #e8f5e9; color: #2e7d32; }
+.content-type-systematic-review { background: #fce4ec; color: #880e4f; }
+.content-type-guideline        { background: #fff3e0; color: #e65100; }
+.content-type-commentary       { background: #f3e5f5; color: #6a1b9a; }
+
+.card-excerpt {
+  font-size: .85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 6px 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.summary-short {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin: 10px 0 4px;
+  font-style: italic;
+}
+.summary-byline {
+  display: flex; gap: 16px; align-items: center;
+  font-size: .82rem; color: var(--text-muted);
+  margin-top: 8px;
+}
+
 /* ── Empty / no results ── */
 .empty-state, .no-results {
   text-align: center; padding: 64px 24px;

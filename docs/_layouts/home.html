@@ -43,12 +43,17 @@ layout: default
             <div class="card-meta">
               <span class="domain-tag">{{ summary.domain }}</span>
               <span class="tier-badge tier-{{ summary.trust_tier }}">Tier {{ summary.trust_tier }}</span>
+              {% if summary.content_type %}<span class="content-type-badge content-type-{{ summary.content_type | replace: '_', '-' }}">{{ summary.content_type | replace: '_', ' ' | capitalize }}</span>{% endif %}
             </div>
             <h2 class="card-title">{{ summary.title }}</h2>
+            {% if summary.short_summary %}
+            <p class="card-excerpt">{{ summary.short_summary }}</p>
+            {% else %}
             <p class="card-topic">{{ summary.search_topic }}</p>
+            {% endif %}
             <div class="card-footer">
               <time>{{ summary.summary_date | date: "%d %b %Y" }}</time>
-              <span class="read-more">Read summary →</span>
+              <span class="read-more">Read full breakdown →</span>
             </div>
           </a>
         </article>
