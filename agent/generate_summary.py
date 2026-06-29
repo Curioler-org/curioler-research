@@ -70,8 +70,9 @@ def slugify(text: str) -> str:
 
 def search_web(query: str) -> list[dict]:
     client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
+    search_query = query[:400]
     response = client.search(
-        query=query,
+        query=search_query,
         search_depth="advanced",
         max_results=5,
         include_raw_content=True,
