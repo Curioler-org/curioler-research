@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article class="summary-page">
+  <div class="container container--narrow">
+
+    <a href="{{ '/' | relative_url }}" class="back-link">← All summaries</a>
+
+    <header class="summary-header">
+      <div class="summary-meta-top">
+        <span class="domain-tag">{{ page.domain }}</span>
+        <span class="tier-badge tier-{{ page.trust_tier }}">Tier {{ page.trust_tier }} — {{ page.trust_tier_label }}</span>
+      </div>
+      <h1 class="summary-title">{{ page.title }}</h1>
+      <p class="summary-topic">Search topic: <em>{{ page.search_topic }}</em></p>
+      <time class="summary-date">{{ page.summary_date | date: "%d %B %Y" }}</time>
+    </header>
+
+    <div class="summary-body">
+      {{ content }}
+    </div>
+
+    <footer class="summary-footer">
+      <p class="disclaimer">This summary was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.</p>
+    </footer>
+
+  </div>
+</article>

@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container">
+    <h1>Research you can trust.<br><span class="hero-sub">In language you can use.</span></h1>
+    <p class="hero-desc">Plain-language summaries of autism research, written for caregivers — not clinicians. Every summary is rated by evidence tier so you know how much weight to give it.</p>
+  </div>
+</section>
+
+<section class="index-section">
+  <div class="container">
+
+    <div class="search-bar-wrap">
+      <input type="text" id="search-input" placeholder="Search summaries…" autocomplete="off" />
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-domain="all">All</button>
+      <button class="filter-btn" data-domain="Communication">Communication</button>
+      <button class="filter-btn" data-domain="Social">Social</button>
+      <button class="filter-btn" data-domain="Sensory">Sensory</button>
+      <button class="filter-btn" data-domain="Behaviour">Behaviour</button>
+      <button class="filter-btn" data-domain="Adaptive">Adaptive</button>
+      <button class="filter-btn" data-domain="Motor">Motor</button>
+      <button class="filter-btn" data-domain="General">General</button>
+    </div>
+
+    <div class="article-grid" id="article-grid">
+      {% assign summaries = site.summaries | sort: 'summary_date' | reverse %}
+      {% if summaries.size == 0 %}
+        <div class="empty-state">
+          <p>No summaries published yet. The first one is on its way.</p>
+        </div>
+      {% else %}
+        {% for summary in summaries %}
+        <article class="card"
+          data-domain="{{ summary.domain }}"
+          data-title="{{ summary.title | downcase }}"
+          data-topic="{{ summary.search_topic | downcase }}">
+          <a href="{{ summary.url | relative_url }}" class="card-link">
+            <div class="card-meta">
+              <span class="domain-tag">{{ summary.domain }}</span>
+              <span class="tier-badge tier-{{ summary.trust_tier }}">Tier {{ summary.trust_tier }}</span>
+            </div>
+            <h2 class="card-title">{{ summary.title }}</h2>
+            <p class="card-topic">{{ summary.search_topic }}</p>
+            <div class="card-footer">
+              <time>{{ summary.summary_date | date: "%d %b %Y" }}</time>
+              <span class="read-more">Read summary →</span>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="no-results" id="no-results" style="display:none">
+      <p>No summaries match your search.</p>
+    </div>
+
+  </div>
+</section>
+
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
