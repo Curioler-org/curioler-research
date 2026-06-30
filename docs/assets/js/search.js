@@ -2,13 +2,16 @@
   const input = document.getElementById('search-input');
   const noResults = document.getElementById('no-results');
   const filterBtns = document.querySelectorAll('.filter-btn');
+  const sortSelect = document.getElementById('sort-select');
   const loadMoreWrap = document.getElementById('load-more-wrap');
   const loadMoreBtn = document.getElementById('load-more-btn');
+  const grid = document.getElementById('article-grid');
   const cards = Array.from(document.querySelectorAll('.card'));
 
   const PAGE_SIZE = 6;
   let activeFilter = 'all';
   let searchQuery = '';
+  let sortKey = 'date-desc';
   let visibleCount = PAGE_SIZE;
 
   function getMatchingCards() {
@@ -25,9 +28,26 @@
     });
   }
 
-  function applyFilters() {
-    const matching = getMatchingCards();
+  function sortCards(list) {
+    return list.slice().sort(function (a, b) {
+      switch (sortKey) {
+        case 'date-desc': return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+        case 'date-asc':  return (a.dataset.date || '').localeCompare(b.dataset.date || '');
+        case 'tier-asc':  return parseInt(a.dataset.tier || 9) - parseInt(b.dataset.tier || 9);
+        case 'tier-desc': return parseInt(b.dataset.tier || 0) - parseInt(a.dataset.tier || 0);
+        case 'domain-asc': return (a.dataset.domain || '').localeCompare(b.dataset.domain || '');
+        default: return 0;
+      }
+    });
+  }
 
+  function applyFilters() {
+    const matching = sortCards(getMatchingCards());
+
+    // Re-order DOM nodes to match sort
+    matching.forEach(function (card) { grid.appendChild(card); });
+
+    // Hide all, show up to visibleCount
     cards.forEach(function (card) { card.style.display = 'none'; });
     matching.slice(0, visibleCount).forEach(function (card) { card.style.display = ''; });
 
@@ -58,6 +78,14 @@
       applyFilters();
     });
   });
+
+  if (sortSelect) {
+    sortSelect.addEventListener('change', function () {
+      sortKey = sortSelect.value;
+      visibleCount = PAGE_SIZE;
+      applyFilters();
+    });
+  }
 
   if (loadMoreBtn) {
     loadMoreBtn.addEventListener('click', function () {
