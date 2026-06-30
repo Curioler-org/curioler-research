@@ -55,5 +55,3 @@ The primary source is a Cochrane systematic review (Brignell et al., 2018), whic
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC6516977
 
----
-*This summary was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.*

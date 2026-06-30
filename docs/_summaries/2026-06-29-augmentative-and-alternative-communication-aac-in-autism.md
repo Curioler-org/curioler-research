@@ -45,5 +45,3 @@ The primary source is a peer-reviewed systematic review published in *Neuropsych
 ## Read the original
 https://pmc.ncbi.nlm.nih.gov/articles/PMC5036660
 
----
-*This summary was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.*

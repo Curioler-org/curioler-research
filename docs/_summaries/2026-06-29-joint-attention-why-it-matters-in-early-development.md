@@ -69,5 +69,4 @@ The strongest evidence comes from a 2025 meta-analysis published in the *Journal
 - [Responding to Joint Attention as a Developmental Catalyst](https://pmc.ncbi.nlm.nih.gov/articles/PMC9899317/) — PMC, 2023
 - [What is Joint Attention and How Does it Develop?](https://www.childandfamilydevelopment.com/blog/what-is-joint-attention-and-how-does-it-develop/) — Child and Family Development
 
----
-*This summary was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.*
+

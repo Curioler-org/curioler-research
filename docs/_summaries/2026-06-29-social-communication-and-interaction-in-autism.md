@@ -54,5 +54,3 @@ This summary draws on guidance and educational resources from five organisations
 ## Read the original
 https://www.autism.org.uk/advice-and-guidance/about-autism/autism-and-communication
 
----
-*This summary was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.*

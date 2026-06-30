@@ -54,5 +54,3 @@ The primary source is a narrative review published in the peer-reviewed journal 
 ## Read the original
 https://pmc.ncbi.nlm.nih.gov/articles/PMC10687592
 
----
-*This summary was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.*

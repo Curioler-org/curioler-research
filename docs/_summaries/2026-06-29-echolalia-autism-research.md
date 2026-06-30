@@ -55,5 +55,3 @@ The strongest source summarised here is McAllister et al. (2025), a large peer-r
 
 https://www.med.unc.edu/healthsciences/harroplab/wp-content/uploads/sites/900/2026/01/Autism-Research-2025-McAllister-Reports-of-Echolalia-and-Related-Behaviors-in-Autism-From-Parents-Teachers-and.pdf
 
----
-*This summary was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.*

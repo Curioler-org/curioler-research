@@ -74,5 +74,4 @@ This summary draws on several systematic reviews, the most recent being a 2024 M
 
 - [Joint Attention: Why It Matters in Early Development](/curioler-research/summaries/2026-06-29-joint-attention-why-it-matters-in-early-development/) — Social
 
----
-*This summary was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.*
+
