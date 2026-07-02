@@ -258,6 +258,10 @@ a { color: inherit; text-decoration: none; }
   margin-top: 8px;
 }
 
+.page-views { display: inline-flex; align-items: center; gap: 4px; }
+.page-views::before { content: "·"; }
+.page-views-inner { font-size: .82rem; color: var(--text-muted); }
+
 /* ── Load more ── */
 .load-more-wrap {
   display: flex;

@@ -17,12 +17,29 @@ layout: default
       {% if page.short_summary %}
       <p class="summary-short">{{ page.short_summary }}</p>
       {% endif %}
-      <time class="summary-date">Checked {{ page.check_date | date: "%d %B %Y" }}</time>
+      <div class="summary-byline">
+        <time>Checked {{ page.check_date | date: "%d %B %Y" }}</time>
+        <span class="page-views" id="page-views"></span>
+      </div>
     </header>
 
     <div class="myth-body">
       {{ content }}
     </div>
+
+    <script>
+      var t = setInterval(function() {
+        if (window.goatcounter && window.goatcounter.visit_count) {
+          clearInterval(t);
+          window.goatcounter.visit_count({
+            append:  '#page-views',
+            type:    'html',
+            attr:    { class: 'page-views-inner' },
+            style:   'float:none'
+          });
+        }
+      }, 100);
+    </script>
 
     <footer class="summary-footer">
       <p class="disclaimer">This check was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.</p>
