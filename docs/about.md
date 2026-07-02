@@ -2,6 +2,7 @@
 layout: default
 title: About
 description: About Curioler Research — who built it, why it exists, and how AI is used.
+permalink: /about/
 ---
 
 <section class="about-page">
