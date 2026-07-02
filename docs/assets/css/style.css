@@ -367,6 +367,68 @@ a { color: inherit; text-decoration: none; }
   font-style: italic;
 }
 
+/* ── Nav active state ── */
+.site-nav a.active { color: var(--brand); }
+
+/* ── Myth Check — verdict badges ── */
+.verdict-badge {
+  font-size: .75rem; font-weight: 700;
+  padding: 4px 12px; border-radius: 99px;
+  letter-spacing: .02em; text-transform: uppercase;
+}
+.verdict-myth                { background: #fee2e2; color: #991b1b; }
+.verdict-supported           { background: #d1fae5; color: #065f46; }
+.verdict-nuanced             { background: #fef3c7; color: #92400e; }
+.verdict-misleading          { background: #ffedd5; color: #9a3412; }
+.verdict-insufficient-evidence { background: #f3f4f6; color: #374151; }
+
+/* ── Myth Check — hero tint ── */
+.hero--myth {
+  background: linear-gradient(135deg, #fef2f2 0%, #fff7ed 100%);
+}
+
+/* ── Myth Check — article page ── */
+.myth-page { padding: 40px 0 80px; }
+
+.myth-header { margin: 32px 0 40px; }
+
+.myth-meta-top {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  align-items: center; margin-bottom: 16px;
+}
+
+.myth-statement-label {
+  font-size: .78rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .06em;
+  color: var(--text-muted); margin-bottom: 8px;
+}
+
+.myth-statement {
+  font-family: 'Lora', serif;
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  font-weight: 600; line-height: 1.3;
+  color: var(--text); margin-bottom: 12px;
+}
+
+.myth-body { font-family: 'Lora', serif; font-size: 1.05rem; line-height: 1.8; }
+.myth-body h2 { font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 700; margin: 36px 0 12px; }
+.myth-body p { margin-bottom: 16px; }
+.myth-body ul { padding-left: 20px; margin-bottom: 16px; }
+.myth-body ul li { margin-bottom: 8px; }
+.myth-body a { color: var(--brand); text-decoration: underline; }
+.myth-body hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
+.myth-body strong { font-weight: 700; font-family: 'Inter', sans-serif; }
+
+/* ── Myth Check — card statement ── */
+.myth-card-statement {
+  font-family: 'Lora', serif;
+  font-size: .95rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--text);
+  margin: 8px 0 4px;
+}
+
 /* ── Site footer ── */
 .site-footer {
   border-top: 1px solid var(--border);

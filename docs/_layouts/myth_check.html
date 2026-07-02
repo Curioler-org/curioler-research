@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article class="myth-page">
+  <div class="container container--narrow">
+
+    <a href="{{ '/myth-check/' | relative_url }}" class="back-link">← All myth checks</a>
+
+    <header class="myth-header">
+      <div class="myth-meta-top">
+        <span class="domain-tag">{{ page.domain }}</span>
+        <span class="verdict-badge verdict-{{ page.verdict }}">{{ page.verdict_label }}</span>
+      </div>
+      <p class="myth-statement-label">Statement</p>
+      <h1 class="myth-statement">"{{ page.statement }}"</h1>
+      {% if page.short_summary %}
+      <p class="summary-short">{{ page.short_summary }}</p>
+      {% endif %}
+      <time class="summary-date">Checked {{ page.check_date | date: "%d %B %Y" }}</time>
+    </header>
+
+    <div class="myth-body">
+      {{ content }}
+    </div>
+
+    <footer class="summary-footer">
+      <p class="disclaimer">This check was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.</p>
+    </footer>
+
+  </div>
+</article>

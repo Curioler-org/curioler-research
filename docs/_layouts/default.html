@@ -34,7 +34,8 @@
         <span class="logo-text">Curioler Research</span>
       </a>
       <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Summaries</a>
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Summaries</a>
+        <a href="{{ '/myth-check/' | relative_url }}" {% if page.url contains '/myth-check' %}class="active"{% endif %}>Myth Check</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
       </nav>
     </div>

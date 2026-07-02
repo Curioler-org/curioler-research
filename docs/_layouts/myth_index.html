@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<section class="hero hero--myth">
+  <div class="container">
+    <h1>Myth Check.<br><span class="hero-sub">Belief meets evidence.</span></h1>
+    <p class="hero-desc">Common statements about autism — checked against the research. Every verdict is grounded in peer-reviewed evidence, rated honestly, and explained in plain language.</p>
+  </div>
+</section>
+
+<section class="index-section">
+  <div class="container">
+
+    <div class="search-sort-row">
+      <input type="text" id="search-input" placeholder="Search myth checks…" autocomplete="off" />
+      <select id="sort-select" class="sort-select">
+        <option value="date-desc">Newest first</option>
+        <option value="date-asc">Oldest first</option>
+        <option value="verdict-asc">Verdict A–Z</option>
+        <option value="domain-asc">Domain A–Z</option>
+      </select>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="myth">Myth</button>
+      <button class="filter-btn" data-filter="supported">Supported</button>
+      <button class="filter-btn" data-filter="nuanced">Nuanced</button>
+      <button class="filter-btn" data-filter="misleading">Misleading</button>
+      <button class="filter-btn" data-filter="insufficient-evidence">Insufficient evidence</button>
+    </div>
+
+    <div class="article-grid" id="article-grid">
+      {% assign checks = site.myth_checks | sort: 'check_date' | reverse %}
+      {% if checks.size == 0 %}
+        <div class="empty-state">
+          <p>No myth checks yet. The first one is coming soon.</p>
+        </div>
+      {% else %}
+        {% for check in checks %}
+        <article class="card"
+          data-verdict="{{ check.verdict }}"
+          data-domain="{{ check.domain }}"
+          data-title="{{ check.statement | downcase }}"
+          data-date="{{ check.check_date }}">
+          <a href="{{ check.url | relative_url }}" class="card-link">
+            <div class="card-meta">
+              <span class="domain-tag">{{ check.domain }}</span>
+              <span class="verdict-badge verdict-{{ check.verdict }}">{{ check.verdict_label }}</span>
+            </div>
+            <p class="myth-card-statement">"{{ check.statement }}"</p>
+            {% if check.short_summary %}
+            <p class="card-excerpt">{{ check.short_summary }}</p>
+            {% endif %}
+            <div class="card-footer">
+              <time>{{ check.check_date | date: "%d %b %Y" }}</time>
+              <span class="read-more">See verdict →</span>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="no-results" id="no-results" style="display:none">
+      <p>No myth checks match your search.</p>
+    </div>
+
+    <div class="load-more-wrap" id="load-more-wrap" style="display:none">
+      <button class="load-more-btn" id="load-more-btn">Load more</button>
+    </div>
+
+  </div>
+</section>
+
+<script src="{{ '/assets/js/myth-search.js' | relative_url }}"></script>

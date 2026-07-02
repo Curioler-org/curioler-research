@@ -7,6 +7,9 @@ collections:
   summaries:
     output: true
     permalink: /summaries/:name/
+  myth_checks:
+    output: true
+    permalink: /myth-check/:name/
 
 defaults:
   - scope:
@@ -14,6 +17,11 @@ defaults:
       type: summaries
     values:
       layout: summary
+  - scope:
+      path: ""
+      type: myth_checks
+    values:
+      layout: myth_check
 
 markdown: kramdown
 plugins:
