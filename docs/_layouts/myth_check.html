@@ -18,8 +18,9 @@ layout: default
       <p class="summary-short">{{ page.short_summary }}</p>
       {% endif %}
       <div class="summary-byline">
-        <time>Checked {{ page.check_date | date: "%d %B %Y" }}</time>
-        <span class="page-views" id="page-views"></span>
+        <span>Checked {{ page.check_date | date: "%d %B %Y" }}</span>
+        <span class="byline-sep">·</span>
+        <span class="page-views"><span id="page-views-count"></span> views</span>
       </div>
     </header>
 
@@ -31,12 +32,7 @@ layout: default
       var t = setInterval(function() {
         if (window.goatcounter && window.goatcounter.visit_count) {
           clearInterval(t);
-          window.goatcounter.visit_count({
-            append:  '#page-views',
-            type:    'html',
-            attr:    { class: 'page-views-inner' },
-            style:   'float:none'
-          });
+          window.goatcounter.visit_count({ append: '#page-views-count', type: 'text' });
         }
       }, 100);
     </script>
