@@ -433,6 +433,61 @@ a { color: inherit; text-decoration: none; }
   margin: 8px 0 4px;
 }
 
+/* ── About page ── */
+.about-page { padding: 56px 0 96px; }
+
+.about-title {
+  font-family: 'Lora', serif;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+.about-section {
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid var(--border);
+}
+
+.about-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.about-section h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.about-section p {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.about-section p:last-child { margin-bottom: 0; }
+
+.about-section a { color: var(--brand); text-decoration: underline; }
+
+.tier-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.tier-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: .95rem;
+  color: var(--text-muted);
+}
+
 /* ── Site footer ── */
 .site-footer {
   border-top: 1px solid var(--border);
