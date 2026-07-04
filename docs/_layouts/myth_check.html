@@ -29,12 +29,19 @@ layout: default
     </div>
 
     <script>
-      var t = setInterval(function() {
-        if (window.goatcounter && window.goatcounter.visit_count) {
-          clearInterval(t);
-          window.goatcounter.visit_count({ append: '#page-views-count', type: 'text' });
-        }
-      }, 100);
+      (function() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'https://curioler-research.goatcounter.com/api/v0/count?p=' + encodeURIComponent(location.pathname));
+        xhr.onload = function() {
+          if (xhr.status === 200) {
+            try {
+              var n = JSON.parse(xhr.responseText).count;
+              if (n !== undefined) document.getElementById('page-views-count').textContent = n;
+            } catch(e) {}
+          }
+        };
+        xhr.send();
+      })();
     </script>
 
     <footer class="summary-footer">
