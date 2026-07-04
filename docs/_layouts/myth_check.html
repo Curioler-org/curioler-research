@@ -29,19 +29,21 @@ layout: default
     </div>
 
     <script>
-      (function() {
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://curioler-research.goatcounter.com/api/v0/count?p=' + encodeURIComponent(location.pathname));
-        xhr.onload = function() {
-          if (xhr.status === 200) {
+      var t = setInterval(function() {
+        if (window.goatcounter && window.goatcounter.get_data) {
+          clearInterval(t);
+          var path = window.goatcounter.get_data()['p'];
+          var xhr = new XMLHttpRequest();
+          xhr.open('GET', 'https://curioler-research.goatcounter.com/counter/' + encodeURIComponent(path) + '.json');
+          xhr.onload = function() {
             try {
               var n = JSON.parse(xhr.responseText).count;
               if (n !== undefined) document.getElementById('page-views-count').textContent = n;
             } catch(e) {}
-          }
-        };
-        xhr.send();
-      })();
+          };
+          xhr.send();
+        }
+      }, 100);
     </script>
 
     <footer class="summary-footer">
