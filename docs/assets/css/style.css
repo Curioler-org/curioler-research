@@ -391,6 +391,46 @@ a { color: inherit; text-decoration: none; }
   background: linear-gradient(135deg, #fef2f2 0%, #fff7ed 100%);
 }
 
+.hero--studies {
+  background: linear-gradient(135deg, #ecfeff 0%, #f0fdf4 100%);
+}
+
+.study-controls {
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.study-controls .sort-select {
+  max-width: 220px;
+}
+
+.study-facts {
+  display: grid;
+  gap: 10px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 20px;
+}
+
+.study-facts div {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.study-facts dt {
+  color: var(--text-muted);
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.study-facts dd {
+  color: var(--text);
+  font-size: .92rem;
+}
+
 /* ── Myth Check — article page ── */
 .myth-page { padding: 40px 0 80px; }
 
@@ -504,4 +544,6 @@ a { color: inherit; text-decoration: none; }
   .filter-bar { gap: 6px; }
   .search-sort-row { flex-wrap: wrap; }
   #search-input { max-width: 100%; }
+  .study-controls .sort-select { max-width: none; width: 100%; }
+  .study-facts div { grid-template-columns: 1fr; gap: 4px; }
 }

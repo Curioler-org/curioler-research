@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<article class="summary-page study-page">
+  <div class="container container--narrow">
+    <a href="{{ '/studies/' | relative_url }}" class="back-link">&lt;- All studies</a>
+
+    <header class="summary-header">
+      <div class="summary-meta-top">
+        {% if page.year %}<span class="domain-tag">{{ page.year }}</span>{% endif %}
+        {% if page.study_type %}<span class="content-type-badge">{{ page.study_type }}</span>{% endif %}
+        {% if page.extraction_confidence %}
+        <span class="content-type-badge">Confidence {{ page.extraction_confidence }}</span>
+        {% endif %}
+      </div>
+      <h1 class="summary-title">{{ page.title }}</h1>
+      <div class="summary-byline">
+        <span>PMID {{ page.pmid }}</span>
+        {% if page.doi %}<span class="byline-sep">-</span><span>DOI {{ page.doi }}</span>{% endif %}
+        {% if page.journal %}<span class="byline-sep">-</span><span>{{ page.journal }}</span>{% endif %}
+      </div>
+    </header>
+
+    <div class="summary-body study-body">
+      <h2>Metadata</h2>
+      <dl class="study-facts">
+        <div><dt>Authors</dt><dd>{% if page.authors and page.authors.size > 0 %}{{ page.authors | join: ", " }}{% else %}Unknown{% endif %}</dd></div>
+        <div><dt>Participants</dt><dd>{{ page.participants | default: "Unknown" }}</dd></div>
+        <div><dt>Age range</dt><dd>{{ page.age_range | default: "Unknown" }}</dd></div>
+        <div><dt>Diagnosis</dt><dd>{{ page.diagnosis | default: "Unknown" }}</dd></div>
+        <div><dt>Intervention</dt><dd>{{ page.intervention | default: "Unknown" }}</dd></div>
+        <div><dt>Duration</dt><dd>{{ page.duration | default: "Unknown" }}</dd></div>
+      </dl>
+
+      {% if page.primary_outcomes and page.primary_outcomes.size > 0 %}
+      <h2>Primary Outcomes</h2>
+      <ul>{% for item in page.primary_outcomes %}<li>{{ item }}</li>{% endfor %}</ul>
+      {% endif %}
+
+      {% if page.secondary_outcomes and page.secondary_outcomes.size > 0 %}
+      <h2>Secondary Outcomes</h2>
+      <ul>{% for item in page.secondary_outcomes %}<li>{{ item }}</li>{% endfor %}</ul>
+      {% endif %}
+
+      {% if page.clinical_implications %}
+      <h2>Clinical Implications</h2>
+      <p>{{ page.clinical_implications }}</p>
+      {% endif %}
+
+      {% if page.limitations and page.limitations.size > 0 %}
+      <h2>Limitations</h2>
+      <ul>{% for item in page.limitations %}<li>{{ item }}</li>{% endfor %}</ul>
+      {% endif %}
+
+      {% if page.abstract %}
+      <h2>Abstract</h2>
+      <p>{{ page.abstract }}</p>
+      {% endif %}
+
+      {% if page.conclusion %}
+      <h2>Conclusion</h2>
+      <p>{{ page.conclusion }}</p>
+      {% endif %}
+
+      {% if page.source_url %}
+      <h2>Source Link</h2>
+      <p><a href="{{ page.source_url }}">{{ page.source_url }}</a></p>
+      {% endif %}
+    </div>
+
+    <footer class="summary-footer">
+      <p class="disclaimer">This structured study record was extracted from PubMed metadata and abstract text. Unknown values are intentionally left blank or marked unknown.</p>
+    </footer>
+  </div>
+</article>

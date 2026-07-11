@@ -10,6 +10,9 @@ collections:
   myth_checks:
     output: true
     permalink: /myth-check/:name/
+  studies:
+    output: true
+    permalink: /studies/:name/
 
 defaults:
   - scope:
@@ -22,6 +25,11 @@ defaults:
       type: myth_checks
     values:
       layout: myth_check
+  - scope:
+      path: ""
+      type: studies
+    values:
+      layout: study
 
 markdown: kramdown
 plugins:

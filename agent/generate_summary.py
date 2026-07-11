@@ -285,6 +285,23 @@ def save_summary(content: str, query: str) -> str:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
+    domain_match = re.search(r'^domain:\s*"?([^"\r\n]+)"?', content, re.MULTILINE)
+    domain = domain_match.group(1).strip().lower() if domain_match else "general"
+    domain = {
+        "communication": "communication",
+        "sensory": "sensory",
+        "social": "social",
+        "adaptive": "adaptive",
+        "behaviour": "behavior",
+        "behavior": "behavior",
+        "motor": "motor",
+        "general": "general",
+        "statistics": "statistics",
+    }.get(domain, "general")
+    topic_path = os.path.join("topics", domain, filename)
+    os.makedirs(os.path.dirname(topic_path), exist_ok=True)
+    with open(topic_path, "w", encoding="utf-8") as f:
+        f.write(content)
     print(f"Saved: {path}")
     return path
 

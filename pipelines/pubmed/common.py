@@ -1,0 +1,107 @@
+from __future__ import annotations
+
+import json
+import os
+from datetime import date, datetime, timezone
+from pathlib import Path
+from typing import Any
+
+ROOT = Path(__file__).resolve().parents[2]
+CONFIG_PATH = ROOT / "config" / "research_ingestion.json"
+STUDIES_DIR = ROOT / "research" / "studies"
+INDEX_DIR = ROOT / "research" / "indexes"
+RAW_XML_DIR = ROOT / "raw" / "pubmed" / "xml"
+RAW_ABSTRACT_DIR = ROOT / "raw" / "pubmed" / "abstracts"
+
+STUDY_FIELDS = [
+    "pmid",
+    "doi",
+    "title",
+    "year",
+    "journal",
+    "authors",
+    "study_type",
+    "participants",
+    "age_range",
+    "diagnosis",
+    "intervention",
+    "duration",
+    "primary_outcomes",
+    "secondary_outcomes",
+    "limitations",
+    "clinical_implications",
+    "abstract",
+    "conclusion",
+    "mesh_terms",
+    "keywords",
+    "source_url",
+    "extraction_confidence",
+    "created_at",
+    "last_updated",
+]
+
+ARRAY_FIELDS = {
+    "authors",
+    "primary_outcomes",
+    "secondary_outcomes",
+    "limitations",
+    "mesh_terms",
+    "keywords",
+}
+
+
+def utc_now() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def current_year() -> int:
+    return date.today().year
+
+
+def load_config() -> dict[str, Any]:
+    config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    config["ai_provider"] = (os.environ.get("AI_PROVIDER") or config.get("ai_provider", "openrouter")).lower()
+    config["ai_model"] = os.environ.get("AI_MODEL") or config.get("ai_model", "")
+    config["pubmed"]["email"] = os.environ.get("PUBMED_EMAIL") or config["pubmed"].get("email", "")
+    config["pubmed"]["tool"] = os.environ.get("PUBMED_TOOL_NAME") or config["pubmed"].get("tool", "curioler-research")
+    return config
+
+
+def existing_pmids() -> set[str]:
+    return {path.stem.replace("PMID", "") for path in STUDIES_DIR.glob("*/*.json")}
+
+
+def existing_dois() -> set[str]:
+    dois: set[str] = set()
+    for path in STUDIES_DIR.glob("*/*.json"):
+        try:
+            doi = json.loads(path.read_text(encoding="utf-8")).get("doi")
+        except json.JSONDecodeError:
+            continue
+        if doi:
+            dois.add(str(doi).lower())
+    return dois
+
+
+def study_path(pmid: str, year: int | None) -> Path:
+    bucket = str(year or "unknown")
+    return STUDIES_DIR / bucket / f"PMID{pmid}.json"
+
+
+def normalize_array(value: Any) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [str(item) for item in value if item not in (None, "")]
+    if isinstance(value, str):
+        return [value] if value.strip() else []
+    return [str(value)]
+
+
+def normalize_study(data: dict[str, Any]) -> dict[str, Any]:
+    normalized = {field: data.get(field) for field in STUDY_FIELDS}
+    for field in ARRAY_FIELDS:
+        normalized[field] = normalize_array(normalized[field])
+    normalized["pmid"] = str(normalized["pmid"] or "")
+    normalized["source_url"] = normalized["source_url"] or f"https://pubmed.ncbi.nlm.nih.gov/{normalized['pmid']}/"
+    return normalized

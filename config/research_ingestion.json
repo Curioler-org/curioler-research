@@ -1,0 +1,21 @@
+{
+  "source": "pubmed",
+  "query": "\"Autism Spectrum Disorder\"[Mesh] AND humans[Filter] AND english[Filter]",
+  "years_back": 10,
+  "max_results": 25,
+  "study_types": [
+    "Randomized Controlled Trial",
+    "Cohort Studies",
+    "Prospective Studies",
+    "Retrospective Studies",
+    "Observational Study",
+    "Case-Control Studies",
+    "Cross-Sectional Studies"
+  ],
+  "ai_provider": "openrouter",
+  "ai_model": "",
+  "pubmed": {
+    "tool": "curioler-research",
+    "email": ""
+  }
+}

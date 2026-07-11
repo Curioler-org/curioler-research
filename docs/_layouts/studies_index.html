@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<section class="hero hero--studies">
+  <div class="container">
+    <h1>Research Studies.<br><span class="hero-sub">Evidence at the source.</span></h1>
+    <p class="hero-desc">Structured study records from PubMed, preserved one paper at a time and indexed for review.</p>
+  </div>
+</section>
+
+<section class="index-section">
+  <div class="container">
+    <div class="search-sort-row study-controls">
+      <input type="text" id="search-input" placeholder="Search studies..." autocomplete="off" />
+      <select id="year-filter" class="sort-select">
+        <option value="all">All years</option>
+        {% assign years = site.studies | map: "year" | compact | uniq | sort | reverse %}
+        {% for year in years %}
+        <option value="{{ year }}">{{ year }}</option>
+        {% endfor %}
+      </select>
+      <select id="study-type-filter" class="sort-select">
+        <option value="all">All study types</option>
+        {% assign types = site.studies | map: "study_type" | compact | uniq | sort %}
+        {% for type in types %}
+        <option value="{{ type | escape }}">{{ type }}</option>
+        {% endfor %}
+      </select>
+      <select id="intervention-filter" class="sort-select">
+        <option value="all">All interventions</option>
+        {% assign interventions = site.studies | map: "intervention" | compact | uniq | sort %}
+        {% for intervention in interventions %}
+        <option value="{{ intervention | escape }}">{{ intervention }}</option>
+        {% endfor %}
+      </select>
+      <select id="diagnosis-filter" class="sort-select">
+        <option value="all">All diagnoses</option>
+        {% assign diagnoses = site.studies | map: "diagnosis" | compact | uniq | sort %}
+        {% for diagnosis in diagnoses %}
+        <option value="{{ diagnosis | escape }}">{{ diagnosis }}</option>
+        {% endfor %}
+      </select>
+      <select id="sort-select" class="sort-select">
+        <option value="newest">Newest</option>
+        <option value="oldest">Oldest</option>
+      </select>
+    </div>
+
+    <div class="article-grid" id="article-grid">
+      {% assign studies = site.studies | sort: "year" | reverse %}
+      {% if studies.size == 0 %}
+        <div class="empty-state">
+          <p>No structured studies have been ingested yet.</p>
+        </div>
+      {% else %}
+        {% for study in studies %}
+        <article class="card study-card"
+          data-title="{{ study.title | downcase | escape }}"
+          data-journal="{{ study.journal | downcase | escape }}"
+          data-year="{{ study.year }}"
+          data-study-type="{{ study.study_type | escape }}"
+          data-intervention="{{ study.intervention | escape }}"
+          data-diagnosis="{{ study.diagnosis | escape }}">
+          <a href="{{ study.url | relative_url }}" class="card-link">
+            <div class="card-meta">
+              {% if study.year %}<span class="domain-tag">{{ study.year }}</span>{% endif %}
+              {% if study.study_type %}<span class="content-type-badge">{{ study.study_type }}</span>{% endif %}
+            </div>
+            <h2 class="card-title">{{ study.title }}</h2>
+            <p class="card-excerpt">{{ study.journal }}{% if study.diagnosis %} - {{ study.diagnosis }}{% endif %}</p>
+            <div class="card-footer">
+              <span>PMID {{ study.pmid }}</span>
+              <span class="read-more">View study -></span>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="no-results" id="no-results" style="display:none">
+      <p>No studies match your filters.</p>
+    </div>
+  </div>
+</section>
+
+<script src="{{ '/assets/js/study-search.js' | relative_url }}"></script>

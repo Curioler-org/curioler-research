@@ -241,6 +241,10 @@ def save_check(content: str, statement: str) -> str:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
+    mirror_path = os.path.join("factchecks", filename)
+    os.makedirs(os.path.dirname(mirror_path), exist_ok=True)
+    with open(mirror_path, "w", encoding="utf-8") as f:
+        f.write(content)
     print(f"Saved: {path}")
     return path
 
