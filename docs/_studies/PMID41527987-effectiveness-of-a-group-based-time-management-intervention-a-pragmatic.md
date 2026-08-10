@@ -1,0 +1,28 @@
+---
+layout: study
+title: "Effectiveness of a group-based time-management intervention: a pragmatic randomised controlled trial."
+slug: "PMID41527987-effectiveness-of-a-group-based-time-management-intervention-a-pragmatic"
+pmid: "41527987"
+doi: "10.1080/09638288.2026.2614218"
+year: 2026
+journal: "Disability and rehabilitation"
+authors: ["Kajsa Lidström Holmqvist", "Maria Wingren", "Ruzan Udumyran", "Marie Holmefur"]
+study_type: "Journal Article"
+participants: 75
+age_range: "19-61"
+diagnosis: "Autism Spectrum Disorder"
+intervention: "time management intervention"
+duration: "3-month"
+primary_outcomes: ["Both intervention groups showed statistically significant improvements in time-management skills, organisation and planning, emotional regulation, general self-efficacy and satisfa…"]
+secondary_outcomes: []
+limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
+clinical_implications: "This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills."
+abstract: "PURPOSE: Time management is essential to handle daily life in today's society. This study aimed to evaluate the effectiveness of the Swedish version of the Let's Get Organised (LGO-S) intervention to improve time-management skills for adults with impaired time management due to attention deficit hyperactivity disorder (ADHD), autism or mental disorders compared to treatment as usual (TAU), which is individual occupational therapy.\nMATERIALS AND METHODS: This was a multi-centre, open, two-armed pragmatic randomised controlled trial. The setting was out-patient adult habilitation centres and psychiatric clinics. At baseline the study had 75 participants aged 19-61 years (mean 32.3 years) whereof 44 were women.\nRESULTS: Both intervention groups showed statistically significant improvements in time-management skills, organisation and planning, emotional regulation, general self-efficacy and satisfaction with activities at post-intervention test. Most of these within-group improvements were sustained after 3 months. Changes in time-management skills between LGO-S and TAU intervention were not statistically significant at post-intervention or after 3-months. Programme completers in LGO-S had significantly better time management skills at the 3-month follow-up than non-completers.\nCONCLUSIONS: This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills.\nTime-management skills are essential for carrying out daily routine, leading a balanced and satisfying life, and maintaining employment.People with attention deficit hyperactivity disorder (ADHD), autism or mental disorders often experience time-management difficulties and rate their capacity for these skills lower than the general population.While the participants did not change the number of daily activities performed, their satisfaction with the way they were performed increased.This study demonstrated that both the intervention Let’s Get Organised(LGO-S) and individual occupational therapy are clinically useful/applicable interventions which effectively improve time-management skills."
+conclusion: "This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills.\nTime-management skills are essential for carrying out daily routine, leading a balanced and satisfying life, and maintaining employment.People with attention deficit hyperactivity disorder (ADHD), autism or mental disorders often experience time-management difficulties and rate their capacity for these skills lower than the general population.While the participants did not change the number of daily activities performed, their satisfaction with the way they were performed increased.This study demonstrated that both the intervention Let’s Get Organised(LGO-S) and individual occupational therapy are clinically useful/applicable interventions which effectively improve time-management skills."
+mesh_terms: ["Humans", "Female", "Adult", "Occupational Therapy", "Middle Aged", "Time Management", "Male", "Attention Deficit Disorder with Hyperactivity", "Sweden", "Mental Disorders", "Autistic Disorder", "Young Adult", "Self Efficacy"]
+keywords: ["ADHD", "ClinicalTrials.gov NCT03654248", "Occupational therapy", "autism", "neurodevelopmental disorders"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/41527987/"
+extraction_confidence: "medium"
+created_at: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-10T07:28:19Z"
+---

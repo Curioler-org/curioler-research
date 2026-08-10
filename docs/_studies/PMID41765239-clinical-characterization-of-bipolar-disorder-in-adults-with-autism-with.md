@@ -1,0 +1,28 @@
+---
+layout: study
+title: "Clinical characterization of bipolar disorder in adults with autism without intellectual disability: a cross-sectional study."
+slug: "PMID41765239-clinical-characterization-of-bipolar-disorder-in-adults-with-autism-with"
+pmid: "41765239"
+doi: "10.1016/j.jad.2026.121527"
+year: 2026
+journal: "Journal of affective disorders"
+authors: ["Margherita Barbuti", "Salvatore Amadori", "Ugo De Rosa", "Giulio Perugi"]
+study_type: "Journal Article"
+participants: 62
+age_range: ""
+diagnosis: "Autism Spectrum Disorder"
+intervention: "clinical characterization of bipolar disorder comorbidity in ASD"
+duration: ""
+primary_outcomes: ["anxiety disorders"]
+secondary_outcomes: []
+limitations: ["observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the Unive"]
+clinical_implications: "BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability."
+abstract: "OBJECTIVE: The present study aims to provide a detailed clinical characterization of adult patients with bipolar disorder (BD) and comorbid autism spectrum disorder without intellectual disability (ASD-noID), through a comparison with a control group of individuals with BD only.\nMETHODS: We conducted a cross-sectional observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the University Hospital of Pisa between June 2022 and April 2023. Clinical history, psychiatric diagnoses, and symptom profiles were collected using standardized assessment procedures. Group comparisons with a sex-matched control sample of BD patients without ASD were performed.\nRESULTS: Patients with ASD-BD exhibited an earlier onset of mood symptoms, a higher prevalence of other specified bipolar and related disorder (BD-OS) diagnoses, and greater rates of comorbid anxiety disorders. Temperamental assessment revealed significantly higher scores in cyclothymic, anxious, and depressive dimensions. The ASD-BD group also reported lower global functioning. Finally, ASD-BD individuals show high frequency of adverse reactions to antidepressants and antipsychotics.\nCONCLUSIONS: BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity."
+conclusion: "BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity."
+mesh_terms: ["Humans", "Bipolar Disorder", "Cross-Sectional Studies", "Female", "Adult", "Male", "Comorbidity", "Autism Spectrum Disorder", "Middle Aged", "Intellectual Disability", "Antipsychotic Agents", "Young Adult"]
+keywords: ["Autism spectrum disorder", "Bipolar disorder", "High-functioning autism"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/41765239/"
+extraction_confidence: "medium"
+created_at: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-10T07:28:19Z"
+---

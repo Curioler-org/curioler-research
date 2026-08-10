@@ -1,0 +1,28 @@
+---
+layout: study
+title: "Rationale and study design for the first precision medicine randomized placebo-controlled trial in the 16p11.2 deletion syndrome."
+slug: "PMID42080302-rationale-and-study-design-for-the-first-precision-medicine-randomized-p"
+pmid: "42080302"
+doi: "10.1080/14737175.2026.2655767"
+year: 2026
+journal: "Expert review of neurotherapeutics"
+authors: ["Hannah M Rea", "Julia T Mattson", "Vardan Arutiunian", "Alyssa Verdes", "Suvekcha Bhattachan", "Megha Santhosh", "Abigail Garcia", "Anika Ajwani", "Meaghan Bowen", "Susan Faja", "Ellen Hanson", "Katherine Pawlowski", "Robin P Kochel", "Lisa Prock", "Jeremy Veenstra-VanderWeele", "Karen Walton-Bowen", "Adam Vogel", "Angela Morgan", "Sara Jane Webb", "Paul P Wang"]
+study_type: "Journal Article"
+participants: ""
+age_range: ""
+diagnosis: "Autism Spectrum Disorder"
+intervention: "clinical characterization of 16p11.2 deletion syndrome"
+duration: ""
+primary_outcomes: []
+secondary_outcomes: []
+limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
+clinical_implications: "The methods are described for a multi-site, double-blind, randomized controlled Phase 2 trial to evaluate the safety, efficacy, and tolerability of arbaclofen for youth with 16p11.2 deletion syndrome."
+abstract: "Chromosome 16p11.2 deletion syndrome is a genetic syndrome that includes difficulties in speech, language, and motor coordination. Arbaclofen, a selective GABA-B receptor agonist, has improved motor functioning and memory in mouse models. Prior clinical trials of arbaclofen in fragile X syndrome and autism spectrum disorder suggested benefit for social communication. L16hthouse (NCT04271332) is a multi-site, double-blind, randomized, placebo-controlled phase 2 trial to evaluate safety, efficacy, and tolerability of arbaclofen compared in 60 youths with 16p11.2 deletion syndrome (5 to 17:11 years) randomized on a 1:1 ratio. Primary outcomes included speech articulation, measured by the Goldman Fristoe Test of Articulation 3 (GFTA-3). Secondary outcomes included objective dysarthria indices, memory, motor control, and cognitive function, assessed with both standardized clinical measures and novel, computer-based assessments with automated scoring. Exploratory outcomes included attention, autism traits, and electrophysiological responses. L16hthouse is the first randomized trial in 16p11.2 deletion syndrome and uses an array of novel outcome measures to assess potential benefit in this population. In addition to providing potential insights about the safety, efficacy, and tolerability of arbaclofen, L16hthouse will provide an initial assessment of how these developmental outcome measures perform in a clinical trial across a broad age range.Clinical trial registration number: NCT04271332; 2020-02-13.\nThe methods are described for a multi-site, double-blind, randomized controlled Phase 2 trial to evaluate the safety, efficacy, and tolerability of arbaclofen for youth with 16p11.2 deletion syndrome. The primary outcome measure was speech articulation, a key difficulty for youth with 16p11.2 deletion syndrome. The outcomes of this trial, combined with the parallel Canadian ARBA and European AIMS-CT-01 trials, will contribute to the evidence base of arbaclofen as a treatment for neurological and psychiatric conditions."
+conclusion: "The methods are described for a multi-site, double-blind, randomized controlled Phase 2 trial to evaluate the safety, efficacy, and tolerability of arbaclofen for youth with 16p11.2 deletion syndrome. The primary outcome measure was speech articulation, a key difficulty for youth with 16p11.2 deletion syndrome. The outcomes of this trial, combined with the parallel Canadian ARBA and European AIMS-CT-01 trials, will contribute to the evidence base of arbaclofen as a treatment for neurological and psychiatric conditions."
+mesh_terms: ["Humans", "Chromosome Disorders", "Child", "Chromosomes, Human, Pair 16", "Chromosome Deletion", "Double-Blind Method", "Precision Medicine", "Adolescent", "Intellectual Disability", "Female", "Child, Preschool", "Male", "Baclofen", "GABA-B Receptor Agonists", "Autistic Disorder"]
+keywords: ["16p11.2 deletion syndrome", "arbaclofen", "language", "randomized controlled trial", "speech", "youth"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/42080302/"
+extraction_confidence: "medium"
+created_at: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-10T07:28:19Z"
+---

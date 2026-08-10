@@ -1,0 +1,55 @@
+{
+  "abstract": "Serious games are digital games designed for education or therapy. Virtual reality (VR)-based serious games have shown potential in enhancing motor learning, but their role in improving gross motor skills in children with ASD in special education remains underexplored. This randomized controlled trial examined the effectiveness of VR-based serious games in improving gross motor skills in children with ASD. Forty children (6-12 years) from Changsha Special Educational School were randomly assigned to an experimental group (n = 20) receiving VR-based serious game training, or a control group (n = 20) attending traditional physical education classes. The 12-week intervention was assessed using the Test of Gross Motor Development-2 (TGMD-2). The experimental group used a multimedia VR system with nine motor rehabilitation games. After the intervention, both groups showed significant improvements in gross motor skills, but the experimental group showed greater gains in locomotor and object control skills, with significant time × group interaction effects. Despite improvements, average gross motor scores remained below the expected norms, highlighting persistent motor skill challenges. These findings support VR-based serious games as a valuable tool in special education, warranting further exploration for long-term interventions and broader adoption in school settings.",
+  "age_range": "6-12",
+  "authors": [
+    "Xinbo Wu",
+    "Junwen Liang",
+    "Yansha Dong",
+    "Qiuxian Ou",
+    "Jiaxi Chen",
+    "Linghui Zou",
+    "Weixin Dong",
+    "Chunxia Lu"
+  ],
+  "clinical_implications": "Serious games are digital games designed for education or therapy.",
+  "conclusion": "Serious games are digital games designed for education or therapy. Virtual reality (VR)-based serious games have shown potential in enhancing motor learning, but their role in improving gross motor skills in children with ASD in special education remains underexplored. This randomized controlled trial examined the effectiveness of VR-based serious games in improving gross motor skills in children with ASD. Forty children (6-12 years) from Changsha Special Educational School were randomly assigned to an experimental group (n = 20) receiving VR-based serious game training, or a control group (n = 20) attending traditional physical education classes. The 12-week intervention was assessed using the Test of Gross Motor Development-2 (TGMD-2). The experimental group used a multimedia VR system with nine motor rehabilitation games. After the intervention, both groups showed significant improvements in gross motor skills, but the experimental group showed greater gains in locomotor and object control skills, with significant time × group interaction effects. Despite improvements, average gross motor scores remained below the expected norms, highlighting persistent motor skill challenges. These findings support VR-based serious games as a valuable tool in special education, warranting further exploration for long-term interventions and broader adoption in school settings.",
+  "created_at": "2026-08-10T07:28:06Z",
+  "diagnosis": "Autism Spectrum Disorder",
+  "doi": "10.1007/s12264-020-00530-6",
+  "duration": "12-week",
+  "extraction_confidence": "medium",
+  "intervention": "serious games for gross motor skills",
+  "journal": "Journal of autism and developmental disorders",
+  "keywords": [
+    "Autism spectrum disorder",
+    "Gross motor skills",
+    "Serious game",
+    "Virtue reality"
+  ],
+  "last_updated": "2026-08-10T07:28:19Z",
+  "limitations": [
+    "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+  ],
+  "mesh_terms": [
+    "Humans",
+    "Child",
+    "Pilot Projects",
+    "Motor Skills",
+    "Female",
+    "Male",
+    "Video Games",
+    "Autism Spectrum Disorder",
+    "Education, Special",
+    "Virtual Reality",
+    "China",
+    "East Asian People"
+  ],
+  "participants": 20,
+  "pmid": "40178785",
+  "primary_outcomes": [],
+  "secondary_outcomes": [],
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40178785/",
+  "study_type": "Journal Article",
+  "title": "Effects of VR-Based Serious Games on Gross Motor Skills in Chinese Children with Autism Spectrum Disorder in Special Education: A Pilot Study.",
+  "year": 2026
+}

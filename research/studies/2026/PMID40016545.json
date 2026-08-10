@@ -1,0 +1,52 @@
+{
+  "abstract": "AutInsight is an innovative, consumer-informed parent support program for parents of autistic children grounded in perspectives from qualitative research with autistic adults. The current study outlines the development and evaluation of AutInsight through a pilot randomised controlled trial. Parents (N = 41) of autistic children (10 years and younger) were randomly allocated to AutInsight (n = 20) or care-as-usual (n = 21) and completed online questionnaires across three timepoints (baseline, post-program and 3-month follow-up). Measures include parental sensitivity, parental acceptance and understanding, psychological flexibility, mindful parenting, parental mental health, overall family experience, quality of life, and child behaviours. Intent-to-treat analyses indicated greater rates of improvement for parents allocated to the AutInsight program, with small- to medium-sized effects for parent-reported parental sensitivity (EA-SR mutual attunement d = 0.84, EA-SR child involvement d = 0.50), as well as overall autism family experience (AFEQtotal d = 0.38, AFEQfamily life d = 0.29). Greater rates of improvement were also found in parent-reported child conduct problems (SDQ d = 0.62) and prosocial behaviours (SDQ d = 0.48). No significant results were found in observed parental sensitivity or any other measure. Results suggest preliminary evidence of effectiveness, feasibility and acceptability of the AutInsight program. A larger, fully powered trial is warranted. This trial was prospectively registered with the Australian and New Zealand Clinical Trials Registry (Trial ID: ACTRN12623000806662).",
+  "age_range": null,
+  "authors": [
+    "Jia Ying Sarah Lee",
+    "Koa Whittingham",
+    "Amy E Mitchell"
+  ],
+  "clinical_implications": "AutInsight is an innovative, consumer-informed parent support program for parents of autistic children grounded in perspectives from qualitative research with autistic adults.",
+  "conclusion": "AutInsight is an innovative, consumer-informed parent support program for parents of autistic children grounded in perspectives from qualitative research with autistic adults. The current study outlines the development and evaluation of AutInsight through a pilot randomised controlled trial. Parents (N = 41) of autistic children (10 years and younger) were randomly allocated to AutInsight (n = 20) or care-as-usual (n = 21) and completed online questionnaires across three timepoints (baseline, post-program and 3-month follow-up). Measures include parental sensitivity, parental acceptance and understanding, psychological flexibility, mindful parenting, parental mental health, overall family experience, quality of life, and child behaviours. Intent-to-treat analyses indicated greater rates of improvement for parents allocated to the AutInsight program, with small- to medium-sized effects for parent-reported parental sensitivity (EA-SR mutual attunement d = 0.84, EA-SR child involvement d = 0.50), as well as overall autism family experience (AFEQtotal d = 0.38, AFEQfamily life d = 0.29). Greater rates of improvement were also found in parent-reported child conduct problems (SDQ d = 0.62) and prosocial behaviours (SDQ d = 0.48). No significant results were found in observed parental sensitivity or any other measure. Results suggest preliminary evidence of effectiveness, feasibility and acceptability of the AutInsight program. A larger, fully powered trial is warranted. This trial was prospectively registered with the Australian and New Zealand Clinical Trials Registry (Trial ID: ACTRN12623000806662).",
+  "created_at": "2026-08-10T07:28:06Z",
+  "diagnosis": "Autism Spectrum Disorder",
+  "doi": "10.1136/bmjopen-2020-037033",
+  "duration": "3-month",
+  "extraction_confidence": "medium",
+  "intervention": "AutInsight parent support program",
+  "journal": "Journal of autism and developmental disorders",
+  "keywords": [
+    "Acceptance",
+    "Autism",
+    "Children",
+    "Parenting",
+    "Support"
+  ],
+  "last_updated": "2026-08-10T07:28:19Z",
+  "limitations": [
+    "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+  ],
+  "mesh_terms": [
+    "Humans",
+    "Pilot Projects",
+    "Female",
+    "Male",
+    "Child",
+    "Parents",
+    "Parenting",
+    "Autistic Disorder",
+    "Adult",
+    "Quality of Life",
+    "Child, Preschool",
+    "Surveys and Questionnaires",
+    "Social Support"
+  ],
+  "participants": 41,
+  "pmid": "40016545",
+  "primary_outcomes": [],
+  "secondary_outcomes": [],
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40016545/",
+  "study_type": "Journal Article",
+  "title": "AutInsight: A Pilot Randomised Controlled Trial (RCT) of a Consumer-Informed Parent Support Program for Parents of Autistic Children.",
+  "year": 2026
+}

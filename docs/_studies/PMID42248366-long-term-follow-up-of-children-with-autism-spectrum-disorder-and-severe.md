@@ -1,0 +1,28 @@
+---
+layout: study
+title: "Long-term follow-up of children with autism spectrum disorder and severe treatment-resistant behavioral symptoms treated with purified cannabidiol."
+slug: "PMID42248366-long-term-follow-up-of-children-with-autism-spectrum-disorder-and-severe"
+pmid: "42248366"
+doi: "10.1016/j.pbb.2026.174220"
+year: 2026
+journal: "Pharmacology, biochemistry, and behavior"
+authors: ["Pablo Sebastián Fortini", "Javier J Toibaro", "Roberto H Caraballo"]
+study_type: "Journal Article"
+participants: ""
+age_range: "3-18"
+diagnosis: "Autism Spectrum Disorder"
+intervention: "cannabidiol (CBD)"
+duration: ""
+primary_outcomes: ["primary outcome was change in caregiver-identified symptoms", "RBS-R]", "Vineland Adaptive Behavior Scales-II maladaptive behavior domain", "ABC]"]
+secondary_outcomes: ["secondary outcomes included standardized behavioral scales (Repetitive Behavi", "adverse events"]
+limitations: ["observational before-and-after study in children and adolescents (3-18 years) with ASD severi", "limited pharmacological treatment options"]
+clinical_implications: "Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales."
+abstract: "BACKGROUND: Autism spectrum disorder (ASD) is a heterogeneous neurodevelopmental condition often associated with severe behavioral disturbances and limited pharmacological treatment options. Cannabidiol (CBD) has emerged as a potential therapeutic option; however, evidence on its long-term effectiveness and safety in children with ASD is scarce.\nOBJECTIVE: To evaluate the long-term effectiveness and safety of purified CBD as add-on therapy in children with severe ASD and treatment-resistant behavioral symptoms.\nMATERIAL AND METHODS: We conducted a prospective observational before-and-after study in children and adolescents (3-18 years) with ASD severity levels 2 or 3 and intellectual disability treated with add-on CBD. The primary outcome was change in caregiver-identified symptoms, while secondary outcomes included standardized behavioral scales (Repetitive Behavior Scale-Revised [RBS-R], Vineland Adaptive Behavior Scales-II maladaptive behavior domain, Aberrant Behavior Checklist [ABC], Pediatric Sleep Clinical Global Impressions-Severity, Autism Family Experience Questionnaire, and Parental Stress Scale). Safety and tolerability were assessed through caregiver-reported adverse events.\nRESULTS: Twenty children were enrolled, of whom 13 completed the long-term follow-up (mean 27.6 ± 1.3 months). Of the caregiver-identified symptoms, improvements observed during the initial short-term study were maintained or further improved during follow-up. Standardized scales showed modest but sustained improvements, particularly in irritability, social withdrawal, and hyperactivity. Mild, transient adverse events, mainly irritability or decreased appetite, did not recur during long-term followup, and concomitant medications were reduced in 40% of patients.\nCONCLUSION: Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales."
+conclusion: "Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales."
+mesh_terms: ["Humans", "Cannabidiol", "Child", "Autism Spectrum Disorder", "Male", "Follow-Up Studies", "Child, Preschool", "Female", "Adolescent", "Prospective Studies", "Treatment Outcome", "Severity of Illness Index"]
+keywords: ["Autism spectrum disorder", "Behavior disturbances", "Cannabidiol", "Long-term", "Treatment"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/42248366/"
+extraction_confidence: "medium"
+created_at: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-10T07:28:06Z"
+---
