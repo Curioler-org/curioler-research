@@ -5,7 +5,7 @@ verdict: "myth"
 verdict_label: "This is a myth"
 domain: "General"
 check_date: "2026-08-10"
-short_summary: "There is no clinical evidence that neem treats ADHD. The 'Neem Therapy' claim circulating online traces back to the same unqualified promoter behind the previously debunked C.A.N. Protocol, and a practicing occupational therapist has publicly called the viral version of this claim 'zero science, zero clinical evidence.'"
+short_summary: "There is no clinical evidence that neem treats ADHD. The claim traces to a promoter with no medical credentials and a documented history of false health claims, and a practicing occupational therapist has publicly called it 'zero science, zero clinical evidence.'"
 status: draft
 tags: [adhd, autism, neem, pseudoscience, alternative-medicine, myth]
 ---
@@ -16,28 +16,30 @@ Social media posts and marketing pages promote 'Neem Therapy' as a treatment tha
 
 ## What the evidence says
 
-- 'Neem Therapy to Cure Autism/ADHD' is promoted by Biswaroop Roy Chowdhury ('Dr. BRC'), the same person behind the previously fact-checked C.A.N. Protocol, using the identical helpline number. He has no formal medical qualifications (his 'PhD' is an honorary, unaccredited degree from a since-deregistered university in Zambia) and was already found by India's Advertising Standards Council to have made false, misleading health claims once before, about a '72-hour diabetes cure.'
+- The 'Neem Therapy to Cure Autism/ADHD' claim is promoted online by Biswaroop Roy Chowdhury, who markets himself as 'Dr. BRC' through clinics and social media. Wikipedia and independent journalism document that he has no formal medical qualifications — his 'PhD' is an honorary, unaccredited degree from Alliance International University in Zambia, an institution that has since been deregistered.
+- He has a documented history of making false health claims: India's Advertising Standards Council formally ruled in 2016 and 2017 that his advertised 'Diabetes Type 1 & Type 2 Cure in 72 Hrs' claims were false and grossly misleading, and the BBC profiled him under the headline 'The rise of India's Covid quack' for spreading COVID-19 misinformation.
+- This isn't his only unproven autism/ADHD product: he separately markets the C.A.N. (Cure Autism Now) Protocol through the same helpline and clinics, which we found similarly unsupported by evidence in a related fact check — see [The C.A.N. Protocol cures autism and ADHD](/curioler-research/myth-check/2026-08-10-the-can-protocol-cures-autism-and-adhd/) for the full details on his credentials and track record.
 - No published clinical trial has tested neem specifically for ADHD in children. Reviews of evidence-based ADHD pharmacotherapy and of herbal/phytotherapy treatments for ADHD do not list neem among the plants with any studied clinical evidence for ADHD symptoms — unlike, for example, Bacopa monnieri, which does have some published trials.
 - The neem research that does exist covers entirely different conditions: small clinical studies on type 2 diabetes and psoriasis, plus lab and animal studies suggesting general anti-inflammatory, antioxidant, or neuroprotective properties. None of these establish that neem improves attention, hyperactivity, or impulsivity in children with ADHD.
 - A practicing occupational therapist and child development center director in India, Dr. Nakul Kaushik, has publicly responded to the viral version of this exact claim ('Autism will be cured in 15-30 days with just neem?'), stating there is 'zero science, zero clinical evidence' behind it and that autism/ADHD are neurodevelopmental conditions requiring evidence-based therapies such as occupational therapy, speech therapy, ABA, and parent training.
-- This follows a well-documented pattern: researchers who study autism/ADHD misinformation online repeatedly find that single-ingredient 'natural cure' claims circulating on social media lack scientific backing and can carry real risk, including delaying proven treatment while families wait for the unproven remedy to work.
 
 ## The verdict explained
 
-This claim shows the same warning signs as other unproven 'cure' products marketed for autism and ADHD. It comes from someone with no verifiable medical training who has already been formally found to have made a false 'cure' claim for a different condition, and it's being sold through the same commercial channel (helpline, kit, clinic) as that earlier debunked product. No independent research — clinical trial, systematic review, or otherwise — supports neem as an ADHD treatment, let alone as working 'best.' The plant does have some genuinely studied properties for other uses (blood sugar, skin conditions, general anti-inflammatory effects), but that is a different question from whether it treats ADHD, and marketing material blurs that distinction.
+This claim shows familiar warning signs of an unproven 'cure' product. It's promoted by someone with no verifiable medical training — he presents himself as 'Dr. BRC' on the strength of an honorary title from an unaccredited, now-deregistered institution — and who has already been formally found by an official Indian advertising watchdog to have made a false 'cure' claim about a different condition (a '72-hour diabetes cure'). No independent research supports neem as an ADHD treatment, let alone as working 'best': existing neem studies focus on unrelated conditions like diabetes and skin conditions, and reviews of both mainstream and herbal ADHD treatments don't include neem at all.
 
-What tips this from merely 'unproven' to 'myth' is the combination of zero supporting clinical evidence, a promoter with a documented history of false health claims, and direct pushback from a practicing clinician who works with these children daily and describes the specific viral claim as having no scientific basis. Families are better served by evidence-based ADHD care — behavioral therapy, parent training, structured routines, and, where appropriate and medically supervised, medication — none of which promise a single-herb quick fix.
+What tips this from merely 'unproven' to 'myth' is the combination of zero supporting clinical evidence, a promoter with a documented pattern of making false health claims across multiple conditions (he also markets a separate unproven product for autism specifically, the C.A.N. Protocol, sold through the same helpline), and direct pushback from a practicing clinician who works with these children daily and describes the specific viral neem claim as having no scientific basis. Families are better served by evidence-based ADHD care — behavioral therapy, parent training, structured routines, and, where appropriate and medically supervised, medication — none of which promise a single-herb quick fix.
 
 ## What this means for caregivers
 
 - Be especially cautious of any claim that a single herb or supplement 'works best' for ADHD, particularly with a specific short timeframe attached (like '15-30 days') — that's a classic pattern for unproven cures, not real medicine.
-- Check who is behind a claim: if the same person or organization is behind multiple 'cure' products for different conditions, that's a strong red flag worth researching before trusting any of them.
+- Check who is behind a claim: if the same person or organization markets multiple 'cure' products across different conditions, that's a strong red flag worth researching before trusting any of them.
 - Evidence-based ADHD management — behavioral strategies, parent training, school accommodations, and medication when appropriate — has real research support, even though it's less dramatic than a 'cure' claim.
 
 ## Important caveats
 
 - This verdict is specific to the marketed claim that neem treats or works best for ADHD; it isn't a judgment on neem's other traditional or studied uses (such as skin care or blood sugar support), which are separate questions with their own evidence.
 - Long-term safety data for children taking neem specifically for ADHD has not been established, which adds a risk dimension on top of the lack of proven benefit.
+- For more on this same promoter's broader pattern of unproven health claims, see our related fact check: [The C.A.N. Protocol cures autism and ADHD](/curioler-research/myth-check/2026-08-10-the-can-protocol-cures-autism-and-adhd/).
 
 ## Sources
 
