@@ -6,7 +6,7 @@ verdict_label: "This is nuanced"
 domain: "Sensory"
 check_date: "2026-07-03"
 short_summary: "The caution has a legitimate basis — a small subset of epilepsies can be triggered by tactile stimulation — but a blanket 'never brush' rule for all children with any seizure history is too broad. Whether brushing is appropriate depends on the seizure type, seizure control, and individual clinical assessment. It is not a universal contraindication; it is a decision that should involve the child's neurologist."
-status: draft
+status: published
 tags: [sensory, brushing, wilbarger, OT, epilepsy, seizures, occupational-therapy, sensory-processing]
 related:
   - title: "Sensory Overload: Causes, Signs, and Management"

@@ -7,7 +7,7 @@ domain: "General"
 search_topic: "factors affecting ASD"
 summary_date: "2026-07-03"
 short_summary: "Autism does not have a single cause. It emerges from a complex interaction between genetic predisposition and environmental influences — mostly acting before birth. Genetics is the dominant driver, accounting for roughly half of the risk, but prenatal exposures, parental age, birth complications, and environmental toxins each contribute. None of these factors act in isolation."
-status: draft
+status: published
 tags: [autism, causes, genetics, environment, prenatal, risk-factors, research-overview]
 related:
   - title: "Sugar and Neurodevelopment: What the Evidence Says for Autism and ADHD"

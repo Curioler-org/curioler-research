@@ -7,7 +7,7 @@ domain: "General"
 search_topic: "5 most important skills for kids on spectrum"
 summary_date: "2026-07-02"
 short_summary: "Research consistently identifies five skill areas that have the greatest downstream impact for autistic children: communication, social skills, emotional regulation, play, and daily living independence. Evidence from multiple meta-analyses shows that early, targeted support in these areas — especially when caregivers are actively involved — leads to meaningful improvements across the board."
-status: draft
+status: published
 tags: [autism, skills, communication, social, emotional-regulation, play, adaptive, intervention]
 ---
 

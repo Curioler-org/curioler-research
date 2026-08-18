@@ -7,7 +7,7 @@ trust_tier_label: "Clinical consensus and expert guidance drawing on peer-review
 domain: "Social"
 search_topic: "Social Communication and Interaction in Autism"
 summary_date: "2026-06-29"
-status: draft
+status: published
 tags: [autism]
 ---
 

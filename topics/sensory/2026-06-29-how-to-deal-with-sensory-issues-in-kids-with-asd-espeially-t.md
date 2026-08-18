@@ -7,7 +7,7 @@ trust_tier_label: "Peer-Reviewed Study"
 domain: "Sensory"
 search_topic: "how to deal with sensory issues in kids with ASD especially the humming"
 summary_date: "2026-06-29"
-status: draft
+status: published
 tags: [autism]
 ---
 

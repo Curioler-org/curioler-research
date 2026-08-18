@@ -6,7 +6,7 @@ verdict_label: "This is misleading"
 domain: "Sensory"
 check_date: "2026-08-18"
 short_summary: "CBT really does have the best evidence of any treatment for sound sensitivity — but it earns that title mostly by being the only one anyone has properly tested. It has never been compared against the alternatives, and it has never been trialled in autistic children at all. Calling it 'the best' invites parents to skip the simpler things that often help more."
-status: draft
+status: published
 tags: [autism, sensory, cbt, hyperacusis, sound-sensitivity, therapy]
 ---
 
