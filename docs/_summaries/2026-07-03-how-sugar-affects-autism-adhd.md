@@ -7,7 +7,7 @@ domain: "General"
 search_topic: "how sugar affects autism/adhd"
 summary_date: "2026-07-03"
 short_summary: "Sugar does not cause autism or ADHD, and the famous 'sugar makes kids hyperactive' belief has been repeatedly debunked. But the picture is more nuanced than a simple yes or no — high sugar intake, particularly from sweetened drinks, is associated with worse emotional regulation, executive function, and behaviour in autistic and ADHD children. The gut-brain axis may be the key mechanism."
-status: draft
+status: published
 tags: [autism, adhd, sugar, diet, behaviour, gut, nutrition, co-occurring]
 related:
   - title: "Five Most Important Skills for Children on the Spectrum"

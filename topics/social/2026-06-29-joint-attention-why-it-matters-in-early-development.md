@@ -7,7 +7,7 @@ domain: "Social"
 search_topic: "Joint Attention: Why It Matters in Early Development"
 summary_date: "2026-06-29"
 short_summary: "Joint attention — the ability to share focus on the same object with another person — typically emerges between 9 and 12 months and is one of the earliest and most reliable markers of later language and social development. Multiple meta-analyses confirm that delays in joint attention are among the first detectable signs of autism, and that targeted interventions can meaningfully improve these skills in autistic preschoolers."
-status: draft
+status: published
 tags: [autism, communication, early-development, joint-attention, intervention]
 ---
 

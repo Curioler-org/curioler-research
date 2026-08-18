@@ -182,7 +182,7 @@ def render_markdown(data: dict, statement: str, slug: str, today: str) -> str:
         f'domain: "{data["domain"]}"',
         f'check_date: "{today}"',
         f'short_summary: "{short_summary_escaped}"',
-        "status: draft",
+        "status: published",
         f'tags: [{", ".join(data.get("tags", ["autism"]))}]',
         "---",
         "",

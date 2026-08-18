@@ -6,7 +6,7 @@ verdict_label: "Insufficient evidence"
 domain: "General"
 check_date: "2026-08-10"
 short_summary: "There is one small, government-run pilot study suggesting a Siddha herbal formulation may help with autism symptoms, but it had no control group and wasn't blinded, so it can't actually prove the treatment caused the improvement. No larger, controlled trial has confirmed it yet, so 'effective' overstates what's currently known."
-status: draft
+status: published
 tags: [autism, siddha, traditional-medicine, alternative-medicine, clinical-trials]
 ---
 

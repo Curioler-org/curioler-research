@@ -7,7 +7,7 @@ domain: "General"
 search_topic: "How the order of OT and ABA therapy matters"
 summary_date: "2026-08-05"
 short_summary: "Parents are often told to start occupational therapy before ABA, or the other way round, but no study has actually tested one order against the other. The strongest recent evidence is a randomised trial that ran the two therapies separately and found both improved children's daily living skills and personal goals, which suggests the order matters far less than whether the therapies are coordinated and matched to your child's most pressing needs."
-status: draft
+status: published
 tags: [autism, occupational-therapy, aba, sensory-integration, therapy-planning, multidisciplinary-care]
 ---
 

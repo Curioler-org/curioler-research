@@ -7,7 +7,7 @@ trust_tier_label: "Systematic Review (Cochrane)"
 domain: "Communication"
 search_topic: "Prepare a comprehensive, evidence-based review of Communication in Autism Spectrum Disorder (ASD)"
 summary_date: "2026-06-29"
-status: draft
+status: published
 tags: [autism]
 ---
 

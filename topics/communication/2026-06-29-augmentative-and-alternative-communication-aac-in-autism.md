@@ -7,7 +7,7 @@ trust_tier_label: "Systematic Review / Meta-Analysis"
 domain: "Communication"
 search_topic: "Augmentative and Alternative Communication (AAC) in Autism"
 summary_date: "2026-06-29"
-status: draft
+status: published
 tags: [autism]
 ---
 

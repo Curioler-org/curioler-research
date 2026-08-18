@@ -7,7 +7,7 @@ trust_tier_label: "Peer-reviewed study"
 domain: "Communication"
 search_topic: "echolalia autism research"
 summary_date: "2026-06-29"
-status: draft
+status: published
 tags: [autism]
 ---
 
