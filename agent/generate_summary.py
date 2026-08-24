@@ -16,11 +16,13 @@ Rules:
 - Write in plain, warm language for a parent, not a clinician
 - Never make diagnostic statements or give prescriptive clinical advice
 - Be honest about what the research does NOT say
-- Trust tier guide:
+- Trust tier: assign based on the STRONGEST evidence type actually described
+  in the sources, never a default and never based on how compelling the
+  finding sounds.
   - Tier 1: Systematic review or meta-analysis
-  - Tier 2: Peer-reviewed study
-  - Tier 3: Clinical consensus or guideline
-  - Tier 4: Expert commentary or opinion
+  - Tier 2: Peer-reviewed study, smaller RCT, clinical trial
+  - Tier 3: Clinical consensus or professional guideline
+  - Tier 4: Expert commentary or opinion, not peer-reviewed
 - If multiple sources are provided, base the summary on the strongest evidence
 - Output ONLY valid JSON, no preamble, no markdown fences
 """
@@ -38,6 +40,9 @@ Return ONLY this JSON (no markdown, no explanation):
   "trust_tier": 1,
   "trust_tier_label": "Systematic review or meta-analysis",
   "domain": "Communication",
+  "what": "1-2 plain sentences: what this research is actually about -- the concept, finding, or mechanism, not just the topic searched.",
+  "why": "1-2 plain sentences: why this matters to a caregiver -- the practical relevance to their child.",
+  "when": "1-2 plain sentences: the journey stage, situation, or trigger that makes this relevant to a caregiver right now.",
   "short_summary": "2-3 sentence plain-language summary for the card on the listing page. What did they study and what did they find?",
   "structured_fields": {
     "sample_size": "e.g. 1,243 participants — or null if not applicable",
@@ -182,6 +187,9 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
 
     # --- Frontmatter ---
     short_summary_escaped = data.get("short_summary", "").replace('"', '\\"')
+    what_escaped = data.get("what", "").replace('"', '\\"')
+    why_escaped = data.get("why", "").replace('"', '\\"')
+    when_escaped = data.get("when", "").replace('"', '\\"')
     lines = [
         "---",
         f'title: "{data["title"]}"',
@@ -189,6 +197,12 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
         f'trust_tier: {data["trust_tier"]}',
         f'trust_tier_label: "{data["trust_tier_label"]}"',
         f'domain: "{data["domain"]}"',
+        # The platform's Three Questions invariant (Knowledge-Architecture.md)
+        # -- prepared here, at generation time, rather than left for the
+        # ingestion pipeline to guess or leave blank.
+        f'what: "{what_escaped}"',
+        f'why: "{why_escaped}"',
+        f'when: "{when_escaped}"',
         f'search_topic: "{query}"',
         f'summary_date: "{today}"',
         f'short_summary: "{short_summary_escaped}"',

@@ -23,6 +23,19 @@ Rules:
     nuanced            — partially true or depends heavily on context
     misleading         — contains truth but leads to wrong conclusions
     insufficient-evidence — not enough quality research to say either way
+- Trust tier: assign based on the STRONGEST evidence type you actually cite
+  below, never a default and never based on how confident the verdict feels.
+    1 — Strong Scientific Evidence: systematic reviews, meta-analyses, large RCTs
+    2 — Clinical Research: peer-reviewed studies, smaller RCTs, clinical trials
+    3 — Clinical Consensus: professional guidelines, expert consensus, established clinical practice
+    4 — Professional Opinion: an individual expert's view, not peer-reviewed
+    5 — Community Experience: multiple parent reports showing a consistent pattern
+    6 — Individual Experience: a single caregiver's account
+  A claim debunked purely by exposing the promoter's lack of credentials or a
+  history of false claims, with no clinical study of the claim itself, is
+  Clinical Consensus (3) at best — not Tier 1, however obviously false the
+  claim is. Reserve Tier 1–2 for checks that actually cite a systematic
+  review, meta-analysis, or named peer-reviewed study.
 - Output ONLY valid JSON, no preamble, no markdown fences
 """
 
@@ -33,6 +46,10 @@ EXTRACTION_PROMPT = """Analyse the statement and sources provided. Return a JSON
   "verdict": "myth | supported | nuanced | misleading | insufficient-evidence",
   "verdict_label": "This is a myth | This is supported | This is nuanced | This is misleading | Insufficient evidence",
   "domain": "Communication | Social | Sensory | Behaviour | Adaptive | Motor | General",
+  "trust_tier": 1,
+  "what": "1-2 plain sentences: what this claim actually is.",
+  "why": "1-2 plain sentences: why a caregiver would care whether this is true before acting on it.",
+  "when": "1-2 plain sentences: the situation that makes this relevant right now -- e.g. what a caregiver has just been told, or is deciding.",
   "short_summary": "2-3 sentence plain-language summary of the verdict for the card listing.",
   "sections": {
     "the_claim": "1-2 sentences restating what people believe and why it persists.",
@@ -172,6 +189,9 @@ def render_markdown(data: dict, statement: str, slug: str, today: str) -> str:
 
     short_summary_escaped = data.get("short_summary", "").replace('"', '\\"')
     statement_escaped = data.get("statement", statement).replace('"', '\\"')
+    what_escaped = data.get("what", "").replace('"', '\\"')
+    why_escaped = data.get("why", "").replace('"', '\\"')
+    when_escaped = data.get("when", "").replace('"', '\\"')
 
     lines = [
         "---",
@@ -181,6 +201,16 @@ def render_markdown(data: dict, statement: str, slug: str, today: str) -> str:
         f'verdict_label: "{data["verdict_label"]}"',
         f'domain: "{data["domain"]}"',
         f'check_date: "{today}"',
+        # trust_tier is a claim about evidence strength -- required, never
+        # defaulted downstream (Curioler platform's ingestion mapper fails
+        # loudly, rather than guessing, if this is absent).
+        f'trust_tier: {data["trust_tier"]}',
+        # The platform's Three Questions invariant (Knowledge-Architecture.md)
+        # -- prepared here, at generation time, rather than left for the
+        # ingestion pipeline to guess or leave blank.
+        f'what: "{what_escaped}"',
+        f'why: "{why_escaped}"',
+        f'when: "{when_escaped}"',
         f'short_summary: "{short_summary_escaped}"',
         "status: published",
         f'tags: [{", ".join(data.get("tags", ["autism"]))}]',
