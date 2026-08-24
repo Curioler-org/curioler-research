@@ -5,6 +5,7 @@ verdict: "misleading"
 verdict_label: "This is misleading"
 domain: "General"
 check_date: "2026-08-10"
+trust_tier: 2
 short_summary: "Autism existed 20-30 years ago too — it just wasn't measured, diagnosed, or defined the way it is now. Diagnosed rates have genuinely risen a lot, but the leading cause is broader diagnostic criteria and better screening, not a sudden real-world explosion of new cases."
 status: published
 tags: [autism, epidemiology, prevalence, diagnosis, history]

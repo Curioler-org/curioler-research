@@ -5,6 +5,7 @@ verdict: "myth"
 verdict_label: "This is a myth"
 domain: "General"
 check_date: "2026-08-10"
+trust_tier: 3
 short_summary: "There is no clinical evidence that neem treats ADHD. The claim traces to a promoter with no medical credentials and a documented history of false health claims, and a practicing occupational therapist has publicly called it 'zero science, zero clinical evidence.'"
 status: published
 tags: [adhd, autism, neem, pseudoscience, alternative-medicine, myth]
