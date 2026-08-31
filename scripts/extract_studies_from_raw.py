@@ -29,10 +29,91 @@ SECTION_RE = re.compile(
     r"CONCLUSIONS?|CONCLUSION|DISCUSSION|UNLABELLED)\b\s*[:.\-]\s*"
 )
 
+# `participants` is the TOTAL number of people enrolled, or None. The previous
+# patterns took the first "n = X" in the abstract, which in a trial abstract is
+# almost always a single arm: PMID40178785 stored 20 for a 40-child study, and
+# PMID41392642 stored 6 from "n = 6, 7%" of eighty rated studies. A wrong number
+# here becomes a wrong sentence in the Easy explainer, so every pattern requires a
+# person noun and anything ambiguous returns None.
+PERSON_NOUN = (
+    r"(?:children|adults?|adolescents?|youth|participants?|patients?|individuals?|"
+    r"subjects?|toddlers?|infants?|preschoolers?|cases|caregivers?|parents?|dyads?|"
+    r"families|women|men|mothers?|fathers?|people)"
+)
+
+NUMBER_WORDS = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7,
+    "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12, "thirteen": 13,
+    "fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17, "eighteen": 18,
+    "nineteen": 19, "twenty": 20, "thirty": 30, "forty": 40, "fifty": 50,
+    "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90,
+}
+NUMBER_WORD_RE = "|".join(sorted(NUMBER_WORDS, key=len, reverse=True))
+# "Forty", "Eighty-seven", "One hundred and seven", "One-hundred and thirty",
+# "Seventy- two" (an occasional hyphen-space artifact from the source PDF's line
+# wraps) — [-\s]+ tolerates any run of hyphens/spaces between the word tokens.
+SPELLED = rf"(?:(?:{NUMBER_WORD_RE})(?:[-\s]+hundred)?(?:[-\s]+and)?(?:[-\s]+(?:{NUMBER_WORD_RE}))*)"
+
+# Words that mean the number counts something other than enrolled people. "controls"
+# must be plural: "500 controls" is a separate comparison population (case-control
+# design, reject), but "control (n=48)" names one randomised arm ("intervention
+# (n=48) and control (n=48)", arms summing to the stated total), which PER_ARM
+# already handles correctly for the spelled-out pattern.
+NOT_PEOPLE = re.compile(
+    r"(?i)\b(observations?|studies|articles|papers|records|sessions|samples?|images?|"
+    r"videos?|questionnaires?|visits?|scans?|trials?|controls|screened)\b"
+)
+# Words that mean the number is one arm rather than the whole study. "both groups" /
+# "all groups" describe every arm collectively, i.e. the whole study, so those two
+# phrasings are excepted rather than treated as a per-arm cue.
+PER_ARM = re.compile(
+    r"(?i)(?<!both )(?<!all )(\bgroups?\b|\barms?\b|\beach\b|per group|/group|\bsubgroups?\b|\bcompleters?\b)"
+)
+# "were included" can mean enrolled in the study (the total we want) or included in
+# the ANALYSIS after some people dropped out (a smaller, post-attrition subset) -
+# "38 children were included in the final analyses" is the latter, and the abstract's
+# real enrolled total (40) sits in an earlier, separate sentence ("Forty ... were
+# enrolled"). A subset marker right after the match means it is not the total.
+SUBSET_MARKER = re.compile(
+    r"(?i)\b(final analys\w*|per-protocol|completers?|completed (?:the|all)|dropped out|attrition)\b"
+)
+# "Eighty-one autistic people, 11 carers/supporters, and 18 clinicians returned
+# questionnaires" — a comma-separated list of other counts right after the match
+# means several different populations were counted, not one study total.
+ENUMERATED_GROUPS = re.compile(r",\s*\d+\s+[a-z]+.*?,\s*(?:and\s+)?\d+\s+[a-z]+", re.IGNORECASE | re.DOTALL)
+
 PARTICIPANT_PATTERNS = [
-    re.compile(r"(?i)\b(\d{1,4})\s+(?:adults?|children|adolescents?|youth|patients?|participants?|individuals?|subjects?)\b"),
-    re.compile(r"(?i)\b(?:n\s*=\s*|sample of |enrolled |included |analyzed )\(?(\d{1,4})\)?"),
-    re.compile(r"(?i)\bdata from\s+(\d{1,4})\s+(?:subjects?|participants?|patients?)"),
+    # "a total of 112 autistic children"
+    re.compile(rf"(?i)\ba total of\s+(\d{{1,5}})\s+(?:[\w-]+\s+){{0,3}}?{PERSON_NOUN}\b"),
+    # "Parents (N = 41) of autistic children"
+    re.compile(rf"(?i)\b{PERSON_NOUN}\s*\(\s*[Nn]\s*=\s*(\d{{1,5}})\s*\)"),
+    # "109 participants were randomized", "40 participants were randomized"
+    re.compile(
+        rf"(?i)\b(\d{{1,5}})\s+(?:[\w-]+\s+){{0,3}}?{PERSON_NOUN}\s+(?:were|was)\s+"
+        r"(?:randomi|enroll|recruit|assign|includ|allocat)"
+    ),
+    # "recruited 40 children with ASD", "randomized 112 children", "cohort includes
+    # 876 children", "Among 642 children", "In this trial, 178 children recruited..."
+    re.compile(
+        rf"(?i)\b(?:randomi\w+|enrolled|recruited|includ\w*|involving|comprised|among)\s+"
+        rf"(\d{{1,5}})\s+(?:[\w-]+\s+){{0,3}}?{PERSON_NOUN}\b"
+    ),
+    # "the study had 75 participants"
+    re.compile(rf"(?i)\b(?:study|trial|cohort|sample)\s+had\s+(\d{{1,5}})\s+(?:[\w-]+\s+){{0,3}}?{PERSON_NOUN}\b"),
+    # "178 preschool children with ASD recruited between..." — the enrolment verb
+    # trails the noun with no "were/was" in between.
+    re.compile(
+        rf"(?i)\b(\d{{1,5}})\s+(?:[\w-]+\s+){{0,3}}?{PERSON_NOUN}(?:\s+with\s+[\w-]+)?\s+"
+        r"(?:randomi\w+|enrolled|recruited|included)\b"
+    ),
+    # "delivered ... to 249 parents of autistic children"
+    re.compile(rf"(?i)\bto\s+(\d{{1,5}})\s+(?:[\w-]+\s+){{0,3}}?{PERSON_NOUN}\b"),
+    # "Of 132 individuals screened, 67 were randomized" — the noun for the total was
+    # already given for the screened count; the total itself is anaphoric, so this
+    # pattern is deliberately comma-anchored rather than requiring its own noun.
+    re.compile(r"(?i),\s*(\d{1,5})\s+(?:were|was)\s+(?:randomi|enroll|recruit|assign|includ|allocat)"),
+    # "Forty children", "Eighty-seven autistic children", "One hundred and seven parents"
+    re.compile(rf"(?i)\b({SPELLED})\s+(?:[\w-]+\s+){{0,3}}?{PERSON_NOUN}\b"),
 ]
 
 # An age range without its unit is worse than no age range: "24-60" is months and
@@ -119,11 +200,66 @@ def infer_age(text: str) -> dict[str, Any]:
     return {"age_range": None, "age_min": None, "age_max": None, "age_unit": None}
 
 
-def infer_participants(text: str) -> int | str | None:
-    value = first_match(PARTICIPANT_PATTERNS, text)
-    if value and value.isdigit():
-        return int(value)
-    return value
+def words_to_int(text: str) -> int | None:
+    total = 0
+    current = 0
+    for token in re.split(r"[- ]+", text.lower()):
+        if token == "and":
+            continue
+        if token == "hundred":
+            current = (current or 1) * 100
+            continue
+        value = NUMBER_WORDS.get(token)
+        if value is None:
+            return None
+        current += value
+    total += current
+    return total or None
+
+
+def infer_participants(text: str) -> int | None:
+    """Total people enrolled, or None when the abstract does not state one clearly."""
+    text = text or ""
+    found: list[int] = []
+    for index, pattern in enumerate(PARTICIPANT_PATTERNS):
+        # Patterns 0-3 all require an enrolment verb immediately next to the number
+        # ("a total of", "(N=X)", "were randomised/enrolled/...", "recruited/included
+        # X") - structurally that verb is describing the whole sample, not one arm,
+        # so a later "group" mention (e.g. naming the two arms it was split into)
+        # must not veto it. Pattern 4 (spelled-out numbers) has no verb requirement
+        # at all, so it is the one that needs the per-arm guard: "Seventy-two parents
+        # were randomly assigned to an intervention group" is a genuine arm count
+        # sitting right next to a person noun, exactly the shape this guard exists for.
+        is_spelled_pattern = index == len(PARTICIPANT_PATTERNS) - 1
+        for match in pattern.finditer(text):
+            # Only the text right after the match can disqualify it: "500 controls"
+            # or "(n=15/group)" sit next to the number itself. A word like "trial"
+            # in "a randomized controlled trial and included 148 caregivers" sits
+            # before the match, describing the study rather than the count, and
+            # must not veto a count it has nothing to do with.
+            trailing = text[match.end() : match.end() + 60]
+            # SUBSET_MARKER gets a much shorter window than NOT_PEOPLE/PER_ARM: it
+            # must describe the matched number itself ("were included in the final
+            # analyses" right after "38 children"), not a later, different number
+            # introduced by its own clause ("Twenty children were enrolled, of whom
+            # 13 completed..." - the marker there is about 13, not the matched 20).
+            if NOT_PEOPLE.search(trailing) or SUBSET_MARKER.search(text[match.end() : match.end() + 25]):
+                continue
+            if is_spelled_pattern and PER_ARM.search(trailing):
+                continue
+            if ENUMERATED_GROUPS.match(text[match.end() : match.end() + 100]):
+                continue
+            raw = match.group(1)
+            value = int(raw) if raw.isdigit() else words_to_int(raw)
+            if value and 1 <= value <= 100000:
+                found.append(value)
+        if found:
+            break
+    if not found:
+        return None
+    # Disagreeing candidates from the same pattern mean the abstract is reporting
+    # several counts (cases and controls, or several cohorts). Refuse to pick.
+    return found[0] if len(set(found)) == 1 else None
 
 
 def infer_diagnosis(title: str, abstract: str, mesh: list[str], keywords: list[str]) -> str | None:
@@ -329,11 +465,11 @@ def build_study(pmid: str) -> dict:
     now = utc_now()
     study = {
         **metadata,
-        "participants": infer_participants(methodsish or all_text),
+        "participants": infer_participants(methodsish.strip() or all_text),
         **infer_age(all_text),
         "diagnosis": diagnosis,
         "intervention": intervention,
-        "duration": first_match(DURATION_PATTERNS, methodsish or all_text),
+        "duration": first_match(DURATION_PATTERNS, methodsish.strip() or all_text),
         "primary_outcomes": primary,
         "secondary_outcomes": secondary,
         "limitations": infer_limitations(sections, abstract),

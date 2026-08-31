@@ -24,7 +24,7 @@ def parsed_value(pmid: str) -> object:
         sections.get(key, "")
         for key in ("METHODS", "METHOD", "MATERIALS AND METHODS", "DESIGN", "RESULTS", "RESULT", "BODY")
     )
-    return infer_participants(methodsish or abstract)
+    return infer_participants(methodsish.strip() or abstract)
 
 
 def main() -> None:
