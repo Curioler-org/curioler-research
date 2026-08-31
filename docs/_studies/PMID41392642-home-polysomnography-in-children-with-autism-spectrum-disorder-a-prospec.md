@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Child", "Polysomnography", "Male", "Autism Spectrum Diso
 keywords: ["neurodevelopmental condition", "sleep studies", "treatment", "young people"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41392642/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:05:54Z"
+last_updated: "2026-08-31T10:19:36Z"
 ---

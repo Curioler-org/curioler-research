@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Female", "Male", "Personal Autonomy", "Young Adult", "Ad
 keywords: ["Autism", "Intervention", "Mixed methods", "Self-determination", "Supports"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39954217/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:05:53Z"
+last_updated: "2026-08-31T10:19:35Z"
 ---

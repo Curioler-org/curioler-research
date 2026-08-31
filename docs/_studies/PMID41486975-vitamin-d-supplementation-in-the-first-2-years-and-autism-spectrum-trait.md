@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Female", "Child", "Male", "Autism Spectrum Disorder", "V
 keywords: ["Vitamin D", "autism spectrum disorder", "neurodevelopment", "randomized clinical trial"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41486975/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:05:55Z"
+last_updated: "2026-08-31T10:19:36Z"
 ---

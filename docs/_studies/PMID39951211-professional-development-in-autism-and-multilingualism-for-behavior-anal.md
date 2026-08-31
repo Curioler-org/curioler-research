@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Multilingualism", "Autistic Disorder", "Self Efficacy", 
 keywords: ["Autism", "Behavior analysis", "Bilingualism", "Multilingualism", "Professional development"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39951211/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:05:53Z"
+last_updated: "2026-08-31T10:19:35Z"
 ---

@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Child, Preschool", "Autism Spectrum Disorder", "Reproduc
 keywords: ["assess", "autism spectrum disorder", "fidelity", "responsiveness", "validity"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42224253/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:05:55Z"
+last_updated: "2026-08-31T10:19:36Z"
 ---

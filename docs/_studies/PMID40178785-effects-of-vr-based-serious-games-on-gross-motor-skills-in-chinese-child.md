@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Child", "Pilot Projects", "Motor Skills", "Female", "Mal
 keywords: ["Autism spectrum disorder", "Gross motor skills", "Serious game", "Virtue reality"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40178785/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:05:54Z"
+last_updated: "2026-08-31T10:19:35Z"
 ---

@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Caregivers", "Female", "Male", "Child", "Emotional Regul
 keywords: ["Autism spectrum disorder", "Emotion dysregulation", "Emotion regulation", "Parent training", "Qualitative methodology", "Regulating Together"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42217453/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:05:55Z"
+last_updated: "2026-08-31T10:19:36Z"
 ---

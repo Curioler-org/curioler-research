@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Child, Preschool", "Pilot Projects", "Female", "Male", "
 keywords: ["autism", "group-based delivery", "naturalistic developmental behavioral intervention", "preliminary efficacy"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42494078/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T10:05:56Z"
+last_updated: "2026-08-31T10:19:36Z"
 ---

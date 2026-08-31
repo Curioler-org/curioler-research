@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Female", "Male", "Autism Spectrum Disorder", "Magnetic R
 keywords: ["autism spectrum disorder", "biological context", "insomnia", "theta burst stimulation"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42590803/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T10:05:56Z"
+last_updated: "2026-08-31T10:19:36Z"
 ---

@@ -30,5 +30,5 @@ mesh_terms: ["Child, Preschool", "Female", "Humans", "Male", "Autistic Disorder"
 keywords: ["Autism", "Parent-implemented intervention", "Preschoolers", "Professional support", "Self-directed alternative", "Social communication"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42393738/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:05:55Z"
+last_updated: "2026-08-31T10:19:36Z"
 ---

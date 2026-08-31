@@ -90,3 +90,11 @@ Set `AI_PROVIDER` and `AI_MODEL` as repository variables when a provider or mode
   `mesh_terms`, `keywords`, `co_occurring_conditions`) are authoritative. The LLM
   extractor fills the interpretive fields only and cannot overwrite them.
 - Regenerate indexes after ingestion instead of editing them manually.
+- `participants` is the total number of people enrolled, or `null` — never a single
+  trial arm, and never a count of observations or of other studies.
+  `python -m scripts.check_participants` holds it to a hand-read fixture of every
+  abstract.
+- `trust_tier`, `trust_tier_label` and `easy_explainer` are derived in
+  `normalize_study()` and must never be hand-edited. Tier 4 means "design not stated";
+  a small sample demotes one step but never past tier 3.
+  `python -m scripts.check_explainer` enforces the corpus invariants.

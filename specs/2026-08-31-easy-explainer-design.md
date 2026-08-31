@@ -1,7 +1,7 @@
 # Easy explainer block — design
 
 Date: 2026-08-31
-Status: approved, not yet implemented
+Status: implemented 2026-08-31
 
 ## Purpose
 

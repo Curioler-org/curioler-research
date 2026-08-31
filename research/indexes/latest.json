@@ -1,715 +1,76 @@
 [
   {
-    "abstract": "Parents of autistic children often face elevated emotional demands and challenges in interpreting their child's inner experience. Parental reflective functioning (PRF), the capacity to understand behavior in terms of underlying mental states, is considered a key mechanism in fostering emotionally attuned and adaptive caregiving. Despite its importance, few interventions directly target PRF, and fewer still have tested brief, group-based formats designed for broad accessibility. We conducted a randomized controlled trial to evaluate a brief, virtual PRF intervention delivered via Zoom to 249 parents of autistic children. Participants were randomly assigned to either an intervention group (n = 129) or a waitlist control group (n = 130), and completed assessments at baseline and postintervention. PRF was measured using a standardized interview, while self-report questionnaires assessed parenting self-efficacy, beliefs about emotional malleability, depressive symptoms, and child adaptive functioning. Generalized estimating equations revealed significant time-by-group interactions favoring the intervention group across several outcomes. Relative to controls, intervention participants reported greater gains in reflective functioning, parenting self-efficacy, and emotional beliefs, alongside improvements in children's communication and conceptual adaptive functioning. Effects were most pronounced among parents of younger children. Within the intervention group, additional follow-up assessments indicated sustained benefits on workshop-specific outcomes. Findings support the feasibility and efficacy of brief, scalable PRF-based programs for caregivers of autistic children. To our knowledge, this is the first randomized trial to demonstrate that a short, online, parent-focused intervention can enhance reflective parenting and promote emotional and relational benefits in this population.",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Yael Enav",
-      "Natalia Kirsman",
-      "Dana Erhard Weiss",
-      "Yael Mayer"
-    ],
-    "clinical_implications": "May be relevant to brief, scalable PRF-based programs for caregivers of autistic children in Autism Spectrum Disorder, based on abstract-reported findings.",
-    "co_occurring_conditions": [],
-    "conclusion": null,
-    "created_at": "2026-08-31T05:13:47Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1002/aur.70301",
-    "duration": null,
-    "easy_explainer": {
-      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": null,
-      "not_stated": [
-        "the ages of the people who took part",
-        "how long the study ran"
-      ],
-      "size": "It involved 249 people, a reasonably sized group for this kind of research."
-    },
-    "intervention": "brief, scalable PRF-based programs for caregivers of autistic children",
-    "journal": "Autism research : official journal of the International Society for Autism Research",
-    "keywords": [
-      "autism",
-      "autistic children",
-      "online intervention",
-      "parental intervention",
-      "parental reflective functioning"
-    ],
-    "last_updated": "2026-08-31T10:05:56Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Female",
-      "Male",
-      "Cognitive Reflection",
-      "Parents",
-      "Child",
-      "Parenting",
-      "Self Efficacy",
-      "Autistic Disorder",
-      "Adult",
-      "Child, Preschool",
-      "Emotions",
-      "Adaptation, Psychological",
-      "Parent-Child Relations"
-    ],
-    "participants": 249,
-    "pmid": "42394366",
-    "primary_outcomes": [],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42394366/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Seeing the Child Within: A Randomized Controlled Trial of Reflective Functioning Intervention for Parents of Autistic Children.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "Autistic children exhibit developmental differences in theory of mind (ToM), which is associated with social impairment. While numerous interventions have targeted other ToM precursor skills, few studies have explored the effect of visual perspective taking (VPT) training on ToM. The present study aims to investigate the effectiveness of VPT training on ToM in autistic children. Sixty-six autistic children were initially recruited and randomly assigned to three groups. Forty-eight children (mean age = 5.75 years) completed the study and were included in the final analyses, comprising the VPT training group (n = 16), thought-bubble training group (n = 16), and control group (n = 16). Each training comprised 12 sessions of 30 min. Both the VPT and thought-bubble training groups demonstrated significant improvements in VPT and ToM compared to the control group. The present study is the first to directly examine the effectiveness of VPT training using table blocks in enhancing ToM performance in autistic children, thereby providing a novel approach for ToM development.",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Mi Tian",
-      "Shiyue Cao",
-      "Xin Li",
-      "Wenyu Xia",
-      "Him Cheung",
-      "Xuezhen Xiao",
-      "Tianrui Luo"
-    ],
-    "clinical_implications": "May be relevant to theory of mind in Autism Spectrum Disorder, based on abstract-reported findings.",
-    "co_occurring_conditions": [],
-    "conclusion": null,
-    "created_at": "2026-08-31T05:13:47Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1002/aur.70309",
-    "duration": null,
-    "easy_explainer": {
-      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": null,
-      "not_stated": [
-        "the ages of the people who took part",
-        "how long the study ran"
-      ],
-      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
-    },
-    "intervention": "theory of mind",
-    "journal": "Autism research : official journal of the International Society for Autism Research",
-    "keywords": [
-      "autism spectrum disorder",
-      "children",
-      "theory of mind",
-      "training",
-      "visual perspective taking"
-    ],
-    "last_updated": "2026-08-31T10:05:56Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Theory of Mind",
-      "Male",
-      "Female",
-      "Child, Preschool",
-      "Child",
-      "Autistic Disorder",
-      "Visual Perception"
-    ],
-    "participants": null,
-    "pmid": "42410944",
-    "primary_outcomes": [],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42410944/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Visual Perspective Taking Training Improves Theory of Mind in Autistic Children.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "OBJECTIVES: This randomized, triple-blind, placebo-controlled clinical trial evaluated the efficacy and safety of quercetin in adults with autism spectrum disorder (ASD).\nMETHODS: Fifty-two adults with ASD were randomly assigned to receive either quercetin or placebo for 60 days. Outcomes included the Social Responsiveness Scale (SRS), WHO Quality of Life (WHOQOL) domains, and other clinical measures assessed at baseline, 30 days, and 60 days.\nRESULTS: Baseline demographic characteristics and comorbid conditions were comparable between groups. The quercetin group showed a significant within-group reduction in SRS scores over time (p = 0.010), whereas the placebo group showed no significant change (p = 0.655). However, between-group differences in SRS change were not statistically significant. At week 8, the physical health domain of WHOQOL improved more in the quercetin group at the unadjusted level (p = 0.044), but this was not significant after adjustment (p = 0.082). The environmental health domain showed a borderline difference favoring quercetin (adjusted p = 0.053).\nCONCLUSION: Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\nTRIAL REGISTRATION: IRCT20241214064050N1.",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Anahid Rezaeifar",
-      "Mahtab Motamed",
-      "Niayesh Mohebbi"
-    ],
-    "clinical_implications": "Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD.",
-    "co_occurring_conditions": [],
-    "conclusion": "Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\nTRIAL REGISTRATION: IRCT20241214064050N1.",
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1002/hup.70057",
-    "duration": "60 days",
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\"",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": "The study ran for 60 days. That is a short window, so it says nothing about whether the effects last.",
-      "not_stated": [
-        "the ages of the people who took part"
-      ],
-      "size": "It involved 52 people — a modest group, enough to be interesting but not enough to settle a question on its own."
-    },
-    "intervention": "quercetin",
-    "journal": "Human psychopharmacology",
-    "keywords": [
-      "autism spectrum disorder",
-      "quality of life",
-      "quercetin",
-      "randomized controlled trial",
-      "social responsiveness scale"
-    ],
-    "last_updated": "2026-08-31T10:05:56Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Quercetin",
-      "Female",
-      "Male",
-      "Adult",
-      "Quality of Life",
-      "Autism Spectrum Disorder",
-      "Young Adult",
-      "Treatment Outcome",
-      "Antioxidants",
-      "Double-Blind Method",
-      "Adolescent",
-      "Middle Aged"
-    ],
-    "participants": 52,
-    "pmid": "42438230",
-    "primary_outcomes": [
-      "Social Responsiveness Scale (SRS)",
-      "Quality of Life (WHOQOL) domains",
-      "SRS scores over time (p = 0",
-      "SRS change were not statistically significant"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42438230/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Assessment of the Efficacy of Quercetin in Adult Patients With Autism Spectrum Disorder: A Randomized, Triple-Blind, Placebo-Controlled Trial.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "UNLABELLED: Emerging evidence suggests that washed microbiota transplantation (WMT) can be used to effectively treat autism spectrum disorder (ASD). This study aimed to evaluate the efficacy of WMT, investigate structural changes in the gut microbiota of children with ASD after WMT, and determine the relationship between donor and recipient gut microbiota characteristics in ASD with different treatment efficacies. This study included 38 ASD patients who underwent a full course of WMT from a single donor between July 2019 and December 2024. The clinical rating scale and stool samples were collected before and 4 weeks after WMT. Using 16S rRNA sequencing, patients were stratified by enterotype, Bacteroides (ET-B), or Prevotella (ET-P), to compare gut microbiota features with healthy donors and assess how microbial characteristics influence WMT efficacy. Finally, we found that WMT has statistically significant effects on the scale scores changes of core symptoms, sleep disturbances, and gastrointestinal symptoms in patients with ASD. In addition, the efficacy of WMT for ASD was correlated with donor and recipient gut microbiota characteristics before WMT. Among donors and recipients with Bacteroides as the dominant genus, the closer the recipient gut microbiota was to that of the donor, the better the efficacy of WMT in patients with ASD.\nCLINICAL TRIAL REGISTRATION: https://www.chictr.org.cn/index.html, identifier ChiCTR2400089296.",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Yongxi Quan",
-      "Mingming Chen",
-      "Yao Cai",
-      "Li Ling",
-      "Yedong Lao",
-      "Xingxiang He",
-      "Lihao Wu"
-    ],
-    "clinical_implications": "May be relevant to washed microbiota transplantation in Autism Spectrum Disorder, based on abstract-reported findings.",
-    "co_occurring_conditions": [],
-    "conclusion": null,
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.3389/fcimb.2026.1823988",
-    "duration": null,
-    "easy_explainer": {
-      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
-      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": null,
-      "not_stated": [
-        "the ages of the people who took part",
-        "how long the study ran"
-      ],
-      "size": "It involved 38 people — a modest group, enough to be interesting but not enough to settle a question on its own."
-    },
-    "intervention": "washed microbiota transplantation",
-    "journal": "Frontiers in cellular and infection microbiology",
-    "keywords": [
-      "autism",
-      "donor-recipient",
-      "enterotype",
-      "gut microbiota characteristics",
-      "washed microbiota transplantation"
-    ],
-    "last_updated": "2026-08-31T10:05:56Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Child",
-      "Child, Preschool",
-      "Female",
-      "Humans",
-      "Male",
-      "Autism Spectrum Disorder",
-      "Autistic Disorder",
-      "Bacteria",
-      "Bacteroides",
-      "Fecal Microbiota Transplantation",
-      "Feces",
-      "Gastrointestinal Microbiome",
-      "Prevotella",
-      "RNA, Ribosomal, 16S",
-      "Treatment Outcome"
-    ],
-    "participants": 38,
-    "pmid": "42459342",
-    "primary_outcomes": [],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42459342/",
-    "study_type": "Observational Study",
-    "title": "Analysis of washed microbiota transplant efficacy for autism and donor-recipient gut microbiota characteristics.",
-    "trust_tier": 3,
-    "trust_tier_label": "Observational Study",
-    "year": 2026
-  },
-  {
-    "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is characterized by early difficulties in language and social communication. While speech therapy is a core early intervention, music therapy has been increasingly applied to support social-emotional development. However, evidence regarding the additive effects of group-based music therapy combined with speech therapy in preschool children with ASD remains limited.\nMETHOD: This exploratory randomized controlled trial enrolled (RCT) preschool children aged 3-5 years with ASD and language delay. Participants were randomly assigned to a Music Therapy group receiving group-based music therapy (60 min/week) plus individual speech therapy (30 min/week), or a Control group receiving speech therapy alone, for 8 weeks. The primary outcome was week 8 language performance assessed using the Preschool Language Scale (PLS). Secondary outcomes included autism-related characteristics, emotional and behavioral functioning, and parenting stress, assessed using the Checklist for Autism Spectrum Disorder-Chinese Version (CASD-C), Pervasive Developmental Problems scale of the Child Behavior Checklist for Ages 1½-5 (CBCL 1½-5 PDP), and Parenting Stress Index-Short Form (PSI-4-SF), respectively. The primary treatment effect was evaluated using a multiple imputation-based intention-to-treat (ITT) adjusted analysis accounting for sex and baseline outcome measures. Secondary outcome analyses were interpreted with Benjamini-Hochberg false discovery rate correction for multiple comparisons. Exploratory within-group analyses and generalized estimating equation (GEE) models were used to characterize observed changes over time.\nRESULTS: Forty participants were randomized, and 38 participants completed the week 8 assessment. The ITT analysis included all randomized participants. Observed PLS total scores increased significantly within both groups. Exploratory within-group analyses also showed reductions in CASD-C social interaction issues and emotional difficulties in the Music Therapy group, and CBCL 1½-5 PDP T-scores decreased within both groups. However, the primary adjusted ITT analysis did not demonstrate statistically significant superiority of adjunctive group-based music therapy over speech therapy alone for the primary language outcome (adjusted between-group difference, -1.65; 95% confidence interval, -7.52-4.21; p = 0.569). No statistically significant adjusted between-group differences were observed for secondary outcomes. Exploratory GEE analyses indicated time-related changes in PLS total score, CASD-C sensory difficulties, and CBCL 1½-5 PDP T-score, but no significant group-by-time interactions.\nCONCLUSION: In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone. Larger adequately powered trials are needed to evaluate its incremental benefit.",
-    "age_max": 5,
-    "age_min": 3,
-    "age_range": "3-5 years",
-    "age_unit": "years",
-    "authors": [
-      "Chih-En Liu",
-      "Pei-Ying Chen",
-      "Ting-Ju Lai",
-      "Shu-Mei Yang"
-    ],
-    "clinical_implications": "In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events.",
-    "co_occurring_conditions": [
-      "Language Development Disorders"
-    ],
-    "conclusion": "In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone. Larger adequately powered trials are needed to evaluate its incremental benefit.",
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1016/j.ridd.2026.105345",
-    "duration": "8 weeks",
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone.\"",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": "The study ran for 8 weeks. That is a short window, so it says nothing about whether the effects last.",
-      "not_stated": [],
-      "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
-    },
-    "intervention": "group-based music therapy combined with speech therapy",
-    "journal": "Research in developmental disabilities",
-    "keywords": [
-      "Autism spectrum disorder",
-      "Language development",
-      "Music therapy",
-      "Social skills",
-      "Speech therapy"
-    ],
-    "last_updated": "2026-08-31T10:05:56Z",
-    "limitations": [
-      "limited"
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Music Therapy",
-      "Autism Spectrum Disorder",
-      "Child, Preschool",
-      "Male",
-      "Speech Therapy",
-      "Female",
-      "Social Skills",
-      "Combined Modality Therapy",
-      "Language Development Disorders",
-      "Psychotherapy, Group",
-      "Treatment Outcome"
-    ],
-    "participants": 40,
-    "pmid": "42468411",
-    "primary_outcomes": [
-      "primary outcome was week 8 language performance assessed using the Preschoo",
-      "CBCL 1½-5 PDP)",
-      "CBCL 1½-5 PDP T-scores decreased within both groups"
-    ],
-    "secondary_outcomes": [
-      "Secondary outcomes included autism-related characteristics",
-      "Secondary outcome analyses were interpreted with Benjamini-Hochberg false dis",
-      "secondary outcomes"
-    ],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42468411/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Effects of group-based music therapy combined with speech therapy on language and social skills in preschool children with autism spectrum disorder: An exploratory randomized controlled trial.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "INTRODUCTION: Autism Spectrum Disorder (ASD) impacts children's functioning and participation. Functionality-centered interventions, such as the Global Integration Method (Método de Integração Global-MIG), have been proposed in this context. Understanding parental perceptions is relevant to evaluate their effects on children's daily lives. Objective: To explore parental perceptions of changes in functioning following participation in the MIG program among children with Autism Spectrum Disorder (ASD), interpreted through the framework of the International Classification of Functioning, Disability and Health (ICF).\nMETHODS: This qualitative study was conducted as an embedded component of an ongoing randomized controlled trial evaluating outcomes associated with participation in the MIG program in children with ASD. Parents of children allocated to the intervention group (n = 18; aged 6-12 years), diagnosed with ASD and classified at support levels I and II, participated in three post-intervention focus groups.\nRESULTS: Findings were organized into three categories: previous experiences with conventional interventions, perceived changes following participation in MIG, and general perceptions of the program. Parents described previous interventions as fragmented, difficult to access, and associated with inconsistent functional experiences. Following participation in MIG, caregivers reported perceived changes related to body functions, particularly motor and communicative aspects, as well as changes in daily activities and social and school participation. Parents also described positive experiences regarding program organization, family support, and expectations regarding future participation and autonomy.\nCONCLUSION: Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.",
+    "abstract": "This prospective observational study reports on the feasibility and adequacy of Level 2 polysomnography involving children with autism spectrum disorder during an interventional-randomised controlled trial. Multiple level 2 polysomnographic studies were performed using Nox-A1 devices worn between October 2023 and September 2024. Study feasibility was determined by the child's compliance and primary caregiver report, while signal quality (key channels present for at least 90% of sleep time) was used to define study adequacy. A cost analysis was also conducted. Twenty children (6-12 years, 9.1 + 1.55 years; 16 males) with autism spectrum disorder (level 2) and reported sleep difficulties participated in the study. Eighty (89%) of 90 polysomnographic studies were feasible. All infeasible studies, except one, were unrelated to the study. Seventy-four (93%) of the eighty studies resulted in adequate study quality. Most (n = 6, 7%) inadequate studies were due to electroencephalogram signal artefact/absence. The participants did not have a sleep disorder requiring medical attention. The cost of a study was estimated at $AUD 258. The study indicates the feasibility, adequacy, and cost-effectiveness of level 2 polysomnography in evaluating sleep outcomes in children with autism spectrum disorder during an interventional randomised controlled trial. This preliminary study provides valuable insights into the field of paediatric sleep medicine. Repeat studies of this method using diverse and larger sample sizes are warranted.",
     "age_max": 12,
     "age_min": 6,
     "age_range": "6-12 years",
     "age_unit": "years",
     "authors": [
-      "Reinaldo da Costa Paulino Netto",
-      "Deisiane Oliveira Souto",
-      "Iolanda Costa Rodrigues",
-      "Amanda Aparecida Alves Cunha Nascimento",
-      "Camila de Oliveira Schumann",
-      "Millene Cézar Nunes",
-      "Ana Clara Schaper Fernandes",
-      "Ana Clara de Carvalho Silva",
-      "Patricia Aparecida Neves Santana",
-      "Thalita Karla Flores Cruz"
+      "Uchenna Ezedinma",
+      "Scott Burgess",
+      "Janet Greenhill",
+      "Jyoti Singh",
+      "Evan Jones",
+      "Andrew Ladhams",
+      "Gary Campbell",
+      "Shauna Fjaagesund",
+      "Piotr Swierkowski",
+      "Alexandra Metse",
+      "Terri Downer",
+      "Florin Oprescu"
     ],
-    "clinical_implications": "Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.",
-    "co_occurring_conditions": [],
-    "conclusion": "Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.",
+    "clinical_implications": "May be relevant to neurodevelopmental condition in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [
+      "Sleep Wake Disorders"
+    ],
+    "conclusion": null,
     "created_at": "2026-08-10T07:28:06Z",
     "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.3389/fpubh.2026.1851875",
+    "doi": "10.1111/jsr.70265",
     "duration": null,
     "easy_explainer": {
-      "conclusion": "The researchers concluded: \"Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.\"",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": null,
-      "not_stated": [
-        "how long the study ran"
-      ],
-      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
-    },
-    "intervention": "family",
-    "journal": "Frontiers in public health",
-    "keywords": [
-      "autism spectrum disorder",
-      "family",
-      "functioning",
-      "motor activity",
-      "psychomotor performance"
-    ],
-    "last_updated": "2026-08-31T10:05:56Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Child",
-      "Autism Spectrum Disorder",
-      "Parents",
-      "Male",
-      "Female",
-      "Qualitative Research",
-      "Focus Groups"
-    ],
-    "participants": null,
-    "pmid": "42491294",
-    "primary_outcomes": [
-      "Findings were organized into three categories: previous experiences with conventional interventions, perceived changes following participation in MIG, and general perceptions of th…"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42491294/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "\"My child before and now\": parental perceptions of changes in functioning following participation in the global integration method (Método de Integração Global) in children with autism spectrum disorder.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "BACKGROUND: Autism Spectrum Disorders (ASD) are neurodevelopmental disorders with highly heterogeneous clinical profiles, outcomes and care pathways. Linking health administrative databases with cohort studies is an excellent opportunity to study healthcare utilisation by ASD patients. Optimisation of linkage should maximise the linkage rate and minimise potential errors and biases to ensure high quality analyses and the absence of bias. This study aims to describe the linkage strategy between the French national health database (SNDS) and the ELENA cohort database, and to provide advice on optimizing linkage quality.\nMETHODS: The ELENA cohort includes 876 children with a confirmed diagnosis of ASD between 2013 and 2019. The SNDS contains all healthcare services reimbursed by health insurance schemes. We performed deterministic matching on the reference sample and evaluated deterministic and probabilistic approaches on another sample. Performance was assessed using the matching rate and comparison between matched and unmatched groups.\nRESULTS: We matched 96 % of the reference sample and 53 % of the other sample using either deterministic or probabilistic approach, resulting in a total match rate of 79 % with deterministic or mixed approach. The mixed approach minimized selection bias, producing a linked dataset of 692 children with ASD whose characteristics were comparable to those of the unmatched sample. Probabilistic weighting showed that hospitalization dates were the most discriminating variables for matching.\nCONCLUSIONS: The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism.\nTRIAL REGISTRATION NUMBER: NCT04292522.",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Julie Loubersac",
-      "Marie-Christine Picot",
-      "Fabien Belloc",
-      "Marjorie Boussac",
-      "Amaria Baghdadli"
-    ],
-    "clinical_implications": "The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism.",
-    "co_occurring_conditions": [],
-    "conclusion": "The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism.\nTRIAL REGISTRATION NUMBER: NCT04292522.",
-    "created_at": "2026-08-31T05:13:47Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1016/j.jeph.2026.203349",
-    "duration": null,
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism. TRIAL REGISTRATION NUMBER: NCT04292522.\"",
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
       "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
       "duration": null,
       "not_stated": [
-        "the ages of the people who took part",
         "how long the study ran"
       ],
-      "size": "It involved 876 people, which is a large group for autism research and makes the findings steadier."
+      "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
     },
-    "intervention": "Cohort",
-    "journal": "Journal of epidemiology and population health",
+    "intervention": "neurodevelopmental condition",
+    "journal": "Journal of sleep research",
     "keywords": [
-      "Autism spectrum disorder",
-      "Cohort",
-      "Deterministic matching",
-      "Probabilistic matching",
-      "SNDS"
+      "neurodevelopmental condition",
+      "sleep studies",
+      "treatment",
+      "young people"
     ],
-    "last_updated": "2026-08-31T10:05:56Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+      "observational study reports on the feasibility and adequacy of Level 2 polysomnography involv"
     ],
     "mesh_terms": [
+      "Humans",
       "Child",
-      "Child, Preschool",
-      "Female",
-      "Humans",
+      "Polysomnography",
       "Male",
       "Autism Spectrum Disorder",
-      "Cohort Studies",
-      "Databases, Factual",
-      "France",
-      "Medical Record Linkage"
-    ],
-    "participants": 876,
-    "pmid": "42492413",
-    "primary_outcomes": [
-      "We matched 96 % of the reference sample and 53 % of the other sample using either deterministic or probabilistic approach, resulting in a total match rate of 79 % with deterministi…"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42492413/",
-    "study_type": "Observational Study",
-    "title": "Linking the national health database to the cohort of children with autism spectrum disorders: a mixed approach to optimising the linkage.",
-    "trust_tier": 3,
-    "trust_tier_label": "Observational Study",
-    "year": 2026
-  },
-  {
-    "abstract": "BACKGROUND: Autism Spectrum Disorder (ASD) is characterized by atypical neural oscillations and heterogeneous alterations in excitation/inhibition (E/I) balance, the directionality of which varies across individuals, neural circuits, and developmental stages. While Alpha-band neurofeedback (NFB) is a promising intervention, its underlying neurophysiological mechanisms remain unclear, partly due to the conflation of periodic and aperiodic signals in traditional EEG analysis.\nMETHODS: This randomized controlled trial recruited 40 children with ASD, assigned to either an experimental group (Alpha-training NFB) or a no-feedback group. Resting-state EEG and behavioral assessments (SRS, ABC) were collected pre- and post-intervention. We employed spectral parameterization to decompose neural activity into aperiodic (1/f slope, offset) and periodic (periodic alpha power, center frequency) components.\nRESULTS: NFB training yielded significant behavioral improvements in social cognition and relating skills. Physiologically, the experimental group exhibited a significant steepening of the aperiodic slope (increased exponent), reflecting a reduction in neural noise and potential optimization of inhibitory modulation. Furthermore, we observed enhanced periodic alpha power and an acceleration of the alpha center frequency (ACF), indicative of improved neural efficiency and maturation. These physiological shifts in frontal and occipital regions were significantly correlated with improvements in behavioral scores.\nCONCLUSION: Alpha-training NFB was associated with improvements in caregiver-rated behavioral scores and modulated spectral features of resting-state EEG in children with ASD. These findings validate the utility of spectral parameterization markers in evaluating neuromodulatory interventions.",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Yuqi Li",
-      "Juanmei Wu",
-      "Nan Liu",
-      "Xiaoli Li",
-      "Tianyi Zhou",
-      "Jiannan Kang"
-    ],
-    "clinical_implications": "Alpha-training NFB was associated with improvements in caregiver-rated behavioral scores and modulated spectral features of resting-state EEG in children with ASD.",
-    "co_occurring_conditions": [],
-    "conclusion": "Alpha-training NFB was associated with improvements in caregiver-rated behavioral scores and modulated spectral features of resting-state EEG in children with ASD. These findings validate the utility of spectral parameterization markers in evaluating neuromodulatory interventions.",
-    "created_at": "2026-08-31T05:13:47Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1016/j.bbr.2026.116396",
-    "duration": null,
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"Alpha-training NFB was associated with improvements in caregiver-rated behavioral scores and modulated spectral features of resting-state EEG in children with ASD. These findings validate the utility of spectral parameterization markers in evaluating neuromodulatory interventions.\"",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": null,
-      "not_stated": [
-        "the ages of the people who took part",
-        "how long the study ran"
-      ],
-      "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
-    },
-    "intervention": "Alpha Oscillations",
-    "journal": "Behavioural brain research",
-    "keywords": [
-      "Alpha Oscillations",
-      "Aperiodic Activity",
-      "Autism Spectrum Disorder",
-      "E/I Balance",
-      "Neurofeedback",
-      "Spectral Parameterization"
-    ],
-    "last_updated": "2026-08-31T10:05:56Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Neurofeedback",
-      "Male",
+      "Prospective Studies",
       "Female",
-      "Autism Spectrum Disorder",
-      "Child",
-      "Electroencephalography",
-      "Alpha Rhythm",
-      "Brain"
-    ],
-    "participants": 40,
-    "pmid": "42492845",
-    "primary_outcomes": [
-      "SRS",
-      "ABC) were collected pre- and post-intervention"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42492845/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Disentangling oscillatory and aperiodic neural activity in autism: A spectral parameterization analysis of neurofeedback intervention.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "Naturalistic Developmental Behavioral Interventions (NDBIs) effectively improve developmental, social, and adaptive outcomes in autistic children, with caregiver involvement further enhancing treatment effects. Although one-on-one NDBI programs are strongly supported by evidence, their reliance on high staff-to-child ratios and certified therapists limits scalability. Group-based NDBI models may represent a more feasible and cost-effective alternative, particularly when implemented with open-access fidelity frameworks and active caregiver participation. This pilot randomized controlled trial compared a caregiver-assisted, group-based NDBI program with a therapist-delivered one-on-one NDBI program in autistic children aged 2 to 5 years. Both interventions were administered twice weekly for 12 weeks, with fidelity monitored using the NDBI Fidelity (NDBI-Fi). Forty autistic children were enrolled, and 38 children were included in the final analyses. Both groups showed significant improvements over time in verbal development, social interaction, adaptive functioning, autistic symptoms, problem behaviors, and caregiver stress. A significant time-by-group interaction was observed for nonverbal development, with significant gains in the one-on-one NDBI group but not in the group-based condition. These preliminary findings suggest that a structured, caregiver-assisted group-based NDBI model that integrates caregivers' assistance, maintains intervention fidelity, and reduces staffing demands is feasible and associated with changes over time, indicating its potential as a scalable intervention approach.Clinical trial registry: https://clinicaltrials.gov/study/NCT06221943Lay AbstractEarly intervention can help young autistic children improve communication, learning, social skills, and daily functioning. One widely used approach, Naturalistic Developmental Behavioral Intervention (NDBI), teaches skills through play and everyday activities, while actively involving caregivers. However, traditional NDBI is typically delivered one-on-one by trained therapists, which can be costly and difficult for many families to access. This study evaluated a new, group-based NDBI program in which small groups of young children and their caregivers learned together with therapist guidance. Thirty-eight autistic children aged 2 to 5 years received two sessions per week over 12 weeks, with 19 receiving the group program and 19 receiving the therapist-delivered one-on-one intervention. Children in both groups showed meaningful improvements in language, social interaction, adaptive functioning, autistic symptoms, and behaviors. Caregivers in both groups also reported feeling less stressed. The group-based model was feasible and acceptable while supporting positive developmental changes. However, significant improvements in nonverbal development were observed only in the one-on-one intervention group. Overall, these findings suggest that caregiver-assisted group-based NDBI is a promising and more accessible early intervention option, especially in settings where individualized therapy is limited or difficult to obtain.",
-    "age_max": 5,
-    "age_min": 2,
-    "age_range": "2-5 years",
-    "age_unit": "years",
-    "authors": [
-      "Guan-Jye Seng",
-      "Ji-Yu Lin",
-      "Wei-Lieh Huang",
-      "Hsin-Yu Lai",
-      "Wei-Chih Kao",
-      "Hao-Ling Chen",
-      "Susan Shur-Fen Gau"
-    ],
-    "clinical_implications": "May be relevant to two sessions per week over 12 weeks, with 19 receiving the group program and 19 receiving the therapist-delive in Autism Spectrum Disorder, based on abstract-reported findings.",
-    "co_occurring_conditions": [],
-    "conclusion": null,
-    "created_at": "2026-08-31T05:13:47Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1177/13623613261462574",
-    "duration": "12 weeks",
-    "easy_explainer": {
-      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": "The study ran for 12 weeks. That is a short window, so it says nothing about whether the effects last.",
-      "not_stated": [],
-      "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
-    },
-    "intervention": "two sessions per week over 12 weeks, with 19 receiving the group program and 19 receiving the therapist-delive",
-    "journal": "Autism : the international journal of research and practice",
-    "keywords": [
-      "autism",
-      "group-based delivery",
-      "naturalistic developmental behavioral intervention",
-      "preliminary efficacy"
-    ],
-    "last_updated": "2026-08-31T10:05:56Z",
-    "limitations": [
-      "limited or difficult to obtain"
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Child, Preschool",
-      "Pilot Projects",
-      "Female",
-      "Male",
       "Feasibility Studies",
-      "Behavior Therapy",
-      "Caregivers",
-      "Autistic Disorder",
-      "Treatment Outcome",
-      "Psychotherapy, Group"
+      "Sleep Wake Disorders",
+      "Cost-Benefit Analysis"
     ],
-    "participants": 40,
-    "pmid": "42494078",
+    "participants": 20,
+    "pmid": "41392642",
     "primary_outcomes": [],
     "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42494078/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Feasibility and Preliminary Efficacy of a Caregiver-Assisted Group-Based Naturalistic Developmental Behavioral Intervention Program for Autistic Preschoolers: A Pilot Randomized Controlled Trial.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "BACKGROUND: Overlapping network architecture supports functional integration and multifunctional regional engagement in the brain, and may serve as a candidate biomarker for interventions in autism spectrum disorder (ASD). However, the biological context underlying intermittent theta-burst stimulation (iTBS)-related changes in overlapping network architecture remains poorly understood.\nMETHODS: Seventy patients with ASD and chronic insomnia were randomly assigned to receive either real or sham iTBS targeting the left orbitofrontal cortex, administered once daily for 8 weeks. The Insomnia Severity Index (ISI) and resting-state functional magnetic resonance imaging (fMRI) data were collected at baseline and after the intervention. The Shannon-entropy diversity coefficient was calculated to characterize overlapping network architecture. The JuSpace toolbox was used to assess spatial correspondence between iTBS-related network changes and neurotransmitter systems. Transcriptomic-neuroimaging association analyses were then performed using gene-expression data from the Allen Human Brain Atlas.\nRESULTS: Sleep improvement following real iTBS was accompanied by changes in overlapping network architecture across 13 cortical regions. These changes showed spatial correspondence with mGluR5 and GABA_A receptor density maps. Regions showing iTBS-related network changes were associated with glutamatergic synaptic transmission and calcium-dependent signaling, enriched for cortical excitatory neuronal signatures with peak expression during adolescence, and organized into a highly interconnected protein-protein interaction network centered on the Ca2+-PKA signaling axis.\nCONCLUSIONS: This study provides multiscale evidence for the biological context underlying iTBS-related changes in overlapping network architecture in ASD with chronic insomnia.",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Huashuang Zhang",
-      "Bincan Xiong",
-      "Hongchi Liu",
-      "Yilin Huang",
-      "Jingwen Zhang",
-      "Ruimin Yu",
-      "Wenqi Jiang",
-      "Tongjia She"
-    ],
-    "clinical_implications": "This study provides multiscale evidence for the biological context underlying iTBS-related changes in overlapping network architecture in ASD with chronic insomnia.",
-    "co_occurring_conditions": [
-      "Sleep Initiation and Maintenance Disorders"
-    ],
-    "conclusion": "This study provides multiscale evidence for the biological context underlying iTBS-related changes in overlapping network architecture in ASD with chronic insomnia.",
-    "created_at": "2026-08-31T05:13:47Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1002/cns.71041",
-    "duration": "8 weeks",
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"This study provides multiscale evidence for the biological context underlying iTBS-related changes in overlapping network architecture in ASD with chronic insomnia.\"",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": "The study ran for 8 weeks. That is a short window, so it says nothing about whether the effects last.",
-      "not_stated": [
-        "the ages of the people who took part"
-      ],
-      "size": "It involved 70 people — a modest group, enough to be interesting but not enough to settle a question on its own."
-    },
-    "intervention": "real or sham iTBS targeting the left orbitofrontal cortex, administered once daily for 8 weeks",
-    "journal": "CNS neuroscience & therapeutics",
-    "keywords": [
-      "autism spectrum disorder",
-      "biological context",
-      "insomnia",
-      "theta burst stimulation"
-    ],
-    "last_updated": "2026-08-31T10:05:56Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Female",
-      "Male",
-      "Autism Spectrum Disorder",
-      "Magnetic Resonance Imaging",
-      "Transcriptome",
-      "Transcranial Magnetic Stimulation",
-      "Brain",
-      "Adolescent",
-      "Young Adult",
-      "Sleep Initiation and Maintenance Disorders",
-      "Adult",
-      "Sleep",
-      "Child",
-      "Nerve Net",
-      "Theta Rhythm"
-    ],
-    "participants": 70,
-    "pmid": "42590803",
-    "primary_outcomes": [
-      "Sleep improvement following real iTBS was accompanied by changes in overlapping network architecture across 13 cortical regions. These changes showed spatial correspondence with mG…"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42590803/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Intermittent Theta Burst Stimulation Improves Sleep in Autism Spectrum Disorder by Reorganizing Overlapping Brain Networks With Neurochemical and Transcriptomic Signatures: A Randomized Controlled Trial.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41392642/",
+    "study_type": "Observational Study",
+    "title": "Home Polysomnography in Children With Autism Spectrum Disorder: A Prospective Observational Study.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "year": 2026
   },
   {
@@ -755,7 +116,7 @@
       "neurodevelopment",
       "randomized clinical trial"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "further studies on potential causal direction and sex specificity of associations"
     ],
@@ -827,7 +188,7 @@
       "autism",
       "neurodevelopmental disorders"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -904,7 +265,7 @@
       "oxytocin",
       "social interaction"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -975,7 +336,7 @@
       "fitness tracker",
       "physical activity"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "observational cohort design was used to compare two methods for determining WD adherence for",
       "limited among this understudied population"
@@ -1051,7 +412,7 @@
       "Bipolar disorder",
       "High-functioning autism"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the Unive"
     ],
@@ -1162,7 +523,7 @@
     "intervention": "oxytocin",
     "journal": "Molecular psychiatry",
     "keywords": [],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1234,7 +595,7 @@
       "Movement quality",
       "Physiotherapy"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1307,7 +668,7 @@
     "intervention": "oxytocin",
     "journal": "Brain, behavior, and immunity",
     "keywords": [],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1380,7 +741,7 @@
       "Intermittent theta-burst stimulation",
       "Neurodevelopmental disorders"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1465,7 +826,7 @@
     "intervention": "a double-blind, randomized controlled trial",
     "journal": "Molecular psychiatry",
     "keywords": [],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1555,7 +916,7 @@
       "speech",
       "youth"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1635,7 +996,7 @@
       "Early childhood",
       "Screening"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Observational retrospective cohort analysis of 211 LA's administrative database of children s",
       "limited"
@@ -1715,7 +1076,7 @@
       "prenatal MRI",
       "sensorineural hearing loss"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "observational cohort study including children with confirmed congenital cytomegalovirus infec"
     ],
@@ -1793,7 +1154,7 @@
       "Periodontal diseases",
       "RNA sequencing"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "observational study aimed to identify salivary microRNAs (miRNAs) differentially expressed be"
     ],
@@ -1868,7 +1229,7 @@
       "Parents",
       "Stress"
     ],
-    "last_updated": "2026-08-31T10:05:55Z",
+    "last_updated": "2026-08-31T10:19:36Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1895,6 +1256,684 @@
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42166881/",
     "study_type": "Randomized Controlled Trial",
     "title": "Effects of mindfulness-based stress reduction on levels of depression, anxiety, stress, and hopelessness in parents of children with autism: A randomized controlled trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "Autistic children are more likely to experience challenges with emotion regulation, which affect their academic, social, and other developmental outcomes. Emerging manualized programs have begun to address this gap, including Regulating Together (RT), a group-based outpatient intervention that incorporates concurrent caregiver training. This qualitative study explored caregivers' perceptions and experiences with the RT intervention. Semi-structured interviews were conducted with twelve caregivers of autistic children following program completion within a randomized controlled trial. Thematic analysis identified six overarching themes: (1) recognizing early signs and building child regulation skills, (2) caregivers' experiences of program value, structure, and application, (3) caregivers' growth as self-regulated learners and supportive coaches, (4) the power of communal learning and growth, (5) creating inclusive spaces through diverse voices, and (6) ecological barriers that impeded practice and participation. Caregivers described benefits of participating in RT and reported positive outcomes for both themselves and their children. Overall, the RT model shows nuanced dyadic child and caregiver learning and growth in addressing emotion dysregulation in autistic children and offers a potentially inclusive model for supporting families. Findings also signify how ecological challenges shaped participation and implementation, highlighting the need for future manualized interventions to account for contextual factors in program design and delivery. TRIAL REGISTRATION: Trial registration took place through ClinicalTrials.gov (NCT05803369).",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Sungeun Kang",
+      "Karen Burkett",
+      "Shivali Sarawgi",
+      "Jenna Ruberg",
+      "Jamisen Paustian",
+      "Debra L Reisinger",
+      "Lauren M Schmitt",
+      "Rebecca C Shaffer"
+    ],
+    "clinical_implications": "May be relevant to Emotion dysregulation in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [],
+    "conclusion": null,
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1016/j.ridd.2026.105317",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved only 12 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    },
+    "intervention": "Emotion dysregulation",
+    "journal": "Research in developmental disabilities",
+    "keywords": [
+      "Autism spectrum disorder",
+      "Emotion dysregulation",
+      "Emotion regulation",
+      "Parent training",
+      "Qualitative methodology",
+      "Regulating Together"
+    ],
+    "last_updated": "2026-08-31T10:19:36Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Caregivers",
+      "Female",
+      "Male",
+      "Child",
+      "Emotional Regulation",
+      "Autistic Disorder",
+      "Qualitative Research",
+      "Adult",
+      "Autism Spectrum Disorder",
+      "Child, Preschool",
+      "Adolescent"
+    ],
+    "participants": 12,
+    "pmid": "42217453",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42217453/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Regulating Together: Caregivers' experiences in a shared journey through an emotion dysregulation intervention for autistic youth.",
+    "trust_tier": 3,
+    "trust_tier_label": "Randomized Controlled Trial (small sample)",
+    "year": 2026
+  },
+  {
+    "abstract": "Accurately measuring changes in core autism symptoms following early intervention is challenging. The Brief Observation of Social Communication Change (BOSCC) is a promising tool for assessing social interactions in preschoolers with autism spectrum disorder (ASD). However, data on its responsiveness remain limited, warranting validation to support its use in evaluating treatment-related changes. This study aimed to assess the reliability, validity, and sensitivity to change of the BOSCC based on international recommendations from the COSMIN expert group. The BOSCC was rated using 414 video observations from a large multicenter randomized controlled trial including 177 preschoolers with ASD between 19 and 36 months. Videos were coded using the original BOSCC protocol by trained, blinded raters. Analyses addressed reliability, structural and convergent validity, and responsiveness over a 2-year follow-up. Interrater, intrarater, and test-retest reliability were consistently high, with good internal consistency (Cronbach's α = 0.88-0.98). Factor analysis supported a three-factor structure. Convergent validity was modest with Autism Diagnostic Observation Scale (ADOS) change scores (r = 0.05-0.20) but stronger with global ratings of improvement on the Clinical Global Impression-Improvement (CGI-I; r = 0.40-0.60, p < 0.001). ROC analyses confirmed acceptable to good responsiveness when anchored to the CGI-I, but poor discrimination relative to the ADOS. The BOSCC is a reliable and responsive measure of change in preschoolers with ASD. Its naturalistic format supports its use as an outcome measure in early intervention trials. Establishing thresholds for clinically meaningful change will be a critical next step for both research and clinical practice.Lay AbstractEarly intervention may improve social interaction and communication in young children with autism spectrum disorder (ASD). However, it is often difficult to measure changes in core autism symptoms over time. Many commonly used assessment tools were developed for diagnosis and are not always sensitive to treatment-related change. The Brief Observation of Social Communication Change (BOSCC) was specifically designed to address this gap by using short, naturalistic observations of children's social communication. This study examined how well the BOSCC works as a tool to capture change. We assessed its reliability (whether it gives consistent results), validity (whether it measures what it is intended to measure), and responsiveness (whether it can detect change over time). The study included 414 video observations from a large multicenter randomized controlled trial involving 177 preschool children with ASD, aged 19-36 months, followed up for over a 2-year period. Videos were rated by trained, independent observers using the original BOSCC coding system. Results showed that BOSCC is a highly reliable measure, with strong agreement between different raters and good consistency over time. The structure of the scale was supported, and BOSCC scores were meaningfully related to clinicians' overall judgments of improvement. In contrast, changes in BOSCC scores were less closely related to changes measured by standard diagnostic tools. Overall, these findings support the BOSCC as a useful and sensitive outcome measure for evaluating change in early autism interventions. Future research should define thresholds for clinically meaningful change to strengthen its use in research, clinical practice, and service evaluation.",
+    "age_max": 36,
+    "age_min": 19,
+    "age_range": "19-36 months",
+    "age_unit": "months",
+    "authors": [
+      "Agathe Jay",
+      "Lucie Jurek",
+      "Riham Hamadeh",
+      "Marie-Joelle Oreve",
+      "Carmen M Schröder",
+      "Veronique Delvenne",
+      "Sandrine Sonie",
+      "Bruno Falissard",
+      "Olivia Febvey-Combes",
+      "Mario Speranza",
+      "Marie-Maude Geoffray",
+      "IDEA Study Group"
+    ],
+    "clinical_implications": "May be relevant to assess in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [],
+    "conclusion": null,
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1177/13623613261442618",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved 177 people, a reasonably sized group for this kind of research."
+    },
+    "intervention": "assess",
+    "journal": "Autism : the international journal of research and practice",
+    "keywords": [
+      "assess",
+      "autism spectrum disorder",
+      "fidelity",
+      "responsiveness",
+      "validity"
+    ],
+    "last_updated": "2026-08-31T10:19:36Z",
+    "limitations": [
+      "limited, warranting validation to support its use in evaluating treatment-related chang"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Child, Preschool",
+      "Autism Spectrum Disorder",
+      "Reproducibility of Results",
+      "Female",
+      "Male",
+      "Social Interaction",
+      "Communication",
+      "Infant"
+    ],
+    "participants": 177,
+    "pmid": "42224253",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42224253/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Assess the Fidelity, Validity and Responsiveness of the Brief Observation of Social Communication Change (BOSCC) to Measure Changes in the Social Interactions of Preschool Children With Autism Spectrum Disorder.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a heterogeneous neurodevelopmental condition often associated with severe behavioral disturbances and limited pharmacological treatment options. Cannabidiol (CBD) has emerged as a potential therapeutic option; however, evidence on its long-term effectiveness and safety in children with ASD is scarce.\nOBJECTIVE: To evaluate the long-term effectiveness and safety of purified CBD as add-on therapy in children with severe ASD and treatment-resistant behavioral symptoms.\nMATERIAL AND METHODS: We conducted a prospective observational before-and-after study in children and adolescents (3-18 years) with ASD severity levels 2 or 3 and intellectual disability treated with add-on CBD. The primary outcome was change in caregiver-identified symptoms, while secondary outcomes included standardized behavioral scales (Repetitive Behavior Scale-Revised [RBS-R], Vineland Adaptive Behavior Scales-II maladaptive behavior domain, Aberrant Behavior Checklist [ABC], Pediatric Sleep Clinical Global Impressions-Severity, Autism Family Experience Questionnaire, and Parental Stress Scale). Safety and tolerability were assessed through caregiver-reported adverse events.\nRESULTS: Twenty children were enrolled, of whom 13 completed the long-term follow-up (mean 27.6 ± 1.3 months). Of the caregiver-identified symptoms, improvements observed during the initial short-term study were maintained or further improved during follow-up. Standardized scales showed modest but sustained improvements, particularly in irritability, social withdrawal, and hyperactivity. Mild, transient adverse events, mainly irritability or decreased appetite, did not recur during long-term followup, and concomitant medications were reduced in 40% of patients.\nCONCLUSION: Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales.",
+    "age_max": 18,
+    "age_min": 3,
+    "age_range": "3-18 years",
+    "age_unit": "years",
+    "authors": [
+      "Pablo Sebastián Fortini",
+      "Javier J Toibaro",
+      "Roberto H Caraballo"
+    ],
+    "clinical_implications": "Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales.",
+    "co_occurring_conditions": [],
+    "conclusion": "Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales.",
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1016/j.pbb.2026.174220",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    },
+    "intervention": "cannabidiol (CBD)",
+    "journal": "Pharmacology, biochemistry, and behavior",
+    "keywords": [
+      "Autism spectrum disorder",
+      "Behavior disturbances",
+      "Cannabidiol",
+      "Long-term",
+      "Treatment"
+    ],
+    "last_updated": "2026-08-31T10:19:36Z",
+    "limitations": [
+      "observational before-and-after study in children and adolescents (3-18 years) with ASD severi",
+      "limited pharmacological treatment options"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Cannabidiol",
+      "Child",
+      "Autism Spectrum Disorder",
+      "Male",
+      "Follow-Up Studies",
+      "Child, Preschool",
+      "Female",
+      "Adolescent",
+      "Prospective Studies",
+      "Treatment Outcome",
+      "Severity of Illness Index"
+    ],
+    "participants": 20,
+    "pmid": "42248366",
+    "primary_outcomes": [
+      "primary outcome was change in caregiver-identified symptoms",
+      "RBS-R]",
+      "Vineland Adaptive Behavior Scales-II maladaptive behavior domain",
+      "ABC]"
+    ],
+    "secondary_outcomes": [
+      "secondary outcomes included standardized behavioral scales (Repetitive Behavi",
+      "adverse events"
+    ],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42248366/",
+    "study_type": "Observational Study",
+    "title": "Long-term follow-up of children with autism spectrum disorder and severe treatment-resistant behavioral symptoms treated with purified cannabidiol.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
+    "year": 2026
+  },
+  {
+    "abstract": "This paper aimed to unravel the effects of Yizhi Kaiqiao formula combined with repetitive transcranial magnetic stimulation (rTMS) on neurocognitive function and social outcomes in preschool children with autism spectrum disorder (ASD). In this randomized controlled trial, 178 preschool children with ASD recruited between January 2022 and February 2024 were randomly assigned to a combined group (Yizhi Kaiqiao formula + rTMS) or an rTMS-only group (n = 89 each). Both groups received a 3-month intervention. Pre- and post-intervention, TCM and Western medicine symptom severity (TCM syndrome scores, ADOS-2, CARS), inflammatory indicators (IL-6, TNF-α), neurocognitive function (MMN amplitude and latency, DCCS), social ability (SRS), and quality of life (PedsQL 4.0) were compared. Adverse event incidence was also recorded. Nine children in the combined group and seven in the rTMS-only group dropped out, leaving 80 and 82 completers, respectively. Post-intervention, the combined group showed greater improvements than the rTMS-only group in symptoms (TCM, ADOS-2, CARS), neuroinflammation/oxidative stress (IL-6, TNF-α), neurocognition (MMN, DCCS), social ability (SRS), and quality of life (PedsQL 4.0) (p < 0.05). Adverse event rates were low and comparable between groups (3.75% vs. 1.22%, p > 0.05). On the basis of conventional treatment, compared with rTMS adjuvant therapy alone, Yizhi Kaiqiao formula combined with rTMS is a relatively effective strategy for enhancing behavioral rehabilitation adjuvant therapy. https://www.chictr.org.cn/index.html.",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Dongling Yin",
+      "Linlin Fan",
+      "Ke Huang",
+      "Cheng Deng",
+      "Shurong Huang",
+      "Qiling Li"
+    ],
+    "clinical_implications": "May be relevant to Yizhi Kaiqiao in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [],
+    "conclusion": null,
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1002/dneu.70048",
+    "duration": "3-month",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 3-month.",
+      "not_stated": [
+        "the ages of the people who took part"
+      ],
+      "size": "It involved 178 people, a reasonably sized group for this kind of research."
+    },
+    "intervention": "Yizhi Kaiqiao",
+    "journal": "Developmental neurobiology",
+    "keywords": [
+      "Autism spectrum disorder",
+      "Yizhi Kaiqiao formula",
+      "neurocognition",
+      "preschool",
+      "repetitive transcranial magnetic stimulation",
+      "social outcomes"
+    ],
+    "last_updated": "2026-08-31T10:19:36Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "Transcranial Magnetic Stimulation",
+      "Female",
+      "Autism Spectrum Disorder",
+      "Child, Preschool",
+      "Drugs, Chinese Herbal",
+      "Social Behavior",
+      "Treatment Outcome",
+      "Cognition",
+      "Combined Modality Therapy",
+      "Quality of Life"
+    ],
+    "participants": 178,
+    "pmid": "42281150",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42281150/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "A Randomized Controlled Trial of Yizhi Kaiqiao Formula Combined With Repetitive Transcranial Magnetic Stimulation on Neurocognitive and Social Outcomes in Preschool Children With Autism Spectrum Disorder.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "Autistic people experience higher rates of physical and mental health conditions and face barriers to accessing healthcare. This study evaluated the acceptability and implementation of a co-designed primary care health check for autistic people (18 years+), delivered within a randomised controlled trial in Northern England investigating clinical and cost-effectiveness. Following health checks, all autistic people, carers/supporters, and clinicians were invited to complete evaluation questionnaires and a subset invited for an interview. Eighty-one autistic people, 11 carers/supporters, and 18 clinicians returned questionnaires and were descriptively analysed; 44 participants were interviewed. Findings demonstrated that the pre-appointment questionnaire and health check appointment were reported to be acceptable, valued and beneficial by all groups. Carers/supporters reported positive impacts of their role in reducing anxiety and supporting communication. Interview analysis, informed by Normalisation Process Theory, highlighted important factors to consider for implementation of the health check at scale. This included the importance of providing clear guidance and resources ahead of the health check and ensuring enough funding and capacity in primary care. Health checks can be delivered to autistic people in local neighbourhoods to address heath inequalities. Health checks require adequate resources, staff training, and integration into care systems to ensure successful implementation and sustainability.Lay AbstractImproving healthcare for autistic people: a study of a new primary care health checkAutistic people often face more health problems and shorter average life expectancy compared to non-autistic people. They can also find it harder to access healthcare that meets their needs. To help with this, researchers developed a new health check specifically for autistic people to be used in general practice settings. This health check included a pre-appointment questionnaire to help prepare for the visit and a longer appointment with a trained clinician. This study looked at how acceptable the health check was for autistic people, their carers/supporters, and clinicians, and what factors will help it work well in practice. It used questionnaires and interviews to collect views from autistic people who received the health check, clinicians who delivered it, and carers/supporters who attended the appointment. Most autistic people thought the health check was helpful and they would attend one again. The pre-appointment questionnaire helped people share important information, although some found it difficult to complete and some people needed support to complete it. Carers/supporters also found the process helpful in supporting the autistic adult and improving communication. Clinicians said they were able to put adjustments in place, use the clinician health check template, and found the extra time and structure the health check provided useful. However, they mentioned needing more resources and support to make it work in everyday practice. The interviews showed that autistic people, carers/supporters, and clinicians thought the health check is a good idea and should be offered more widely. It is important to make sure autistic people understand what to expect from the health check and that they can ask for adjustments to meet their needs. For the health check to work well long term, general practice settings will need funding, staff training in autism awareness, and clear systems for delivering the health checks.",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Hannah Merrick",
+      "Helen Taylor",
+      "Barry Ingham",
+      "Tracy Finch",
+      "Sarah Al-Ashmori",
+      "Ruby Herrington",
+      "Clare Scarlett",
+      "Carole Buckley",
+      "Sally-Ann Cooper",
+      "Cristina Fernandez-Garcia",
+      "Shona Haining",
+      "Rhianna Lees",
+      "Nicholas Lennox",
+      "Sebastian Moss",
+      "Tim Nicholls",
+      "Christina Nicolaidis",
+      "Malcolm Osborne",
+      "Dora M Raymaker",
+      "Tomos Robinson",
+      "Anna Urbanowicz",
+      "James Ms Wason",
+      "Colin Wilson",
+      "Jeremy R Parr"
+    ],
+    "clinical_implications": "May be relevant to the health check, clinicians who delivered it, and carers/supporters who attended the appointment in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [],
+    "conclusion": null,
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1177/13623613261433106",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
+    "intervention": "the health check, clinicians who delivered it, and carers/supporters who attended the appointment",
+    "journal": "Autism : the international journal of research and practice",
+    "keywords": [
+      "acceptability",
+      "autism",
+      "health checks",
+      "implementation",
+      "primary care"
+    ],
+    "last_updated": "2026-08-31T10:19:36Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Primary Health Care",
+      "Female",
+      "Male",
+      "Surveys and Questionnaires",
+      "Adult",
+      "Autistic Disorder",
+      "Middle Aged",
+      "Adolescent",
+      "Patient Acceptance of Health Care",
+      "Young Adult",
+      "England",
+      "Interviews as Topic",
+      "Access to Primary Care",
+      "Caregivers"
+    ],
+    "participants": null,
+    "pmid": "42303595",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42303595/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Acceptability and Implementation of a Primary Care Health Check for Autistic People: Findings From Evaluation Questionnaires and Interviews.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "The study was conducted to evaluate the effects of Ayres sensory integration therapy versus conservative treatment in autism spectrum disorder. In a prospective randomised controlled trial, we assessed pre- and post-intervention scores of both the intervention group (A) that took ASI and the control group (B) that received conservative treatment-only behaviour therapy, speech therapy, and educational activities of children with Autism Spectrum Disorder (ASD) -using sensory profile from Jan 2024 to July 2024. Thirty diagnosed ASD cases, age range 2-8 years, were randomly enrolled in both groups (n=15/group) at the RICCER Institute of Faisalabad. The intervention group (A) was noted to be significantly better in mean change as compared with the control group (B). Independent and paired t-test results showed significant relationship between ASI intervention group (A) and sensory integration dysfunction, while non-significant relationship between sensory integration dysfunction and conservative group (B) treatment (p> 0.05). Ayres Sensory Integration, an Occupational Therapy Approach, was significantly effective in developing socialisation, self-care, and aim accomplishment in comparison to conservative treatment in ASD.",
+    "age_max": 8,
+    "age_min": 2,
+    "age_range": "2-8 years",
+    "age_unit": "years",
+    "authors": [
+      "Ramma Inam",
+      "Saleh Shah",
+      "Muhammad Sana Ullah",
+      "Tahreem Tariq",
+      "Hira Ashraf"
+    ],
+    "clinical_implications": "May be relevant to Ayres sensory integration in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [],
+    "conclusion": null,
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.47391/JPMA.21549",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved 30 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
+    "intervention": "Ayres sensory integration",
+    "journal": "JPMA. The Journal of the Pakistan Medical Association",
+    "keywords": [
+      "Ayres Sensory Integration, Autism Spectrum Disorder, Conservative treatment, Behaviour therapy, Sensory Integration Dysfunction."
+    ],
+    "last_updated": "2026-08-31T10:19:36Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Autism Spectrum Disorder",
+      "Child",
+      "Child, Preschool",
+      "Male",
+      "Female",
+      "Conservative Treatment",
+      "Occupational Therapy",
+      "Prospective Studies",
+      "Behavior Therapy",
+      "Treatment Outcome",
+      "Speech Therapy"
+    ],
+    "participants": 30,
+    "pmid": "42363339",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42363339/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Effects of Ayres sensory integration therapy versus conservative treatment in autism spectrum disorder.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "INTRODUCTION: Autism spectrum disorder (ASD) is a neurodevelopmental disorder associated with distressed behaviors and psychological challenges. This study aims to evaluate the change in health-related quality of life (HRQoL), anxiety, and sleep quality in autistic individuals prescribed cannabis-based medicinal products (CBMPs).\nMETHOD: This observational case series analyzed data from the UK Medical Cannabis Registry on autistic adults treated with CBMPs. Demographic and clinical data were collected at baseline, with patient-reported outcome measures assessed up to 18 months. Primary outcomes included changes in anxiety (GAD-7), sleep quality (SQS), and HRQoL (EQ-5D-5L). Secondary outcomes included the incidence of adverse events. Statistical significance was indicated by p < 0.050.\nRESULTS: One-hundred and thirty individuals met the inclusion criteria. GAD-7 (p < 0.001) and SQS (p < 0.001) scores improved from baseline to 18 months. EQ-5D-5L index values showed improvement from baseline (0.43 ± 0.30) to 18 months (0.51 ± 0.32, p < 0.001), and PGIC scores increased from 1 month (5.43 ± 1.49) to 18 months (5.65 ± 1.32, p = 0.013). Twenty-five participants (19.23%) reported a total of 232 (178.46%) adverse events, with most being mild (n = 88; 67.69%) or moderate (n = 99; 76.15%).\nCONCLUSION: Treatment with CBMPs was associated with improvements in HRQoL, anxiety, and sleep outcomes in autistic patients over an 18-month period. Given the absence of a control group, these findings represent associations rather than proven treatment effects. Further high-quality randomized controlled trials are needed to confirm the long-term efficacy and safety of CBMPs in ASD.",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Arushika Aggarwal",
+      "Simon Erridge",
+      "Madhur Varadpande",
+      "Evonne Clarke",
+      "Katy McLachlan",
+      "Ross Coomber",
+      "Muhammed Asghar",
+      "Urmila Bhoskar",
+      "Matthieu Crews",
+      "Andrea De Angelis",
+      "Muhammad Imran",
+      "Fariha Kamal",
+      "Laura Korb",
+      "Gracia Mwimba",
+      "Simmi Sachdeva-Mohan",
+      "Gabriel Shaya",
+      "James J Rucker",
+      "Mikael H Sodergren"
+    ],
+    "clinical_implications": "Treatment with CBMPs was associated with improvements in HRQoL, anxiety, and sleep outcomes in autistic patients over an 18-month period.",
+    "co_occurring_conditions": [
+      "Anxiety"
+    ],
+    "conclusion": "Treatment with CBMPs was associated with improvements in HRQoL, anxiety, and sleep outcomes in autistic patients over an 18-month period. Given the absence of a control group, these findings represent associations rather than proven treatment effects. Further high-quality randomized controlled trials are needed to confirm the long-term efficacy and safety of CBMPs in ASD.",
+    "created_at": "2026-07-11T18:27:28Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1002/npr2.70146",
+    "duration": "18 months",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Treatment with CBMPs was associated with improvements in HRQoL, anxiety, and sleep outcomes in autistic patients over an 18-month period. Given the absence of a control group, these findings represent associations rather than proven treatment effects.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 18 months.",
+      "not_stated": [
+        "the ages of the people who took part"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
+    "intervention": "cannabis-based medicinal products",
+    "journal": "Neuropsychopharmacology reports",
+    "keywords": [
+      "anxiety",
+      "autism spectrum disorder",
+      "cannabidiol",
+      "cannabis",
+      "tetrahydrocannabinol"
+    ],
+    "last_updated": "2026-08-31T10:19:36Z",
+    "limitations": [
+      "absence of a control group, these findings represent associations rather than proven treatment effects",
+      "observational case series analyzed data from the UK Medical Cannabis Registry on autistic adu",
+      "Further high-quality randomized controlled trials are needed to confirm the long-term efficacy and safety of CBMPs in ASD"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Autism Spectrum Disorder",
+      "Female",
+      "Registries",
+      "Male",
+      "Medical Marijuana",
+      "Quality of Life",
+      "Adult",
+      "United Kingdom",
+      "Anxiety",
+      "Sleep Quality",
+      "Young Adult",
+      "Adolescent",
+      "Treatment Outcome"
+    ],
+    "participants": null,
+    "pmid": "42387975",
+    "primary_outcomes": [
+      "Primary outcomes included changes in anxiety (GAD-7)",
+      "sleep quality (SQS)",
+      "EQ-5D-5L)",
+      "GAD-7 (p < 0"
+    ],
+    "secondary_outcomes": [
+      "Secondary outcomes included the incidence of adverse events"
+    ],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42387975/",
+    "study_type": "Observational Study",
+    "title": "UK Medical Cannabis Registry: A Clinical Outcomes Analysis for Autism Spectrum Disorder.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
+    "year": 2026
+  },
+  {
+    "abstract": "BACKGROUND: Parent-implemented interventions (PIIs) are well established for improving developmental outcomes in autistic children. As evidence has accumulated, the field has increasingly shifted toward understanding for whom, and through which delivery formats PIIs can be most effectively implemented. These questions are pressing in non-Western contexts, where access to professional services is limited and culturally appropriate interventions are needed. This RCT, one of the largest of its kind in China, addressed this gap by comparing two scalable delivery formats (speech-language therapist [SLT]-led online groups vs. flexible Self-study format) of a culturally adapted social communication program and examining differential intervention responses and sustained engagement.\nMETHODS: A total of 112 Chinese-speaking autistic children aged 24-60 months with limited spontaneous expressive language were randomized to a 20-week SLT-led or Self-study intervention. Autism severity, social functioning, and language skills were assessed at baseline, post-intervention, and 12 months after baseline. Parental stress, parenting sense of competence, and strategy use were also measured. Child, parent, and family baseline characteristics predicting differential outcomes and engagement were examined.\nRESULTS: No consistent differences between delivery formats were observed across most outcomes. Children's social functioning, expressive and receptive language showed improvement, and parental self-efficacy increased while stress decreased in both formats. Individualized analyses indicated greater benefits of the SLT-led format for children from lower-income families and those with greater developmental needs, whereas families with stronger baseline functioning showed comparable gains in the Self-study format. Attrition was higher in the Self-study format and was associated with lower child social skills and receptive languages, along with lower parental use of engagement-promoting behaviors and lower broader autism-related traits.\nLIMITATIONS: Despite being one of the largest RCTs of its kind in China, the study may have been underpowered to detect small between-format differences, and the relatively modest sample size for the individualized machine-learning analyses limits the interpretation of these exploratory findings. Parental strategy use was measured using a general interaction coding scheme rather than intervention-specific behaviors. Higher attrition in the Self-study format warrants cautious interpretation, although sensitivity analyses supported the robustness of findings.\nCONCLUSIONS: This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\nTRIAL REGISTRATION: ClinicalTrials.gov: NCT05635760, registered on 23 November 2022.",
+    "age_max": 60,
+    "age_min": 24,
+    "age_range": "24-60 months",
+    "age_unit": "months",
+    "authors": [
+      "Li Wang",
+      "Yujia Shi",
+      "Hon-Cheong So",
+      "Hoyee W Hirai",
+      "Xin Qi",
+      "Carol K S To",
+      "Florrie Fei-Yin Ng",
+      "Patrick C M Wong"
+    ],
+    "clinical_implications": "This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress.",
+    "co_occurring_conditions": [],
+    "conclusion": "This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\nTRIAL REGISTRATION: ClinicalTrials.gov: NCT05635760, registered on 23 November 2022.",
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1186/s13229-026-00725-0",
+    "duration": "20-week",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 20-week.",
+      "not_stated": [],
+      "size": "It involved 112 people, a reasonably sized group for this kind of research."
+    },
+    "intervention": "parent-implemented intervention",
+    "journal": "Molecular autism",
+    "keywords": [
+      "Autism",
+      "Parent-implemented intervention",
+      "Preschoolers",
+      "Professional support",
+      "Self-directed alternative",
+      "Social communication"
+    ],
+    "last_updated": "2026-08-31T10:19:36Z",
+    "limitations": [
+      "limited and culturally appropriate interventions are needed"
+    ],
+    "mesh_terms": [
+      "Child, Preschool",
+      "Female",
+      "Humans",
+      "Male",
+      "Autistic Disorder",
+      "China",
+      "Communication",
+      "Parents",
+      "Treatment Outcome",
+      "East Asian People"
+    ],
+    "participants": 112,
+    "pmid": "42393738",
+    "primary_outcomes": [
+      "No consistent differences between delivery formats were observed across most outcomes. Children's social functioning, expressive and receptive language showed improvement, and pare…"
+    ],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42393738/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Who benefits most? A randomized controlled trial for Parent-implemented social communication intervention for chinese-speaking autistic preschoolers.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "Parents of autistic children often face elevated emotional demands and challenges in interpreting their child's inner experience. Parental reflective functioning (PRF), the capacity to understand behavior in terms of underlying mental states, is considered a key mechanism in fostering emotionally attuned and adaptive caregiving. Despite its importance, few interventions directly target PRF, and fewer still have tested brief, group-based formats designed for broad accessibility. We conducted a randomized controlled trial to evaluate a brief, virtual PRF intervention delivered via Zoom to 249 parents of autistic children. Participants were randomly assigned to either an intervention group (n = 129) or a waitlist control group (n = 130), and completed assessments at baseline and postintervention. PRF was measured using a standardized interview, while self-report questionnaires assessed parenting self-efficacy, beliefs about emotional malleability, depressive symptoms, and child adaptive functioning. Generalized estimating equations revealed significant time-by-group interactions favoring the intervention group across several outcomes. Relative to controls, intervention participants reported greater gains in reflective functioning, parenting self-efficacy, and emotional beliefs, alongside improvements in children's communication and conceptual adaptive functioning. Effects were most pronounced among parents of younger children. Within the intervention group, additional follow-up assessments indicated sustained benefits on workshop-specific outcomes. Findings support the feasibility and efficacy of brief, scalable PRF-based programs for caregivers of autistic children. To our knowledge, this is the first randomized trial to demonstrate that a short, online, parent-focused intervention can enhance reflective parenting and promote emotional and relational benefits in this population.",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Yael Enav",
+      "Natalia Kirsman",
+      "Dana Erhard Weiss",
+      "Yael Mayer"
+    ],
+    "clinical_implications": "May be relevant to brief, scalable PRF-based programs for caregivers of autistic children in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [],
+    "conclusion": null,
+    "created_at": "2026-08-31T05:13:47Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1002/aur.70301",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 249 people, a reasonably sized group for this kind of research."
+    },
+    "intervention": "brief, scalable PRF-based programs for caregivers of autistic children",
+    "journal": "Autism research : official journal of the International Society for Autism Research",
+    "keywords": [
+      "autism",
+      "autistic children",
+      "online intervention",
+      "parental intervention",
+      "parental reflective functioning"
+    ],
+    "last_updated": "2026-08-31T10:19:36Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Male",
+      "Cognitive Reflection",
+      "Parents",
+      "Child",
+      "Parenting",
+      "Self Efficacy",
+      "Autistic Disorder",
+      "Adult",
+      "Child, Preschool",
+      "Emotions",
+      "Adaptation, Psychological",
+      "Parent-Child Relations"
+    ],
+    "participants": 249,
+    "pmid": "42394366",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42394366/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Seeing the Child Within: A Randomized Controlled Trial of Reflective Functioning Intervention for Parents of Autistic Children.",
     "trust_tier": 2,
     "trust_tier_label": "Randomized Controlled Trial",
     "year": 2026

@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Cytomegalovirus Infections", "Pregnancy", "Female", "Pre
 keywords: ["autism spectrum disorder", "congenital cytomegalovirus", "first-trimester infection", "neurodevelopmental outcomes", "prenatal MRI", "sensorineural hearing loss"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42092723/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T10:05:55Z"
+last_updated: "2026-08-31T10:19:36Z"
 ---

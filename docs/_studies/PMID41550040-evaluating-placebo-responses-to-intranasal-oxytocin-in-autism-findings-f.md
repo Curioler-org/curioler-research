@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Oxytocin", "Male", "Child", "Child, Preschool", "Female"
 keywords: ["Treatment", "anxiety", "autism", "oxytocin", "social interaction"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41550040/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:05:55Z"
+last_updated: "2026-08-31T10:19:36Z"
 ---
