@@ -30,5 +30,5 @@ mesh_terms: ["Child", "Child, Preschool", "Female", "Humans", "Male", "Pregnancy
 keywords: ["Air pollution", "Autism spectrum disorder", "Case control study", "Environmental risk factor", "Particulate matter"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40120015/"
 created_at: "2026-08-31T05:16:32Z"
-last_updated: "2026-08-31T10:19:35Z"
+last_updated: "2026-08-31T10:31:15Z"
 ---

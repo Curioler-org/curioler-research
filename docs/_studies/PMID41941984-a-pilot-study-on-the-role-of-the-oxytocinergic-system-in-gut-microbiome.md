@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Oxytocin", "Male", "Pilot Projects", "Gastrointestinal M
 keywords: []
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41941984/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:19:36Z"
+last_updated: "2026-08-31T10:31:16Z"
 ---

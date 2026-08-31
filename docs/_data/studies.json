@@ -267,7 +267,7 @@
       "not_stated": [
         "how long the study ran"
       ],
-      "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+      "size": "It involved only 20 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."
     },
     "intervention": "neurodevelopmental condition",
     "journal": "Journal of sleep research",
@@ -363,7 +363,7 @@
       "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
       "duration": "The study ran for 8-week. That is a short window, so it says nothing about whether the effects last.",
       "not_stated": [],
-      "size": "It involved only 27 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+      "size": "It involved only 27 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."
     },
     "intervention": "wearable device physical activity monitoring",
     "journal": "Physiotherapy theory and practice",
@@ -689,7 +689,7 @@
         "the ages of the people who took part",
         "how long the study ran"
       ],
-      "size": "It involved only 12 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+      "size": "It involved only 12 people. Random assignment still means the groups started out comparable, but with so few people the result can shift a lot by chance — a larger trial could easily find something different. Treat this as an early signal rather than an answer."
     },
     "intervention": "Emotion dysregulation",
     "journal": "Research in developmental disabilities",
@@ -739,7 +739,7 @@
       "not_stated": [
         "how long the study ran"
       ],
-      "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+      "size": "It involved only 20 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."
     },
     "intervention": "cannabidiol (CBD)",
     "journal": "Pharmacology, biochemistry, and behavior",

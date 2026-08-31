@@ -13,11 +13,22 @@ import json
 import re
 
 from pipelines.pubmed.common import STUDIES_DIR
-from pipelines.pubmed.explainer import base_tier, build_explainer, trust_tier
+from pipelines.pubmed.explainer import SMALL_SAMPLE, base_tier, build_explainer, design_kind, trust_tier
 
 MISSING_PHRASES = {
     "the ages of the people who took part": "age_range",
     "how long the study ran": "duration",
+}
+
+# A small trial and a small observational study are not equally weak evidence: the
+# trial's randomisation still controls confounding, the observational study's does
+# not. The size sentence must say so, not just report the same generic warning for
+# both - this pins that distinction down as a corpus invariant. Markers are chosen
+# to be non-overlapping substrings ("random assignment" alone would also match
+# inside the observational sentence's "without random assignment").
+DESIGN_SIZE_MARKERS = {
+    "trial": "started out comparable",
+    "observational": "something other than what was studied",
 }
 
 
@@ -44,6 +55,17 @@ def check(study: dict) -> list[str]:
     # that only the populated case produces, not the bare phrase.
     if study.get("conclusion") is None and 'researchers concluded: "' in (explainer.get("conclusion") or ""):
         errors.append("conclusion sentence quotes researchers but conclusion is null")
+
+    participants = study.get("participants")
+    kind = design_kind(study.get("study_type"))
+    if isinstance(participants, int) and 1 < participants < SMALL_SAMPLE and kind in DESIGN_SIZE_MARKERS:
+        marker = DESIGN_SIZE_MARKERS[kind]
+        size_text = (explainer.get("size") or "").lower()
+        if marker not in size_text:
+            errors.append(f"small-sample {kind} size sentence should mention {marker!r}: {explainer.get('size')!r}")
+        other_marker = next(v for k, v in DESIGN_SIZE_MARKERS.items() if k != kind)
+        if other_marker in size_text:
+            errors.append(f"small-sample {kind} size sentence uses the {other_marker!r} wording of the other design")
 
     for phrase in explainer.get("not_stated", []):
         field = MISSING_PHRASES.get(phrase)

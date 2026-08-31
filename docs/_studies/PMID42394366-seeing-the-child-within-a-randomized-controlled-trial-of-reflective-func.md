@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Female", "Male", "Cognitive Reflection", "Parents", "Chi
 keywords: ["autism", "autistic children", "online intervention", "parental intervention", "parental reflective functioning"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42394366/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T10:19:36Z"
+last_updated: "2026-08-31T10:31:16Z"
 ---

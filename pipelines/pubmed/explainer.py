@@ -92,17 +92,47 @@ def duration_weeks(text: str | None) -> float | None:
     return float(match.group(1)) * UNIT_WEEKS[match.group(2).lower()]
 
 
-def size_sentence(participants: object) -> str:
+# Below SMALL_SAMPLE, what a small N *means* depends on the design, so the sentence
+# branches by design_kind there. Random assignment is what a trial's small-N warning
+# is really about (it keeps the two groups comparable even when N is small — the risk
+# is an imprecise estimate, not a biased one), while an observational study has no
+# randomisation to fall back on, so a small group makes it easier for something other
+# than the studied factor to explain what was seen. Above SMALL_SAMPLE the two risks
+# converge enough that a single generic sentence covers both without repeating the
+# design sentence above it.
+SMALL_SAMPLE_BY_DESIGN = {
+    "trial": (
+        "It involved only {n} people. Random assignment still means the groups started out "
+        "comparable, but with so few people the result can shift a lot by chance — a larger "
+        "trial could easily find something different. Treat this as an early signal rather "
+        "than an answer."
+    ),
+    "observational": (
+        "It involved only {n} people. Without random assignment, a group this small makes it "
+        "especially easy for something other than what was studied to explain the difference "
+        "researchers saw. Treat this as a very early signal rather than an answer."
+    ),
+}
+
+
+def size_sentence(participants: object, design_kind_value: str = "unknown") -> str:
     if not isinstance(participants, int):
         return (
             "The number of people who took part is not stated in this record, so the result "
             "cannot be judged on size."
         )
-    if participants < SMALL_SAMPLE:
+    if participants == 1:
         return (
-            f"It involved only {participants:,} people. With a group this small, results can "
-            "shift a lot by chance, so treat this as an early signal rather than an answer."
+            "It describes just 1 person. A single case can raise a question worth studying, "
+            "but it cannot tell you what happens for most people."
         )
+    if participants < SMALL_SAMPLE:
+        template = SMALL_SAMPLE_BY_DESIGN.get(
+            design_kind_value,
+            "It involved only {n} people. With a group this small, results can shift a lot by "
+            "chance, so treat this as an early signal rather than an answer.",
+        )
+        return template.format(n=f"{participants:,}")
     if participants < 100:
         return (
             f"It involved {participants:,} people — a modest group, enough to be interesting "
@@ -148,9 +178,10 @@ def not_stated(study: dict) -> list[str]:
 
 
 def build_explainer(study: dict) -> dict:
+    kind = design_kind(study.get("study_type"))
     return {
-        "design": DESIGN_SENTENCES[design_kind(study.get("study_type"))],
-        "size": size_sentence(study.get("participants")),
+        "design": DESIGN_SENTENCES[kind],
+        "size": size_sentence(study.get("participants"), kind),
         "duration": duration_sentence(study.get("duration")),
         "conclusion": conclusion_sentence(study.get("conclusion")),
         "not_stated": not_stated(study),

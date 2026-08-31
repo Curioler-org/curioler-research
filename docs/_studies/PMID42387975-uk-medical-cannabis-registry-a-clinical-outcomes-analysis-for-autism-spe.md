@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Autism Spectrum Disorder", "Female", "Registries", "Male
 keywords: ["anxiety", "autism spectrum disorder", "cannabidiol", "cannabis", "tetrahydrocannabinol"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42387975/"
 created_at: "2026-07-11T18:27:28Z"
-last_updated: "2026-08-31T10:19:36Z"
+last_updated: "2026-08-31T10:31:16Z"
 ---

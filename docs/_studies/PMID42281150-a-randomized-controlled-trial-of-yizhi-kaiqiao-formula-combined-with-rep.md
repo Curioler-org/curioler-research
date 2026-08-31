@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Male", "Transcranial Magnetic Stimulation", "Female", "A
 keywords: ["Autism spectrum disorder", "Yizhi Kaiqiao formula", "neurocognition", "preschool", "repetitive transcranial magnetic stimulation", "social outcomes"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42281150/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:19:36Z"
+last_updated: "2026-08-31T10:31:16Z"
 ---

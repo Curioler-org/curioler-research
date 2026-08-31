@@ -23,7 +23,7 @@
     "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
     "duration": "The study ran for 8-week. That is a short window, so it says nothing about whether the effects last.",
     "not_stated": [],
-    "size": "It involved only 27 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    "size": "It involved only 27 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."
   },
   "intervention": "wearable device physical activity monitoring",
   "journal": "Physiotherapy theory and practice",
@@ -34,7 +34,7 @@
     "fitness tracker",
     "physical activity"
   ],
-  "last_updated": "2026-08-31T10:05:55Z",
+  "last_updated": "2026-08-31T10:31:15Z",
   "limitations": [
     "observational cohort design was used to compare two methods for determining WD adherence for",
     "limited among this understudied population"

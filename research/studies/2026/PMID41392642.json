@@ -35,7 +35,7 @@
     "not_stated": [
       "how long the study ran"
     ],
-    "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    "size": "It involved only 20 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."
   },
   "intervention": "neurodevelopmental condition",
   "journal": "Journal of sleep research",
@@ -45,7 +45,7 @@
     "treatment",
     "young people"
   ],
-  "last_updated": "2026-08-31T10:05:54Z",
+  "last_updated": "2026-08-31T10:31:15Z",
   "limitations": [
     "observational study reports on the feasibility and adequacy of Level 2 polysomnography involv"
   ],

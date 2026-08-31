@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Autism Spectrum Disorder", "Child", "Child, Preschool", 
 keywords: ["Ayres Sensory Integration, Autism Spectrum Disorder, Conservative treatment, Behaviour therapy, Sensory Integration Dysfunction."]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42363339/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:19:36Z"
+last_updated: "2026-08-31T10:31:16Z"
 ---

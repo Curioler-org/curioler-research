@@ -10,7 +10,7 @@ authors: ["Uchenna Ezedinma", "Scott Burgess", "Janet Greenhill", "Jyoti Singh",
 study_type: "Observational Study"
 trust_tier: 3
 trust_tier_label: "Observational Study"
-easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."}
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved only 20 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."}
 participants: 20
 age_range: "6-12 years"
 age_min: 6
@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Child", "Polysomnography", "Male", "Autism Spectrum Diso
 keywords: ["neurodevelopmental condition", "sleep studies", "treatment", "young people"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41392642/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:19:36Z"
+last_updated: "2026-08-31T10:31:15Z"
 ---

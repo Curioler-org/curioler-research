@@ -10,7 +10,7 @@ authors: ["Sungeun Kang", "Karen Burkett", "Shivali Sarawgi", "Jenna Ruberg", "J
 study_type: "Randomized Controlled Trial"
 trust_tier: 3
 trust_tier_label: "Randomized Controlled Trial (small sample)"
-easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "It involved only 12 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."}
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "It involved only 12 people. Random assignment still means the groups started out comparable, but with so few people the result can shift a lot by chance — a larger trial could easily find something different. Treat this as an early signal rather than an answer."}
 participants: 12
 age_range: ""
 age_min: ""
@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Caregivers", "Female", "Male", "Child", "Emotional Regul
 keywords: ["Autism spectrum disorder", "Emotion dysregulation", "Emotion regulation", "Parent training", "Qualitative methodology", "Regulating Together"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42217453/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:19:36Z"
+last_updated: "2026-08-31T10:31:16Z"
 ---

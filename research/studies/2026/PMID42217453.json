@@ -30,7 +30,7 @@
       "the ages of the people who took part",
       "how long the study ran"
     ],
-    "size": "It involved only 12 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    "size": "It involved only 12 people. Random assignment still means the groups started out comparable, but with so few people the result can shift a lot by chance — a larger trial could easily find something different. Treat this as an early signal rather than an answer."
   },
   "intervention": "Emotion dysregulation",
   "journal": "Research in developmental disabilities",
@@ -42,7 +42,7 @@
     "Qualitative methodology",
     "Regulating Together"
   ],
-  "last_updated": "2026-08-31T10:05:55Z",
+  "last_updated": "2026-08-31T10:31:16Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

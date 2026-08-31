@@ -1,449 +1,5 @@
 [
   {
-    "abstract": "This prospective observational study reports on the feasibility and adequacy of Level 2 polysomnography involving children with autism spectrum disorder during an interventional-randomised controlled trial. Multiple level 2 polysomnographic studies were performed using Nox-A1 devices worn between October 2023 and September 2024. Study feasibility was determined by the child's compliance and primary caregiver report, while signal quality (key channels present for at least 90% of sleep time) was used to define study adequacy. A cost analysis was also conducted. Twenty children (6-12 years, 9.1 + 1.55 years; 16 males) with autism spectrum disorder (level 2) and reported sleep difficulties participated in the study. Eighty (89%) of 90 polysomnographic studies were feasible. All infeasible studies, except one, were unrelated to the study. Seventy-four (93%) of the eighty studies resulted in adequate study quality. Most (n = 6, 7%) inadequate studies were due to electroencephalogram signal artefact/absence. The participants did not have a sleep disorder requiring medical attention. The cost of a study was estimated at $AUD 258. The study indicates the feasibility, adequacy, and cost-effectiveness of level 2 polysomnography in evaluating sleep outcomes in children with autism spectrum disorder during an interventional randomised controlled trial. This preliminary study provides valuable insights into the field of paediatric sleep medicine. Repeat studies of this method using diverse and larger sample sizes are warranted.",
-    "age_max": 12,
-    "age_min": 6,
-    "age_range": "6-12 years",
-    "age_unit": "years",
-    "authors": [
-      "Uchenna Ezedinma",
-      "Scott Burgess",
-      "Janet Greenhill",
-      "Jyoti Singh",
-      "Evan Jones",
-      "Andrew Ladhams",
-      "Gary Campbell",
-      "Shauna Fjaagesund",
-      "Piotr Swierkowski",
-      "Alexandra Metse",
-      "Terri Downer",
-      "Florin Oprescu"
-    ],
-    "clinical_implications": "May be relevant to neurodevelopmental condition in Autism Spectrum Disorder, based on abstract-reported findings.",
-    "co_occurring_conditions": [
-      "Sleep Wake Disorders"
-    ],
-    "conclusion": null,
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1111/jsr.70265",
-    "duration": null,
-    "easy_explainer": {
-      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
-      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": null,
-      "not_stated": [
-        "how long the study ran"
-      ],
-      "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
-    },
-    "intervention": "neurodevelopmental condition",
-    "journal": "Journal of sleep research",
-    "keywords": [
-      "neurodevelopmental condition",
-      "sleep studies",
-      "treatment",
-      "young people"
-    ],
-    "last_updated": "2026-08-31T10:19:36Z",
-    "limitations": [
-      "observational study reports on the feasibility and adequacy of Level 2 polysomnography involv"
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Child",
-      "Polysomnography",
-      "Male",
-      "Autism Spectrum Disorder",
-      "Prospective Studies",
-      "Female",
-      "Feasibility Studies",
-      "Sleep Wake Disorders",
-      "Cost-Benefit Analysis"
-    ],
-    "participants": 20,
-    "pmid": "41392642",
-    "primary_outcomes": [],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41392642/",
-    "study_type": "Observational Study",
-    "title": "Home Polysomnography in Children With Autism Spectrum Disorder: A Prospective Observational Study.",
-    "trust_tier": 3,
-    "trust_tier_label": "Observational Study",
-    "year": 2026
-  },
-  {
-    "abstract": "BACKGROUND: Early life vitamin D levels may be associated with autism spectrum disorder (ASD) and related traits, but causality is unknown. We examine whether higher-than-standard vitamin D3 supplementation during the first 2 years, as well as higher pregnancy and childhood 25-hydroxyvitamin D (25(OH)D) levels and their trajectories, are associated with lower ASD trait scores at ages 6-8 years in a non-clinical cohort.\nMETHODS: This secondary analysis of the double-blind randomized clinical trial vitamin D intervention in infants (VIDI) comprised 366 Finnish children aged 6-8 years, 177 of whom were randomized to receive 400-IU and 189 to receive 1,200-IU daily oral vitamin D3 supplementation between ages 2 weeks and 2 years. ASD-related traits were assessed at mean age 7.2 years (SD 0.4) using the parent-reported Autism Spectrum Screening Questionnaire (ASSQ). Predictor variables were supplementation group, 25(OH)D concentrations measured during pregnancy and at ages 1 and 2 years, as well as 25(OH)D trajectories (high vs. low) derived from these time points.\nRESULTS: None of the predictor variables of interest were associated with the outcome in the full sample. After sex stratification, among boys, 25(OH)D concentrations at 1 and 2 years were inversely associated with ASSQ scores (mean difference -0.2 of normalized SD score (95% CI -0.3 to -0.1, p = .003) and -0.2 (95% CI -0.3 to -0.05, p = .01) per 10 ng/mL 25(OH)D) after adjustment for age, breastfeeding, parental education, maternal depressive symptoms, and season of 25(OH)D assessment as was belonging to the higher 25(OH)D trajectory, -0.45 SD (95% CI -0.79 to -0.10, p = .01).\nCONCLUSIONS: We found no indication that higher-than-normal vitamin D3 supplementation between ages 0 and 2 years decreases ASD-related trait scores at ages 6-8 years. Sex-stratified analysis suggested an inverse association, among boys, between early life 25(OH)D concentrations and ASD-related traits, warranting further studies on potential causal direction and sex specificity of associations.",
-    "age_max": 8,
-    "age_min": 6,
-    "age_range": "6-8 years",
-    "age_unit": "years",
-    "authors": [
-      "Samuel Sandboge",
-      "Vilja Seppälä",
-      "Sakari Lintula",
-      "Elisa Holmlund-Suila",
-      "Helena Hauta-Alus",
-      "Eero Kajantie",
-      "Outi Mäkitie",
-      "Sture Andersson",
-      "Katri Räikkönen",
-      "Kati Heinonen"
-    ],
-    "clinical_implications": "We found no indication that higher-than-normal vitamin D3 supplementation between ages 0 and 2 years decreases ASD-related trait scores at ages 6-8 years.",
-    "co_occurring_conditions": [],
-    "conclusion": "We found no indication that higher-than-normal vitamin D3 supplementation between ages 0 and 2 years decreases ASD-related trait scores at ages 6-8 years. Sex-stratified analysis suggested an inverse association, among boys, between early life 25(OH)D concentrations and ASD-related traits, warranting further studies on potential causal direction and sex specificity of associations.",
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1111/jcpp.70110",
-    "duration": null,
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"We found no indication that higher-than-normal vitamin D3 supplementation between ages 0 and 2 years decreases ASD-related trait scores at ages 6-8 years. Sex-stratified analysis suggested an inverse association, among boys, between early life 25(OH)D concentrations and ASD-related traits, warranting further studies on potential causal direction and sex specificity of associations.\"",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": null,
-      "not_stated": [
-        "how long the study ran"
-      ],
-      "size": "It involved 366 people, a reasonably sized group for this kind of research."
-    },
-    "intervention": "vitamin D",
-    "journal": "Journal of child psychology and psychiatry, and allied disciplines",
-    "keywords": [
-      "Vitamin D",
-      "autism spectrum disorder",
-      "neurodevelopment",
-      "randomized clinical trial"
-    ],
-    "last_updated": "2026-08-31T10:19:36Z",
-    "limitations": [
-      "further studies on potential causal direction and sex specificity of associations"
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Female",
-      "Child",
-      "Male",
-      "Autism Spectrum Disorder",
-      "Vitamin D",
-      "Dietary Supplements",
-      "Double-Blind Method",
-      "Child, Preschool",
-      "Finland",
-      "Infant",
-      "Pregnancy",
-      "Cholecalciferol",
-      "Vitamins",
-      "Infant, Newborn"
-    ],
-    "participants": 366,
-    "pmid": "41486975",
-    "primary_outcomes": [
-      "None of the predictor variables of interest were associated with the outcome in the full sample. After sex stratification, among boys, 25(OH)D concentrations at 1 and 2 years were…"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41486975/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Vitamin D supplementation in the first 2 years and autism spectrum traits at 6-8 years - a randomized clinical trial.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "PURPOSE: Time management is essential to handle daily life in today's society. This study aimed to evaluate the effectiveness of the Swedish version of the Let's Get Organised (LGO-S) intervention to improve time-management skills for adults with impaired time management due to attention deficit hyperactivity disorder (ADHD), autism or mental disorders compared to treatment as usual (TAU), which is individual occupational therapy.\nMATERIALS AND METHODS: This was a multi-centre, open, two-armed pragmatic randomised controlled trial. The setting was out-patient adult habilitation centres and psychiatric clinics. At baseline the study had 75 participants aged 19-61 years (mean 32.3 years) whereof 44 were women.\nRESULTS: Both intervention groups showed statistically significant improvements in time-management skills, organisation and planning, emotional regulation, general self-efficacy and satisfaction with activities at post-intervention test. Most of these within-group improvements were sustained after 3 months. Changes in time-management skills between LGO-S and TAU intervention were not statistically significant at post-intervention or after 3-months. Programme completers in LGO-S had significantly better time management skills at the 3-month follow-up than non-completers.\nCONCLUSIONS: This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills.\nTime-management skills are essential for carrying out daily routine, leading a balanced and satisfying life, and maintaining employment.People with attention deficit hyperactivity disorder (ADHD), autism or mental disorders often experience time-management difficulties and rate their capacity for these skills lower than the general population.While the participants did not change the number of daily activities performed, their satisfaction with the way they were performed increased.This study demonstrated that both the intervention Let’s Get Organised(LGO-S) and individual occupational therapy are clinically useful/applicable interventions which effectively improve time-management skills.",
-    "age_max": 61,
-    "age_min": 19,
-    "age_range": "19-61 years",
-    "age_unit": "years",
-    "authors": [
-      "Kajsa Lidström Holmqvist",
-      "Maria Wingren",
-      "Ruzan Udumyran",
-      "Marie Holmefur"
-    ],
-    "clinical_implications": "This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills.",
-    "co_occurring_conditions": [
-      "Attention Deficit Disorder with Hyperactivity"
-    ],
-    "conclusion": "This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills.\nTime-management skills are essential for carrying out daily routine, leading a balanced and satisfying life, and maintaining employment.People with attention deficit hyperactivity disorder (ADHD), autism or mental disorders often experience time-management difficulties and rate their capacity for these skills lower than the general population.While the participants did not change the number of daily activities performed, their satisfaction with the way they were performed increased.This study demonstrated that both the intervention Let’s Get Organised(LGO-S) and individual occupational therapy are clinically useful/applicable interventions which effectively improve time-management skills.",
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1080/09638288.2026.2614218",
-    "duration": "3-month",
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills. Time-management skills are essential for carrying out daily routine, leading a balanced and satisfying life, and maintaining employment.People with attention deficit hyperactivity disorder (ADHD), autism or mental disorders often experience time-management difficulties and rate their capacity for these skills lower than the general population.While the participants did not change the number of daily activities performed, their satisfaction with the way they were performed increased.This study demonstrated that both the intervention Let’s Get Organised(LGO-S) and individual occupational therapy are clinically useful/applicable interventions which effectively improve time-management skills.\"",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": "The study ran for 3-month.",
-      "not_stated": [],
-      "size": "It involved 75 people — a modest group, enough to be interesting but not enough to settle a question on its own."
-    },
-    "intervention": "ADHD",
-    "journal": "Disability and rehabilitation",
-    "keywords": [
-      "ADHD",
-      "ClinicalTrials.gov NCT03654248",
-      "Occupational therapy",
-      "autism",
-      "neurodevelopmental disorders"
-    ],
-    "last_updated": "2026-08-31T10:19:36Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Female",
-      "Adult",
-      "Occupational Therapy",
-      "Middle Aged",
-      "Time Management",
-      "Male",
-      "Attention Deficit Disorder with Hyperactivity",
-      "Sweden",
-      "Mental Disorders",
-      "Autistic Disorder",
-      "Young Adult",
-      "Self Efficacy"
-    ],
-    "participants": 75,
-    "pmid": "41527987",
-    "primary_outcomes": [
-      "Both intervention groups showed statistically significant improvements in time-management skills, organisation and planning, emotional regulation, general self-efficacy and satisfa…"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41527987/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Effectiveness of a group-based time-management intervention: a pragmatic randomised controlled trial.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "BACKGROUND: The placebo effect is established in clinical trials, but for paediatric research, questions remain about how to best manage its influence. Within the autism field, data on these issues is sparse. This is particularly important in the oxytocin field where placebo responses are thought to play an important role. This study reports on data from the single-blind, placebo lead-in phase of a randomised controlled trial (RCT) to investigate the placebo response and its relationship to treatment response in autistic children.\nMETHODS: Eighty-seven autistic children aged 3-12 years (M = 7.27; SD = 2.69; 85.1% male) were consecutively recruited into a multi-site RCT evaluating the efficacy of oxytocin for improving social responsiveness. Participants underwent a 3-week, single-blind placebo lead-in before randomisation into a 12-week double-blind treatment phase (oxytocin, n = 45; placebo, n = 42). The Social Responsiveness Scale, 2nd Edition (SRS-2) Total Raw Score was used to measure change from baseline to post-placebo lead-in. A ≥10-point improvement defined placebo responders.\nRESULTS: Nearly half the sample (n = 42, 48.3%) were identified as placebo responders during the lead-in phase, showing a clinically significant degree of change on the SRS-2. Caregiver treatment guess did not significantly impact the placebo response (p = .534). Placebo response was associated with greater symptom severity (r's > -.23; p-values < .037) and higher cognitive ability (r = -.35, p = .004). Smaller placebo responses during the lead-in phase were associated with larger responses during active treatment in participants receiving oxytocin (r = -.36, p = .017). Placebo responses during the lead-in phase were observed across all caregiver-reported measures (Cohen's d = .19-.65).\nCONCLUSIONS: This study provides important information about placebo effects and placebo lead-in designs for clinical trials in the autism field. We show widespread clinically significant improvement during placebo lead-in, utility of identifying placebo responders for informing clinical trial analyses, similarities in symptom measure effect sizes for placebo effects, and a lack of influence of caregiver beliefs on placebo responses.",
-    "age_max": 12,
-    "age_min": 3,
-    "age_range": "3-12 years",
-    "age_unit": "years",
-    "authors": [
-      "Kelsie A Boulton",
-      "Rinku Thapa",
-      "Yun Ju Song",
-      "Andrew J O Whitehouse",
-      "Marilena M DeMayo",
-      "Simon G Gregory",
-      "Izabella Pokorski",
-      "Joanna Granich",
-      "Zahava Ambarchi",
-      "John Wray",
-      "Emma E Thomas",
-      "Ian B Hickie",
-      "Adam J Guastella"
-    ],
-    "clinical_implications": "This study provides important information about placebo effects and placebo lead-in designs for clinical trials in the autism field.",
-    "co_occurring_conditions": [],
-    "conclusion": "This study provides important information about placebo effects and placebo lead-in designs for clinical trials in the autism field. We show widespread clinically significant improvement during placebo lead-in, utility of identifying placebo responders for informing clinical trial analyses, similarities in symptom measure effect sizes for placebo effects, and a lack of influence of caregiver beliefs on placebo responses.",
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1111/jcpp.70116",
-    "duration": "3-week",
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"This study provides important information about placebo effects and placebo lead-in designs for clinical trials in the autism field. We show widespread clinically significant improvement during placebo lead-in, utility of identifying placebo responders for informing clinical trial analyses, similarities in symptom measure effect sizes for placebo effects, and a lack of influence of caregiver beliefs on placebo responses.\"",
-      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": "The study ran for 3-week. That is a short window, so it says nothing about whether the effects last.",
-      "not_stated": [],
-      "size": "It involved 87 people — a modest group, enough to be interesting but not enough to settle a question on its own."
-    },
-    "intervention": "oxytocin",
-    "journal": "Journal of child psychology and psychiatry, and allied disciplines",
-    "keywords": [
-      "Treatment",
-      "anxiety",
-      "autism",
-      "oxytocin",
-      "social interaction"
-    ],
-    "last_updated": "2026-08-31T10:19:36Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Oxytocin",
-      "Male",
-      "Child",
-      "Child, Preschool",
-      "Female",
-      "Administration, Intranasal",
-      "Placebo Effect",
-      "Single-Blind Method",
-      "Autistic Disorder",
-      "Autism Spectrum Disorder",
-      "Outcome Assessment, Health Care",
-      "Double-Blind Method"
-    ],
-    "participants": 87,
-    "pmid": "41550040",
-    "primary_outcomes": [
-      "social responsiveness",
-      "Social Responsiveness Scale",
-      "SRS-2) Total Raw Score was used to measure change from baseline",
-      "SRS-2"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41550040/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Evaluating placebo responses to intranasal oxytocin in autism: findings from the placebo lead-in phase of a randomised controlled trial.",
-    "trust_tier": 2,
-    "trust_tier_label": "Randomized Controlled Trial",
-    "year": 2026
-  },
-  {
-    "abstract": "INTRODUCTION: Individuals with autism spectrum disorder (ASD) have higher rates of obesity and exhibit more sedentary behaviors than neurotypical peers. Use of wearable devices (WD) to target insufficient physical activity (PA) in this population has increased over the past decade. However, standardized methods for assessing WD adherence remain limited among this understudied population.\nPURPOSE: A prospective observational cohort design was used to compare two methods for determining WD adherence for monitoring PA in adolescents and adults with ASD.\nMETHODS: Subjects were enrolled in an 8-week telehealth program aimed at improving PA among adolescents and adults with ASD. The Fitbit Inspire 3 WD was utilized for PA tracking and self-monitoring. Subject step activity and heart rate (HR) data were collected for an 8-week period via FITABASE management platform. Adherence was calculated using two methods. Method-A was defined as ≥10-hr daily wear-time based on HR monitoring; Method-B was defined as ≥ 500 steps/day. Observational data collected via researcher field notes documented participant-reported factors and/or behaviors that influenced WD adherence.\nRESULTS: Data from twenty-seven subjects (21 males, 6 females) ages 14 to 28 years (mean: 18.85 years) were analyzed. Adherence was significantly higher when calculated using Method B (mean = 40 days, 5.4 weeks) compared to Method A (mean = 24 days, 2.8 weeks; p < .001). Observational data identified disability-related behaviors that negatively impacted Method A derived adherence.\nCONCLUSIONS: Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation. This study highlights the need to tailor WD adherence definitions to the behavioral and sensory profiles of neurodiverse populations. Further study is warranted.",
-    "age_max": 28,
-    "age_min": 14,
-    "age_range": "14-28 years",
-    "age_unit": "years",
-    "authors": [
-      "Melissa M Tovin",
-      "Sheila B Madden",
-      "Kaiwen Wu",
-      "Annabel Nunez-Gaunaurd"
-    ],
-    "clinical_implications": "Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear.",
-    "co_occurring_conditions": [],
-    "conclusion": "Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation. This study highlights the need to tailor WD adherence definitions to the behavioral and sensory profiles of neurodiverse populations. Further study is warranted.",
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1080/09593985.2026.2618078",
-    "duration": "8-week",
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation.\"",
-      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": "The study ran for 8-week. That is a short window, so it says nothing about whether the effects last.",
-      "not_stated": [],
-      "size": "It involved only 27 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
-    },
-    "intervention": "wearable device physical activity monitoring",
-    "journal": "Physiotherapy theory and practice",
-    "keywords": [
-      "Wearable device adherence",
-      "adolescents and adults",
-      "autism spectrum disorder",
-      "fitness tracker",
-      "physical activity"
-    ],
-    "last_updated": "2026-08-31T10:19:36Z",
-    "limitations": [
-      "observational cohort design was used to compare two methods for determining WD adherence for",
-      "limited among this understudied population"
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Female",
-      "Adolescent",
-      "Male",
-      "Prospective Studies",
-      "Adult",
-      "Young Adult",
-      "Exercise",
-      "Patient Compliance",
-      "Wearable Electronic Devices",
-      "Fitness Trackers",
-      "Autism Spectrum Disorder",
-      "Heart Rate",
-      "Digital Health",
-      "Telemedicine",
-      "Actigraphy"
-    ],
-    "participants": 27,
-    "pmid": "41578977",
-    "primary_outcomes": [
-      "Data from twenty-seven subjects (21 males, 6 females) ages 14 to 28 years (mean: 18.85 years) were analyzed. Adherence was significantly higher when calculated using Method B (mean…"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41578977/",
-    "study_type": "Observational Study",
-    "title": "Comparing methods to measure wearable device adherence for physical activity monitoring for persons with autism: A prospective observational cohort study.",
-    "trust_tier": 3,
-    "trust_tier_label": "Observational Study",
-    "year": 2026
-  },
-  {
-    "abstract": "OBJECTIVE: The present study aims to provide a detailed clinical characterization of adult patients with bipolar disorder (BD) and comorbid autism spectrum disorder without intellectual disability (ASD-noID), through a comparison with a control group of individuals with BD only.\nMETHODS: We conducted a cross-sectional observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the University Hospital of Pisa between June 2022 and April 2023. Clinical history, psychiatric diagnoses, and symptom profiles were collected using standardized assessment procedures. Group comparisons with a sex-matched control sample of BD patients without ASD were performed.\nRESULTS: Patients with ASD-BD exhibited an earlier onset of mood symptoms, a higher prevalence of other specified bipolar and related disorder (BD-OS) diagnoses, and greater rates of comorbid anxiety disorders. Temperamental assessment revealed significantly higher scores in cyclothymic, anxious, and depressive dimensions. The ASD-BD group also reported lower global functioning. Finally, ASD-BD individuals show high frequency of adverse reactions to antidepressants and antipsychotics.\nCONCLUSIONS: BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Margherita Barbuti",
-      "Salvatore Amadori",
-      "Ugo De Rosa",
-      "Giulio Perugi"
-    ],
-    "clinical_implications": "BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability.",
-    "co_occurring_conditions": [
-      "Bipolar Disorder",
-      "Intellectual Disability"
-    ],
-    "conclusion": "BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.",
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1016/j.jad.2026.121527",
-    "duration": null,
-    "easy_explainer": {
-      "conclusion": "The researchers concluded: \"BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.\"",
-      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
-      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
-      "duration": null,
-      "not_stated": [
-        "the ages of the people who took part",
-        "how long the study ran"
-      ],
-      "size": "It involved 62 people — a modest group, enough to be interesting but not enough to settle a question on its own."
-    },
-    "intervention": "Bipolar disorder",
-    "journal": "Journal of affective disorders",
-    "keywords": [
-      "Autism spectrum disorder",
-      "Bipolar disorder",
-      "High-functioning autism"
-    ],
-    "last_updated": "2026-08-31T10:19:36Z",
-    "limitations": [
-      "observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the Unive"
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Bipolar Disorder",
-      "Cross-Sectional Studies",
-      "Female",
-      "Adult",
-      "Male",
-      "Comorbidity",
-      "Autism Spectrum Disorder",
-      "Middle Aged",
-      "Intellectual Disability",
-      "Antipsychotic Agents",
-      "Young Adult"
-    ],
-    "participants": 62,
-    "pmid": "41765239",
-    "primary_outcomes": [
-      "anxiety disorders"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41765239/",
-    "study_type": "Observational Study",
-    "title": "Clinical characterization of bipolar disorder in adults with autism without intellectual disability: a cross-sectional study.",
-    "trust_tier": 3,
-    "trust_tier_label": "Observational Study",
-    "year": 2026
-  },
-  {
     "abstract": "Previous studies suggest that oxytocin has therapeutic potential for modulating core symptoms of autism spectrum disorder (ASD), although findings have been inconsistent. The unknown mechanisms underlying oxytocin's effects and the substantial individual variability in treatment response impede the development of effective oxytocin-based therapies. In this study, we conducted a genome-wide association study (GWAS) using data from a randomized controlled trial (RCT) that examined the effects of a single dose oxytocin on behavioral and neural correlates of ASD. We further tested the association between the SNP identified in the GWAS and clinical efficacy in an independent, larger dataset comprising participants from three additional RCTs. In these trials, males with high-functioning ASD received repeated doses of oxytocin, and treatment response was assessed using the social reciprocity domain of the Autism Diagnostic Observation Schedule (ADOS), the common primary outcome across all three studies. The GWAS identified a significant association between oxytocin-induced improvements in medial prefrontal cortex activity during a social judgment task and the single nucleotide polymorphism (SNP) rs1871303 in the ryanodine receptor 2 (RYR2) gene (β = 2.37, t = 7.82, df = 72, P = 3.47 × 10⁻⁹). The validation analysis supported the association between this RYR2 SNP and individual variability in ADOS reciprocity improvement (β = 0.194, t = 2.30, df = 135, P = 0.023), with no significant association observed for placebo response (P > 0.1). To our knowledge, this is the first GWAS to investigate the pharmacogenomics of oxytocin efficacy in ASD. These findings highlight RYR2 as a key gene influencing oxytocin response, possibly through its role in calcium channel signaling and regulation of endogenous oxytocin release.",
     "age_max": null,
     "age_min": null,
@@ -523,7 +79,7 @@
     "intervention": "oxytocin",
     "journal": "Molecular psychiatry",
     "keywords": [],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -595,7 +151,7 @@
       "Movement quality",
       "Physiotherapy"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -668,7 +224,7 @@
     "intervention": "oxytocin",
     "journal": "Brain, behavior, and immunity",
     "keywords": [],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -741,7 +297,7 @@
       "Intermittent theta-burst stimulation",
       "Neurodevelopmental disorders"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -826,7 +382,7 @@
     "intervention": "a double-blind, randomized controlled trial",
     "journal": "Molecular psychiatry",
     "keywords": [],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -916,7 +472,7 @@
       "speech",
       "youth"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -996,7 +552,7 @@
       "Early childhood",
       "Screening"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Observational retrospective cohort analysis of 211 LA's administrative database of children s",
       "limited"
@@ -1076,7 +632,7 @@
       "prenatal MRI",
       "sensorineural hearing loss"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "observational cohort study including children with confirmed congenital cytomegalovirus infec"
     ],
@@ -1154,7 +710,7 @@
       "Periodontal diseases",
       "RNA sequencing"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "observational study aimed to identify salivary microRNAs (miRNAs) differentially expressed be"
     ],
@@ -1229,7 +785,7 @@
       "Parents",
       "Stress"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1292,7 +848,7 @@
         "the ages of the people who took part",
         "how long the study ran"
       ],
-      "size": "It involved only 12 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+      "size": "It involved only 12 people. Random assignment still means the groups started out comparable, but with so few people the result can shift a lot by chance — a larger trial could easily find something different. Treat this as an early signal rather than an answer."
     },
     "intervention": "Emotion dysregulation",
     "journal": "Research in developmental disabilities",
@@ -1304,7 +860,7 @@
       "Qualitative methodology",
       "Regulating Together"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1379,7 +935,7 @@
       "responsiveness",
       "validity"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "limited, warranting validation to support its use in evaluating treatment-related chang"
     ],
@@ -1431,7 +987,7 @@
       "not_stated": [
         "how long the study ran"
       ],
-      "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+      "size": "It involved only 20 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."
     },
     "intervention": "cannabidiol (CBD)",
     "journal": "Pharmacology, biochemistry, and behavior",
@@ -1442,7 +998,7 @@
       "Long-term",
       "Treatment"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "observational before-and-after study in children and adolescents (3-18 years) with ASD severi",
       "limited pharmacological treatment options"
@@ -1521,7 +1077,7 @@
       "repetitive transcranial magnetic stimulation",
       "social outcomes"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1608,7 +1164,7 @@
       "implementation",
       "primary care"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1675,7 +1231,7 @@
     "keywords": [
       "Ayres Sensory Integration, Autism Spectrum Disorder, Conservative treatment, Behaviour therapy, Sensory Integration Dysfunction."
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1758,7 +1314,7 @@
       "cannabis",
       "tetrahydrocannabinol"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "absence of a control group, these findings represent associations rather than proven treatment effects",
       "observational case series analyzed data from the UK Medical Cannabis Registry on autistic adu",
@@ -1839,7 +1395,7 @@
       "Self-directed alternative",
       "Social communication"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "limited and culturally appropriate interventions are needed"
     ],
@@ -1907,7 +1463,7 @@
       "parental intervention",
       "parental reflective functioning"
     ],
-    "last_updated": "2026-08-31T10:19:36Z",
+    "last_updated": "2026-08-31T10:31:16Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1936,6 +1492,434 @@
     "title": "Seeing the Child Within: A Randomized Controlled Trial of Reflective Functioning Intervention for Parents of Autistic Children.",
     "trust_tier": 2,
     "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "Autistic children exhibit developmental differences in theory of mind (ToM), which is associated with social impairment. While numerous interventions have targeted other ToM precursor skills, few studies have explored the effect of visual perspective taking (VPT) training on ToM. The present study aims to investigate the effectiveness of VPT training on ToM in autistic children. Sixty-six autistic children were initially recruited and randomly assigned to three groups. Forty-eight children (mean age = 5.75 years) completed the study and were included in the final analyses, comprising the VPT training group (n = 16), thought-bubble training group (n = 16), and control group (n = 16). Each training comprised 12 sessions of 30 min. Both the VPT and thought-bubble training groups demonstrated significant improvements in VPT and ToM compared to the control group. The present study is the first to directly examine the effectiveness of VPT training using table blocks in enhancing ToM performance in autistic children, thereby providing a novel approach for ToM development.",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Mi Tian",
+      "Shiyue Cao",
+      "Xin Li",
+      "Wenyu Xia",
+      "Him Cheung",
+      "Xuezhen Xiao",
+      "Tianrui Luo"
+    ],
+    "clinical_implications": "May be relevant to theory of mind in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [],
+    "conclusion": null,
+    "created_at": "2026-08-31T05:13:47Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1002/aur.70309",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
+    "intervention": "theory of mind",
+    "journal": "Autism research : official journal of the International Society for Autism Research",
+    "keywords": [
+      "autism spectrum disorder",
+      "children",
+      "theory of mind",
+      "training",
+      "visual perspective taking"
+    ],
+    "last_updated": "2026-08-31T10:31:16Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Theory of Mind",
+      "Male",
+      "Female",
+      "Child, Preschool",
+      "Child",
+      "Autistic Disorder",
+      "Visual Perception"
+    ],
+    "participants": null,
+    "pmid": "42410944",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42410944/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Visual Perspective Taking Training Improves Theory of Mind in Autistic Children.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "OBJECTIVES: This randomized, triple-blind, placebo-controlled clinical trial evaluated the efficacy and safety of quercetin in adults with autism spectrum disorder (ASD).\nMETHODS: Fifty-two adults with ASD were randomly assigned to receive either quercetin or placebo for 60 days. Outcomes included the Social Responsiveness Scale (SRS), WHO Quality of Life (WHOQOL) domains, and other clinical measures assessed at baseline, 30 days, and 60 days.\nRESULTS: Baseline demographic characteristics and comorbid conditions were comparable between groups. The quercetin group showed a significant within-group reduction in SRS scores over time (p = 0.010), whereas the placebo group showed no significant change (p = 0.655). However, between-group differences in SRS change were not statistically significant. At week 8, the physical health domain of WHOQOL improved more in the quercetin group at the unadjusted level (p = 0.044), but this was not significant after adjustment (p = 0.082). The environmental health domain showed a borderline difference favoring quercetin (adjusted p = 0.053).\nCONCLUSION: Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\nTRIAL REGISTRATION: IRCT20241214064050N1.",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Anahid Rezaeifar",
+      "Mahtab Motamed",
+      "Niayesh Mohebbi"
+    ],
+    "clinical_implications": "Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD.",
+    "co_occurring_conditions": [],
+    "conclusion": "Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\nTRIAL REGISTRATION: IRCT20241214064050N1.",
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1002/hup.70057",
+    "duration": "60 days",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 60 days. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [
+        "the ages of the people who took part"
+      ],
+      "size": "It involved 52 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
+    "intervention": "quercetin",
+    "journal": "Human psychopharmacology",
+    "keywords": [
+      "autism spectrum disorder",
+      "quality of life",
+      "quercetin",
+      "randomized controlled trial",
+      "social responsiveness scale"
+    ],
+    "last_updated": "2026-08-31T10:31:16Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Quercetin",
+      "Female",
+      "Male",
+      "Adult",
+      "Quality of Life",
+      "Autism Spectrum Disorder",
+      "Young Adult",
+      "Treatment Outcome",
+      "Antioxidants",
+      "Double-Blind Method",
+      "Adolescent",
+      "Middle Aged"
+    ],
+    "participants": 52,
+    "pmid": "42438230",
+    "primary_outcomes": [
+      "Social Responsiveness Scale (SRS)",
+      "Quality of Life (WHOQOL) domains",
+      "SRS scores over time (p = 0",
+      "SRS change were not statistically significant"
+    ],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42438230/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Assessment of the Efficacy of Quercetin in Adult Patients With Autism Spectrum Disorder: A Randomized, Triple-Blind, Placebo-Controlled Trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "UNLABELLED: Emerging evidence suggests that washed microbiota transplantation (WMT) can be used to effectively treat autism spectrum disorder (ASD). This study aimed to evaluate the efficacy of WMT, investigate structural changes in the gut microbiota of children with ASD after WMT, and determine the relationship between donor and recipient gut microbiota characteristics in ASD with different treatment efficacies. This study included 38 ASD patients who underwent a full course of WMT from a single donor between July 2019 and December 2024. The clinical rating scale and stool samples were collected before and 4 weeks after WMT. Using 16S rRNA sequencing, patients were stratified by enterotype, Bacteroides (ET-B), or Prevotella (ET-P), to compare gut microbiota features with healthy donors and assess how microbial characteristics influence WMT efficacy. Finally, we found that WMT has statistically significant effects on the scale scores changes of core symptoms, sleep disturbances, and gastrointestinal symptoms in patients with ASD. In addition, the efficacy of WMT for ASD was correlated with donor and recipient gut microbiota characteristics before WMT. Among donors and recipients with Bacteroides as the dominant genus, the closer the recipient gut microbiota was to that of the donor, the better the efficacy of WMT in patients with ASD.\nCLINICAL TRIAL REGISTRATION: https://www.chictr.org.cn/index.html, identifier ChiCTR2400089296.",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Yongxi Quan",
+      "Mingming Chen",
+      "Yao Cai",
+      "Li Ling",
+      "Yedong Lao",
+      "Xingxiang He",
+      "Lihao Wu"
+    ],
+    "clinical_implications": "May be relevant to washed microbiota transplantation in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [],
+    "conclusion": null,
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.3389/fcimb.2026.1823988",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 38 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
+    "intervention": "washed microbiota transplantation",
+    "journal": "Frontiers in cellular and infection microbiology",
+    "keywords": [
+      "autism",
+      "donor-recipient",
+      "enterotype",
+      "gut microbiota characteristics",
+      "washed microbiota transplantation"
+    ],
+    "last_updated": "2026-08-31T10:31:16Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Child",
+      "Child, Preschool",
+      "Female",
+      "Humans",
+      "Male",
+      "Autism Spectrum Disorder",
+      "Autistic Disorder",
+      "Bacteria",
+      "Bacteroides",
+      "Fecal Microbiota Transplantation",
+      "Feces",
+      "Gastrointestinal Microbiome",
+      "Prevotella",
+      "RNA, Ribosomal, 16S",
+      "Treatment Outcome"
+    ],
+    "participants": 38,
+    "pmid": "42459342",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42459342/",
+    "study_type": "Observational Study",
+    "title": "Analysis of washed microbiota transplant efficacy for autism and donor-recipient gut microbiota characteristics.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
+    "year": 2026
+  },
+  {
+    "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is characterized by early difficulties in language and social communication. While speech therapy is a core early intervention, music therapy has been increasingly applied to support social-emotional development. However, evidence regarding the additive effects of group-based music therapy combined with speech therapy in preschool children with ASD remains limited.\nMETHOD: This exploratory randomized controlled trial enrolled (RCT) preschool children aged 3-5 years with ASD and language delay. Participants were randomly assigned to a Music Therapy group receiving group-based music therapy (60 min/week) plus individual speech therapy (30 min/week), or a Control group receiving speech therapy alone, for 8 weeks. The primary outcome was week 8 language performance assessed using the Preschool Language Scale (PLS). Secondary outcomes included autism-related characteristics, emotional and behavioral functioning, and parenting stress, assessed using the Checklist for Autism Spectrum Disorder-Chinese Version (CASD-C), Pervasive Developmental Problems scale of the Child Behavior Checklist for Ages 1½-5 (CBCL 1½-5 PDP), and Parenting Stress Index-Short Form (PSI-4-SF), respectively. The primary treatment effect was evaluated using a multiple imputation-based intention-to-treat (ITT) adjusted analysis accounting for sex and baseline outcome measures. Secondary outcome analyses were interpreted with Benjamini-Hochberg false discovery rate correction for multiple comparisons. Exploratory within-group analyses and generalized estimating equation (GEE) models were used to characterize observed changes over time.\nRESULTS: Forty participants were randomized, and 38 participants completed the week 8 assessment. The ITT analysis included all randomized participants. Observed PLS total scores increased significantly within both groups. Exploratory within-group analyses also showed reductions in CASD-C social interaction issues and emotional difficulties in the Music Therapy group, and CBCL 1½-5 PDP T-scores decreased within both groups. However, the primary adjusted ITT analysis did not demonstrate statistically significant superiority of adjunctive group-based music therapy over speech therapy alone for the primary language outcome (adjusted between-group difference, -1.65; 95% confidence interval, -7.52-4.21; p = 0.569). No statistically significant adjusted between-group differences were observed for secondary outcomes. Exploratory GEE analyses indicated time-related changes in PLS total score, CASD-C sensory difficulties, and CBCL 1½-5 PDP T-score, but no significant group-by-time interactions.\nCONCLUSION: In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone. Larger adequately powered trials are needed to evaluate its incremental benefit.",
+    "age_max": 5,
+    "age_min": 3,
+    "age_range": "3-5 years",
+    "age_unit": "years",
+    "authors": [
+      "Chih-En Liu",
+      "Pei-Ying Chen",
+      "Ting-Ju Lai",
+      "Shu-Mei Yang"
+    ],
+    "clinical_implications": "In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events.",
+    "co_occurring_conditions": [
+      "Language Development Disorders"
+    ],
+    "conclusion": "In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone. Larger adequately powered trials are needed to evaluate its incremental benefit.",
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1016/j.ridd.2026.105345",
+    "duration": "8 weeks",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 8 weeks. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [],
+      "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
+    "intervention": "group-based music therapy combined with speech therapy",
+    "journal": "Research in developmental disabilities",
+    "keywords": [
+      "Autism spectrum disorder",
+      "Language development",
+      "Music therapy",
+      "Social skills",
+      "Speech therapy"
+    ],
+    "last_updated": "2026-08-31T10:31:16Z",
+    "limitations": [
+      "limited"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Music Therapy",
+      "Autism Spectrum Disorder",
+      "Child, Preschool",
+      "Male",
+      "Speech Therapy",
+      "Female",
+      "Social Skills",
+      "Combined Modality Therapy",
+      "Language Development Disorders",
+      "Psychotherapy, Group",
+      "Treatment Outcome"
+    ],
+    "participants": 40,
+    "pmid": "42468411",
+    "primary_outcomes": [
+      "primary outcome was week 8 language performance assessed using the Preschoo",
+      "CBCL 1½-5 PDP)",
+      "CBCL 1½-5 PDP T-scores decreased within both groups"
+    ],
+    "secondary_outcomes": [
+      "Secondary outcomes included autism-related characteristics",
+      "Secondary outcome analyses were interpreted with Benjamini-Hochberg false dis",
+      "secondary outcomes"
+    ],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42468411/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Effects of group-based music therapy combined with speech therapy on language and social skills in preschool children with autism spectrum disorder: An exploratory randomized controlled trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "INTRODUCTION: Autism Spectrum Disorder (ASD) impacts children's functioning and participation. Functionality-centered interventions, such as the Global Integration Method (Método de Integração Global-MIG), have been proposed in this context. Understanding parental perceptions is relevant to evaluate their effects on children's daily lives. Objective: To explore parental perceptions of changes in functioning following participation in the MIG program among children with Autism Spectrum Disorder (ASD), interpreted through the framework of the International Classification of Functioning, Disability and Health (ICF).\nMETHODS: This qualitative study was conducted as an embedded component of an ongoing randomized controlled trial evaluating outcomes associated with participation in the MIG program in children with ASD. Parents of children allocated to the intervention group (n = 18; aged 6-12 years), diagnosed with ASD and classified at support levels I and II, participated in three post-intervention focus groups.\nRESULTS: Findings were organized into three categories: previous experiences with conventional interventions, perceived changes following participation in MIG, and general perceptions of the program. Parents described previous interventions as fragmented, difficult to access, and associated with inconsistent functional experiences. Following participation in MIG, caregivers reported perceived changes related to body functions, particularly motor and communicative aspects, as well as changes in daily activities and social and school participation. Parents also described positive experiences regarding program organization, family support, and expectations regarding future participation and autonomy.\nCONCLUSION: Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.",
+    "age_max": 12,
+    "age_min": 6,
+    "age_range": "6-12 years",
+    "age_unit": "years",
+    "authors": [
+      "Reinaldo da Costa Paulino Netto",
+      "Deisiane Oliveira Souto",
+      "Iolanda Costa Rodrigues",
+      "Amanda Aparecida Alves Cunha Nascimento",
+      "Camila de Oliveira Schumann",
+      "Millene Cézar Nunes",
+      "Ana Clara Schaper Fernandes",
+      "Ana Clara de Carvalho Silva",
+      "Patricia Aparecida Neves Santana",
+      "Thalita Karla Flores Cruz"
+    ],
+    "clinical_implications": "Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.",
+    "co_occurring_conditions": [],
+    "conclusion": "Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.",
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.3389/fpubh.2026.1851875",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
+    "intervention": "family",
+    "journal": "Frontiers in public health",
+    "keywords": [
+      "autism spectrum disorder",
+      "family",
+      "functioning",
+      "motor activity",
+      "psychomotor performance"
+    ],
+    "last_updated": "2026-08-31T10:31:16Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Child",
+      "Autism Spectrum Disorder",
+      "Parents",
+      "Male",
+      "Female",
+      "Qualitative Research",
+      "Focus Groups"
+    ],
+    "participants": null,
+    "pmid": "42491294",
+    "primary_outcomes": [
+      "Findings were organized into three categories: previous experiences with conventional interventions, perceived changes following participation in MIG, and general perceptions of th…"
+    ],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42491294/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "\"My child before and now\": parental perceptions of changes in functioning following participation in the global integration method (Método de Integração Global) in children with autism spectrum disorder.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
+    "year": 2026
+  },
+  {
+    "abstract": "BACKGROUND: Autism Spectrum Disorders (ASD) are neurodevelopmental disorders with highly heterogeneous clinical profiles, outcomes and care pathways. Linking health administrative databases with cohort studies is an excellent opportunity to study healthcare utilisation by ASD patients. Optimisation of linkage should maximise the linkage rate and minimise potential errors and biases to ensure high quality analyses and the absence of bias. This study aims to describe the linkage strategy between the French national health database (SNDS) and the ELENA cohort database, and to provide advice on optimizing linkage quality.\nMETHODS: The ELENA cohort includes 876 children with a confirmed diagnosis of ASD between 2013 and 2019. The SNDS contains all healthcare services reimbursed by health insurance schemes. We performed deterministic matching on the reference sample and evaluated deterministic and probabilistic approaches on another sample. Performance was assessed using the matching rate and comparison between matched and unmatched groups.\nRESULTS: We matched 96 % of the reference sample and 53 % of the other sample using either deterministic or probabilistic approach, resulting in a total match rate of 79 % with deterministic or mixed approach. The mixed approach minimized selection bias, producing a linked dataset of 692 children with ASD whose characteristics were comparable to those of the unmatched sample. Probabilistic weighting showed that hospitalization dates were the most discriminating variables for matching.\nCONCLUSIONS: The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism.\nTRIAL REGISTRATION NUMBER: NCT04292522.",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Julie Loubersac",
+      "Marie-Christine Picot",
+      "Fabien Belloc",
+      "Marjorie Boussac",
+      "Amaria Baghdadli"
+    ],
+    "clinical_implications": "The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism.",
+    "co_occurring_conditions": [],
+    "conclusion": "The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism.\nTRIAL REGISTRATION NUMBER: NCT04292522.",
+    "created_at": "2026-08-31T05:13:47Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1016/j.jeph.2026.203349",
+    "duration": null,
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism. TRIAL REGISTRATION NUMBER: NCT04292522.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 876 people, which is a large group for autism research and makes the findings steadier."
+    },
+    "intervention": "Cohort",
+    "journal": "Journal of epidemiology and population health",
+    "keywords": [
+      "Autism spectrum disorder",
+      "Cohort",
+      "Deterministic matching",
+      "Probabilistic matching",
+      "SNDS"
+    ],
+    "last_updated": "2026-08-31T10:31:16Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Child",
+      "Child, Preschool",
+      "Female",
+      "Humans",
+      "Male",
+      "Autism Spectrum Disorder",
+      "Cohort Studies",
+      "Databases, Factual",
+      "France",
+      "Medical Record Linkage"
+    ],
+    "participants": 876,
+    "pmid": "42492413",
+    "primary_outcomes": [
+      "We matched 96 % of the reference sample and 53 % of the other sample using either deterministic or probabilistic approach, resulting in a total match rate of 79 % with deterministi…"
+    ],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42492413/",
+    "study_type": "Observational Study",
+    "title": "Linking the national health database to the cohort of children with autism spectrum disorders: a mixed approach to optimising the linkage.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "year": 2026
   }
 ]

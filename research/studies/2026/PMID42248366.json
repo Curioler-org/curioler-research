@@ -24,7 +24,7 @@
     "not_stated": [
       "how long the study ran"
     ],
-    "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    "size": "It involved only 20 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."
   },
   "intervention": "cannabidiol (CBD)",
   "journal": "Pharmacology, biochemistry, and behavior",
@@ -35,7 +35,7 @@
     "Long-term",
     "Treatment"
   ],
-  "last_updated": "2026-08-31T10:05:55Z",
+  "last_updated": "2026-08-31T10:31:16Z",
   "limitations": [
     "observational before-and-after study in children and adolescents (3-18 years) with ASD severi",
     "limited pharmacological treatment options"

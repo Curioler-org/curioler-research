@@ -10,7 +10,7 @@ authors: ["Pablo Sebastián Fortini", "Javier J Toibaro", "Roberto H Caraballo"]
 study_type: "Observational Study"
 trust_tier: 3
 trust_tier_label: "Observational Study"
-easy_explainer: {"conclusion": "The researchers concluded: \"Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."}
+easy_explainer: {"conclusion": "The researchers concluded: \"Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved only 20 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."}
 participants: 20
 age_range: "3-18 years"
 age_min: 3
@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Cannabidiol", "Child", "Autism Spectrum Disorder", "Male
 keywords: ["Autism spectrum disorder", "Behavior disturbances", "Cannabidiol", "Long-term", "Treatment"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42248366/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:19:36Z"
+last_updated: "2026-08-31T10:31:16Z"
 ---

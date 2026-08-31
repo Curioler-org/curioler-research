@@ -10,7 +10,7 @@ authors: ["Melissa M Tovin", "Sheila B Madden", "Kaiwen Wu", "Annabel Nunez-Gaun
 study_type: "Observational Study"
 trust_tier: 3
 trust_tier_label: "Observational Study"
-easy_explainer: {"conclusion": "The researchers concluded: \"Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 8-week. That is a short window, so it says nothing about whether the effects last.", "not_stated": [], "size": "It involved only 27 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."}
+easy_explainer: {"conclusion": "The researchers concluded: \"Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 8-week. That is a short window, so it says nothing about whether the effects last.", "not_stated": [], "size": "It involved only 27 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."}
 participants: 27
 age_range: "14-28 years"
 age_min: 14
@@ -30,5 +30,5 @@ mesh_terms: ["Humans", "Female", "Adolescent", "Male", "Prospective Studies", "A
 keywords: ["Wearable device adherence", "adolescents and adults", "autism spectrum disorder", "fitness tracker", "physical activity"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41578977/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:19:36Z"
+last_updated: "2026-08-31T10:31:15Z"
 ---
