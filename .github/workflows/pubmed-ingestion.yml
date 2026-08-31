@@ -70,3 +70,9 @@ jobs:
       # go unnoticed until someone rebuilt the records by hand.
       - name: Check every raw capture has a study record
         run: python -m scripts.check_raw_coverage
+
+      - name: Check participants against the truth fixture
+        run: python -m scripts.check_participants
+
+      - name: Check Easy explainer invariants
+        run: python -m scripts.check_explainer
