@@ -24,6 +24,7 @@
   "created_at": "2026-08-31T05:13:47Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.ajog.2026.04.040",
+  "domain": "general",
   "duration": "48 months",
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"In this large prospective cohort, adverse long-term outcomes following maternal primary infection were observed only after first-trimester exposure. Autism spectrum disorder occurred exclusively in this group and was consistently associated with temporal lobe white matter abnormalities.\"",
@@ -45,7 +46,7 @@
     "prenatal MRI",
     "sensorineural hearing loss"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "observational cohort study including children with confirmed congenital cytomegalovirus infec"
   ],

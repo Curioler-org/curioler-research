@@ -8,6 +8,7 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Lynn Kern Koegel", "Elizabeth Ponder", "Tommy Bruzzese", "Mason Wang", "Sina J Semnani", "Nathan Chi", "Brittany L Koegel", "Tzu Yuan Lin", "Ankush Swarnakar", "Monica S Lam"]
 study_type: "Randomized Controlled Trial"
+domain: "communication"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 4 weeks. That is a short window, so it says nothing about whether the effects last.", "not_stated": [], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Adolescent", "Adult", "Male", "Young Adult", "Female", "
 keywords: ["Artificial intelligence", "Autistic", "Empathy", "Machine Learning", "Social communication"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39954218/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:15Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

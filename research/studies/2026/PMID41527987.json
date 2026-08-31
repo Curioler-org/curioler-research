@@ -18,6 +18,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1080/09638288.2026.2614218",
+  "domain": "adaptive",
   "duration": "3-month",
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills. Time-management skills are essential for carrying out daily routine, leading a balanced and satisfying life, and maintaining employment.People with attention deficit hyperactivity disorder (ADHD), autism or mental disorders often experience time-management difficulties and rate their capacity for these skills lower than the general population.While the participants did not change the number of daily activities performed, their satisfaction with the way they were performed increased.This study demonstrated that both the intervention Let’s Get Organised(LGO-S) and individual occupational therapy are clinically useful/applicable interventions which effectively improve time-management skills.\"",
@@ -36,7 +37,7 @@
     "autism",
     "neurodevelopmental disorders"
   ],
-  "last_updated": "2026-08-31T10:31:15Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

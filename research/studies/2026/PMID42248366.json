@@ -15,6 +15,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.pbb.2026.174220",
+  "domain": "behaviour",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales.\"",
@@ -35,7 +36,7 @@
     "Long-term",
     "Treatment"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "observational before-and-after study in children and adolescents (3-18 years) with ASD severi",
     "limited pharmacological treatment options"

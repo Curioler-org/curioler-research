@@ -18,6 +18,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.ridd.2026.105345",
+  "domain": "communication",
   "duration": "8 weeks",
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone.\"",
@@ -36,7 +37,7 @@
     "Social skills",
     "Speech therapy"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "limited"
   ],

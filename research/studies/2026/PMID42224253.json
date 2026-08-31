@@ -24,6 +24,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1177/13623613261442618",
+  "domain": "social",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
@@ -44,7 +45,7 @@
     "responsiveness",
     "validity"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "limited, warranting validation to support its use in evaluating treatment-related chang"
   ],

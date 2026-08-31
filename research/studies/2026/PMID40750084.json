@@ -18,6 +18,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jaac.2025.07.1058",
+  "domain": "behaviour",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"Findings suggest that EASE improves emotion dysregulation for autistic adolescents and young adults. PLAIN LANGUAGE SUMMARY: This study tested a mindfulness-based intervention to improve autistic adolescents' and young adults' ability to manage emotions.\"",
@@ -38,7 +39,7 @@
     "mental health",
     "mindfulness"
   ],
-  "last_updated": "2026-08-31T10:31:15Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

@@ -5,6 +5,7 @@
       "Anxiety Disorders"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -30,6 +31,7 @@
     "age_range": "3-12 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "behaviour",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -55,6 +57,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"Implications highlight the need for more attention on professional development research for autism providers, to examine pre-service training, and for clinical leaders to examine their workplace environment to promote effective and fair practices.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -81,6 +84,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "adaptive",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -107,6 +111,7 @@
     "age_range": "11-35 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "communication",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -130,6 +135,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -156,6 +162,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -181,6 +188,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -207,6 +215,7 @@
     "age_range": "6-12 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "motor",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -232,6 +241,7 @@
       "Affective Symptoms"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "behaviour",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"Findings suggest that EASE improves emotion dysregulation for autistic adolescents and young adults. PLAIN LANGUAGE SUMMARY: This study tested a mindfulness-based intervention to improve autistic adolescents' and young adults' ability to manage emotions.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -259,6 +269,7 @@
       "Sleep Wake Disorders"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -284,6 +295,7 @@
     "age_range": "6-8 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"We found no indication that higher-than-normal vitamin D3 supplementation between ages 0 and 2 years decreases ASD-related trait scores at ages 6-8 years. Sex-stratified analysis suggested an inverse association, among boys, between early life 25(OH)D concentrations and ASD-related traits, warranting further studies on potential causal direction and sex specificity of associations.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -311,6 +323,7 @@
       "Attention Deficit Disorder with Hyperactivity"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "adaptive",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills. Time-management skills are essential for carrying out daily routine, leading a balanced and satisfying life, and maintaining employment.People with attention deficit hyperactivity disorder (ADHD), autism or mental disorders often experience time-management difficulties and rate their capacity for these skills lower than the general population.While the participants did not change the number of daily activities performed, their satisfaction with the way they were performed increased.This study demonstrated that both the intervention Let’s Get Organised(LGO-S) and individual occupational therapy are clinically useful/applicable interventions which effectively improve time-management skills.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -334,6 +347,7 @@
     "age_range": "3-12 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"This study provides important information about placebo effects and placebo lead-in designs for clinical trials in the autism field. We show widespread clinically significant improvement during placebo lead-in, utility of identifying placebo responders for informing clinical trial analyses, similarities in symptom measure effect sizes for placebo effects, and a lack of influence of caregiver beliefs on placebo responses.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -357,6 +371,7 @@
     "age_range": "14-28 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "motor",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation.\"",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -383,6 +398,7 @@
       "Intellectual Disability"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.\"",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -409,6 +425,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -435,6 +452,7 @@
     "age_range": "15-30 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "motor",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"BBAT and TAU were superior to TAU alone for improving movement quality. BBAT is a relevant intervention for autistic young adults to improve everyday functionality.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -462,6 +480,7 @@
       "Dysbiosis"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -491,6 +510,7 @@
       "Attention Deficit Disorder with Hyperactivity"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"iTBS is effective for MDD in routine clinical practice; however, its therapeutic impact appears moderately reduced in patients with ASD and/or ADHD. These findings underscore the need for individualized neuromodulation strategies and further investigation into neurobiological and sensory factors contributing to treatment heterogeneity.\"",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -517,6 +537,7 @@
     "age_range": "6-30 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -543,6 +564,7 @@
       "Intellectual Disability"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -571,6 +593,7 @@
       "Developmental Disabilities"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"At a telephone-based care coordination program in LA County, the amount and duration of engagement by coordinators for children with autism or developmental delays was substantial. There was a significant relationship between the number of service provider referrals and service receipt, but not for total number of contacts.\"",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -597,6 +620,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"In this large prospective cohort, adverse long-term outcomes following maternal primary infection were observed only after first-trimester exposure. Autism spectrum disorder occurred exclusively in this group and was consistently associated with temporal lobe white matter abnormalities.\"",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -625,6 +649,7 @@
       "Periodontal Diseases"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"Children with ASD exhibit a distinct salivary miRNA profile with increased caries burden and gingival inflammation, indicating shared molecular influences on neurodevelopment and oral disease susceptibility. CLINICAL RELEVANCE: Salivary miRNAs offer a non-invasive biomarker platform to support earlier ASD identification, individualized preventive dental strategies, and interdisciplinary management of this high-risk paediatric population.\"",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -654,6 +679,7 @@
       "Depression"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"The MBSR program was effective in reducing depression, anxiety, and stress among parents of children with ASD. However, overall hopelessness did not change significantly, suggesting that this construct may be less responsive to short-term interventions.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -680,6 +706,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "behaviour",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -706,6 +733,7 @@
     "age_range": "19-36 months",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "social",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -731,6 +759,7 @@
     "age_range": "3-18 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "behaviour",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales.\"",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -756,6 +785,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "cognitive",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -781,6 +811,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -807,6 +838,7 @@
     "age_range": "2-8 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "sensory",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -834,6 +866,7 @@
       "Anxiety"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"Treatment with CBMPs was associated with improvements in HRQoL, anxiety, and sleep outcomes in autistic patients over an 18-month period. Given the absence of a control group, these findings represent associations rather than proven treatment effects.\"",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -859,6 +892,7 @@
     "age_range": "24-60 months",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "communication",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -882,6 +916,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -908,6 +943,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "cognitive",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -934,6 +970,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -959,6 +996,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -987,6 +1025,7 @@
       "Language Development Disorders"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "communication",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -1010,6 +1049,7 @@
     "age_range": "6-12 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "motor",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -1035,6 +1075,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism. TRIAL REGISTRATION NUMBER: NCT04292522.\"",
       "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
@@ -1061,6 +1102,7 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"Alpha-training NFB was associated with improvements in caregiver-rated behavioral scores and modulated spectral features of resting-state EEG in children with ASD. These findings validate the utility of spectral parameterization markers in evaluating neuromodulatory interventions.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -1087,6 +1129,7 @@
     "age_range": "2-5 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "social",
     "easy_explainer": {
       "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
@@ -1112,6 +1155,7 @@
       "Sleep Initiation and Maintenance Disorders"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "domain": "general",
     "easy_explainer": {
       "conclusion": "The researchers concluded: \"This study provides multiscale evidence for the biological context underlying iTBS-related changes in overlapping network architecture in ASD with chronic insomnia.\"",
       "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",

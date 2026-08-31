@@ -8,6 +8,7 @@ year: 2026
 journal: "Molecular psychiatry"
 authors: ["Qi Liu", "Jiawei Zhang", "Xinyu Duan", "Ping Zhang", "Yang Yang", "Guanzhong Yao", "Bulideerqing Jiaerheng", "Xiao-Jing Shou", "Yong He", "Kaiyue Han", "Meixiang Jia", "Lifang Wang", "Weijun Gong", "Wuxiang Xie", "Kai Sun", "Danhong Wang", "Xiao-Dan Wu", "Hua Cao", "Hao Zhang", "Hesheng Liu"]
 study_type: "Randomized Controlled Trial"
+domain: "general"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 12 weeks. That is a short window, so it says nothing about whether the effects last.", "not_stated": [], "size": "It involved 67 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Male", "Double-Blind Method", "Child", "Autism Spectrum 
 keywords: []
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41986743/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

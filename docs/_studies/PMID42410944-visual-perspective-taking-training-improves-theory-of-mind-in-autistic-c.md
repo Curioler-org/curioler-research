@@ -8,6 +8,7 @@ year: 2026
 journal: "Autism research : official journal of the International Society for Autism Research"
 authors: ["Mi Tian", "Shiyue Cao", "Xin Li", "Wenyu Xia", "Him Cheung", "Xuezhen Xiao", "Tianrui Luo"]
 study_type: "Randomized Controlled Trial"
+domain: "cognitive"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Theory of Mind", "Male", "Female", "Child, Preschool", "
 keywords: ["autism spectrum disorder", "children", "theory of mind", "training", "visual perspective taking"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42410944/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

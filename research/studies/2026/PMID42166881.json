@@ -17,6 +17,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.pedn.2026.05.008",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"The MBSR program was effective in reducing depression, anxiety, and stress among parents of children with ASD. However, overall hopelessness did not change significantly, suggesting that this construct may be less responsive to short-term interventions.\"",
@@ -40,7 +41,7 @@
     "Parents",
     "Stress"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

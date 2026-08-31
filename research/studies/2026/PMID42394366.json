@@ -16,6 +16,7 @@
   "created_at": "2026-08-31T05:13:47Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1002/aur.70301",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
@@ -37,7 +38,7 @@
     "parental intervention",
     "parental reflective functioning"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

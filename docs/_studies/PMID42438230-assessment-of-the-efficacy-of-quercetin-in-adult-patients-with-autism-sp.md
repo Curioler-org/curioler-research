@@ -8,6 +8,7 @@ year: 2026
 journal: "Human psychopharmacology"
 authors: ["Anahid Rezaeifar", "Mahtab Motamed", "Niayesh Mohebbi"]
 study_type: "Randomized Controlled Trial"
+domain: "general"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The researchers concluded: \"Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 60 days. That is a short window, so it says nothing about whether the effects last.", "not_stated": ["the ages of the people who took part"], "size": "It involved 52 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Quercetin", "Female", "Male", "Adult", "Quality of Life"
 keywords: ["autism spectrum disorder", "quality of life", "quercetin", "randomized controlled trial", "social responsiveness scale"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42438230/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

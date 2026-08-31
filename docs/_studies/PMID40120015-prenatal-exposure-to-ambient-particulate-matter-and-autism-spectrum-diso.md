@@ -8,6 +8,7 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Marion Mortamais", "Jeanne Sandrine Ongono", "Cécile Michelon", "Ian Hough", "Emie Seyve", "Itai Kloog", "Cécile Zaros", "Marie-Aline Charles", "Johanna Lepeule", "Amaria Baghdadli"]
 study_type: "Observational Study"
+domain: "general"
 trust_tier: 3
 trust_tier_label: "Observational Study"
 easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
@@ -30,5 +31,5 @@ mesh_terms: ["Child", "Child, Preschool", "Female", "Humans", "Male", "Pregnancy
 keywords: ["Air pollution", "Autism spectrum disorder", "Case control study", "Environmental risk factor", "Particulate matter"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40120015/"
 created_at: "2026-08-31T05:16:32Z"
-last_updated: "2026-08-31T10:31:15Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

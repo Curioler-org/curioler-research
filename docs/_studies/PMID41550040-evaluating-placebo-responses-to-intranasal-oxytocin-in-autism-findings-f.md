@@ -8,6 +8,7 @@ year: 2026
 journal: "Journal of child psychology and psychiatry, and allied disciplines"
 authors: ["Kelsie A Boulton", "Rinku Thapa", "Yun Ju Song", "Andrew J O Whitehouse", "Marilena M DeMayo", "Simon G Gregory", "Izabella Pokorski", "Joanna Granich", "Zahava Ambarchi", "John Wray", "Emma E Thomas", "Ian B Hickie", "Adam J Guastella"]
 study_type: "Randomized Controlled Trial"
+domain: "general"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The researchers concluded: \"This study provides important information about placebo effects and placebo lead-in designs for clinical trials in the autism field. We show widespread clinically significant improvement during placebo lead-in, utility of identifying placebo responders for informing clinical trial analyses, similarities in symptom measure effect sizes for placebo effects, and a lack of influence of caregiver beliefs on placebo responses.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 3-week. That is a short window, so it says nothing about whether the effects last.", "not_stated": [], "size": "It involved 87 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Oxytocin", "Male", "Child", "Child, Preschool", "Female"
 keywords: ["Treatment", "anxiety", "autism", "oxytocin", "social interaction"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41550040/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:15Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

@@ -26,6 +26,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1111/jsr.70265",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
@@ -45,7 +46,7 @@
     "treatment",
     "young people"
   ],
-  "last_updated": "2026-08-31T10:31:15Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "observational study reports on the feasibility and adequacy of Level 2 polysomnography involv"
   ],

@@ -8,6 +8,7 @@ year: 2026
 journal: "Journal of epidemiology and population health"
 authors: ["Julie Loubersac", "Marie-Christine Picot", "Fabien Belloc", "Marjorie Boussac", "Amaria Baghdadli"]
 study_type: "Observational Study"
+domain: "general"
 trust_tier: 3
 trust_tier_label: "Observational Study"
 easy_explainer: {"conclusion": "The researchers concluded: \"The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism. TRIAL REGISTRATION NUMBER: NCT04292522.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "It involved 876 people, which is a large group for autism research and makes the findings steadier."}
@@ -30,5 +31,5 @@ mesh_terms: ["Child", "Child, Preschool", "Female", "Humans", "Male", "Autism Sp
 keywords: ["Autism spectrum disorder", "Cohort", "Deterministic matching", "Probabilistic matching", "SNDS"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42492413/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

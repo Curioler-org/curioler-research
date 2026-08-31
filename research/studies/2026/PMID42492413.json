@@ -17,6 +17,7 @@
   "created_at": "2026-08-31T05:13:47Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jeph.2026.203349",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism. TRIAL REGISTRATION NUMBER: NCT04292522.\"",
@@ -38,7 +39,7 @@
     "Probabilistic matching",
     "SNDS"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

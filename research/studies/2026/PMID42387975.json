@@ -32,6 +32,7 @@
   "created_at": "2026-07-11T18:27:28Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1002/npr2.70146",
+  "domain": "general",
   "duration": "18 months",
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"Treatment with CBMPs was associated with improvements in HRQoL, anxiety, and sleep outcomes in autistic patients over an 18-month period. Given the absence of a control group, these findings represent associations rather than proven treatment effects.\"",
@@ -52,7 +53,7 @@
     "cannabis",
     "tetrahydrocannabinol"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "absence of a control group, these findings represent associations rather than proven treatment effects",
     "observational case series analyzed data from the UK Medical Cannabis Registry on autistic adu",

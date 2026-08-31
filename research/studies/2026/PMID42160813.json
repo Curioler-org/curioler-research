@@ -20,6 +20,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.identj.2026.109632",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"Children with ASD exhibit a distinct salivary miRNA profile with increased caries burden and gingival inflammation, indicating shared molecular influences on neurodevelopment and oral disease susceptibility. CLINICAL RELEVANCE: Salivary miRNAs offer a non-invasive biomarker platform to support earlier ASD identification, individualized preventive dental strategies, and interdisciplinary management of this high-risk paediatric population.\"",
@@ -42,7 +43,7 @@
     "Periodontal diseases",
     "RNA sequencing"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "observational study aimed to identify salivary microRNAs (miRNAs) differentially expressed be"
   ],

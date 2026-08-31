@@ -8,6 +8,7 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Lesley A Norris", "Jonathan C Rabner", "Marika Marklin", "Margaret E Crane", "Kathrin Renschler", "Emma Jenkins", "Joshua Kemp", "Eric A Storch", "Jeffrey J Wood", "Connor M Kerns", "Adam B Lewin", "Brent J Small", "Philip C Kendall"]
 study_type: "Randomized Controlled Trial"
+domain: "general"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved 148 people, a reasonably sized group for this kind of research."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Adolescent", "Caregivers", "Child", "Male", "C
 keywords: ["Cognitive behavioral therapy", "Exposure therapy", "Mixed methods", "Systematic inductive thematic analysis", "Treatment satisfaction", "Youth anxiety"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39930281/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:15Z"
+last_updated: "2026-08-31T13:10:29Z"
 ---

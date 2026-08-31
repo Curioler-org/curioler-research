@@ -20,6 +20,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1186/s13229-026-00725-0",
+  "domain": "communication",
   "duration": "20-week",
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\"",
@@ -39,7 +40,7 @@
     "Self-directed alternative",
     "Social communication"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "limited and culturally appropriate interventions are needed"
   ],

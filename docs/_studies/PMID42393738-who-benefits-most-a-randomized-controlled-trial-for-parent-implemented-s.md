@@ -8,6 +8,7 @@ year: 2026
 journal: "Molecular autism"
 authors: ["Li Wang", "Yujia Shi", "Hon-Cheong So", "Hoyee W Hirai", "Xin Qi", "Carol K S To", "Florrie Fei-Yin Ng", "Patrick C M Wong"]
 study_type: "Randomized Controlled Trial"
+domain: "communication"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The researchers concluded: \"This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 20-week.", "not_stated": [], "size": "It involved 112 people, a reasonably sized group for this kind of research."}
@@ -30,5 +31,5 @@ mesh_terms: ["Child, Preschool", "Female", "Humans", "Male", "Autistic Disorder"
 keywords: ["Autism", "Parent-implemented intervention", "Preschoolers", "Professional support", "Self-directed alternative", "Social communication"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42393738/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

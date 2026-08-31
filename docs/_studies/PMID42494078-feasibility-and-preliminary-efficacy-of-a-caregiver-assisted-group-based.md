@@ -8,6 +8,7 @@ year: 2026
 journal: "Autism : the international journal of research and practice"
 authors: ["Guan-Jye Seng", "Ji-Yu Lin", "Wei-Lieh Huang", "Hsin-Yu Lai", "Wei-Chih Kao", "Hao-Ling Chen", "Susan Shur-Fen Gau"]
 study_type: "Randomized Controlled Trial"
+domain: "social"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 12 weeks. That is a short window, so it says nothing about whether the effects last.", "not_stated": [], "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Child, Preschool", "Pilot Projects", "Female", "Male", "
 keywords: ["autism", "group-based delivery", "naturalistic developmental behavioral intervention", "preliminary efficacy"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42494078/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

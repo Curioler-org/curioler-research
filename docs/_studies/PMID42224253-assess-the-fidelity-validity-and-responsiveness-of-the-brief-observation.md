@@ -8,6 +8,7 @@ year: 2026
 journal: "Autism : the international journal of research and practice"
 authors: ["Agathe Jay", "Lucie Jurek", "Riham Hamadeh", "Marie-Joelle Oreve", "Carmen M Schröder", "Veronique Delvenne", "Sandrine Sonie", "Bruno Falissard", "Olivia Febvey-Combes", "Mario Speranza", "Marie-Maude Geoffray", "IDEA Study Group"]
 study_type: "Randomized Controlled Trial"
+domain: "social"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved 177 people, a reasonably sized group for this kind of research."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Child, Preschool", "Autism Spectrum Disorder", "Reproduc
 keywords: ["assess", "autism spectrum disorder", "fidelity", "responsiveness", "validity"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42224253/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

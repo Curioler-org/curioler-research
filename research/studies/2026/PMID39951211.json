@@ -15,6 +15,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1007/s10803-025-06730-1",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"Implications highlight the need for more attention on professional development research for autism providers, to examine pre-service training, and for clinical leaders to examine their workplace environment to promote effective and fair practices.\"",
@@ -36,7 +37,7 @@
     "Multilingualism",
     "Professional development"
   ],
-  "last_updated": "2026-08-31T10:31:15Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "limited knowledge and training in how to support bilingual children, their families, no"
   ],

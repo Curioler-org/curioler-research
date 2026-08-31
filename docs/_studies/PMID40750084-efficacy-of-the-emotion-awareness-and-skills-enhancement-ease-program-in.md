@@ -8,6 +8,7 @@ year: 2026
 journal: "Journal of the American Academy of Child and Adolescent Psychiatry"
 authors: ["Susan W White", "Caitlin M Conner", "Kelly Beck", "Carla A Mazefsky"]
 study_type: "Randomized Controlled Trial"
+domain: "behaviour"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The researchers concluded: \"Findings suggest that EASE improves emotion dysregulation for autistic adolescents and young adults. PLAIN LANGUAGE SUMMARY: This study tested a mindfulness-based intervention to improve autistic adolescents' and young adults' ability to manage emotions.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved 109 people, a reasonably sized group for this kind of research."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Adolescent", "Male", "Young Adult", "Emotional
 keywords: ["autism", "emotion regulation", "intervention", "mental health", "mindfulness"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40750084/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:15Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

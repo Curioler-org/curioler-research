@@ -8,6 +8,7 @@ year: 2026
 journal: "Journal of child psychology and psychiatry, and allied disciplines"
 authors: ["Samuel Sandboge", "Vilja Seppälä", "Sakari Lintula", "Elisa Holmlund-Suila", "Helena Hauta-Alus", "Eero Kajantie", "Outi Mäkitie", "Sture Andersson", "Katri Räikkönen", "Kati Heinonen"]
 study_type: "Randomized Controlled Trial"
+domain: "general"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The researchers concluded: \"We found no indication that higher-than-normal vitamin D3 supplementation between ages 0 and 2 years decreases ASD-related trait scores at ages 6-8 years. Sex-stratified analysis suggested an inverse association, among boys, between early life 25(OH)D concentrations and ASD-related traits, warranting further studies on potential causal direction and sex specificity of associations.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved 366 people, a reasonably sized group for this kind of research."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Child", "Male", "Autism Spectrum Disorder", "V
 keywords: ["Vitamin D", "autism spectrum disorder", "neurodevelopment", "randomized clinical trial"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41486975/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:15Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

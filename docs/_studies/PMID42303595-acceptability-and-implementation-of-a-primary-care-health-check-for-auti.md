@@ -8,6 +8,7 @@ year: 2026
 journal: "Autism : the international journal of research and practice"
 authors: ["Hannah Merrick", "Helen Taylor", "Barry Ingham", "Tracy Finch", "Sarah Al-Ashmori", "Ruby Herrington", "Clare Scarlett", "Carole Buckley", "Sally-Ann Cooper", "Cristina Fernandez-Garcia", "Shona Haining", "Rhianna Lees", "Nicholas Lennox", "Sebastian Moss", "Tim Nicholls", "Christina Nicolaidis", "Malcolm Osborne", "Dora M Raymaker", "Tomos Robinson", "Anna Urbanowicz", "James Ms Wason", "Colin Wilson", "Jeremy R Parr"]
 study_type: "Randomized Controlled Trial"
+domain: "general"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Primary Health Care", "Female", "Male", "Surveys and Que
 keywords: ["acceptability", "autism", "health checks", "implementation", "primary care"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42303595/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

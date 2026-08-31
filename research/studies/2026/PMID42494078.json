@@ -19,6 +19,7 @@
   "created_at": "2026-08-31T05:13:47Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1177/13623613261462574",
+  "domain": "social",
   "duration": "12 weeks",
   "easy_explainer": {
     "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
@@ -36,7 +37,7 @@
     "naturalistic developmental behavioral intervention",
     "preliminary efficacy"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "limited or difficult to obtain"
   ],

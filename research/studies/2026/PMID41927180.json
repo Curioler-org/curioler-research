@@ -18,6 +18,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jbmt.2025.11.014",
+  "domain": "motor",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"BBAT and TAU were superior to TAU alone for improving movement quality. BBAT is a relevant intervention for autistic young adults to improve everyday functionality.\"",
@@ -39,7 +40,7 @@
     "Movement quality",
     "Physiotherapy"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

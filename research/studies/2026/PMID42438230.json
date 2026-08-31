@@ -15,6 +15,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1002/hup.70057",
+  "domain": "general",
   "duration": "60 days",
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\"",
@@ -35,7 +36,7 @@
     "randomized controlled trial",
     "social responsiveness scale"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

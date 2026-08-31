@@ -8,6 +8,7 @@ year: 2026
 journal: "Journal of psychiatric research"
 authors: ["Yoshihiro Noda", "Ryota Osawa", "Yuya Takeda", "Yuka Saijo", "Ayaho Tsukamoto", "Ryoma Noda", "Ryosuke Kitahata"]
 study_type: "Observational Study"
+domain: "general"
 trust_tier: 3
 trust_tier_label: "Observational Study"
 easy_explainer: {"conclusion": "The researchers concluded: \"iTBS is effective for MDD in routine clinical practice; however, its therapeutic impact appears moderately reduced in patients with ASD and/or ADHD. These findings underscore the need for individualized neuromodulation strategies and further investigation into neurobiological and sensory factors contributing to treatment heterogeneity.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Male", "Retrospective Studies", "Major Depress
 keywords: ["Attention deficit hyperactivity disorder", "Autistic spectrum disorder", "Intermittent theta-burst stimulation", "Neurodevelopmental disorders"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41967364/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

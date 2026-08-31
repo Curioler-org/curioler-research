@@ -22,6 +22,7 @@
   "created_at": "2026-08-31T05:16:32Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1007/s10803-025-06795-y",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
@@ -43,7 +44,7 @@
     "Environmental risk factor",
     "Particulate matter"
   ],
-  "last_updated": "2026-08-31T10:31:15Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

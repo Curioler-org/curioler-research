@@ -19,6 +19,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jad.2026.121527",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.\"",
@@ -38,7 +39,7 @@
     "Bipolar disorder",
     "High-functioning autism"
   ],
-  "last_updated": "2026-08-31T10:31:15Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the Unive"
   ],

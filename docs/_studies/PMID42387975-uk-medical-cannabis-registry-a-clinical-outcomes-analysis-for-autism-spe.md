@@ -8,6 +8,7 @@ year: 2026
 journal: "Neuropsychopharmacology reports"
 authors: ["Arushika Aggarwal", "Simon Erridge", "Madhur Varadpande", "Evonne Clarke", "Katy McLachlan", "Ross Coomber", "Muhammed Asghar", "Urmila Bhoskar", "Matthieu Crews", "Andrea De Angelis", "Muhammad Imran", "Fariha Kamal", "Laura Korb", "Gracia Mwimba", "Simmi Sachdeva-Mohan", "Gabriel Shaya", "James J Rucker", "Mikael H Sodergren"]
 study_type: "Observational Study"
+domain: "general"
 trust_tier: 3
 trust_tier_label: "Observational Study"
 easy_explainer: {"conclusion": "The researchers concluded: \"Treatment with CBMPs was associated with improvements in HRQoL, anxiety, and sleep outcomes in autistic patients over an 18-month period. Given the absence of a control group, these findings represent associations rather than proven treatment effects.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 18 months.", "not_stated": ["the ages of the people who took part"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Autism Spectrum Disorder", "Female", "Registries", "Male
 keywords: ["anxiety", "autism spectrum disorder", "cannabidiol", "cannabis", "tetrahydrocannabinol"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42387975/"
 created_at: "2026-07-11T18:27:28Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

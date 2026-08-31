@@ -22,6 +22,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.3389/fpubh.2026.1851875",
+  "domain": "motor",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.\"",
@@ -42,7 +43,7 @@
     "motor activity",
     "psychomotor performance"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

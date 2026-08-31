@@ -8,6 +8,7 @@ year: 2026
 journal: "Frontiers in public health"
 authors: ["Reinaldo da Costa Paulino Netto", "Deisiane Oliveira Souto", "Iolanda Costa Rodrigues", "Amanda Aparecida Alves Cunha Nascimento", "Camila de Oliveira Schumann", "Millene Cézar Nunes", "Ana Clara Schaper Fernandes", "Ana Clara de Carvalho Silva", "Patricia Aparecida Neves Santana", "Thalita Karla Flores Cruz"]
 study_type: "Randomized Controlled Trial"
+domain: "motor"
 trust_tier: 2
 trust_tier_label: "Randomized Controlled Trial"
 easy_explainer: {"conclusion": "The researchers concluded: \"Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Child", "Autism Spectrum Disorder", "Parents", "Male", "
 keywords: ["autism spectrum disorder", "family", "functioning", "motor activity", "psychomotor performance"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42491294/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

@@ -8,6 +8,7 @@ year: 2026
 journal: "American journal of obstetrics and gynecology"
 authors: ["Marianne Leruez-Ville", "David Grevent", "Nicolas Bourgon", "Christos Chatzakis", "Marine Parodi", "Jacques Fourgeaud", "Nicolas Veyrenche", "Nadia Bahi-Buisson", "Christine Pichon", "Jean-Francois Magny", "Nathalie Boddaert", "Yves Ville"]
 study_type: "Observational Study"
+domain: "general"
 trust_tier: 3
 trust_tier_label: "Observational Study"
 easy_explainer: {"conclusion": "The researchers concluded: \"In this large prospective cohort, adverse long-term outcomes following maternal primary infection were observed only after first-trimester exposure. Autism spectrum disorder occurred exclusively in this group and was consistently associated with temporal lobe white matter abnormalities.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 48 months.", "not_stated": ["the ages of the people who took part"], "size": "It involved 642 people, which is a large group for autism research and makes the findings steadier."}
@@ -30,5 +31,5 @@ mesh_terms: ["Humans", "Cytomegalovirus Infections", "Pregnancy", "Female", "Pre
 keywords: ["autism spectrum disorder", "congenital cytomegalovirus", "first-trimester infection", "neurodevelopmental outcomes", "prenatal MRI", "sensorineural hearing loss"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42092723/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T10:31:16Z"
+last_updated: "2026-08-31T13:10:30Z"
 ---

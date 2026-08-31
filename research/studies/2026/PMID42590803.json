@@ -22,6 +22,7 @@
   "created_at": "2026-08-31T05:13:47Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1002/cns.71041",
+  "domain": "general",
   "duration": "8 weeks",
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"This study provides multiscale evidence for the biological context underlying iTBS-related changes in overlapping network architecture in ASD with chronic insomnia.\"",
@@ -41,7 +42,7 @@
     "insomnia",
     "theta burst stimulation"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

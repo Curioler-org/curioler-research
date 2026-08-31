@@ -25,6 +25,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.acap.2026.103332",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"At a telephone-based care coordination program in LA County, the amount and duration of engagement by coordinators for children with autism or developmental delays was substantial. There was a significant relationship between the number of service provider referrals and service receipt, but not for total number of contacts.\"",
@@ -46,7 +47,7 @@
     "Early childhood",
     "Screening"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Observational retrospective cohort analysis of 211 LA's administrative database of children s",
     "limited"

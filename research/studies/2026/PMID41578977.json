@@ -16,6 +16,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1080/09593985.2026.2618078",
+  "domain": "motor",
   "duration": "8-week",
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation.\"",
@@ -34,7 +35,7 @@
     "fitness tracker",
     "physical activity"
   ],
-  "last_updated": "2026-08-31T10:31:15Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "observational cohort design was used to compare two methods for determining WD adherence for",
     "limited among this understudied population"

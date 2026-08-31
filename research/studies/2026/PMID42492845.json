@@ -18,6 +18,7 @@
   "created_at": "2026-08-31T05:13:47Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.bbr.2026.116396",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"Alpha-training NFB was associated with improvements in caregiver-rated behavioral scores and modulated spectral features of resting-state EEG in children with ASD. These findings validate the utility of spectral parameterization markers in evaluating neuromodulatory interventions.\"",
@@ -40,7 +41,7 @@
     "Neurofeedback",
     "Spectral Parameterization"
   ],
-  "last_updated": "2026-08-31T10:31:16Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

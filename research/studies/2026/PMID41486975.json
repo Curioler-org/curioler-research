@@ -22,6 +22,7 @@
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1111/jcpp.70110",
+  "domain": "general",
   "duration": null,
   "easy_explainer": {
     "conclusion": "The researchers concluded: \"We found no indication that higher-than-normal vitamin D3 supplementation between ages 0 and 2 years decreases ASD-related trait scores at ages 6-8 years. Sex-stratified analysis suggested an inverse association, among boys, between early life 25(OH)D concentrations and ASD-related traits, warranting further studies on potential causal direction and sex specificity of associations.\"",
@@ -41,7 +42,7 @@
     "neurodevelopment",
     "randomized clinical trial"
   ],
-  "last_updated": "2026-08-31T10:31:15Z",
+  "last_updated": "2026-08-31T13:10:30Z",
   "limitations": [
     "further studies on potential causal direction and sex specificity of associations"
   ],
