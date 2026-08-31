@@ -64,3 +64,9 @@ jobs:
             git commit -m "Update PubMed research ingestion outputs"
             git push
           fi
+
+      # Runs after the commit so a fetched paper is never lost to a red run.
+      # A failure here means raw XML landed without a study record, which used to
+      # go unnoticed until someone rebuilt the records by hand.
+      - name: Check every raw capture has a study record
+        run: python -m scripts.check_raw_coverage

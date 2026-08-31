@@ -207,7 +207,12 @@ def extract_study(pmid: str) -> dict:
     client = LLMClient(LLMConfig(provider=config["ai_provider"], model=config.get("ai_model", "")))
     extracted = client.complete_json(SYSTEM_PROMPT, json.dumps(prompt, ensure_ascii=False))
     now = utc_now()
-    merged = {**metadata, **extracted, "created_at": extracted.get("created_at") or now, "last_updated": now}
+    # Metadata is applied last, so the XML wins every field it can answer: pmid, doi,
+    # title, year, journal, authors, study_type, mesh_terms, keywords, source_url and
+    # co_occurring_conditions. The model only fills the interpretive fields it was
+    # asked for. Letting the model overwrite a parsed DOI or study design would put
+    # the citation defects straight back, and the prompt alone cannot prevent that.
+    merged = {**extracted, **metadata, "created_at": extracted.get("created_at") or now, "last_updated": now}
     merged["abstract"] = merged.get("abstract") or abstract or None
     return normalize_study(merged)
 

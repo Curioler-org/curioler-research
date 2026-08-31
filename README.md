@@ -43,6 +43,7 @@ python -m pipelines.pubmed.extract <PMID>
 python -m pipelines.pubmed.validate
 python -m pipelines.pubmed.index
 python scripts/generate_study_pages.py
+python -m scripts.check_raw_coverage
 ```
 
 Rebuild every study record from the raw captures already in `raw/pubmed/`, without
@@ -51,6 +52,12 @@ refetching from PubMed (`--all` also rebuilds PMIDs that already have a record):
 ```bash
 python -m scripts.extract_studies_from_raw --all
 ```
+
+Extraction has two paths. `pipelines.pubmed.extract` asks an LLM to fill the
+interpretive fields; `scripts.extract_studies_from_raw` derives everything from the
+XML and abstract with no API key. Ingestion tries the LLM first and falls back to the
+abstract rules, so a fetched paper always produces a record even when the LLM call
+fails, and any capture still missing a record is backfilled at the end of the run.
 
 The daily GitHub Action uses repository secrets for PubMed and LLM access:
 
@@ -77,4 +84,9 @@ Set `AI_PROVIDER` and `AI_MODEL` as repository variables when a provider or mode
   months and `7-13` years are indistinguishable without it.
 - `python -m pipelines.pubmed.validate` checks records against
   `schemas/study.schema.json`, which is the contract.
+- Every raw capture must have a study record. `python -m scripts.check_raw_coverage`
+  enforces it and the daily Action runs it, so a fetched paper cannot sit unpublished.
+- XML-derived fields (`doi`, `study_type`, `year`, `title`, `journal`, `authors`,
+  `mesh_terms`, `keywords`, `co_occurring_conditions`) are authoritative. The LLM
+  extractor fills the interpretive fields only and cannot overwrite them.
 - Regenerate indexes after ingestion instead of editing them manually.
