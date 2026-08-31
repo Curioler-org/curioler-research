@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Female", "Adolescent", "Caregivers", "Child", "Male", "C
 keywords: ["Cognitive behavioral therapy", "Exposure therapy", "Mixed methods", "Systematic inductive thematic analysis", "Treatment satisfaction", "Youth anxiety"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39930281/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:15:10Z"
+last_updated: "2026-08-31T05:16:32Z"
 ---

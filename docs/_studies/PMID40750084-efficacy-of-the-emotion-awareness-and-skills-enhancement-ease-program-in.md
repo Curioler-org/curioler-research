@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Female", "Adolescent", "Male", "Young Adult", "Emotional
 keywords: ["autism", "emotion regulation", "intervention", "mental health", "mindfulness"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40750084/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:15:11Z"
+last_updated: "2026-08-31T05:16:32Z"
 ---

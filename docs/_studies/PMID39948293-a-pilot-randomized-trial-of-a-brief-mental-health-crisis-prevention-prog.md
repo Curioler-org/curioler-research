@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Child", "Male", "Female", "Child, Preschool", "Pilot Pro
 keywords: ["Autism", "Behavior", "Crisis", "Emergency", "Mental Health", "Prevention"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39948293/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:15:11Z"
+last_updated: "2026-08-31T05:16:32Z"
 ---

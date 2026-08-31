@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Female", "Young Adult", "Adolescent", "Autistic Disorder
 keywords: ["Autism", "Autistic", "Basic Body Awareness Therapy", "Body awareness", "Movement quality", "Physiotherapy"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41927180/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:15:11Z"
+last_updated: "2026-08-31T05:16:32Z"
 ---

@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Adolescent", "Adult", "Male", "Young Adult", "Female", "
 keywords: ["Artificial intelligence", "Autistic", "Empathy", "Machine Learning", "Social communication"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39954218/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:15:11Z"
+last_updated: "2026-08-31T05:16:32Z"
 ---

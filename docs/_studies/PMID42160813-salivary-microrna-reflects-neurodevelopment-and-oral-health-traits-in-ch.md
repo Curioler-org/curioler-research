@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "MicroRNAs", "Male", "Saliva", "Female", "Child", "Oral H
 keywords: ["Autism spectrum disorder", "Biomarkers", "Dental caries", "MicroRNAs", "Periodontal diseases", "RNA sequencing"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42160813/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:15:11Z"
+last_updated: "2026-08-31T05:16:32Z"
 ---

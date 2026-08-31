@@ -21,6 +21,9 @@
   "Adult": [
     "41986743"
   ],
+  "Air pollution": [
+    "40120015"
+  ],
   "Alpha Oscillations": [
     "42492845"
   ],
@@ -52,6 +55,7 @@
     "42492845"
   ],
   "Autism spectrum disorder": [
+    "40120015",
     "40178785",
     "41765239",
     "42160813",
@@ -104,6 +108,9 @@
   ],
   "Care coordination": [
     "42092454"
+  ],
+  "Case control study": [
+    "40120015"
   ],
   "Child": [
     "41904269",
@@ -160,6 +167,9 @@
   ],
   "Empathy": [
     "39954218"
+  ],
+  "Environmental risk factor": [
+    "40120015"
   ],
   "Exposure therapy": [
     "39930281"
@@ -266,6 +276,9 @@
   ],
   "Parietal Lobe": [
     "41986743"
+  ],
+  "Particulate matter": [
+    "40120015"
   ],
   "Periodontal diseases": [
     "42160813"

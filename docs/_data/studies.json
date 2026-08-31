@@ -93,6 +93,19 @@
     "year": 2026
   },
   {
+    "age_range": null,
+    "co_occurring_conditions": [],
+    "diagnosis": "Autism Spectrum Disorder",
+    "intervention": "Air pollution",
+    "journal": "Journal of autism and developmental disorders",
+    "pmid": "40120015",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40120015/",
+    "study_type": "Observational Study",
+    "title": "Prenatal Exposure to Ambient Particulate Matter and Autism Spectrum Disorder in Children, a Case Control Study in France.",
+    "url": "/studies/PMID40120015-prenatal-exposure-to-ambient-particulate-matter-and-autism-spectrum-diso/",
+    "year": 2026
+  },
+  {
     "age_range": "6-12 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",

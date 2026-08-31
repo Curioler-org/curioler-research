@@ -1,5 +1,75 @@
 [
   {
+    "abstract": "For Cognitive Behavioral Therapy to best meet the specific needs of autistic youth with co-occurring anxiety and to continue to grow as a sustainable treatment option, it is important to incorporate caregiver perspectives and feedback. Data were drawn from a randomized controlled trial and included 148 caregivers of autistic youth (ages 7-13 years, M = 9.89, SD = 1.79; 23% female; 77.7% White) with co-occurring anxiety disorders randomized to one of two active treatment conditions (Coping Cat, n = 72, or Behavioral Interventions for Anxiety in Children with Autism [BIACA], n = 76). A systematic inductive thematic analysis was used to code open-ended parent responses on the Consumer Satisfaction Questionnaire to identify what caregivers of autistic children with co-occurring anxiety liked most and least about their child's treatment. Satisfaction with treatment was high (M = 64.98, SD = 5.48). Caregivers' most-liked treatment features across treatments included (a) tools and coping skills, (b) therapeutic alliance, (c) caregiver support and involvement, (d) personalized treatment, and (e) treatment efficacy. Least-liked features of treatment and family participation included (a) the commute to the clinic, (b) treatment length, (c) commitment required at home, (d) questionnaires, and (e) scheduling. Treatment responders endorsed therapeutic alliance more frequently. Caregivers in BIACA endorsed caregiver support and involvement at higher rates, in addition to commitment required at home. Caregiver responses indicated a preference for more sessions and highlighted the importance of balancing need for caregiver involvement in treatment while reducing caregiver burden.",
+    "age_max": 13,
+    "age_min": 7,
+    "age_range": "7-13 years",
+    "age_unit": "years",
+    "authors": [
+      "Lesley A Norris",
+      "Jonathan C Rabner",
+      "Marika Marklin",
+      "Margaret E Crane",
+      "Kathrin Renschler",
+      "Emma Jenkins",
+      "Joshua Kemp",
+      "Eric A Storch",
+      "Jeffrey J Wood",
+      "Connor M Kerns",
+      "Adam B Lewin",
+      "Brent J Small",
+      "Philip C Kendall"
+    ],
+    "clinical_implications": "May be relevant to Cognitive behavioral therapy in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [
+      "Anxiety Disorders"
+    ],
+    "conclusion": null,
+    "created_at": "2026-08-10T07:28:06Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1007/s10803-025-06725-y",
+    "duration": null,
+    "intervention": "Cognitive behavioral therapy",
+    "journal": "Journal of autism and developmental disorders",
+    "keywords": [
+      "Cognitive behavioral therapy",
+      "Exposure therapy",
+      "Mixed methods",
+      "Systematic inductive thematic analysis",
+      "Treatment satisfaction",
+      "Youth anxiety"
+    ],
+    "last_updated": "2026-08-31T05:16:32Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Adolescent",
+      "Caregivers",
+      "Child",
+      "Male",
+      "Cognitive Behavioral Therapy",
+      "Anxiety Disorders",
+      "Autistic Disorder",
+      "Personal Satisfaction",
+      "Patient Satisfaction",
+      "Coping Skills",
+      "Parents",
+      "Autism Spectrum Disorder",
+      "Surveys and Questionnaires"
+    ],
+    "participants": 148,
+    "pmid": "39930281",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39930281/",
+    "study_type": "Randomized Controlled Trial",
+    "title": "Caregiver Satisfaction with Anxiety Treatment for Autistic Youth: A Mixed Methods Examination.",
+    "year": 2026
+  },
+  {
     "abstract": "Autistic youth are at significant risk of experiencing a mental health crisis. Unfortunately, most clinical approaches to crisis management, such as referral to the emergency department, can be traumatic. At present, no crisis prevention programs have been developed for or rigorously tested among autistic youth. The goals of this study were to develop a parent-mediated mental health crisis prevention program, delivered virtually by a licensed clinician over three 1-h sessions, and test its efficacy via a randomized controlled trial. The trial included 49 autistic youth, ages 3 to 12 years, and their parents, who were recruited from an outpatient autism center. All children had behavioral concerns but were not at acute risk of crisis. Parents in the crisis prevention program (n = 25) reported that the strategies were safe and feasible; they were also very satisfied with the program. Compared to active controls (n = 24), who received the Autism Speaks Challenging Behavior Toolkit, the crisis prevention program was found to have greater improvements in caregiver-reported knowledge, confidence, and preparedness regarding management of crisis behaviors (p < .05). However, effects on caregiver-reported child irritability and behavioral acuity did not differ (p > .05). The brief crisis prevention program is safe, feasible, and acceptable to parents. While it improves mental health crisis preparedness, further research on its efficacy in reducing crisis risk is needed.",
     "age_max": 12,
     "age_min": 3,
@@ -30,7 +100,7 @@
       "Mental Health",
       "Prevention"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "further research on its efficacy in reducing crisis risk is needed"
     ],
@@ -82,7 +152,7 @@
       "Multilingualism",
       "Professional development"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "limited knowledge and training in how to support bilingual children, their families, no"
     ],
@@ -140,7 +210,7 @@
       "Self-determination",
       "Supports"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "further research is needed"
     ],
@@ -199,7 +269,7 @@
       "Machine Learning",
       "Social communication"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -255,7 +325,7 @@
       "Stress",
       "Stress-related growth"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -309,7 +379,7 @@
       "Parenting",
       "Support"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -335,6 +405,67 @@
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/40016545/",
     "study_type": "Randomized Controlled Trial",
     "title": "AutInsight: A Pilot Randomised Controlled Trial (RCT) of a Consumer-Informed Parent Support Program for Parents of Autistic Children.",
+    "year": 2026
+  },
+  {
+    "abstract": "A series of epidemiological studies conducted in the United States have consistently shown an increased risk of autism spectrum disorder (ASD) in children associated with pre- and postnatal exposure to ambient particulate matter (PM). In Europe, studies are scarce and results are inconsistent. We aimed to investigate the association between prenatal exposure to PM and the risk of ASD in France. ASD cases were participants from the ELENA cohort. Controls children from the ELFE cohort were matched by sex, year (± 2) and region of birth. Prenatal exposures to PM10 and to PM2.5 were estimated between 2008 and 2013 using innovative hybrid spatio-temporal models developed for France. Conditional logistic regression models adjusted for birth season, parent's age at the child birth and parental education level were run. We included 125 ASD cases and 500 controls. Prenatal PM2.5 and PM10 median (IQR) concentration estimates were respectively 16.3 (3.9) µg/m3 and 22.9 (6.6) µg/m3 in the whole sample. The conditional logistic regression models showed Odds Ratios (ORs) (Confidence Interval 95%) for ASD risk of 0.72 (0.52-1.01) and 0.84 (0.58-1.22) for an IQR increase in PM2.5 and PM10 prenatal levels, respectively. When restricting population of ASD cases to children born the same year of controls, ORs were 1.79 (0.80-4.01) and 2.23 (0.71-9.04), respectively. Our results did not show that prenatal exposures to PM2.5 and PM10 were associated with the risk of ASD in children in France.Trial Registration Number NCT02625116.",
+    "age_max": null,
+    "age_min": null,
+    "age_range": null,
+    "age_unit": null,
+    "authors": [
+      "Marion Mortamais",
+      "Jeanne Sandrine Ongono",
+      "Cécile Michelon",
+      "Ian Hough",
+      "Emie Seyve",
+      "Itai Kloog",
+      "Cécile Zaros",
+      "Marie-Aline Charles",
+      "Johanna Lepeule",
+      "Amaria Baghdadli"
+    ],
+    "clinical_implications": "May be relevant to Air pollution in Autism Spectrum Disorder, based on abstract-reported findings.",
+    "co_occurring_conditions": [],
+    "conclusion": null,
+    "created_at": "2026-08-31T05:16:32Z",
+    "diagnosis": "Autism Spectrum Disorder",
+    "doi": "10.1007/s10803-025-06795-y",
+    "duration": null,
+    "intervention": "Air pollution",
+    "journal": "Journal of autism and developmental disorders",
+    "keywords": [
+      "Air pollution",
+      "Autism spectrum disorder",
+      "Case control study",
+      "Environmental risk factor",
+      "Particulate matter"
+    ],
+    "last_updated": "2026-08-31T05:16:32Z",
+    "limitations": [
+      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+    ],
+    "mesh_terms": [
+      "Child",
+      "Child, Preschool",
+      "Female",
+      "Humans",
+      "Male",
+      "Pregnancy",
+      "Autism Spectrum Disorder",
+      "Case-Control Studies",
+      "France",
+      "Particulate Matter",
+      "Prenatal Exposure Delayed Effects",
+      "Risk Factors"
+    ],
+    "participants": 125,
+    "pmid": "40120015",
+    "primary_outcomes": [],
+    "secondary_outcomes": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40120015/",
+    "study_type": "Observational Study",
+    "title": "Prenatal Exposure to Ambient Particulate Matter and Autism Spectrum Disorder in Children, a Case Control Study in France.",
     "year": 2026
   },
   {
@@ -368,7 +499,7 @@
       "Serious game",
       "Virtue reality"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -425,7 +556,7 @@
       "mental health",
       "mindfulness"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -493,7 +624,7 @@
       "treatment",
       "young people"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "observational study reports on the feasibility and adequacy of Level 2 polysomnography involv"
     ],
@@ -551,7 +682,7 @@
       "neurodevelopment",
       "randomized clinical trial"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "further studies on potential causal direction and sex specificity of associations"
     ],
@@ -613,7 +744,7 @@
       "autism",
       "neurodevelopmental disorders"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -680,7 +811,7 @@
       "oxytocin",
       "social interaction"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -741,7 +872,7 @@
       "fitness tracker",
       "physical activity"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "observational cohort design was used to compare two methods for determining WD adherence for",
       "limited among this understudied population"
@@ -804,7 +935,7 @@
       "Bipolar disorder",
       "High-functioning autism"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the Unive"
     ],
@@ -902,7 +1033,7 @@
     "intervention": "oxytocin",
     "journal": "Molecular psychiatry",
     "keywords": [],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -962,7 +1093,7 @@
       "Movement quality",
       "Physiotherapy"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1022,7 +1153,7 @@
     "intervention": "oxytocin",
     "journal": "Brain, behavior, and immunity",
     "keywords": [],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1082,7 +1213,7 @@
       "Intermittent theta-burst stimulation",
       "Neurodevelopmental disorders"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1157,7 +1288,7 @@
     "intervention": "a double-blind, randomized controlled trial",
     "journal": "Molecular psychiatry",
     "keywords": [],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1234,7 +1365,7 @@
       "speech",
       "youth"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
     ],
@@ -1301,7 +1432,7 @@
       "Early childhood",
       "Screening"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "Observational retrospective cohort analysis of 211 LA's administrative database of children s",
       "limited"
@@ -1369,7 +1500,7 @@
       "prenatal MRI",
       "sensorineural hearing loss"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "observational cohort study including children with confirmed congenital cytomegalovirus infec"
     ],
@@ -1434,7 +1565,7 @@
       "Periodontal diseases",
       "RNA sequencing"
     ],
-    "last_updated": "2026-08-31T05:15:11Z",
+    "last_updated": "2026-08-31T05:16:32Z",
     "limitations": [
       "observational study aimed to identify salivary microRNAs (miRNAs) differentially expressed be"
     ],
@@ -1463,126 +1594,6 @@
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42160813/",
     "study_type": "Observational Study",
     "title": "Salivary MicroRNA Reflects Neurodevelopment and Oral Health Traits in Children With Autism.",
-    "year": 2026
-  },
-  {
-    "abstract": "AIM: This study aimed to evaluate the effects of a Mindfulness-Based Stress Reduction (MBSR) program on depression, anxiety, stress, and hopelessness among parents of children with autism (Autism Spectrum Disorder [ASD]).\nMETHOD: A pre-test-post-test, parallel-group randomized controlled trial was conducted in two institutions providing education for children with ASD in Konya, Türkiye. The sample included 96 parents randomized into intervention (n = 48) and control (n = 48) groups using block randomization. The intervention group participated in an eight-week MBSR program delivered in weekly sessions, while the control group received routine monitoring. Data were collected at baseline, post-intervention, and four-week follow-up using a Personal Information Form, the Depression, Anxiety, and Stress Scale-21 (DASS-21), and the Beck Hopelessness Scale (BHS). Statistical significance was set at p < 0.05.\nRESULTS: No significant differences were observed between groups at baseline. Compared with the control group, the intervention group demonstrated significantly lower levels of depression, anxiety, and stress at both post-test and follow-up. No significant between-group differences were found in total hopelessness scores.\nCONCLUSION: The MBSR program was effective in reducing depression, anxiety, and stress among parents of children with ASD. However, overall hopelessness did not change significantly, suggesting that this construct may be less responsive to short-term interventions.\nPRACTICE IMPLICATIONS: Nurse-delivered MBSR programs may be effective in reducing psychological distress among parents of children with ASD and can be integrated into family-centered care practices.",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Selverhan Yurttutan",
-      "Emine Geçkil"
-    ],
-    "clinical_implications": "The MBSR program was effective in reducing depression, anxiety, and stress among parents of children with ASD.",
-    "co_occurring_conditions": [
-      "Anxiety",
-      "Depression"
-    ],
-    "conclusion": "The MBSR program was effective in reducing depression, anxiety, and stress among parents of children with ASD. However, overall hopelessness did not change significantly, suggesting that this construct may be less responsive to short-term interventions.\nPRACTICE IMPLICATIONS: Nurse-delivered MBSR programs may be effective in reducing psychological distress among parents of children with ASD and can be integrated into family-centered care practices.",
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1016/j.pedn.2026.05.008",
-    "duration": null,
-    "intervention": "mindfulness-based intervention",
-    "journal": "Journal of pediatric nursing",
-    "keywords": [
-      "Anxiety",
-      "Autism Spectrum Disorder",
-      "Hopelessness",
-      "Mindfulness",
-      "Nursing",
-      "Parents",
-      "Stress"
-    ],
-    "last_updated": "2026-08-31T05:15:11Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Female",
-      "Parents",
-      "Stress, Psychological",
-      "Mindfulness",
-      "Male",
-      "Anxiety",
-      "Depression",
-      "Child",
-      "Adult",
-      "Autistic Disorder",
-      "Autism Spectrum Disorder"
-    ],
-    "participants": 96,
-    "pmid": "42166881",
-    "primary_outcomes": [
-      "anxiety"
-    ],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42166881/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Effects of mindfulness-based stress reduction on levels of depression, anxiety, stress, and hopelessness in parents of children with autism: A randomized controlled trial.",
-    "year": 2026
-  },
-  {
-    "abstract": "Autistic children are more likely to experience challenges with emotion regulation, which affect their academic, social, and other developmental outcomes. Emerging manualized programs have begun to address this gap, including Regulating Together (RT), a group-based outpatient intervention that incorporates concurrent caregiver training. This qualitative study explored caregivers' perceptions and experiences with the RT intervention. Semi-structured interviews were conducted with twelve caregivers of autistic children following program completion within a randomized controlled trial. Thematic analysis identified six overarching themes: (1) recognizing early signs and building child regulation skills, (2) caregivers' experiences of program value, structure, and application, (3) caregivers' growth as self-regulated learners and supportive coaches, (4) the power of communal learning and growth, (5) creating inclusive spaces through diverse voices, and (6) ecological barriers that impeded practice and participation. Caregivers described benefits of participating in RT and reported positive outcomes for both themselves and their children. Overall, the RT model shows nuanced dyadic child and caregiver learning and growth in addressing emotion dysregulation in autistic children and offers a potentially inclusive model for supporting families. Findings also signify how ecological challenges shaped participation and implementation, highlighting the need for future manualized interventions to account for contextual factors in program design and delivery. TRIAL REGISTRATION: Trial registration took place through ClinicalTrials.gov (NCT05803369).",
-    "age_max": null,
-    "age_min": null,
-    "age_range": null,
-    "age_unit": null,
-    "authors": [
-      "Sungeun Kang",
-      "Karen Burkett",
-      "Shivali Sarawgi",
-      "Jenna Ruberg",
-      "Jamisen Paustian",
-      "Debra L Reisinger",
-      "Lauren M Schmitt",
-      "Rebecca C Shaffer"
-    ],
-    "clinical_implications": "May be relevant to Emotion dysregulation in Autism Spectrum Disorder, based on abstract-reported findings.",
-    "co_occurring_conditions": [],
-    "conclusion": null,
-    "created_at": "2026-08-10T07:28:06Z",
-    "diagnosis": "Autism Spectrum Disorder",
-    "doi": "10.1016/j.ridd.2026.105317",
-    "duration": null,
-    "intervention": "Emotion dysregulation",
-    "journal": "Research in developmental disabilities",
-    "keywords": [
-      "Autism spectrum disorder",
-      "Emotion dysregulation",
-      "Emotion regulation",
-      "Parent training",
-      "Qualitative methodology",
-      "Regulating Together"
-    ],
-    "last_updated": "2026-08-31T05:15:11Z",
-    "limitations": [
-      "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
-    ],
-    "mesh_terms": [
-      "Humans",
-      "Caregivers",
-      "Female",
-      "Male",
-      "Child",
-      "Emotional Regulation",
-      "Autistic Disorder",
-      "Qualitative Research",
-      "Adult",
-      "Autism Spectrum Disorder",
-      "Child, Preschool",
-      "Adolescent"
-    ],
-    "participants": null,
-    "pmid": "42217453",
-    "primary_outcomes": [],
-    "secondary_outcomes": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42217453/",
-    "study_type": "Randomized Controlled Trial",
-    "title": "Regulating Together: Caregivers' experiences in a shared journey through an emotion dysregulation intervention for autistic youth.",
     "year": 2026
   }
 ]

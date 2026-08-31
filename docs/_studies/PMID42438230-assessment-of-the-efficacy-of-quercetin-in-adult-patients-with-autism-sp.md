@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Quercetin", "Female", "Male", "Adult", "Quality of Life"
 keywords: ["autism spectrum disorder", "quality of life", "quercetin", "randomized controlled trial", "social responsiveness scale"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42438230/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:15:11Z"
+last_updated: "2026-08-31T05:16:32Z"
 ---

@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Neurofeedback", "Male", "Female", "Autism Spectrum Disor
 keywords: ["Alpha Oscillations", "Aperiodic Activity", "Autism Spectrum Disorder", "E/I Balance", "Neurofeedback", "Spectral Parameterization"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42492845/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T05:15:11Z"
+last_updated: "2026-08-31T05:16:32Z"
 ---
