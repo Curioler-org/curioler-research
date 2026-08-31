@@ -22,6 +22,12 @@ This repository is the canonical evidence store for:
 
 ## PubMed Ingestion
 
+Install dependencies once:
+
+```bash
+pip install -r requirements.txt
+```
+
 Run the full pipeline:
 
 ```bash
@@ -39,6 +45,13 @@ python -m pipelines.pubmed.index
 python scripts/generate_study_pages.py
 ```
 
+Rebuild every study record from the raw captures already in `raw/pubmed/`, without
+refetching from PubMed (`--all` also rebuilds PMIDs that already have a record):
+
+```bash
+python -m scripts.extract_studies_from_raw --all
+```
+
 The daily GitHub Action uses repository secrets for PubMed and LLM access:
 
 - `OPENROUTER_API_KEY`
@@ -53,5 +66,15 @@ Set `AI_PROVIDER` and `AI_MODEL` as repository variables when a provider or mode
 
 - Never overwrite raw PubMed XML or abstract files.
 - Store each study as an individual JSON document.
-- Use `null` for unknown scalar values and `[]` for unknown lists.
+- Use `null` for unknown scalar values and `[]` for unknown lists. Never substitute a
+  guessed value for a missing one.
+- Read an article's DOI from `Article/ELocationID` or `PubmedData/ArticleIdList`, never
+  from a `.//ArticleId` descendant sweep: `ReferenceList` carries one DOI per cited
+  reference, so a sweep returns the bibliography's DOIs.
+- `study_type` is a study design or `null`; PubMed container types such as
+  `Journal Article` are not designs.
+- Age ranges always carry their unit (`age_min`/`age_max`/`age_unit`), because `24-60`
+  months and `7-13` years are indistinguishable without it.
+- `python -m pipelines.pubmed.validate` checks records against
+  `schemas/study.schema.json`, which is the contract.
 - Regenerate indexes after ingestion instead of editing them manually.

@@ -7,10 +7,14 @@ doi: "10.1016/j.acap.2026.103332"
 year: 2026
 journal: "Academic pediatrics"
 authors: ["John A Romley", "Bergen B Nelson", "Rebecca N Dudovitz", "Lindsey R Thompson", "Sitaram Vangala", "Amanda Gulsrud", "Abraham Gallegos", "Lorena Porras-Javier", "Patricia Herrera", "Irene Aceves", "Paul J Chung"]
-study_type: "Journal Article"
+study_type: "Observational Study"
 participants: 274
 age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: ["Developmental Disabilities"]
 intervention: "care coordination"
 duration: ""
 primary_outcomes: ["274 children appeared in the intervention group database. The program made 19.0 contacts per case, and engagement averaged 17.2 months. The adjusted number of contacts was 30.8 for…"]
@@ -22,7 +26,6 @@ conclusion: "At a telephone-based care coordination program in LA County, the am
 mesh_terms: ["Humans", "Child, Preschool", "Developmental Disabilities", "Female", "Telephone", "Retrospective Studies", "Autistic Disorder", "Male", "Los Angeles", "Infant", "Cost-Benefit Analysis", "Cost-Effectiveness Analysis", "Continuity of Patient Care"]
 keywords: ["Autism", "Care coordination", "Developmental delays", "Early childhood", "Screening"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42092454/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

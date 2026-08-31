@@ -1,6 +1,9 @@
 {
   "abstract": "OBJECTIVE: The present study aims to provide a detailed clinical characterization of adult patients with bipolar disorder (BD) and comorbid autism spectrum disorder without intellectual disability (ASD-noID), through a comparison with a control group of individuals with BD only.\nMETHODS: We conducted a cross-sectional observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the University Hospital of Pisa between June 2022 and April 2023. Clinical history, psychiatric diagnoses, and symptom profiles were collected using standardized assessment procedures. Group comparisons with a sex-matched control sample of BD patients without ASD were performed.\nRESULTS: Patients with ASD-BD exhibited an earlier onset of mood symptoms, a higher prevalence of other specified bipolar and related disorder (BD-OS) diagnoses, and greater rates of comorbid anxiety disorders. Temperamental assessment revealed significantly higher scores in cyclothymic, anxious, and depressive dimensions. The ASD-BD group also reported lower global functioning. Finally, ASD-BD individuals show high frequency of adverse reactions to antidepressants and antipsychotics.\nCONCLUSIONS: BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.",
+  "age_max": null,
+  "age_min": null,
   "age_range": null,
+  "age_unit": null,
   "authors": [
     "Margherita Barbuti",
     "Salvatore Amadori",
@@ -8,20 +11,23 @@
     "Giulio Perugi"
   ],
   "clinical_implications": "BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability.",
+  "co_occurring_conditions": [
+    "Bipolar Disorder",
+    "Intellectual Disability"
+  ],
   "conclusion": "BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.",
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jad.2026.121527",
   "duration": null,
-  "extraction_confidence": "medium",
-  "intervention": "clinical characterization of bipolar disorder comorbidity in ASD",
+  "intervention": "Bipolar disorder",
   "journal": "Journal of affective disorders",
   "keywords": [
     "Autism spectrum disorder",
     "Bipolar disorder",
     "High-functioning autism"
   ],
-  "last_updated": "2026-08-10T07:28:19Z",
+  "last_updated": "2026-08-31T05:15:11Z",
   "limitations": [
     "observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the Unive"
   ],
@@ -46,7 +52,7 @@
   ],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/41765239/",
-  "study_type": "Journal Article",
+  "study_type": "Observational Study",
   "title": "Clinical characterization of bipolar disorder in adults with autism without intellectual disability: a cross-sectional study.",
   "year": 2026
 }

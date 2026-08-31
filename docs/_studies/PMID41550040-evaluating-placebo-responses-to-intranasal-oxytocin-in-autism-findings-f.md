@@ -7,10 +7,14 @@ doi: "10.1111/jcpp.70116"
 year: 2026
 journal: "Journal of child psychology and psychiatry, and allied disciplines"
 authors: ["Kelsie A Boulton", "Rinku Thapa", "Yun Ju Song", "Andrew J O Whitehouse", "Marilena M DeMayo", "Simon G Gregory", "Izabella Pokorski", "Joanna Granich", "Zahava Ambarchi", "John Wray", "Emma E Thomas", "Ian B Hickie", "Adam J Guastella"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: 45
-age_range: "3-12"
+age_range: "3-12 years"
+age_min: 3
+age_max: 12
+age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
 intervention: "oxytocin"
 duration: "3-week"
 primary_outcomes: ["social responsiveness", "Social Responsiveness Scale", "SRS-2) Total Raw Score was used to measure change from baseline", "SRS-2"]
@@ -22,7 +26,6 @@ conclusion: "This study provides important information about placebo effects and
 mesh_terms: ["Humans", "Oxytocin", "Male", "Child", "Child, Preschool", "Female", "Administration, Intranasal", "Placebo Effect", "Single-Blind Method", "Autistic Disorder", "Autism Spectrum Disorder", "Outcome Assessment, Health Care", "Double-Blind Method"]
 keywords: ["Treatment", "anxiety", "autism", "oxytocin", "social interaction"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41550040/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

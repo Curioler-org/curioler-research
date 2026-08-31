@@ -3,14 +3,18 @@ layout: study
 title: "Who benefits most? A randomized controlled trial for Parent-implemented social communication intervention for chinese-speaking autistic preschoolers."
 slug: "PMID42393738-who-benefits-most-a-randomized-controlled-trial-for-parent-implemented-s"
 pmid: "42393738"
-doi: "10.1002/aur.3312"
+doi: "10.1186/s13229-026-00725-0"
 year: 2026
 journal: "Molecular autism"
 authors: ["Li Wang", "Yujia Shi", "Hon-Cheong So", "Hoyee W Hirai", "Xin Qi", "Carol K S To", "Florrie Fei-Yin Ng", "Patrick C M Wong"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: ""
-age_range: "24-60"
+age_range: "24-60 months"
+age_min: 24
+age_max: 60
+age_unit: "months"
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
 intervention: "parent-implemented intervention"
 duration: "20-week"
 primary_outcomes: ["No consistent differences between delivery formats were observed across most outcomes. Children's social functioning, expressive and receptive language showed improvement, and pare…"]
@@ -22,7 +26,6 @@ conclusion: "This study provides evidence supporting a culturally grounded PII a
 mesh_terms: ["Child, Preschool", "Female", "Humans", "Male", "Autistic Disorder", "China", "Communication", "Parents", "Treatment Outcome", "East Asian People"]
 keywords: ["Autism", "Parent-implemented intervention", "Preschoolers", "Professional support", "Self-directed alternative", "Social communication"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42393738/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

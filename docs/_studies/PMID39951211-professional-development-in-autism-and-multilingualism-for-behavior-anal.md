@@ -3,14 +3,18 @@ layout: study
 title: "Professional Development in Autism and Multilingualism for Behavior Analysts: A Randomized Waitlist Control Trial."
 slug: "PMID39951211-professional-development-in-autism-and-multilingualism-for-behavior-anal"
 pmid: "39951211"
-doi: "10.3102/0034654315626801"
+doi: "10.1007/s10803-025-06730-1"
 year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Melanie R Martin Loya", "Hedda Meadan", "Xun Yan"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: ""
 age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
 intervention: "professional development training"
 duration: ""
 primary_outcomes: ["The training significantly increased the intervention group's knowledge and reported self-efficacy compared to participants in the waitlist control group but had no significant eff…"]
@@ -22,7 +26,6 @@ conclusion: "Implications highlight the need for more attention on professional 
 mesh_terms: ["Humans", "Multilingualism", "Autistic Disorder", "Self Efficacy", "Female", "Male", "Applied Behavior Analysis", "Child", "Health Knowledge, Attitudes, Practice", "Staff Development", "Adult"]
 keywords: ["Autism", "Behavior analysis", "Bilingualism", "Multilingualism", "Professional development"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39951211/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

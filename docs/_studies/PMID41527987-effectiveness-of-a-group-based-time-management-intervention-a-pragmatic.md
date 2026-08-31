@@ -7,11 +7,15 @@ doi: "10.1080/09638288.2026.2614218"
 year: 2026
 journal: "Disability and rehabilitation"
 authors: ["Kajsa Lidström Holmqvist", "Maria Wingren", "Ruzan Udumyran", "Marie Holmefur"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: 75
-age_range: "19-61"
+age_range: "19-61 years"
+age_min: 19
+age_max: 61
+age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
-intervention: "time management intervention"
+co_occurring_conditions: ["Attention Deficit Disorder with Hyperactivity"]
+intervention: "ADHD"
 duration: "3-month"
 primary_outcomes: ["Both intervention groups showed statistically significant improvements in time-management skills, organisation and planning, emotional regulation, general self-efficacy and satisfa…"]
 secondary_outcomes: []
@@ -22,7 +26,6 @@ conclusion: "This pragmatic RCT, conducted in a clinical environment including p
 mesh_terms: ["Humans", "Female", "Adult", "Occupational Therapy", "Middle Aged", "Time Management", "Male", "Attention Deficit Disorder with Hyperactivity", "Sweden", "Mental Disorders", "Autistic Disorder", "Young Adult", "Self Efficacy"]
 keywords: ["ADHD", "ClinicalTrials.gov NCT03654248", "Occupational therapy", "autism", "neurodevelopmental disorders"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41527987/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:19Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

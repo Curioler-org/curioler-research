@@ -1,6 +1,9 @@
 {
   "abstract": "OBJECTIVE: Care coordination is recommended to help move patients from screening to services. However, coordination lacks a common meaning, and data on coordination activities needed for children with autism and developmental delays are limited. This could lead to unrealistic health care system expectations of coordination feasibility. 211 LA is a telephone-based care coordination program in Los Angeles County shown in a randomized trial to improve receipt of early intervention and developmental support services. We aimed to describe the nature, cost and effectiveness of care coordination activities during the trial.\nMETHODS: Observational retrospective cohort analysis of 211 LA's administrative database of children screened for autism and developmental delays during well-child visits and randomized into the care coordination intervention. Coordinators logged contacts, including time, method, and party. We characterized contacts, and explored the cost of coordination as well as service receipt in relation to coordination activity.\nRESULTS: 274 children appeared in the intervention group database. The program made 19.0 contacts per case, and engagement averaged 17.2 months. The adjusted number of contacts was 30.8 for high-risk children versus 14.2 for low risk (P<0.001). Estimated monthly cost was $65.30. Provider referrals were significantly higher for children who received services (2.4 vs. 1.9, P=0.005).\nCONCLUSIONS: At a telephone-based care coordination program in LA County, the amount and duration of engagement by coordinators for children with autism or developmental delays was substantial. There was a significant relationship between the number of service provider referrals and service receipt, but not for total number of contacts.",
+  "age_max": null,
+  "age_min": null,
   "age_range": null,
+  "age_unit": null,
   "authors": [
     "John A Romley",
     "Bergen B Nelson",
@@ -15,12 +18,14 @@
     "Paul J Chung"
   ],
   "clinical_implications": "At a telephone-based care coordination program in LA County, the amount and duration of engagement by coordinators for children with autism or developmental delays was substantial.",
+  "co_occurring_conditions": [
+    "Developmental Disabilities"
+  ],
   "conclusion": "At a telephone-based care coordination program in LA County, the amount and duration of engagement by coordinators for children with autism or developmental delays was substantial. There was a significant relationship between the number of service provider referrals and service receipt, but not for total number of contacts.",
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.acap.2026.103332",
   "duration": null,
-  "extraction_confidence": "medium",
   "intervention": "care coordination",
   "journal": "Academic pediatrics",
   "keywords": [
@@ -30,7 +35,7 @@
     "Early childhood",
     "Screening"
   ],
-  "last_updated": "2026-08-10T07:28:06Z",
+  "last_updated": "2026-08-31T05:15:11Z",
   "limitations": [
     "Observational retrospective cohort analysis of 211 LA's administrative database of children s",
     "limited"
@@ -57,7 +62,7 @@
   ],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42092454/",
-  "study_type": "Journal Article",
+  "study_type": "Observational Study",
   "title": "What Does Care Coordination Do? Profiling a Large Telephone-based 211 Program Serving Young Children.",
   "year": 2026
 }

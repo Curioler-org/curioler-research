@@ -7,22 +7,25 @@ doi: "10.1002/dneu.70048"
 year: 2026
 journal: "Developmental neurobiology"
 authors: ["Dongling Yin", "Linlin Fan", "Ke Huang", "Cheng Deng", "Shurong Huang", "Qiling Li"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: 89
 age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
 intervention: "Yizhi Kaiqiao"
 duration: "3-month"
 primary_outcomes: []
 secondary_outcomes: []
 limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
-clinical_implications: "This paper aimed to unravel the effects of Yizhi Kaiqiao formula combined with repetitive transcranial magnetic stimulation (rTMS) on neurocognitive function and social outcomes in preschool children with autism spectrum disorder (ASD)."
+clinical_implications: "May be relevant to Yizhi Kaiqiao in Autism Spectrum Disorder, based on abstract-reported findings."
 abstract: "This paper aimed to unravel the effects of Yizhi Kaiqiao formula combined with repetitive transcranial magnetic stimulation (rTMS) on neurocognitive function and social outcomes in preschool children with autism spectrum disorder (ASD). In this randomized controlled trial, 178 preschool children with ASD recruited between January 2022 and February 2024 were randomly assigned to a combined group (Yizhi Kaiqiao formula + rTMS) or an rTMS-only group (n = 89 each). Both groups received a 3-month intervention. Pre- and post-intervention, TCM and Western medicine symptom severity (TCM syndrome scores, ADOS-2, CARS), inflammatory indicators (IL-6, TNF-α), neurocognitive function (MMN amplitude and latency, DCCS), social ability (SRS), and quality of life (PedsQL 4.0) were compared. Adverse event incidence was also recorded. Nine children in the combined group and seven in the rTMS-only group dropped out, leaving 80 and 82 completers, respectively. Post-intervention, the combined group showed greater improvements than the rTMS-only group in symptoms (TCM, ADOS-2, CARS), neuroinflammation/oxidative stress (IL-6, TNF-α), neurocognition (MMN, DCCS), social ability (SRS), and quality of life (PedsQL 4.0) (p < 0.05). Adverse event rates were low and comparable between groups (3.75% vs. 1.22%, p > 0.05). On the basis of conventional treatment, compared with rTMS adjuvant therapy alone, Yizhi Kaiqiao formula combined with rTMS is a relatively effective strategy for enhancing behavioral rehabilitation adjuvant therapy. https://www.chictr.org.cn/index.html."
-conclusion: "This paper aimed to unravel the effects of Yizhi Kaiqiao formula combined with repetitive transcranial magnetic stimulation (rTMS) on neurocognitive function and social outcomes in preschool children with autism spectrum disorder (ASD). In this randomized controlled trial, 178 preschool children with ASD recruited between January 2022 and February 2024 were randomly assigned to a combined group (Yizhi Kaiqiao formula + rTMS) or an rTMS-only group (n = 89 each). Both groups received a 3-month intervention. Pre- and post-intervention, TCM and Western medicine symptom severity (TCM syndrome scores, ADOS-2, CARS), inflammatory indicators (IL-6, TNF-α), neurocognitive function (MMN amplitude and latency, DCCS), social ability (SRS), and quality of life (PedsQL 4.0) were compared. Adverse event incidence was also recorded. Nine children in the combined group and seven in the rTMS-only group dropped out, leaving 80 and 82 completers, respectively. Post-intervention, the combined group showed greater improvements than the rTMS-only group in symptoms (TCM, ADOS-2, CARS), neuroinflammation/oxidative stress (IL-6, TNF-α), neurocognition (MMN, DCCS), social ability (SRS), and quality of life (PedsQL 4.0) (p < 0.05). Adverse event rates were low and comparable between groups (3.75% vs. 1.22%, p > 0.05). On the basis of conventional treatment, compared with rTMS adjuvant therapy alone, Yizhi Kaiqiao formula combined with rTMS is a relatively effective strategy for enhancing behavioral rehabilitation adjuvant therapy. https://www.chictr.org.cn/index.html."
+conclusion: ""
 mesh_terms: ["Humans", "Male", "Transcranial Magnetic Stimulation", "Female", "Autism Spectrum Disorder", "Child, Preschool", "Drugs, Chinese Herbal", "Social Behavior", "Treatment Outcome", "Cognition", "Combined Modality Therapy", "Quality of Life"]
 keywords: ["Autism spectrum disorder", "Yizhi Kaiqiao formula", "neurocognition", "preschool", "repetitive transcranial magnetic stimulation", "social outcomes"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42281150/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

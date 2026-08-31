@@ -1,6 +1,9 @@
 {
   "abstract": "BACKGROUND: Parent-implemented interventions (PIIs) are well established for improving developmental outcomes in autistic children. As evidence has accumulated, the field has increasingly shifted toward understanding for whom, and through which delivery formats PIIs can be most effectively implemented. These questions are pressing in non-Western contexts, where access to professional services is limited and culturally appropriate interventions are needed. This RCT, one of the largest of its kind in China, addressed this gap by comparing two scalable delivery formats (speech-language therapist [SLT]-led online groups vs. flexible Self-study format) of a culturally adapted social communication program and examining differential intervention responses and sustained engagement.\nMETHODS: A total of 112 Chinese-speaking autistic children aged 24-60 months with limited spontaneous expressive language were randomized to a 20-week SLT-led or Self-study intervention. Autism severity, social functioning, and language skills were assessed at baseline, post-intervention, and 12 months after baseline. Parental stress, parenting sense of competence, and strategy use were also measured. Child, parent, and family baseline characteristics predicting differential outcomes and engagement were examined.\nRESULTS: No consistent differences between delivery formats were observed across most outcomes. Children's social functioning, expressive and receptive language showed improvement, and parental self-efficacy increased while stress decreased in both formats. Individualized analyses indicated greater benefits of the SLT-led format for children from lower-income families and those with greater developmental needs, whereas families with stronger baseline functioning showed comparable gains in the Self-study format. Attrition was higher in the Self-study format and was associated with lower child social skills and receptive languages, along with lower parental use of engagement-promoting behaviors and lower broader autism-related traits.\nLIMITATIONS: Despite being one of the largest RCTs of its kind in China, the study may have been underpowered to detect small between-format differences, and the relatively modest sample size for the individualized machine-learning analyses limits the interpretation of these exploratory findings. Parental strategy use was measured using a general interaction coding scheme rather than intervention-specific behaviors. Higher attrition in the Self-study format warrants cautious interpretation, although sensitivity analyses supported the robustness of findings.\nCONCLUSIONS: This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\nTRIAL REGISTRATION: ClinicalTrials.gov: NCT05635760, registered on 23 November 2022.",
-  "age_range": "24-60",
+  "age_max": 60,
+  "age_min": 24,
+  "age_range": "24-60 months",
+  "age_unit": "months",
   "authors": [
     "Li Wang",
     "Yujia Shi",
@@ -12,12 +15,12 @@
     "Patrick C M Wong"
   ],
   "clinical_implications": "This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress.",
+  "co_occurring_conditions": [],
   "conclusion": "This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\nTRIAL REGISTRATION: ClinicalTrials.gov: NCT05635760, registered on 23 November 2022.",
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
-  "doi": "10.1002/aur.3312",
+  "doi": "10.1186/s13229-026-00725-0",
   "duration": "20-week",
-  "extraction_confidence": "medium",
   "intervention": "parent-implemented intervention",
   "journal": "Molecular autism",
   "keywords": [
@@ -28,7 +31,7 @@
     "Self-directed alternative",
     "Social communication"
   ],
-  "last_updated": "2026-08-10T07:28:06Z",
+  "last_updated": "2026-08-31T05:15:11Z",
   "limitations": [
     "limited and culturally appropriate interventions are needed"
   ],
@@ -51,7 +54,7 @@
   ],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42393738/",
-  "study_type": "Journal Article",
+  "study_type": "Randomized Controlled Trial",
   "title": "Who benefits most? A randomized controlled trial for Parent-implemented social communication intervention for chinese-speaking autistic preschoolers.",
   "year": 2026
 }

@@ -23,7 +23,11 @@ STUDY_FIELDS = [
     "study_type",
     "participants",
     "age_range",
+    "age_min",
+    "age_max",
+    "age_unit",
     "diagnosis",
+    "co_occurring_conditions",
     "intervention",
     "duration",
     "primary_outcomes",
@@ -35,13 +39,13 @@ STUDY_FIELDS = [
     "mesh_terms",
     "keywords",
     "source_url",
-    "extraction_confidence",
     "created_at",
     "last_updated",
 ]
 
 ARRAY_FIELDS = {
     "authors",
+    "co_occurring_conditions",
     "primary_outcomes",
     "secondary_outcomes",
     "limitations",

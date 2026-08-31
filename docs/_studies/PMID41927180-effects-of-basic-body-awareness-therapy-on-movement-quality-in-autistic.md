@@ -7,11 +7,15 @@ doi: "10.1016/j.jbmt.2025.11.014"
 year: 2026
 journal: "Journal of bodywork and movement therapies"
 authors: ["Ingrid Bertilsson", "Christina Brogårdh", "Arve Opheim", "Amanda L Gyllensten", "Jeanette Melin", "Catharina Sjödahl Hammarlund"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: 28
-age_range: "15-30"
+age_range: "15-30 years"
+age_min: 15
+age_max: 30
+age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
-intervention: "movement / motor skill interventions"
+co_occurring_conditions: []
+intervention: "interventions targeting these aspects in autistic persons"
 duration: ""
 primary_outcomes: ["Primary outcome was a person-reported measure of an individualized movement"]
 secondary_outcomes: ["Secondary outcome was Body Awareness Scale Movement Quality (BAS MQ)"]
@@ -22,7 +26,6 @@ conclusion: "BBAT and TAU were superior to TAU alone for improving movement qual
 mesh_terms: ["Humans", "Female", "Young Adult", "Adolescent", "Autistic Disorder", "Adult", "Male", "Awareness", "Physical Therapy Modalities", "Movement"]
 keywords: ["Autism", "Autistic", "Basic Body Awareness Therapy", "Body awareness", "Movement quality", "Physiotherapy"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41927180/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:19Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

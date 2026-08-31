@@ -1,6 +1,9 @@
 {
   "abstract": "Autistic people experience higher rates of physical and mental health conditions and face barriers to accessing healthcare. This study evaluated the acceptability and implementation of a co-designed primary care health check for autistic people (18 years+), delivered within a randomised controlled trial in Northern England investigating clinical and cost-effectiveness. Following health checks, all autistic people, carers/supporters, and clinicians were invited to complete evaluation questionnaires and a subset invited for an interview. Eighty-one autistic people, 11 carers/supporters, and 18 clinicians returned questionnaires and were descriptively analysed; 44 participants were interviewed. Findings demonstrated that the pre-appointment questionnaire and health check appointment were reported to be acceptable, valued and beneficial by all groups. Carers/supporters reported positive impacts of their role in reducing anxiety and supporting communication. Interview analysis, informed by Normalisation Process Theory, highlighted important factors to consider for implementation of the health check at scale. This included the importance of providing clear guidance and resources ahead of the health check and ensuring enough funding and capacity in primary care. Health checks can be delivered to autistic people in local neighbourhoods to address heath inequalities. Health checks require adequate resources, staff training, and integration into care systems to ensure successful implementation and sustainability.Lay AbstractImproving healthcare for autistic people: a study of a new primary care health checkAutistic people often face more health problems and shorter average life expectancy compared to non-autistic people. They can also find it harder to access healthcare that meets their needs. To help with this, researchers developed a new health check specifically for autistic people to be used in general practice settings. This health check included a pre-appointment questionnaire to help prepare for the visit and a longer appointment with a trained clinician. This study looked at how acceptable the health check was for autistic people, their carers/supporters, and clinicians, and what factors will help it work well in practice. It used questionnaires and interviews to collect views from autistic people who received the health check, clinicians who delivered it, and carers/supporters who attended the appointment. Most autistic people thought the health check was helpful and they would attend one again. The pre-appointment questionnaire helped people share important information, although some found it difficult to complete and some people needed support to complete it. Carers/supporters also found the process helpful in supporting the autistic adult and improving communication. Clinicians said they were able to put adjustments in place, use the clinician health check template, and found the extra time and structure the health check provided useful. However, they mentioned needing more resources and support to make it work in everyday practice. The interviews showed that autistic people, carers/supporters, and clinicians thought the health check is a good idea and should be offered more widely. It is important to make sure autistic people understand what to expect from the health check and that they can ask for adjustments to meet their needs. For the health check to work well long term, general practice settings will need funding, staff training in autism awareness, and clear systems for delivering the health checks.",
+  "age_max": null,
+  "age_min": null,
   "age_range": null,
+  "age_unit": null,
   "authors": [
     "Hannah Merrick",
     "Helen Taylor",
@@ -26,14 +29,14 @@
     "Colin Wilson",
     "Jeremy R Parr"
   ],
-  "clinical_implications": "Autistic people experience higher rates of physical and mental health conditions and face barriers to accessing healthcare.",
-  "conclusion": "Autistic people experience higher rates of physical and mental health conditions and face barriers to accessing healthcare. This study evaluated the acceptability and implementation of a co-designed primary care health check for autistic people (18 years+), delivered within a randomised controlled trial in Northern England investigating clinical and cost-effectiveness. Following health checks, all autistic people, carers/supporters, and clinicians were invited to complete evaluation questionnaires and a subset invited for an interview. Eighty-one autistic people, 11 carers/supporters, and 18 clinicians returned questionnaires and were descriptively analysed; 44 participants were interviewed. Findings demonstrated that the pre-appointment questionnaire and health check appointment were reported to be acceptable, valued and beneficial by all groups. Carers/supporters reported positive impacts of their role in reducing anxiety and supporting communication. Interview analysis, informed by Normalisation Process Theory, highlighted important factors to consider for implementation of the health check at scale. This included the importance of providing clear guidance and resources ahead of the health check and ensuring enough funding and capacity in primary care. Health checks can be delivered to autistic people in local neighbourhoods to address heath inequalities. Health checks require adequate resources, staff training, and integration into care systems to ensure successful implementation and sustainability.Lay AbstractImproving healthcare for autistic people: a study of a new primary care health checkAutistic people often face more health problems and shorter average life expectancy compared to non-autistic people. They can also find it harder to access healthcare that meets their needs. To help with this, researchers developed a new health check specifically for autistic people to be used in general practice settings. This health check included a pre-appointment questionnaire to help prepare for the visit and a longer appointment with a trained clinician. This study looked at how acceptable the health check was for autistic people, their carers/supporters, and clinicians, and what factors will help it work well in practice. It used questionnaires and interviews to collect views from autistic people who received the health check, clinicians who delivered it, and carers/supporters who attended the appointment. Most autistic people thought the health check was helpful and they would attend one again. The pre-appointment questionnaire helped people share important information, although some found it difficult to complete and some people needed support to complete it. Carers/supporters also found the process helpful in supporting the autistic adult and improving communication. Clinicians said they were able to put adjustments in place, use the clinician health check template, and found the extra time and structure the health check provided useful. However, they mentioned needing more resources and support to make it work in everyday practice. The interviews showed that autistic people, carers/supporters, and clinicians thought the health check is a good idea and should be offered more widely. It is important to make sure autistic people understand what to expect from the health check and that they can ask for adjustments to meet their needs. For the health check to work well long term, general practice settings will need funding, staff training in autism awareness, and clear systems for delivering the health checks.",
+  "clinical_implications": "May be relevant to the health check, clinicians who delivered it, and carers/supporters who attended the appointment in Autism Spectrum Disorder, based on abstract-reported findings.",
+  "co_occurring_conditions": [],
+  "conclusion": null,
   "created_at": "2026-08-10T07:28:06Z",
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1177/13623613261433106",
   "duration": null,
-  "extraction_confidence": "medium",
-  "intervention": "health check delivered with carers/supporters",
+  "intervention": "the health check, clinicians who delivered it, and carers/supporters who attended the appointment",
   "journal": "Autism : the international journal of research and practice",
   "keywords": [
     "acceptability",
@@ -42,7 +45,7 @@
     "implementation",
     "primary care"
   ],
-  "last_updated": "2026-08-10T07:28:19Z",
+  "last_updated": "2026-08-31T05:15:11Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -68,7 +71,7 @@
   "primary_outcomes": [],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42303595/",
-  "study_type": "Journal Article",
+  "study_type": "Randomized Controlled Trial",
   "title": "Acceptability and Implementation of a Primary Care Health Check for Autistic People: Findings From Evaluation Questionnaires and Interviews.",
   "year": 2026
 }

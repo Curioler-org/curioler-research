@@ -3,26 +3,29 @@ layout: study
 title: "Using Artificial Intelligence to Improve Empathetic Statements in Autistic Adolescents and Adults: A Randomized Clinical Trial."
 slug: "PMID39954218-using-artificial-intelligence-to-improve-empathetic-statements-in-autist"
 pmid: "39954218"
-doi: "10.1017/iop.2022.95"
+doi: "10.1007/s10803-025-06734-x"
 year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Lynn Kern Koegel", "Elizabeth Ponder", "Tommy Bruzzese", "Mason Wang", "Sina J Semnani", "Nathan Chi", "Brittany L Koegel", "Tzu Yuan Lin", "Ankush Swarnakar", "Monica S Lam"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: ""
-age_range: "11-35"
+age_range: "11-35 years"
+age_min: 11
+age_max: 35
+age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
 intervention: "AI-supported social communication training"
 duration: "4 weeks"
 primary_outcomes: []
 secondary_outcomes: []
 limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
-clinical_implications: "Challenges with social communication and social interaction are a defining characteristic of autism spectrum disorder (ASD)."
+clinical_implications: "May be relevant to AI-supported social communication training in Autism Spectrum Disorder, based on abstract-reported findings."
 abstract: "Challenges with social communication and social interaction are a defining characteristic of autism spectrum disorder (ASD). These challenges frequently interfere with making friendships, securing and maintaining employment, and can lead to co-occurring conditions. While face-to-face clinical interventions with trained professionals can be helpful in improving social conversation, they can be costly and are unavailable to many, particularly given the high prevalence of ASD and lack of professional training. The purpose of this study was to assess whether an AI program using a Large Language Model (LLM) would improve verbal empathetic responses during social conversation. Autistic adolescents and adults, 11-35 years of age, who were able to engage in conversation but demonstrated challenges with empathetic responses participated in this study. A randomized clinical trial design was used to assess the effects of the AI program (Noora) compared to a waitlist control group. Noora asks participants to respond to leading statements and provides feedback on their answers. In this study, participants were asked to respond to 10 statements per day 5 days per week for 4 weeks for an expected total of 200 trials. Pre- and post-intervention conversation samples were collected to assess generalization during natural conversation. Additionally pre- and post-intervention questionnaires regarding each participant's comfort during social conversation and participants' satisfaction with the AI program were collected. The results of this study demonstrated that empathetic responses could be greatly improved by using an AI program for a short period of time. Participants in the experimental group showed statistically significant improvements in empathetic responses, which generalized to social conversation, compared to the waitlist control group. Some participants in the experimental group reported improved confidence in targeted areas and most reported high levels of satisfaction with the program. These findings suggest that AI using LLMs can be used to improve empathetic responses, thereby providing a time- and cost-efficient support program for improving social conversation in autistic adolescents and adults."
-conclusion: "Challenges with social communication and social interaction are a defining characteristic of autism spectrum disorder (ASD). These challenges frequently interfere with making friendships, securing and maintaining employment, and can lead to co-occurring conditions. While face-to-face clinical interventions with trained professionals can be helpful in improving social conversation, they can be costly and are unavailable to many, particularly given the high prevalence of ASD and lack of professional training. The purpose of this study was to assess whether an AI program using a Large Language Model (LLM) would improve verbal empathetic responses during social conversation. Autistic adolescents and adults, 11-35 years of age, who were able to engage in conversation but demonstrated challenges with empathetic responses participated in this study. A randomized clinical trial design was used to assess the effects of the AI program (Noora) compared to a waitlist control group. Noora asks participants to respond to leading statements and provides feedback on their answers. In this study, participants were asked to respond to 10 statements per day 5 days per week for 4 weeks for an expected total of 200 trials. Pre- and post-intervention conversation samples were collected to assess generalization during natural conversation. Additionally pre- and post-intervention questionnaires regarding each participant's comfort during social conversation and participants' satisfaction with the AI program were collected. The results of this study demonstrated that empathetic responses could be greatly improved by using an AI program for a short period of time. Participants in the experimental group showed statistically significant improvements in empathetic responses, which generalized to social conversation, compared to the waitlist control group. Some participants in the experimental group reported improved confidence in targeted areas and most reported high levels of satisfaction with the program. These findings suggest that AI using LLMs can be used to improve empathetic responses, thereby providing a time- and cost-efficient support program for improving social conversation in autistic adolescents and adults."
+conclusion: ""
 mesh_terms: ["Humans", "Adolescent", "Adult", "Male", "Young Adult", "Female", "Empathy", "Child", "Artificial Intelligence", "Social Interaction", "Autism Spectrum Disorder", "Autistic Disorder", "Communication", "Large Language Models", "Interpersonal Relations"]
 keywords: ["Artificial intelligence", "Autistic", "Empathy", "Machine Learning", "Social communication"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39954218/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

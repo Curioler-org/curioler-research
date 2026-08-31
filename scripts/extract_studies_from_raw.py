@@ -7,6 +7,7 @@ import argparse
 import json
 import re
 from pathlib import Path
+from typing import Any
 
 from pipelines.pubmed.common import (
     RAW_ABSTRACT_DIR,
@@ -34,12 +35,35 @@ PARTICIPANT_PATTERNS = [
     re.compile(r"(?i)\bdata from\s+(\d{1,4})\s+(?:subjects?|participants?|patients?)"),
 ]
 
+# An age range without its unit is worse than no age range: "24-60" is months and
+# "7-13" is years, and they render identically. Every pattern here must capture the
+# unit, and each is anchored on an explicit age cue so that durations
+# ("followed for 12-24 months") cannot be mistaken for ages.
+AGE_UNIT = r"(years?|yrs?|months?|mos?|weeks?|days?)"
+NUM = r"(\d{1,3}(?:\.\d+)?)"
 AGE_PATTERNS = [
-    re.compile(r"(?i)\bages?\s+(\d{1,2}\s*(?:to|-|–)\s*\d{1,2})\s*(?:years?)?"),
-    re.compile(r"(?i)\b(\d{1,2}\s*(?:to|-|–)\s*\d{1,2})\s*years?\s*(?:old|of age)?"),
-    re.compile(r"(?i)\bmean(?:\s*age)?[:\s]+(\d{1,2}(?:\.\d+)?)\s*years?"),
-    re.compile(r"(?i)\baged\s+(\d{1,2}\s*(?:to|-|–)\s*\d{1,2})"),
+    # "ages 7-13 years", "aged 3 to 12 years", "age range 2-8 years"
+    re.compile(rf"(?i)\bages?d?\b(?:\s+range)?\s+{NUM}\s*(?:to|-|–|—)\s*{NUM}\s*{AGE_UNIT}\b"),
+    # "11-35 years of age", "15-30 years old"
+    re.compile(rf"(?i)\b{NUM}\s*(?:to|-|–|—)\s*{NUM}\s*{AGE_UNIT}\s*(?:old|of age)\b"),
+    # "(6-12 years)" — a parenthesised range next to a population noun
+    re.compile(rf"(?i)\(\s*{NUM}\s*(?:to|-|–|—)\s*{NUM}\s*(years?|months?)\s*[,)]"),
 ]
+
+AGE_UNIT_CANONICAL = {
+    "year": "years",
+    "years": "years",
+    "yr": "years",
+    "yrs": "years",
+    "month": "months",
+    "months": "months",
+    "mo": "months",
+    "mos": "months",
+    "week": "weeks",
+    "weeks": "weeks",
+    "day": "days",
+    "days": "days",
+}
 
 DURATION_PATTERNS = [
     re.compile(r"(?i)\b(?:for|over|during|across|up to)\s+(\d+\s*(?:day|days|week|weeks|month|months|year|years))\b"),
@@ -69,6 +93,30 @@ def first_match(patterns: list[re.Pattern[str]], text: str) -> str | None:
         if match:
             return re.sub(r"\s+", " ", match.group(1)).strip()
     return None
+
+
+def infer_age(text: str) -> dict[str, Any]:
+    """Return age_min/age_max/age_unit plus a display string, or nulls if no unit is stated."""
+    for pattern in AGE_PATTERNS:
+        match = pattern.search(text or "")
+        if not match:
+            continue
+        low, high, unit = match.group(1), match.group(2), match.group(3)
+        unit = AGE_UNIT_CANONICAL.get(unit.lower().rstrip("."))
+        if not unit:
+            continue
+        age_min, age_max = float(low), float(high)
+        if age_max < age_min:
+            continue
+        age_min = int(age_min) if age_min.is_integer() else age_min
+        age_max = int(age_max) if age_max.is_integer() else age_max
+        return {
+            "age_range": f"{age_min}-{age_max} {unit}",
+            "age_min": age_min,
+            "age_max": age_max,
+            "age_unit": unit,
+        }
+    return {"age_range": None, "age_min": None, "age_max": None, "age_unit": None}
 
 
 def infer_participants(text: str) -> int | str | None:
@@ -236,12 +284,27 @@ def infer_clinical_implications(conclusion: str | None, intervention: str | None
 
 
 def infer_conclusion(sections: dict[str, str], abstract: str) -> str | None:
+    """Return the abstract's stated conclusion, or None.
+
+    There is deliberately no fallback to the last paragraph: for an unstructured
+    abstract that is the whole abstract, and the page would then print it twice.
+    None lets the platform omit the section instead.
+    """
     for key in ("CONCLUSION", "CONCLUSIONS"):
         if sections.get(key):
             return sections[key]
-    # Fall back to last paragraph-like chunk.
-    parts = [p.strip() for p in re.split(r"\n+", abstract or "") if p.strip()]
-    return parts[-1] if parts else None
+    return None
+
+
+def existing_created_at(pmid: str, year: int | None) -> str | None:
+    """Keep the original created_at when a record is rebuilt from the same raw capture."""
+    path = study_path(pmid, year)
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("created_at")
+    except json.JSONDecodeError:
+        return None
 
 
 def build_study(pmid: str) -> dict:
@@ -267,7 +330,7 @@ def build_study(pmid: str) -> dict:
     study = {
         **metadata,
         "participants": infer_participants(methodsish or all_text),
-        "age_range": first_match(AGE_PATTERNS, methodsish or all_text),
+        **infer_age(all_text),
         "diagnosis": diagnosis,
         "intervention": intervention,
         "duration": first_match(DURATION_PATTERNS, methodsish or all_text),
@@ -277,8 +340,7 @@ def build_study(pmid: str) -> dict:
         "clinical_implications": infer_clinical_implications(conclusion, intervention, diagnosis),
         "abstract": abstract or None,
         "conclusion": conclusion,
-        "extraction_confidence": "medium",
-        "created_at": now,
+        "created_at": existing_created_at(pmid, metadata.get("year")) or now,
         "last_updated": now,
     }
     return normalize_study(study)
@@ -288,13 +350,18 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Extract study JSON from raw PubMed captures.")
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--pmid", action="append", default=[])
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        help="Rebuild every raw capture, including PMIDs that already have a study record.",
+    )
     args = parser.parse_args()
 
     if args.pmid:
         pmids = args.pmid
     else:
         raw_pmids = sorted(p.stem.replace("PMID", "") for p in RAW_ABSTRACT_DIR.glob("PMID*.txt"))
-        seen = existing_pmids()
+        seen = set() if args.all else existing_pmids()
         pmids = [pmid for pmid in raw_pmids if pmid not in seen]
     if args.limit:
         pmids = pmids[: args.limit]

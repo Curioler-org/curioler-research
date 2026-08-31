@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       - name: Run PubMed ingestion
         env:
           AI_PROVIDER: ${{ vars.AI_PROVIDER || 'openrouter' }}

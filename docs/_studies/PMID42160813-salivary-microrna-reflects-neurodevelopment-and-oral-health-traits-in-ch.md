@@ -3,15 +3,19 @@ layout: study
 title: "Salivary MicroRNA Reflects Neurodevelopment and Oral Health Traits in Children With Autism."
 slug: "PMID42160813-salivary-microrna-reflects-neurodevelopment-and-oral-health-traits-in-ch"
 pmid: "42160813"
-doi: "10.14806/ej.17.1.200"
+doi: "10.1016/j.identj.2026.109632"
 year: 2026
 journal: "International dental journal"
 authors: ["Omar Omar", "Reem Yussuf AlJindan", "Sumit Rajinder", "Balu Kamaraj", "Jehan AlHumaid"]
-study_type: "Journal Article"
+study_type: "Observational Study"
 participants: 26
 age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
-intervention: "biomarker assessment in ASD"
+co_occurring_conditions: ["Dental Caries", "Periodontal Diseases"]
+intervention: "Biomarkers"
 duration: ""
 primary_outcomes: ["A total of 125 salivary miRNAs were differentially expressed between ASD and control groups (FDR < 0.05). Principal component analysis showed clear group separation, with PC1 accou…"]
 secondary_outcomes: []
@@ -22,7 +26,6 @@ conclusion: "Children with ASD exhibit a distinct salivary miRNA profile with in
 mesh_terms: ["Humans", "MicroRNAs", "Male", "Saliva", "Female", "Child", "Oral Health", "Autism Spectrum Disorder", "Neurodevelopment", "Case-Control Studies", "Dental Caries", "Autistic Disorder", "Biomarkers", "Periodontal Diseases"]
 keywords: ["Autism spectrum disorder", "Biomarkers", "Dental caries", "MicroRNAs", "Periodontal diseases", "RNA sequencing"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42160813/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:19Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

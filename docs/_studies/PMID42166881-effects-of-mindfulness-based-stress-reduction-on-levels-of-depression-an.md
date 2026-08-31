@@ -7,10 +7,14 @@ doi: "10.1016/j.pedn.2026.05.008"
 year: 2026
 journal: "Journal of pediatric nursing"
 authors: ["Selverhan Yurttutan", "Emine Geçkil"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: 96
 age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: ["Anxiety", "Depression"]
 intervention: "mindfulness-based intervention"
 duration: ""
 primary_outcomes: ["anxiety"]
@@ -22,7 +26,6 @@ conclusion: "The MBSR program was effective in reducing depression, anxiety, and
 mesh_terms: ["Humans", "Female", "Parents", "Stress, Psychological", "Mindfulness", "Male", "Anxiety", "Depression", "Child", "Adult", "Autistic Disorder", "Autism Spectrum Disorder"]
 keywords: ["Anxiety", "Autism Spectrum Disorder", "Hopelessness", "Mindfulness", "Nursing", "Parents", "Stress"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42166881/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

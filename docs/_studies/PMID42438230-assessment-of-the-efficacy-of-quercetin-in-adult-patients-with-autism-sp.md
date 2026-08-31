@@ -7,10 +7,14 @@ doi: "10.1002/hup.70057"
 year: 2026
 journal: "Human psychopharmacology"
 authors: ["Anahid Rezaeifar", "Mahtab Motamed", "Niayesh Mohebbi"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: ""
 age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
 intervention: "quercetin"
 duration: "60 days"
 primary_outcomes: ["Social Responsiveness Scale (SRS)", "Quality of Life (WHOQOL) domains", "SRS scores over time (p = 0", "SRS change were not statistically significant"]
@@ -22,7 +26,6 @@ conclusion: "Quercetin supplementation showed potential benefits in select socia
 mesh_terms: ["Humans", "Quercetin", "Female", "Male", "Adult", "Quality of Life", "Autism Spectrum Disorder", "Young Adult", "Treatment Outcome", "Antioxidants", "Double-Blind Method", "Adolescent", "Middle Aged"]
 keywords: ["autism spectrum disorder", "quality of life", "quercetin", "randomized controlled trial", "social responsiveness scale"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42438230/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

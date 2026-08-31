@@ -7,11 +7,15 @@ doi: "10.3389/fpubh.2026.1851875"
 year: 2026
 journal: "Frontiers in public health"
 authors: ["Reinaldo da Costa Paulino Netto", "Deisiane Oliveira Souto", "Iolanda Costa Rodrigues", "Amanda Aparecida Alves Cunha Nascimento", "Camila de Oliveira Schumann", "Millene Cézar Nunes", "Ana Clara Schaper Fernandes", "Ana Clara de Carvalho Silva", "Patricia Aparecida Neves Santana", "Thalita Karla Flores Cruz"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: 18
-age_range: "6-12"
+age_range: "6-12 years"
+age_min: 6
+age_max: 12
+age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
-intervention: "parent-reported functional change assessment"
+co_occurring_conditions: []
+intervention: "family"
 duration: ""
 primary_outcomes: ["Findings were organized into three categories: previous experiences with conventional interventions, perceived changes following participation in MIG, and general perceptions of th…"]
 secondary_outcomes: []
@@ -22,7 +26,6 @@ conclusion: "Parents reported perceived changes in functioning following partici
 mesh_terms: ["Humans", "Child", "Autism Spectrum Disorder", "Parents", "Male", "Female", "Qualitative Research", "Focus Groups"]
 keywords: ["autism spectrum disorder", "family", "functioning", "motor activity", "psychomotor performance"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42491294/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:19Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

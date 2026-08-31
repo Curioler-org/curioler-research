@@ -7,11 +7,15 @@ doi: "10.1016/j.jad.2026.121527"
 year: 2026
 journal: "Journal of affective disorders"
 authors: ["Margherita Barbuti", "Salvatore Amadori", "Ugo De Rosa", "Giulio Perugi"]
-study_type: "Journal Article"
+study_type: "Observational Study"
 participants: 62
 age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
-intervention: "clinical characterization of bipolar disorder comorbidity in ASD"
+co_occurring_conditions: ["Bipolar Disorder", "Intellectual Disability"]
+intervention: "Bipolar disorder"
 duration: ""
 primary_outcomes: ["anxiety disorders"]
 secondary_outcomes: []
@@ -22,7 +26,6 @@ conclusion: "BD in adults with ASD-noID presents a distinct clinical phenotype, 
 mesh_terms: ["Humans", "Bipolar Disorder", "Cross-Sectional Studies", "Female", "Adult", "Male", "Comorbidity", "Autism Spectrum Disorder", "Middle Aged", "Intellectual Disability", "Antipsychotic Agents", "Young Adult"]
 keywords: ["Autism spectrum disorder", "Bipolar disorder", "High-functioning autism"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41765239/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:19Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

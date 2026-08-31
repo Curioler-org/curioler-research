@@ -7,10 +7,14 @@ doi: "10.1080/09593985.2026.2618078"
 year: 2026
 journal: "Physiotherapy theory and practice"
 authors: ["Melissa M Tovin", "Sheila B Madden", "Kaiwen Wu", "Annabel Nunez-Gaunaurd"]
-study_type: "Journal Article"
+study_type: "Observational Study"
 participants: ""
-age_range: "14 to 28"
+age_range: "14-28 years"
+age_min: 14
+age_max: 28
+age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
 intervention: "wearable device physical activity monitoring"
 duration: "8-week"
 primary_outcomes: ["Data from twenty-seven subjects (21 males, 6 females) ages 14 to 28 years (mean: 18.85 years) were analyzed. Adherence was significantly higher when calculated using Method B (mean…"]
@@ -22,7 +26,6 @@ conclusion: "Using HR-based measures of adherence may underestimate device use i
 mesh_terms: ["Humans", "Female", "Adolescent", "Male", "Prospective Studies", "Adult", "Young Adult", "Exercise", "Patient Compliance", "Wearable Electronic Devices", "Fitness Trackers", "Autism Spectrum Disorder", "Heart Rate", "Digital Health", "Telemedicine", "Actigraphy"]
 keywords: ["Wearable device adherence", "adolescents and adults", "autism spectrum disorder", "fitness tracker", "physical activity"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41578977/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

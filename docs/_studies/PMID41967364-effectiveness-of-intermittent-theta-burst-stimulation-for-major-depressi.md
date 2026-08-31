@@ -7,10 +7,14 @@ doi: "10.1016/j.jpsychires.2026.04.008"
 year: 2026
 journal: "Journal of psychiatric research"
 authors: ["Yoshihiro Noda", "Ryota Osawa", "Yuya Takeda", "Yuka Saijo", "Ayaho Tsukamoto", "Ryoma Noda", "Ryosuke Kitahata"]
-study_type: "Journal Article"
+study_type: "Observational Study"
 participants: ""
 age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: ["Major Depressive Disorder", "Attention Deficit Disorder with Hyperactivity"]
 intervention: "intermittent theta-burst stimulation (iTBS)"
 duration: ""
 primary_outcomes: ["Primary outcomes included percentage changes in Montgomery-Åsberg Depressio"]
@@ -22,7 +26,6 @@ conclusion: "iTBS is effective for MDD in routine clinical practice; however, it
 mesh_terms: ["Humans", "Female", "Male", "Retrospective Studies", "Major Depressive Disorder", "Attention Deficit Disorder with Hyperactivity", "Adult", "Transcranial Magnetic Stimulation", "Treatment Outcome", "Autism Spectrum Disorder", "Registries", "Psychiatric Status Rating Scales", "Theta Rhythm", "Comorbidity", "Young Adult", "Middle Aged", "Adolescent"]
 keywords: ["Attention deficit hyperactivity disorder", "Autistic spectrum disorder", "Intermittent theta-burst stimulation", "Neurodevelopmental disorders"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41967364/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

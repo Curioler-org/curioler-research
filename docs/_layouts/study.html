@@ -9,10 +9,7 @@ layout: default
     <header class="summary-header">
       <div class="summary-meta-top">
         {% if page.year %}<span class="domain-tag">{{ page.year }}</span>{% endif %}
-        {% if page.study_type %}<span class="content-type-badge">{{ page.study_type }}</span>{% endif %}
-        {% if page.extraction_confidence %}
-        <span class="content-type-badge">Confidence {{ page.extraction_confidence }}</span>
-        {% endif %}
+        {% if page.study_type %}<span class="content-type-badge">{{ page.study_type }}</span>{% else %}<span class="content-type-badge">Design not stated</span>{% endif %}
       </div>
       <h1 class="summary-title">{{ page.title }}</h1>
       <div class="summary-byline">
@@ -29,6 +26,9 @@ layout: default
         <div><dt>Participants</dt><dd>{{ page.participants | default: "Unknown" }}</dd></div>
         <div><dt>Age range</dt><dd>{{ page.age_range | default: "Unknown" }}</dd></div>
         <div><dt>Diagnosis</dt><dd>{{ page.diagnosis | default: "Unknown" }}</dd></div>
+        {% if page.co_occurring_conditions and page.co_occurring_conditions.size > 0 %}
+        <div><dt>Co-occurring conditions</dt><dd>{{ page.co_occurring_conditions | join: ", " }}</dd></div>
+        {% endif %}
         <div><dt>Intervention</dt><dd>{{ page.intervention | default: "Unknown" }}</dd></div>
         <div><dt>Duration</dt><dd>{{ page.duration | default: "Unknown" }}</dd></div>
       </dl>

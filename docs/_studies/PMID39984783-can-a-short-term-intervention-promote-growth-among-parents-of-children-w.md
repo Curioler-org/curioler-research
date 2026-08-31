@@ -3,26 +3,29 @@ layout: study
 title: "Can a Short-Term Intervention Promote Growth Among Parents of Children with ASD?"
 slug: "PMID39984783-can-a-short-term-intervention-promote-growth-among-parents-of-children-w"
 pmid: "39984783"
-doi: "10.1038/s41586-019-1466-y"
+doi: "10.1007/s10803-025-06744-9"
 year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Nagham Baransi", "Miri Scharf"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: ""
 age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
-intervention: "synergic growth mindset intervention for parents"
+co_occurring_conditions: []
+intervention: "a short-term synergic growth mindset intervention towards abilities and towards stress on reducing parental st"
 duration: ""
 primary_outcomes: []
 secondary_outcomes: []
 limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
-clinical_implications: "The present study investigated the effects of a short-term synergic growth mindset intervention towards abilities and towards stress on reducing parental stress and promoting stress-related growth (SRG) among Arab parents of children diagnosed with Autistic Spectrum Disorder (ASD)."
+clinical_implications: "May be relevant to a short-term synergic growth mindset intervention towards abilities and towards stress on reducing parental st in Autism Spectrum Disorder, based on abstract-reported findings."
 abstract: "The present study investigated the effects of a short-term synergic growth mindset intervention towards abilities and towards stress on reducing parental stress and promoting stress-related growth (SRG) among Arab parents of children diagnosed with Autistic Spectrum Disorder (ASD). One hundred and seven parents (70 mothers, 37 fathers) of male children with ASD, completed several questionnaires, including a demographic questionnaire; the Childhood Autism Rating Scale, the Parenting Stress Index-Short Form, the revised Stress- Related Growth Scale, The Implicit Self-Theories Scale, and the Stress Mindset Scale. Seventy- two parents were randomly assigned to an \"intervention group\", and 35 to a comparison group. Members of the intervention group participated in a short synergic growth mindset intervention, created especially for this research. Six months after the intervention, all participants re-completed the same questionnaires. The intervention significantly increased growth mindset and SRG and decreased parental stress. This study demonstrates the effectiveness of a short-term intervention in promoting growth mindsets, reducing parental stress, and fostering SRG among parents of children with a chronic disorder. These findings are particularly important since many parents of children with chronic disorders often exhibit fixed mindset patterns due to their children's slow progress in various developmental domains."
-conclusion: "The present study investigated the effects of a short-term synergic growth mindset intervention towards abilities and towards stress on reducing parental stress and promoting stress-related growth (SRG) among Arab parents of children diagnosed with Autistic Spectrum Disorder (ASD). One hundred and seven parents (70 mothers, 37 fathers) of male children with ASD, completed several questionnaires, including a demographic questionnaire; the Childhood Autism Rating Scale, the Parenting Stress Index-Short Form, the revised Stress- Related Growth Scale, The Implicit Self-Theories Scale, and the Stress Mindset Scale. Seventy- two parents were randomly assigned to an \"intervention group\", and 35 to a comparison group. Members of the intervention group participated in a short synergic growth mindset intervention, created especially for this research. Six months after the intervention, all participants re-completed the same questionnaires. The intervention significantly increased growth mindset and SRG and decreased parental stress. This study demonstrates the effectiveness of a short-term intervention in promoting growth mindsets, reducing parental stress, and fostering SRG among parents of children with a chronic disorder. These findings are particularly important since many parents of children with chronic disorders often exhibit fixed mindset patterns due to their children's slow progress in various developmental domains."
+conclusion: ""
 mesh_terms: ["Humans", "Male", "Parents", "Stress, Psychological", "Autism Spectrum Disorder", "Female", "Child", "Adult", "Psychological Growth", "Surveys and Questionnaires", "Parenting", "Child, Preschool"]
 keywords: ["ASD", "Mindset", "Short-term intervention", "Stress", "Stress-related growth"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39984783/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:19Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

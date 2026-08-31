@@ -12,6 +12,77 @@ SYSTEM_PROMPT = """You extract structured biomedical evidence for Curioler.
 Use only the PubMed metadata, XML, and abstract supplied by the user.
 Return valid JSON only. Never invent missing information. Use null for unknown scalar values and [] for unknown list values."""
 
+# Study designs ranked most to least specific. PubMed lists generic container types
+# ("Journal Article", "Research Support…") alongside the real design, and often puts
+# the generic one first, so the design has to be chosen by rank rather than by order.
+# Matching on either the MeSH UI or the display string keeps this working when PubMed
+# renames a term. Anything not on this list is not a study design: study_type stays
+# null rather than falling back to a container type.
+DESIGN_TYPE_RANK: list[tuple[str | None, str]] = [
+    ("D016449", "Randomized Controlled Trial"),
+    ("D000076362", "Adaptive Clinical Trial"),
+    ("D065007", "Pragmatic Clinical Trial"),
+    ("D017429", "Clinical Trial, Phase IV"),
+    ("D017428", "Clinical Trial, Phase III"),
+    ("D017427", "Clinical Trial, Phase II"),
+    ("D017426", "Clinical Trial, Phase I"),
+    ("D018848", "Controlled Clinical Trial"),
+    ("D016430", "Clinical Trial"),
+    ("D017418", "Meta-Analysis"),
+    ("D000078182", "Systematic Review"),
+    ("D064888", "Observational Study"),
+    ("D002363", "Case Reports"),
+]
+
+
+# MeSH descriptors that name a condition co-occurring with autism, as opposed to the
+# autism diagnosis itself or a study-population/method term. Matching is exact against
+# the MeSH controlled vocabulary, so nothing here is inferred from free text.
+CO_OCCURRING_MESH = {
+    "Affective Symptoms",
+    "Aggression",
+    "Anxiety",
+    "Anxiety Disorders",
+    "Attention Deficit Disorder with Hyperactivity",
+    "Bipolar Disorder",
+    "Chromosome Disorders",
+    "Communication Disorders",
+    "Constipation",
+    "Dental Caries",
+    "Depression",
+    "Depressive Disorder",
+    "Developmental Disabilities",
+    "Dysbiosis",
+    "Epilepsy",
+    "Feeding and Eating Disorders",
+    "Fragile X Syndrome",
+    "Gastrointestinal Diseases",
+    "Intellectual Disability",
+    "Language Development Disorders",
+    "Major Depressive Disorder",
+    "Motor Skills Disorders",
+    "Obsessive-Compulsive Disorder",
+    "Periodontal Diseases",
+    "Psychotic Disorders",
+    "Schizophrenia",
+    "Seizures",
+    "Self-Injurious Behavior",
+    "Sleep Initiation and Maintenance Disorders",
+    "Sleep Wake Disorders",
+    "Stereotypic Movement Disorder",
+    "Substance-Related Disorders",
+    "Tic Disorders",
+    "Tourette Syndrome",
+}
+
+
+def co_occurring_conditions(mesh_terms: list[str]) -> list[str]:
+    seen: list[str] = []
+    for term in mesh_terms:
+        if term in CO_OCCURRING_MESH and term not in seen:
+            seen.append(term)
+    return seen
+
 
 def text_or_none(node: ET.Element | None) -> str | None:
     if node is None:
@@ -20,15 +91,42 @@ def text_or_none(node: ET.Element | None) -> str | None:
     return text or None
 
 
+def article_doi(root: ET.Element) -> str | None:
+    """Return the article's own DOI.
+
+    Never use a `.//ArticleId` sweep here: `PubmedData/ReferenceList` carries an
+    `<ArticleId IdType="doi">` for every cited reference, so a descendant search
+    picks up the bibliography's DOIs alongside the article's own.
+    """
+    for node in root.findall(".//Article/ELocationID"):
+        if node.attrib.get("EIdType") == "doi" and node.attrib.get("ValidYN", "Y") != "N":
+            doi = text_or_none(node)
+            if doi:
+                return doi
+    for node in root.findall(".//PubmedData/ArticleIdList/ArticleId"):
+        if node.attrib.get("IdType") == "doi":
+            doi = text_or_none(node)
+            if doi:
+                return doi
+    return None
+
+
+def study_design(publication_types: list[tuple[str | None, str]]) -> str | None:
+    """Pick the most specific study design from the article's publication types."""
+    uis = {ui for ui, _ in publication_types if ui}
+    labels = {label.casefold() for _, label in publication_types}
+    for ui, label in DESIGN_TYPE_RANK:
+        if (ui and ui in uis) or label.casefold() in labels:
+            return label
+    return None
+
+
 def metadata_from_xml(pmid: str, xml_text: str) -> dict:
     root = ET.fromstring(xml_text)
     article = root.find(".//Article")
     journal = text_or_none(root.find(".//Journal/Title"))
     year_text = text_or_none(root.find(".//PubDate/Year")) or text_or_none(root.find(".//ArticleDate/Year"))
-    doi = None
-    for node in root.findall(".//ArticleId"):
-        if node.attrib.get("IdType") == "doi":
-            doi = text_or_none(node)
+    doi = article_doi(root)
     authors = []
     for author in root.findall(".//Author"):
         last = text_or_none(author.find("LastName"))
@@ -39,7 +137,13 @@ def metadata_from_xml(pmid: str, xml_text: str) -> dict:
             authors.append(name)
     mesh_terms = [term for term in (text_or_none(node) for node in root.findall(".//MeshHeading/DescriptorName")) if term]
     keywords = [term for term in (text_or_none(node) for node in root.findall(".//Keyword")) if term]
-    publication_types = [term for term in (text_or_none(node) for node in root.findall(".//PublicationType")) if term]
+    publication_types = [
+        (node.attrib.get("UI"), label)
+        for node, label in (
+            (node, text_or_none(node)) for node in root.findall(".//Article/PublicationTypeList/PublicationType")
+        )
+        if label
+    ]
     return {
         "pmid": pmid,
         "doi": doi,
@@ -47,7 +151,8 @@ def metadata_from_xml(pmid: str, xml_text: str) -> dict:
         "year": int(year_text) if year_text and year_text.isdigit() else None,
         "journal": journal,
         "authors": authors,
-        "study_type": publication_types[0] if publication_types else None,
+        "study_type": study_design(publication_types),
+        "co_occurring_conditions": co_occurring_conditions(mesh_terms),
         "mesh_terms": mesh_terms,
         "keywords": keywords,
         "source_url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
@@ -76,7 +181,11 @@ def extract_study(pmid: str) -> dict:
             "study_type",
             "participants",
             "age_range",
+            "age_min",
+            "age_max",
+            "age_unit",
             "diagnosis",
+            "co_occurring_conditions",
             "intervention",
             "duration",
             "primary_outcomes",
@@ -88,7 +197,6 @@ def extract_study(pmid: str) -> dict:
             "mesh_terms",
             "keywords",
             "source_url",
-            "extraction_confidence",
             "created_at",
             "last_updated",
         ],

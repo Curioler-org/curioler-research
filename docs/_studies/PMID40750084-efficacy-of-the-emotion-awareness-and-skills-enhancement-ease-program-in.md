@@ -9,9 +9,13 @@ journal: "Journal of the American Academy of Child and Adolescent Psychiatry"
 authors: ["Susan W White", "Caitlin M Conner", "Kelly Beck", "Carla A Mazefsky"]
 study_type: "Randomized Controlled Trial"
 participants: 109
-age_range: ""
+age_range: "12-22 years"
+age_min: 12
+age_max: 22
+age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
-intervention: "emotion regulation intervention"
+co_occurring_conditions: ["Affective Symptoms"]
+intervention: "emotion regulation"
 duration: ""
 primary_outcomes: ["Primary outcomes included emotion dysregulation severity and its interferen"]
 secondary_outcomes: ["secondary outcomes assessed mental health symptoms"]
@@ -22,7 +26,6 @@ conclusion: "Findings suggest that EASE improves emotion dysregulation for autis
 mesh_terms: ["Humans", "Female", "Adolescent", "Male", "Young Adult", "Emotional Regulation", "Mindfulness", "Autistic Disorder", "Affective Symptoms", "Treatment Outcome", "Adult", "Child"]
 keywords: ["autism", "emotion regulation", "intervention", "mental health", "mindfulness"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40750084/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:19Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

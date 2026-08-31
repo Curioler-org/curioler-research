@@ -7,10 +7,14 @@ doi: "10.1016/j.pbb.2026.174220"
 year: 2026
 journal: "Pharmacology, biochemistry, and behavior"
 authors: ["Pablo Sebastián Fortini", "Javier J Toibaro", "Roberto H Caraballo"]
-study_type: "Journal Article"
+study_type: "Observational Study"
 participants: ""
-age_range: "3-18"
+age_range: "3-18 years"
+age_min: 3
+age_max: 18
+age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
 intervention: "cannabidiol (CBD)"
 duration: ""
 primary_outcomes: ["primary outcome was change in caregiver-identified symptoms", "RBS-R]", "Vineland Adaptive Behavior Scales-II maladaptive behavior domain", "ABC]"]
@@ -22,7 +26,6 @@ conclusion: "Long-term treatment with purified CBD in children with severe ASD w
 mesh_terms: ["Humans", "Cannabidiol", "Child", "Autism Spectrum Disorder", "Male", "Follow-Up Studies", "Child, Preschool", "Female", "Adolescent", "Prospective Studies", "Treatment Outcome", "Severity of Illness Index"]
 keywords: ["Autism spectrum disorder", "Behavior disturbances", "Cannabidiol", "Long-term", "Treatment"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42248366/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---

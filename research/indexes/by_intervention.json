@@ -1,66 +1,90 @@
 {
+  "16p11.2 deletion syndrome": [
+    "42080302"
+  ],
+  "ADHD": [
+    "41527987"
+  ],
   "AI-supported social communication training": [
     "39954218"
   ],
-  "AutInsight parent support program": [
+  "Acceptance": [
     "40016545"
+  ],
+  "Alpha Oscillations": [
+    "42492845"
   ],
   "Ayres sensory integration": [
     "42363339"
   ],
+  "Biomarkers": [
+    "42160813"
+  ],
+  "Bipolar disorder": [
+    "41765239"
+  ],
   "Cognitive behavioral therapy": [
     "39930281"
+  ],
+  "Cohort": [
+    "42492413"
+  ],
+  "Emotion dysregulation": [
+    "42217453"
+  ],
+  "Gross motor skills": [
+    "40178785"
   ],
   "Yizhi Kaiqiao": [
     "42281150"
   ],
-  "biomarker assessment in ASD": [
-    "42160813"
+  "a double-blind, randomized controlled trial": [
+    "41986743"
+  ],
+  "a short-term synergic growth mindset intervention towards abilities and towards stress on reducing parental st": [
+    "39984783"
+  ],
+  "assess": [
+    "42224253"
   ],
   "brief mental health crisis prevention program": [
     "39948293"
   ],
+  "brief, scalable PRF-based programs for caregivers of autistic children": [
+    "42394366"
+  ],
   "cannabidiol (CBD)": [
     "42248366"
   ],
-  "cannabis-based medicinal products (CBMPs)": [
+  "cannabis-based medicinal products": [
     "42387975"
   ],
   "care coordination": [
     "42092454"
   ],
-  "clinical characterization of 16p11.2 deletion syndrome": [
-    "42080302"
+  "congenital cytomegalovirus": [
+    "42092723"
   ],
-  "clinical characterization of bipolar disorder comorbidity in ASD": [
-    "41765239"
-  ],
-  "core autism symptom change measurement methods": [
-    "42224253"
-  ],
-  "emotion dysregulation assessment/support": [
-    "42217453"
-  ],
-  "emotion regulation intervention": [
+  "emotion regulation": [
     "40750084"
   ],
-  "feasibility observational program for neurodivergent children": [
-    "41392642"
+  "family": [
+    "42491294"
   ],
   "group-based music therapy combined with speech therapy": [
     "42468411"
   ],
-  "health check delivered with carers/supporters": [
-    "42303595"
-  ],
   "intermittent theta-burst stimulation (iTBS)": [
     "41967364"
+  ],
+  "interventions targeting these aspects in autistic persons": [
+    "41927180"
   ],
   "mindfulness-based intervention": [
     "42166881"
   ],
-  "movement / motor skill interventions": [
-    "41927180"
+  "neurodevelopmental condition": [
+    "41392642"
   ],
   "oxytocin": [
     "41550040",
@@ -70,29 +94,26 @@
   "parent-implemented intervention": [
     "42393738"
   ],
-  "parent-reported functional change assessment": [
-    "42491294"
-  ],
   "professional development training": [
     "39951211"
   ],
   "quercetin": [
     "42438230"
   ],
-  "randomized controlled ASD intervention trial": [
-    "41986743"
+  "real or sham iTBS targeting the left orbitofrontal cortex, administered once daily for 8 weeks": [
+    "42590803"
   ],
   "self-determination promotion program": [
     "39954217"
   ],
-  "serious games for gross motor skills": [
-    "40178785"
+  "the health check, clinicians who delivered it, and carers/supporters who attended the appointment": [
+    "42303595"
   ],
-  "synergic growth mindset intervention for parents": [
-    "39984783"
+  "theory of mind": [
+    "42410944"
   ],
-  "time management intervention": [
-    "41527987"
+  "two sessions per week over 12 weeks, with 19 receiving the group program and 19 receiving the therapist-delive": [
+    "42494078"
   ],
   "vitamin D": [
     "41486975"

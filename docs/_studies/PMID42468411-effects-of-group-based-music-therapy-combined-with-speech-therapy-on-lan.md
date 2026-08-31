@@ -7,10 +7,14 @@ doi: "10.1016/j.ridd.2026.105345"
 year: 2026
 journal: "Research in developmental disabilities"
 authors: ["Chih-En Liu", "Pei-Ying Chen", "Ting-Ju Lai", "Shu-Mei Yang"]
-study_type: "Journal Article"
+study_type: "Randomized Controlled Trial"
 participants: 38
-age_range: "3-5"
+age_range: "3-5 years"
+age_min: 3
+age_max: 5
+age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: ["Language Development Disorders"]
 intervention: "group-based music therapy combined with speech therapy"
 duration: "8 weeks"
 primary_outcomes: ["primary outcome was week 8 language performance assessed using the Preschoo", "CBCL 1½-5 PDP)", "CBCL 1½-5 PDP T-scores decreased within both groups"]
@@ -22,7 +26,6 @@ conclusion: "In this exploratory RCT, group-based music therapy was feasible to 
 mesh_terms: ["Humans", "Music Therapy", "Autism Spectrum Disorder", "Child, Preschool", "Male", "Speech Therapy", "Female", "Social Skills", "Combined Modality Therapy", "Language Development Disorders", "Psychotherapy, Group", "Treatment Outcome"]
 keywords: ["Autism spectrum disorder", "Language development", "Music therapy", "Social skills", "Speech therapy"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42468411/"
-extraction_confidence: "medium"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-10T07:28:06Z"
+last_updated: "2026-08-31T05:15:11Z"
 ---
