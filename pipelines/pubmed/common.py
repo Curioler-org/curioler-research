@@ -10,10 +10,17 @@ from pipelines.pubmed.explainer import build_explainer, trust_tier
 
 ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = ROOT / "config" / "research_ingestion.json"
+STUDY_DOMAINS_PATH = ROOT / "config" / "study_domains.json"
 STUDIES_DIR = ROOT / "research" / "studies"
 INDEX_DIR = ROOT / "research" / "indexes"
 RAW_XML_DIR = ROOT / "raw" / "pubmed" / "xml"
 RAW_ABSTRACT_DIR = ROOT / "raw" / "pubmed" / "abstracts"
+
+# The platform's canonical knowledge-domain vocabulary (migration
+# 003_knowledge_domains.sql). `domain` is a caregiver-facing editorial judgement, not
+# something derivable from PubMed metadata, so it is never inferred here - see
+# STUDY_DOMAINS_PATH.
+DOMAIN_VALUES = ["adaptive", "behaviour", "cognitive", "communication", "general", "motor", "sensory", "social"]
 
 STUDY_FIELDS = [
     "pmid",
@@ -23,6 +30,7 @@ STUDY_FIELDS = [
     "journal",
     "authors",
     "study_type",
+    "domain",
     "trust_tier",
     "trust_tier_label",
     "easy_explainer",
@@ -76,6 +84,18 @@ def load_config() -> dict[str, Any]:
     return config
 
 
+def load_study_domains() -> dict[str, str]:
+    """PMID -> reviewed domain, from the checked-in overrides map.
+
+    This is a human judgement call (see the study-domain hand-off), so regeneration
+    must read it rather than derive a value: a PMID with no entry gets no domain,
+    which fails schema validation instead of silently defaulting to "general".
+    """
+    if not STUDY_DOMAINS_PATH.exists():
+        return {}
+    return json.loads(STUDY_DOMAINS_PATH.read_text(encoding="utf-8"))
+
+
 def existing_pmids() -> set[str]:
     return {path.stem.replace("PMID", "") for path in STUDIES_DIR.glob("*/*.json")}
 
@@ -113,6 +133,9 @@ def normalize_study(data: dict[str, Any]) -> dict[str, Any]:
         normalized[field] = normalize_array(normalized[field])
     normalized["pmid"] = str(normalized["pmid"] or "")
     normalized["source_url"] = normalized["source_url"] or f"https://pubmed.ncbi.nlm.nih.gov/{normalized['pmid']}/"
+    # Overrides win over anything an extraction path supplied: domain is reviewed
+    # human judgement, not model output, so a rebuild must not silently drop it.
+    normalized["domain"] = load_study_domains().get(normalized["pmid"])
     # Derived last, from the settled fields, so both extraction paths and every
     # rebuild produce the same block.
     normalized["trust_tier"], normalized["trust_tier_label"] = trust_tier(normalized)

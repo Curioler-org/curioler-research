@@ -98,3 +98,9 @@ Set `AI_PROVIDER` and `AI_MODEL` as repository variables when a provider or mode
   `normalize_study()` and must never be hand-edited. Tier 4 means "design not stated";
   a small sample demotes one step but never past tier 3.
   `python -m scripts.check_explainer` enforces the corpus invariants.
+- `domain` is one of the platform's eight knowledge domains (`adaptive`, `behaviour`,
+  `cognitive`, `communication`, `general`, `motor`, `sensory`, `social`) and is a
+  reviewed editorial judgement, never inferred from MeSH terms or keywords. It is
+  read from `config/study_domains.json` (PMID -> domain) by `normalize_study()`, so a
+  PMID with no reviewed entry has no domain and fails validation rather than
+  defaulting to `general`. `python -m scripts.check_domain` enforces this.

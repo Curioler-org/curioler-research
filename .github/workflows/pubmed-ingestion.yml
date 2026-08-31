@@ -76,3 +76,6 @@ jobs:
 
       - name: Check Easy explainer invariants
         run: python -m scripts.check_explainer
+
+      - name: Check every study has a reviewed domain
+        run: python -m scripts.check_domain
