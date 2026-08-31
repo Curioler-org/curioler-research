@@ -18,6 +18,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jeph.2026.203349",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism. TRIAL REGISTRATION NUMBER: NCT04292522.\"",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "It involved 876 people, which is a large group for autism research and makes the findings steadier."
+  },
   "intervention": "Cohort",
   "journal": "Journal of epidemiology and population health",
   "keywords": [
@@ -27,7 +38,7 @@
     "Probabilistic matching",
     "SNDS"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:56Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -52,5 +63,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42492413/",
   "study_type": "Observational Study",
   "title": "Linking the national health database to the cohort of children with autism spectrum disorders: a mixed approach to optimising the linkage.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

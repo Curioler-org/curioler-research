@@ -12,6 +12,9 @@
     "journal",
     "authors",
     "study_type",
+    "trust_tier",
+    "trust_tier_label",
+    "easy_explainer",
     "participants",
     "age_range",
     "age_min",
@@ -41,6 +44,21 @@
     "journal": { "type": ["string", "null"] },
     "authors": { "type": "array", "items": { "type": "string" } },
     "study_type": { "type": ["string", "null"] },
+    "trust_tier": { "type": "integer", "minimum": 1, "maximum": 4 },
+    "trust_tier_label": { "type": "string", "minLength": 1 },
+    "easy_explainer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["design", "size", "duration", "conclusion", "not_stated", "disclaimer"],
+      "properties": {
+        "design": { "type": "string", "minLength": 1 },
+        "size": { "type": "string", "minLength": 1 },
+        "duration": { "type": ["string", "null"] },
+        "conclusion": { "type": ["string", "null"] },
+        "not_stated": { "type": "array", "items": { "type": "string" } },
+        "disclaimer": { "type": "string", "minLength": 1 }
+      }
+    },
     "participants": { "type": ["integer", "string", "null"] },
     "age_range": { "type": ["string", "null"] },
     "age_min": { "type": ["number", "null"], "minimum": 0 },

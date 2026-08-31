@@ -16,6 +16,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1007/s10803-025-06730-1",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"Implications highlight the need for more attention on professional development research for autism providers, to examine pre-service training, and for clinical leaders to examine their workplace environment to promote effective and fair practices.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
   "intervention": "professional development training",
   "journal": "Journal of autism and developmental disorders",
   "keywords": [
@@ -25,7 +36,7 @@
     "Multilingualism",
     "Professional development"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:53Z",
   "limitations": [
     "limited knowledge and training in how to support bilingual children, their families, no"
   ],
@@ -51,5 +62,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39951211/",
   "study_type": "Randomized Controlled Trial",
   "title": "Professional Development in Autism and Multilingualism for Behavior Analysts: A Randomized Waitlist Control Trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

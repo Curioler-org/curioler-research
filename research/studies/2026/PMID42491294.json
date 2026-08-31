@@ -23,6 +23,16 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.3389/fpubh.2026.1851875",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "how long the study ran"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
   "intervention": "family",
   "journal": "Frontiers in public health",
   "keywords": [
@@ -32,7 +42,7 @@
     "motor activity",
     "psychomotor performance"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:56Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -46,7 +56,7 @@
     "Qualitative Research",
     "Focus Groups"
   ],
-  "participants": 18,
+  "participants": null,
   "pmid": "42491294",
   "primary_outcomes": [
     "Findings were organized into three categories: previous experiences with conventional interventions, perceived changes following participation in MIG, and general perceptions of th…"
@@ -55,5 +65,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42491294/",
   "study_type": "Randomized Controlled Trial",
   "title": "\"My child before and now\": parental perceptions of changes in functioning following participation in the global integration method (Método de Integração Global) in children with autism spectrum disorder.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Chromosome Disorders", "Child", "Chromosomes, Human, Pai
 keywords: ["16p11.2 deletion syndrome", "arbaclofen", "language", "randomized controlled trial", "speech", "youth"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42080302/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

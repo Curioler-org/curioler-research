@@ -19,6 +19,16 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jbmt.2025.11.014",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"BBAT and TAU were superior to TAU alone for improving movement quality. BBAT is a relevant intervention for autistic young adults to improve everyday functionality.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "how long the study ran"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
   "intervention": "interventions targeting these aspects in autistic persons",
   "journal": "Journal of bodywork and movement therapies",
   "keywords": [
@@ -29,7 +39,7 @@
     "Movement quality",
     "Physiotherapy"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -45,7 +55,7 @@
     "Physical Therapy Modalities",
     "Movement"
   ],
-  "participants": 28,
+  "participants": null,
   "pmid": "41927180",
   "primary_outcomes": [
     "Primary outcome was a person-reported measure of an individualized movement"
@@ -56,5 +66,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/41927180/",
   "study_type": "Randomized Controlled Trial",
   "title": "Effects of Basic Body Awareness Therapy on movement quality in autistic young adults: a superiority pragmatic randomized controlled trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

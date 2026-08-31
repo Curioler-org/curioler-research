@@ -21,6 +21,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.identj.2026.109632",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"Children with ASD exhibit a distinct salivary miRNA profile with increased caries burden and gingival inflammation, indicating shared molecular influences on neurodevelopment and oral disease susceptibility. CLINICAL RELEVANCE: Salivary miRNAs offer a non-invasive biomarker platform to support earlier ASD identification, individualized preventive dental strategies, and interdisciplinary management of this high-risk paediatric population.\"",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
   "intervention": "Biomarkers",
   "journal": "International dental journal",
   "keywords": [
@@ -31,7 +42,7 @@
     "Periodontal diseases",
     "RNA sequencing"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "observational study aimed to identify salivary microRNAs (miRNAs) differentially expressed be"
   ],
@@ -51,7 +62,7 @@
     "Biomarkers",
     "Periodontal Diseases"
   ],
-  "participants": 26,
+  "participants": null,
   "pmid": "42160813",
   "primary_outcomes": [
     "A total of 125 salivary miRNAs were differentially expressed between ASD and control groups (FDR < 0.05). Principal component analysis showed clear group separation, with PC1 accou…"
@@ -60,5 +71,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42160813/",
   "study_type": "Observational Study",
   "title": "Salivary MicroRNA Reflects Neurodevelopment and Oral Health Traits in Children With Autism.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

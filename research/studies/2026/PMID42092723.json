@@ -25,6 +25,16 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.ajog.2026.04.040",
   "duration": "48 months",
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"In this large prospective cohort, adverse long-term outcomes following maternal primary infection were observed only after first-trimester exposure. Autism spectrum disorder occurred exclusively in this group and was consistently associated with temporal lobe white matter abnormalities.\"",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 48 months.",
+    "not_stated": [
+      "the ages of the people who took part"
+    ],
+    "size": "It involved 642 people, which is a large group for autism research and makes the findings steadier."
+  },
   "intervention": "congenital cytomegalovirus",
   "journal": "American journal of obstetrics and gynecology",
   "keywords": [
@@ -35,7 +45,7 @@
     "prenatal MRI",
     "sensorineural hearing loss"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "observational cohort study including children with confirmed congenital cytomegalovirus infec"
   ],
@@ -65,5 +75,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42092723/",
   "study_type": "Observational Study",
   "title": "Maternal cytomegalovirus infection in the first trimester of pregnancy: timing, fetal brain injury, and long-term neurodevelopmental outcomes including autism spectrum disorder.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

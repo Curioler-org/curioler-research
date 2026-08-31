@@ -8,7 +8,7 @@ year: 2026
 journal: "International dental journal"
 authors: ["Omar Omar", "Reem Yussuf AlJindan", "Sumit Rajinder", "Balu Kamaraj", "Jehan AlHumaid"]
 study_type: "Observational Study"
-participants: 26
+participants: ""
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "MicroRNAs", "Male", "Saliva", "Female", "Child", "Oral H
 keywords: ["Autism spectrum disorder", "Biomarkers", "Dental caries", "MicroRNAs", "Periodontal diseases", "RNA sequencing"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42160813/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

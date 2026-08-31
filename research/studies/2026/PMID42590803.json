@@ -23,6 +23,16 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1002/cns.71041",
   "duration": "8 weeks",
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"This study provides multiscale evidence for the biological context underlying iTBS-related changes in overlapping network architecture in ASD with chronic insomnia.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 8 weeks. That is a short window, so it says nothing about whether the effects last.",
+    "not_stated": [
+      "the ages of the people who took part"
+    ],
+    "size": "It involved 70 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+  },
   "intervention": "real or sham iTBS targeting the left orbitofrontal cortex, administered once daily for 8 weeks",
   "journal": "CNS neuroscience & therapeutics",
   "keywords": [
@@ -31,7 +41,7 @@
     "insomnia",
     "theta burst stimulation"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:56Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -53,7 +63,7 @@
     "Nerve Net",
     "Theta Rhythm"
   ],
-  "participants": null,
+  "participants": 70,
   "pmid": "42590803",
   "primary_outcomes": [
     "Sleep improvement following real iTBS was accompanied by changes in overlapping network architecture across 13 cortical regions. These changes showed spatial correspondence with mG…"
@@ -62,5 +72,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42590803/",
   "study_type": "Randomized Controlled Trial",
   "title": "Intermittent Theta Burst Stimulation Improves Sleep in Autism Spectrum Disorder by Reorganizing Overlapping Brain Networks With Neurochemical and Transcriptomic Signatures: A Randomized Controlled Trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

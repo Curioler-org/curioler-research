@@ -8,7 +8,7 @@ year: 2026
 journal: "Molecular autism"
 authors: ["Li Wang", "Yujia Shi", "Hon-Cheong So", "Hoyee W Hirai", "Xin Qi", "Carol K S To", "Florrie Fei-Yin Ng", "Patrick C M Wong"]
 study_type: "Randomized Controlled Trial"
-participants: ""
+participants: 112
 age_range: "24-60 months"
 age_min: 24
 age_max: 60
@@ -27,5 +27,5 @@ mesh_terms: ["Child, Preschool", "Female", "Humans", "Male", "Autistic Disorder"
 keywords: ["Autism", "Parent-implemented intervention", "Preschoolers", "Professional support", "Self-directed alternative", "Social communication"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42393738/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

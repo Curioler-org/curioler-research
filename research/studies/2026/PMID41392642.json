@@ -27,6 +27,16 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1111/jsr.70265",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "how long the study ran"
+    ],
+    "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+  },
   "intervention": "neurodevelopmental condition",
   "journal": "Journal of sleep research",
   "keywords": [
@@ -35,7 +45,7 @@
     "treatment",
     "young people"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:54Z",
   "limitations": [
     "observational study reports on the feasibility and adequacy of Level 2 polysomnography involv"
   ],
@@ -51,12 +61,14 @@
     "Sleep Wake Disorders",
     "Cost-Benefit Analysis"
   ],
-  "participants": 6,
+  "participants": 20,
   "pmid": "41392642",
   "primary_outcomes": [],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/41392642/",
   "study_type": "Observational Study",
   "title": "Home Polysomnography in Children With Autism Spectrum Disorder: A Prospective Observational Study.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

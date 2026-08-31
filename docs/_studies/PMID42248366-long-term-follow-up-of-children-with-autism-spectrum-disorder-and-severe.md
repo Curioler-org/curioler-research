@@ -8,7 +8,7 @@ year: 2026
 journal: "Pharmacology, biochemistry, and behavior"
 authors: ["Pablo Sebastián Fortini", "Javier J Toibaro", "Roberto H Caraballo"]
 study_type: "Observational Study"
-participants: ""
+participants: 20
 age_range: "3-18 years"
 age_min: 3
 age_max: 18
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Cannabidiol", "Child", "Autism Spectrum Disorder", "Male
 keywords: ["Autism spectrum disorder", "Behavior disturbances", "Cannabidiol", "Long-term", "Treatment"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42248366/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

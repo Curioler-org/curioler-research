@@ -26,6 +26,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.acap.2026.103332",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"At a telephone-based care coordination program in LA County, the amount and duration of engagement by coordinators for children with autism or developmental delays was substantial. There was a significant relationship between the number of service provider referrals and service receipt, but not for total number of contacts.\"",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
   "intervention": "care coordination",
   "journal": "Academic pediatrics",
   "keywords": [
@@ -35,7 +46,7 @@
     "Early childhood",
     "Screening"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "Observational retrospective cohort analysis of 211 LA's administrative database of children s",
     "limited"
@@ -55,7 +66,7 @@
     "Cost-Effectiveness Analysis",
     "Continuity of Patient Care"
   ],
-  "participants": 274,
+  "participants": null,
   "pmid": "42092454",
   "primary_outcomes": [
     "274 children appeared in the intervention group database. The program made 19.0 contacts per case, and engagement averaged 17.2 months. The adjusted number of contacts was 30.8 for…"
@@ -64,5 +75,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42092454/",
   "study_type": "Observational Study",
   "title": "What Does Care Coordination Do? Profiling a Large Telephone-based 211 Program Serving Young Children.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

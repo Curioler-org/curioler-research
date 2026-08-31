@@ -33,6 +33,16 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1002/npr2.70146",
   "duration": "18 months",
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"Treatment with CBMPs was associated with improvements in HRQoL, anxiety, and sleep outcomes in autistic patients over an 18-month period. Given the absence of a control group, these findings represent associations rather than proven treatment effects.\"",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 18 months.",
+    "not_stated": [
+      "the ages of the people who took part"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
   "intervention": "cannabis-based medicinal products",
   "journal": "Neuropsychopharmacology reports",
   "keywords": [
@@ -42,7 +52,7 @@
     "cannabis",
     "tetrahydrocannabinol"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "absence of a control group, these findings represent associations rather than proven treatment effects",
     "observational case series analyzed data from the UK Medical Cannabis Registry on autistic adu",
@@ -64,7 +74,7 @@
     "Adolescent",
     "Treatment Outcome"
   ],
-  "participants": 88,
+  "participants": null,
   "pmid": "42387975",
   "primary_outcomes": [
     "Primary outcomes included changes in anxiety (GAD-7)",
@@ -78,5 +88,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42387975/",
   "study_type": "Observational Study",
   "title": "UK Medical Cannabis Registry: A Clinical Outcomes Analysis for Autism Spectrum Disorder.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

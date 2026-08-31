@@ -25,6 +25,16 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1177/13623613261442618",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "how long the study ran"
+    ],
+    "size": "It involved 177 people, a reasonably sized group for this kind of research."
+  },
   "intervention": "assess",
   "journal": "Autism : the international journal of research and practice",
   "keywords": [
@@ -34,7 +44,7 @@
     "responsiveness",
     "validity"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "limited, warranting validation to support its use in evaluating treatment-related chang"
   ],
@@ -49,12 +59,14 @@
     "Communication",
     "Infant"
   ],
-  "participants": 414,
+  "participants": 177,
   "pmid": "42224253",
   "primary_outcomes": [],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42224253/",
   "study_type": "Randomized Controlled Trial",
   "title": "Assess the Fidelity, Validity and Responsiveness of the Brief Observation of Social Communication Change (BOSCC) to Measure Changes in the Social Interactions of Preschool Children With Autism Spectrum Disorder.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

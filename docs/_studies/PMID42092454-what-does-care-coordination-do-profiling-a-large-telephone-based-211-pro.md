@@ -8,7 +8,7 @@ year: 2026
 journal: "Academic pediatrics"
 authors: ["John A Romley", "Bergen B Nelson", "Rebecca N Dudovitz", "Lindsey R Thompson", "Sitaram Vangala", "Amanda Gulsrud", "Abraham Gallegos", "Lorena Porras-Javier", "Patricia Herrera", "Irene Aceves", "Paul J Chung"]
 study_type: "Observational Study"
-participants: 274
+participants: ""
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Child, Preschool", "Developmental Disabilities", "Female
 keywords: ["Autism", "Care coordination", "Developmental delays", "Early childhood", "Screening"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42092454/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

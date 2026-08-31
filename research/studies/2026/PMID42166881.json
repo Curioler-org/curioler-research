@@ -18,6 +18,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.pedn.2026.05.008",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"The MBSR program was effective in reducing depression, anxiety, and stress among parents of children with ASD. However, overall hopelessness did not change significantly, suggesting that this construct may be less responsive to short-term interventions.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "It involved 96 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+  },
   "intervention": "mindfulness-based intervention",
   "journal": "Journal of pediatric nursing",
   "keywords": [
@@ -29,7 +40,7 @@
     "Parents",
     "Stress"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -56,5 +67,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42166881/",
   "study_type": "Randomized Controlled Trial",
   "title": "Effects of mindfulness-based stress reduction on levels of depression, anxiety, stress, and hopelessness in parents of children with autism: A randomized controlled trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

@@ -21,6 +21,14 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1186/s13229-026-00725-0",
   "duration": "20-week",
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 20-week.",
+    "not_stated": [],
+    "size": "It involved 112 people, a reasonably sized group for this kind of research."
+  },
   "intervention": "parent-implemented intervention",
   "journal": "Molecular autism",
   "keywords": [
@@ -31,7 +39,7 @@
     "Self-directed alternative",
     "Social communication"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "limited and culturally appropriate interventions are needed"
   ],
@@ -47,7 +55,7 @@
     "Treatment Outcome",
     "East Asian People"
   ],
-  "participants": null,
+  "participants": 112,
   "pmid": "42393738",
   "primary_outcomes": [
     "No consistent differences between delivery formats were observed across most outcomes. Children's social functioning, expressive and receptive language showed improvement, and pare…"
@@ -56,5 +64,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42393738/",
   "study_type": "Randomized Controlled Trial",
   "title": "Who benefits most? A randomized controlled trial for Parent-implemented social communication intervention for chinese-speaking autistic preschoolers.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

@@ -8,7 +8,7 @@ year: 2026
 journal: "Journal of child psychology and psychiatry, and allied disciplines"
 authors: ["Samuel Sandboge", "Vilja Seppälä", "Sakari Lintula", "Elisa Holmlund-Suila", "Helena Hauta-Alus", "Eero Kajantie", "Outi Mäkitie", "Sture Andersson", "Katri Räikkönen", "Kati Heinonen"]
 study_type: "Randomized Controlled Trial"
-participants: ""
+participants: 366
 age_range: "6-8 years"
 age_min: 6
 age_max: 8
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Female", "Child", "Male", "Autism Spectrum Disorder", "V
 keywords: ["Vitamin D", "autism spectrum disorder", "neurodevelopment", "randomized clinical trial"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41486975/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

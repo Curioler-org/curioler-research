@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Female", "Parents", "Stress, Psychological", "Mindfulnes
 keywords: ["Anxiety", "Autism Spectrum Disorder", "Hopelessness", "Mindfulness", "Nursing", "Parents", "Stress"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42166881/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

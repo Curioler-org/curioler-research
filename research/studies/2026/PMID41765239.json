@@ -20,6 +20,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jad.2026.121527",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.\"",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "It involved 62 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+  },
   "intervention": "Bipolar disorder",
   "journal": "Journal of affective disorders",
   "keywords": [
@@ -27,7 +38,7 @@
     "Bipolar disorder",
     "High-functioning autism"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "observational study involving 62 adults with comorbid BD and ASD-noID, recruited at the Unive"
   ],
@@ -54,5 +65,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/41765239/",
   "study_type": "Observational Study",
   "title": "Clinical characterization of bipolar disorder in adults with autism without intellectual disability: a cross-sectional study.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

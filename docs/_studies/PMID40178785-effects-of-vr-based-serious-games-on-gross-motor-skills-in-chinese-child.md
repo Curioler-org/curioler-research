@@ -8,7 +8,7 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Xinbo Wu", "Junwen Liang", "Yansha Dong", "Qiuxian Ou", "Jiaxi Chen", "Linghui Zou", "Weixin Dong", "Chunxia Lu"]
 study_type: "Randomized Controlled Trial"
-participants: 20
+participants: 40
 age_range: "6-12 years"
 age_min: 6
 age_max: 12
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Child", "Pilot Projects", "Motor Skills", "Female", "Mal
 keywords: ["Autism spectrum disorder", "Gross motor skills", "Serious game", "Virtue reality"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40178785/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:54Z"
 ---

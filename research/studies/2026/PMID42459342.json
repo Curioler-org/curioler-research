@@ -20,6 +20,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.3389/fcimb.2026.1823988",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "It involved 38 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+  },
   "intervention": "washed microbiota transplantation",
   "journal": "Frontiers in cellular and infection microbiology",
   "keywords": [
@@ -29,7 +40,7 @@
     "gut microbiota characteristics",
     "washed microbiota transplantation"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:56Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -50,12 +61,14 @@
     "RNA, Ribosomal, 16S",
     "Treatment Outcome"
   ],
-  "participants": null,
+  "participants": 38,
   "pmid": "42459342",
   "primary_outcomes": [],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42459342/",
   "study_type": "Observational Study",
   "title": "Analysis of washed microbiota transplant efficacy for autism and donor-recipient gut microbiota characteristics.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

@@ -21,6 +21,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.ridd.2026.105317",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "It involved only 12 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+  },
   "intervention": "Emotion dysregulation",
   "journal": "Research in developmental disabilities",
   "keywords": [
@@ -31,7 +42,7 @@
     "Qualitative methodology",
     "Regulating Together"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -49,12 +60,14 @@
     "Child, Preschool",
     "Adolescent"
   ],
-  "participants": null,
+  "participants": 12,
   "pmid": "42217453",
   "primary_outcomes": [],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42217453/",
   "study_type": "Randomized Controlled Trial",
   "title": "Regulating Together: Caregivers' experiences in a shared journey through an emotion dysregulation intervention for autistic youth.",
+  "trust_tier": 3,
+  "trust_tier_label": "Randomized Controlled Trial (small sample)",
   "year": 2026
 }

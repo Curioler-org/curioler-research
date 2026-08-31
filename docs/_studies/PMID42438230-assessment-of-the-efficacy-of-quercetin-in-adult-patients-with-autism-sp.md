@@ -8,7 +8,7 @@ year: 2026
 journal: "Human psychopharmacology"
 authors: ["Anahid Rezaeifar", "Mahtab Motamed", "Niayesh Mohebbi"]
 study_type: "Randomized Controlled Trial"
-participants: ""
+participants: 52
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Quercetin", "Female", "Male", "Adult", "Quality of Life"
 keywords: ["autism spectrum disorder", "quality of life", "quercetin", "randomized controlled trial", "social responsiveness scale"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42438230/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:56Z"
 ---

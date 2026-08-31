@@ -17,6 +17,14 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1080/09593985.2026.2618078",
   "duration": "8-week",
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation.\"",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 8-week. That is a short window, so it says nothing about whether the effects last.",
+    "not_stated": [],
+    "size": "It involved only 27 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+  },
   "intervention": "wearable device physical activity monitoring",
   "journal": "Physiotherapy theory and practice",
   "keywords": [
@@ -26,7 +34,7 @@
     "fitness tracker",
     "physical activity"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "observational cohort design was used to compare two methods for determining WD adherence for",
     "limited among this understudied population"
@@ -49,7 +57,7 @@
     "Telemedicine",
     "Actigraphy"
   ],
-  "participants": null,
+  "participants": 27,
   "pmid": "41578977",
   "primary_outcomes": [
     "Data from twenty-seven subjects (21 males, 6 females) ages 14 to 28 years (mean: 18.85 years) were analyzed. Adherence was significantly higher when calculated using Method B (mean…"
@@ -58,5 +66,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/41578977/",
   "study_type": "Observational Study",
   "title": "Comparing methods to measure wearable device adherence for physical activity monitoring for persons with autism: A prospective observational cohort study.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

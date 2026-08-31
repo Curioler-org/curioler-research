@@ -8,7 +8,7 @@ year: 2026
 journal: "Autism : the international journal of research and practice"
 authors: ["Guan-Jye Seng", "Ji-Yu Lin", "Wei-Lieh Huang", "Hsin-Yu Lai", "Wei-Chih Kao", "Hao-Ling Chen", "Susan Shur-Fen Gau"]
 study_type: "Randomized Controlled Trial"
-participants: 38
+participants: 40
 age_range: "2-5 years"
 age_min: 2
 age_max: 5
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Child, Preschool", "Pilot Projects", "Female", "Male", "
 keywords: ["autism", "group-based delivery", "naturalistic developmental behavioral intervention", "preliminary efficacy"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42494078/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:56Z"
 ---

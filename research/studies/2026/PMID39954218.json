@@ -23,6 +23,14 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1007/s10803-025-06734-x",
   "duration": "4 weeks",
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 4 weeks. That is a short window, so it says nothing about whether the effects last.",
+    "not_stated": [],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
   "intervention": "AI-supported social communication training",
   "journal": "Journal of autism and developmental disorders",
   "keywords": [
@@ -32,7 +40,7 @@
     "Machine Learning",
     "Social communication"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:54Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -60,5 +68,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39954218/",
   "study_type": "Randomized Controlled Trial",
   "title": "Using Artificial Intelligence to Improve Empathetic Statements in Autistic Adolescents and Adults: A Randomized Clinical Trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

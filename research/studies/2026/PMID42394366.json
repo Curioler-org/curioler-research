@@ -17,6 +17,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1002/aur.70301",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "It involved 249 people, a reasonably sized group for this kind of research."
+  },
   "intervention": "brief, scalable PRF-based programs for caregivers of autistic children",
   "journal": "Autism research : official journal of the International Society for Autism Research",
   "keywords": [
@@ -26,7 +37,7 @@
     "parental intervention",
     "parental reflective functioning"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:56Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -46,12 +57,14 @@
     "Adaptation, Psychological",
     "Parent-Child Relations"
   ],
-  "participants": 129,
+  "participants": 249,
   "pmid": "42394366",
   "primary_outcomes": [],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42394366/",
   "study_type": "Randomized Controlled Trial",
   "title": "Seeing the Child Within: A Randomized Controlled Trial of Reflective Functioning Intervention for Parents of Autistic Children.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

@@ -19,6 +19,16 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jaac.2025.07.1058",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"Findings suggest that EASE improves emotion dysregulation for autistic adolescents and young adults. PLAIN LANGUAGE SUMMARY: This study tested a mindfulness-based intervention to improve autistic adolescents' and young adults' ability to manage emotions.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "how long the study ran"
+    ],
+    "size": "It involved 109 people, a reasonably sized group for this kind of research."
+  },
   "intervention": "emotion regulation",
   "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
   "keywords": [
@@ -28,7 +38,7 @@
     "mental health",
     "mindfulness"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:54Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -57,5 +67,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/40750084/",
   "study_type": "Randomized Controlled Trial",
   "title": "Efficacy of the Emotion Awareness and Skills Enhancement (EASE) Program in Autism: A Randomized Controlled Trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

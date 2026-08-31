@@ -8,7 +8,7 @@ year: 2026
 journal: "Physiotherapy theory and practice"
 authors: ["Melissa M Tovin", "Sheila B Madden", "Kaiwen Wu", "Annabel Nunez-Gaunaurd"]
 study_type: "Observational Study"
-participants: ""
+participants: 27
 age_range: "14-28 years"
 age_min: 14
 age_max: 28
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Female", "Adolescent", "Male", "Prospective Studies", "A
 keywords: ["Wearable device adherence", "adolescents and adults", "autism spectrum disorder", "fitness tracker", "physical activity"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41578977/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

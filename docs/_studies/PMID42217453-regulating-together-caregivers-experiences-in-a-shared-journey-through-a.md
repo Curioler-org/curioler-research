@@ -8,7 +8,7 @@ year: 2026
 journal: "Research in developmental disabilities"
 authors: ["Sungeun Kang", "Karen Burkett", "Shivali Sarawgi", "Jenna Ruberg", "Jamisen Paustian", "Debra L Reisinger", "Lauren M Schmitt", "Rebecca C Shaffer"]
 study_type: "Randomized Controlled Trial"
-participants: ""
+participants: 12
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Caregivers", "Female", "Male", "Child", "Emotional Regul
 keywords: ["Autism spectrum disorder", "Emotion dysregulation", "Emotion regulation", "Parent training", "Qualitative methodology", "Regulating Together"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42217453/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

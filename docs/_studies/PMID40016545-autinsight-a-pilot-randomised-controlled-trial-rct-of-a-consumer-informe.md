@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Pilot Projects", "Female", "Male", "Child", "Parents", "
 keywords: ["Acceptance", "Autism", "Children", "Parenting", "Support"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40016545/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:54Z"
 ---

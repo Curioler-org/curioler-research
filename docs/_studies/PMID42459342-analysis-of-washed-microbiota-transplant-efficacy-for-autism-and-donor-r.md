@@ -8,7 +8,7 @@ year: 2026
 journal: "Frontiers in cellular and infection microbiology"
 authors: ["Yongxi Quan", "Mingming Chen", "Yao Cai", "Li Ling", "Yedong Lao", "Xingxiang He", "Lihao Wu"]
 study_type: "Observational Study"
-participants: ""
+participants: 38
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Child", "Child, Preschool", "Female", "Humans", "Male", "Autism Sp
 keywords: ["autism", "donor-recipient", "enterotype", "gut microbiota characteristics", "washed microbiota transplantation"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42459342/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:56Z"
 ---

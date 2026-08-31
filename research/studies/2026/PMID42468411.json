@@ -19,6 +19,14 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.ridd.2026.105345",
   "duration": "8 weeks",
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 8 weeks. That is a short window, so it says nothing about whether the effects last.",
+    "not_stated": [],
+    "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+  },
   "intervention": "group-based music therapy combined with speech therapy",
   "journal": "Research in developmental disabilities",
   "keywords": [
@@ -28,7 +36,7 @@
     "Social skills",
     "Speech therapy"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:56Z",
   "limitations": [
     "limited"
   ],
@@ -46,7 +54,7 @@
     "Psychotherapy, Group",
     "Treatment Outcome"
   ],
-  "participants": 38,
+  "participants": 40,
   "pmid": "42468411",
   "primary_outcomes": [
     "primary outcome was week 8 language performance assessed using the Preschoo",
@@ -61,5 +69,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42468411/",
   "study_type": "Randomized Controlled Trial",
   "title": "Effects of group-based music therapy combined with speech therapy on language and social skills in preschool children with autism spectrum disorder: An exploratory randomized controlled trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

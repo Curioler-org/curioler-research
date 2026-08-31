@@ -8,7 +8,7 @@ year: 2026
 journal: "Journal of child psychology and psychiatry, and allied disciplines"
 authors: ["Kelsie A Boulton", "Rinku Thapa", "Yun Ju Song", "Andrew J O Whitehouse", "Marilena M DeMayo", "Simon G Gregory", "Izabella Pokorski", "Joanna Granich", "Zahava Ambarchi", "John Wray", "Emma E Thomas", "Ian B Hickie", "Adam J Guastella"]
 study_type: "Randomized Controlled Trial"
-participants: 45
+participants: 87
 age_range: "3-12 years"
 age_min: 3
 age_max: 12
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Oxytocin", "Male", "Child", "Child, Preschool", "Female"
 keywords: ["Treatment", "anxiety", "autism", "oxytocin", "social interaction"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41550040/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

@@ -18,12 +18,22 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.47391/JPMA.21549",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "how long the study ran"
+    ],
+    "size": "It involved 30 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+  },
   "intervention": "Ayres sensory integration",
   "journal": "JPMA. The Journal of the Pakistan Medical Association",
   "keywords": [
     "Ayres Sensory Integration, Autism Spectrum Disorder, Conservative treatment, Behaviour therapy, Sensory Integration Dysfunction."
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -41,12 +51,14 @@
     "Treatment Outcome",
     "Speech Therapy"
   ],
-  "participants": 15,
+  "participants": 30,
   "pmid": "42363339",
   "primary_outcomes": [],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42363339/",
   "study_type": "Randomized Controlled Trial",
   "title": "Effects of Ayres sensory integration therapy versus conservative treatment in autism spectrum disorder.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

@@ -8,7 +8,7 @@ year: 2026
 journal: "Autism : the international journal of research and practice"
 authors: ["Hannah Merrick", "Helen Taylor", "Barry Ingham", "Tracy Finch", "Sarah Al-Ashmori", "Ruby Herrington", "Clare Scarlett", "Carole Buckley", "Sally-Ann Cooper", "Cristina Fernandez-Garcia", "Shona Haining", "Rhianna Lees", "Nicholas Lennox", "Sebastian Moss", "Tim Nicholls", "Christina Nicolaidis", "Malcolm Osborne", "Dora M Raymaker", "Tomos Robinson", "Anna Urbanowicz", "James Ms Wason", "Colin Wilson", "Jeremy R Parr"]
 study_type: "Randomized Controlled Trial"
-participants: 44
+participants: ""
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Primary Health Care", "Female", "Male", "Surveys and Que
 keywords: ["acceptability", "autism", "health checks", "implementation", "primary care"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42303595/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

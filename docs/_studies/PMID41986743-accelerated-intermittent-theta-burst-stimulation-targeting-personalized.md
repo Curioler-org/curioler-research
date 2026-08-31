@@ -8,7 +8,7 @@ year: 2026
 journal: "Molecular psychiatry"
 authors: ["Qi Liu", "Jiawei Zhang", "Xinyu Duan", "Ping Zhang", "Yang Yang", "Guanzhong Yao", "Bulideerqing Jiaerheng", "Xiao-Jing Shou", "Yong He", "Kaiyue Han", "Meixiang Jia", "Lifang Wang", "Weijun Gong", "Wuxiang Xie", "Kai Sun", "Danhong Wang", "Xiao-Dan Wu", "Hua Cao", "Hao Zhang", "Hesheng Liu"]
 study_type: "Randomized Controlled Trial"
-participants: 132
+participants: 67
 age_range: "6-30 years"
 age_min: 6
 age_max: 30
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Male", "Double-Blind Method", "Child", "Autism Spectrum 
 keywords: []
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41986743/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

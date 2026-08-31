@@ -19,6 +19,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1007/s10803-025-06739-6",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
   "intervention": "self-determination promotion program",
   "journal": "Journal of autism and developmental disorders",
   "keywords": [
@@ -28,7 +39,7 @@
     "Self-determination",
     "Supports"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:53Z",
   "limitations": [
     "further research is needed"
   ],
@@ -51,5 +62,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39954217/",
   "study_type": "Randomized Controlled Trial",
   "title": "Promoting Self-Determination in Young Adults with Autism: A Multicenter, Mixed Methods Study.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

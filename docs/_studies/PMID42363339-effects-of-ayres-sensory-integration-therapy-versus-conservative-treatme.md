@@ -8,7 +8,7 @@ year: 2026
 journal: "JPMA. The Journal of the Pakistan Medical Association"
 authors: ["Ramma Inam", "Saleh Shah", "Muhammad Sana Ullah", "Tahreem Tariq", "Hira Ashraf"]
 study_type: "Randomized Controlled Trial"
-participants: 15
+participants: 30
 age_range: "2-8 years"
 age_min: 2
 age_max: 8
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Autism Spectrum Disorder", "Child", "Child, Preschool", 
 keywords: ["Ayres Sensory Integration, Autism Spectrum Disorder, Conservative treatment, Behaviour therapy, Sensory Integration Dysfunction."]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42363339/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

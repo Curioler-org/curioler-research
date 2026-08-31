@@ -8,7 +8,7 @@ year: 2026
 journal: "Developmental neurobiology"
 authors: ["Dongling Yin", "Linlin Fan", "Ke Huang", "Cheng Deng", "Shurong Huang", "Qiling Li"]
 study_type: "Randomized Controlled Trial"
-participants: 89
+participants: 178
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Male", "Transcranial Magnetic Stimulation", "Female", "A
 keywords: ["Autism spectrum disorder", "Yizhi Kaiqiao formula", "neurocognition", "preschool", "repetitive transcranial magnetic stimulation", "social outcomes"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42281150/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

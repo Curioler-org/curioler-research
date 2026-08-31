@@ -21,6 +21,14 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1007/s10803-025-06810-2",
   "duration": "12-week",
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 12-week. That is a short window, so it says nothing about whether the effects last.",
+    "not_stated": [],
+    "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+  },
   "intervention": "Gross motor skills",
   "journal": "Journal of autism and developmental disorders",
   "keywords": [
@@ -29,7 +37,7 @@
     "Serious game",
     "Virtue reality"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:54Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -47,12 +55,14 @@
     "China",
     "East Asian People"
   ],
-  "participants": 20,
+  "participants": 40,
   "pmid": "40178785",
   "primary_outcomes": [],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/40178785/",
   "study_type": "Randomized Controlled Trial",
   "title": "Effects of VR-Based Serious Games on Gross Motor Skills in Chinese Children with Autism Spectrum Disorder in Special Education: A Pilot Study.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

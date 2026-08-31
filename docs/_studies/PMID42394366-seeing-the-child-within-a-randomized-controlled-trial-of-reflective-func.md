@@ -8,7 +8,7 @@ year: 2026
 journal: "Autism research : official journal of the International Society for Autism Research"
 authors: ["Yael Enav", "Natalia Kirsman", "Dana Erhard Weiss", "Yael Mayer"]
 study_type: "Randomized Controlled Trial"
-participants: 129
+participants: 249
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Female", "Male", "Cognitive Reflection", "Parents", "Chi
 keywords: ["autism", "autistic children", "online intervention", "parental intervention", "parental reflective functioning"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42394366/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:56Z"
 ---

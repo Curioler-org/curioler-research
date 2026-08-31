@@ -8,7 +8,7 @@ year: 2026
 journal: "Research in developmental disabilities"
 authors: ["Chih-En Liu", "Pei-Ying Chen", "Ting-Ju Lai", "Shu-Mei Yang"]
 study_type: "Randomized Controlled Trial"
-participants: 38
+participants: 40
 age_range: "3-5 years"
 age_min: 3
 age_max: 5
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Music Therapy", "Autism Spectrum Disorder", "Child, Pres
 keywords: ["Autism spectrum disorder", "Language development", "Music therapy", "Social skills", "Speech therapy"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42468411/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:56Z"
 ---

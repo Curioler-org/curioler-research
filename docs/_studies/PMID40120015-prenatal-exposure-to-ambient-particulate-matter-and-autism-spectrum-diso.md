@@ -8,7 +8,7 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Marion Mortamais", "Jeanne Sandrine Ongono", "Cécile Michelon", "Ian Hough", "Emie Seyve", "Itai Kloog", "Cécile Zaros", "Marie-Aline Charles", "Johanna Lepeule", "Amaria Baghdadli"]
 study_type: "Observational Study"
-participants: 125
+participants: ""
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Child", "Child, Preschool", "Female", "Humans", "Male", "Pregnancy
 keywords: ["Air pollution", "Autism spectrum disorder", "Case control study", "Environmental risk factor", "Particulate matter"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40120015/"
 created_at: "2026-08-31T05:16:32Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:54Z"
 ---

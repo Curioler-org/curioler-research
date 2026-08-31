@@ -8,7 +8,7 @@ year: 2026
 journal: "Journal of bodywork and movement therapies"
 authors: ["Ingrid Bertilsson", "Christina Brogårdh", "Arve Opheim", "Amanda L Gyllensten", "Jeanette Melin", "Catharina Sjödahl Hammarlund"]
 study_type: "Randomized Controlled Trial"
-participants: 28
+participants: ""
 age_range: "15-30 years"
 age_min: 15
 age_max: 30
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Female", "Young Adult", "Adolescent", "Autistic Disorder
 keywords: ["Autism", "Autistic", "Basic Body Awareness Therapy", "Body awareness", "Movement quality", "Physiotherapy"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41927180/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

@@ -8,7 +8,7 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Nagham Baransi", "Miri Scharf"]
 study_type: "Randomized Controlled Trial"
-participants: ""
+participants: 107
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Male", "Parents", "Stress, Psychological", "Autism Spect
 keywords: ["ASD", "Mindset", "Short-term intervention", "Stress", "Stress-related growth"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/39984783/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:54Z"
 ---

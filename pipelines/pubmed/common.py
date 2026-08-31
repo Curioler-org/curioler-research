@@ -6,6 +6,8 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from pipelines.pubmed.explainer import build_explainer, trust_tier
+
 ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = ROOT / "config" / "research_ingestion.json"
 STUDIES_DIR = ROOT / "research" / "studies"
@@ -21,6 +23,9 @@ STUDY_FIELDS = [
     "journal",
     "authors",
     "study_type",
+    "trust_tier",
+    "trust_tier_label",
+    "easy_explainer",
     "participants",
     "age_range",
     "age_min",
@@ -108,4 +113,8 @@ def normalize_study(data: dict[str, Any]) -> dict[str, Any]:
         normalized[field] = normalize_array(normalized[field])
     normalized["pmid"] = str(normalized["pmid"] or "")
     normalized["source_url"] = normalized["source_url"] or f"https://pubmed.ncbi.nlm.nih.gov/{normalized['pmid']}/"
+    # Derived last, from the settled fields, so both extraction paths and every
+    # rebuild produce the same block.
+    normalized["trust_tier"], normalized["trust_tier_label"] = trust_tier(normalized)
+    normalized["easy_explainer"] = build_explainer(normalized)
     return normalized

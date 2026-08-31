@@ -23,6 +23,17 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1016/j.jpsychires.2026.04.008",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"iTBS is effective for MDD in routine clinical practice; however, its therapeutic impact appears moderately reduced in patients with ASD and/or ADHD. These findings underscore the need for individualized neuromodulation strategies and further investigation into neurobiological and sensory factors contributing to treatment heterogeneity.\"",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
   "intervention": "intermittent theta-burst stimulation (iTBS)",
   "journal": "Journal of psychiatric research",
   "keywords": [
@@ -31,7 +42,7 @@
     "Intermittent theta-burst stimulation",
     "Neurodevelopmental disorders"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -66,5 +77,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/41967364/",
   "study_type": "Observational Study",
   "title": "Effectiveness of intermittent theta-burst stimulation for major depressive disorder with and without neurodevelopmental comorbidities: A real-world retrospective observational study.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
   "year": 2026
 }

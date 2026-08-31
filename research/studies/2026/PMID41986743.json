@@ -33,10 +33,18 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1038/s41380-026-03596-2",
   "duration": "12 weeks",
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 12 weeks. That is a short window, so it says nothing about whether the effects last.",
+    "not_stated": [],
+    "size": "It involved 67 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+  },
   "intervention": "a double-blind, randomized controlled trial",
   "journal": "Molecular psychiatry",
   "keywords": [],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],
@@ -56,12 +64,14 @@
     "Frontal Lobe",
     "Theta Rhythm"
   ],
-  "participants": 132,
+  "participants": 67,
   "pmid": "41986743",
   "primary_outcomes": [],
   "secondary_outcomes": [],
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/41986743/",
   "study_type": "Randomized Controlled Trial",
   "title": "Accelerated intermittent theta burst stimulation targeting personalized fronto-parietal control network improves core symptoms of autism spectrum disorder: a double-blind, randomized controlled trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

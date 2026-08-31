@@ -8,7 +8,7 @@ year: 2026
 journal: "Autism research : official journal of the International Society for Autism Research"
 authors: ["Mi Tian", "Shiyue Cao", "Xin Li", "Wenyu Xia", "Him Cheung", "Xuezhen Xiao", "Tianrui Luo"]
 study_type: "Randomized Controlled Trial"
-participants: 16
+participants: ""
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Theory of Mind", "Male", "Female", "Child, Preschool", "
 keywords: ["autism spectrum disorder", "children", "theory of mind", "training", "visual perspective taking"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42410944/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:56Z"
 ---

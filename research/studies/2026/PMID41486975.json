@@ -23,6 +23,16 @@
   "diagnosis": "Autism Spectrum Disorder",
   "doi": "10.1111/jcpp.70110",
   "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"We found no indication that higher-than-normal vitamin D3 supplementation between ages 0 and 2 years decreases ASD-related trait scores at ages 6-8 years. Sex-stratified analysis suggested an inverse association, among boys, between early life 25(OH)D concentrations and ASD-related traits, warranting further studies on potential causal direction and sex specificity of associations.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "how long the study ran"
+    ],
+    "size": "It involved 366 people, a reasonably sized group for this kind of research."
+  },
   "intervention": "vitamin D",
   "journal": "Journal of child psychology and psychiatry, and allied disciplines",
   "keywords": [
@@ -31,7 +41,7 @@
     "neurodevelopment",
     "randomized clinical trial"
   ],
-  "last_updated": "2026-08-31T05:16:32Z",
+  "last_updated": "2026-08-31T10:05:55Z",
   "limitations": [
     "further studies on potential causal direction and sex specificity of associations"
   ],
@@ -52,7 +62,7 @@
     "Vitamins",
     "Infant, Newborn"
   ],
-  "participants": null,
+  "participants": 366,
   "pmid": "41486975",
   "primary_outcomes": [
     "None of the predictor variables of interest were associated with the outcome in the full sample. After sex stratification, among boys, 25(OH)D concentrations at 1 and 2 years were…"
@@ -61,5 +71,7 @@
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/41486975/",
   "study_type": "Randomized Controlled Trial",
   "title": "Vitamin D supplementation in the first 2 years and autism spectrum traits at 6-8 years - a randomized clinical trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
   "year": 2026
 }

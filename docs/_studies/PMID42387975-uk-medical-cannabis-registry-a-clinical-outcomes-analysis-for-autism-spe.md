@@ -8,7 +8,7 @@ year: 2026
 journal: "Neuropsychopharmacology reports"
 authors: ["Arushika Aggarwal", "Simon Erridge", "Madhur Varadpande", "Evonne Clarke", "Katy McLachlan", "Ross Coomber", "Muhammed Asghar", "Urmila Bhoskar", "Matthieu Crews", "Andrea De Angelis", "Muhammad Imran", "Fariha Kamal", "Laura Korb", "Gracia Mwimba", "Simmi Sachdeva-Mohan", "Gabriel Shaya", "James J Rucker", "Mikael H Sodergren"]
 study_type: "Observational Study"
-participants: 88
+participants: ""
 age_range: ""
 age_min: ""
 age_max: ""
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Autism Spectrum Disorder", "Female", "Registries", "Male
 keywords: ["anxiety", "autism spectrum disorder", "cannabidiol", "cannabis", "tetrahydrocannabinol"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42387975/"
 created_at: "2026-07-11T18:27:28Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---

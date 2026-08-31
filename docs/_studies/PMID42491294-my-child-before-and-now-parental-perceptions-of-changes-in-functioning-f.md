@@ -8,7 +8,7 @@ year: 2026
 journal: "Frontiers in public health"
 authors: ["Reinaldo da Costa Paulino Netto", "Deisiane Oliveira Souto", "Iolanda Costa Rodrigues", "Amanda Aparecida Alves Cunha Nascimento", "Camila de Oliveira Schumann", "Millene Cézar Nunes", "Ana Clara Schaper Fernandes", "Ana Clara de Carvalho Silva", "Patricia Aparecida Neves Santana", "Thalita Karla Flores Cruz"]
 study_type: "Randomized Controlled Trial"
-participants: 18
+participants: ""
 age_range: "6-12 years"
 age_min: 6
 age_max: 12
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Child", "Autism Spectrum Disorder", "Parents", "Male", "
 keywords: ["autism spectrum disorder", "family", "functioning", "motor activity", "psychomotor performance"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42491294/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:56Z"
 ---

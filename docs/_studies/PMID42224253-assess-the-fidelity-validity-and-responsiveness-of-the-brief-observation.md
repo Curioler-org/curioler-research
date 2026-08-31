@@ -8,7 +8,7 @@ year: 2026
 journal: "Autism : the international journal of research and practice"
 authors: ["Agathe Jay", "Lucie Jurek", "Riham Hamadeh", "Marie-Joelle Oreve", "Carmen M Schröder", "Veronique Delvenne", "Sandrine Sonie", "Bruno Falissard", "Olivia Febvey-Combes", "Mario Speranza", "Marie-Maude Geoffray", "IDEA Study Group"]
 study_type: "Randomized Controlled Trial"
-participants: 414
+participants: 177
 age_range: "19-36 months"
 age_min: 19
 age_max: 36
@@ -27,5 +27,5 @@ mesh_terms: ["Humans", "Child, Preschool", "Autism Spectrum Disorder", "Reproduc
 keywords: ["assess", "autism spectrum disorder", "fidelity", "responsiveness", "validity"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42224253/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T05:16:32Z"
+last_updated: "2026-08-31T10:05:55Z"
 ---
