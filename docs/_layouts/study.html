@@ -19,6 +19,25 @@ layout: default
       </div>
     </header>
 
+    <aside class="easy-explainer easy-explainer--tier-{{ page.trust_tier }}">
+      <div class="easy-explainer-head">
+        <h2>Easy explainer</h2>
+        <span class="tier-badge tier-{{ page.trust_tier }}">
+          Tier {{ page.trust_tier }} — {{ page.trust_tier_label }}
+        </span>
+      </div>
+      <p>{{ page.easy_explainer.design }}</p>
+      <p>{{ page.easy_explainer.size }}</p>
+      {% if page.easy_explainer.duration %}<p>{{ page.easy_explainer.duration }}</p>{% endif %}
+      {% if page.easy_explainer.conclusion %}<p>{{ page.easy_explainer.conclusion }}</p>{% endif %}
+      {% if page.easy_explainer.not_stated and page.easy_explainer.not_stated.size > 0 %}
+      <p class="easy-explainer-missing">
+        This record does not say {{ page.easy_explainer.not_stated | join: ", or " }}.
+      </p>
+      {% endif %}
+      <p class="easy-explainer-disclaimer">{{ page.easy_explainer.disclaimer }}</p>
+    </aside>
+
     <div class="summary-body study-body">
       <h2>Metadata</h2>
       <dl class="study-facts">

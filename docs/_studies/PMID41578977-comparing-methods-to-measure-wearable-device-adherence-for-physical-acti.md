@@ -8,6 +8,9 @@ year: 2026
 journal: "Physiotherapy theory and practice"
 authors: ["Melissa M Tovin", "Sheila B Madden", "Kaiwen Wu", "Annabel Nunez-Gaunaurd"]
 study_type: "Observational Study"
+trust_tier: 3
+trust_tier_label: "Observational Study"
+easy_explainer: {"conclusion": "The researchers concluded: \"Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 8-week. That is a short window, so it says nothing about whether the effects last.", "not_stated": [], "size": "It involved only 27 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."}
 participants: 27
 age_range: "14-28 years"
 age_min: 14

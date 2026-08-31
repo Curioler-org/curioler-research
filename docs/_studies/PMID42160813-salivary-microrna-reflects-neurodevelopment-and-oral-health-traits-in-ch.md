@@ -8,6 +8,9 @@ year: 2026
 journal: "International dental journal"
 authors: ["Omar Omar", "Reem Yussuf AlJindan", "Sumit Rajinder", "Balu Kamaraj", "Jehan AlHumaid"]
 study_type: "Observational Study"
+trust_tier: 3
+trust_tier_label: "Observational Study"
+easy_explainer: {"conclusion": "The researchers concluded: \"Children with ASD exhibit a distinct salivary miRNA profile with increased caries burden and gingival inflammation, indicating shared molecular influences on neurodevelopment and oral disease susceptibility. CLINICAL RELEVANCE: Salivary miRNAs offer a non-invasive biomarker platform to support earlier ASD identification, individualized preventive dental strategies, and interdisciplinary management of this high-risk paediatric population.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
 participants: ""
 age_range: ""
 age_min: ""

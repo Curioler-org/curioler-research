@@ -8,6 +8,9 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Melanie R Martin Loya", "Hedda Meadan", "Xun Yan"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The researchers concluded: \"Implications highlight the need for more attention on professional development research for autism providers, to examine pre-service training, and for clinical leaders to examine their workplace environment to promote effective and fair practices.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
 participants: ""
 age_range: ""
 age_min: ""

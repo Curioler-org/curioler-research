@@ -8,6 +8,9 @@ year: 2026
 journal: "Journal of affective disorders"
 authors: ["Margherita Barbuti", "Salvatore Amadori", "Ugo De Rosa", "Giulio Perugi"]
 study_type: "Observational Study"
+trust_tier: 3
+trust_tier_label: "Observational Study"
+easy_explainer: {"conclusion": "The researchers concluded: \"BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "It involved 62 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
 participants: 62
 age_range: ""
 age_min: ""

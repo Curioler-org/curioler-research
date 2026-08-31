@@ -8,6 +8,9 @@ year: 2026
 journal: "Research in developmental disabilities"
 authors: ["Chih-En Liu", "Pei-Ying Chen", "Ting-Ju Lai", "Shu-Mei Yang"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The researchers concluded: \"In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 8 weeks. That is a short window, so it says nothing about whether the effects last.", "not_stated": [], "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
 participants: 40
 age_range: "3-5 years"
 age_min: 3

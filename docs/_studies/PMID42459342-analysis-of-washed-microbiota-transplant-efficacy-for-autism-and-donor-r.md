@@ -8,6 +8,9 @@ year: 2026
 journal: "Frontiers in cellular and infection microbiology"
 authors: ["Yongxi Quan", "Mingming Chen", "Yao Cai", "Li Ling", "Yedong Lao", "Xingxiang He", "Lihao Wu"]
 study_type: "Observational Study"
+trust_tier: 3
+trust_tier_label: "Observational Study"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "It involved 38 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
 participants: 38
 age_range: ""
 age_min: ""

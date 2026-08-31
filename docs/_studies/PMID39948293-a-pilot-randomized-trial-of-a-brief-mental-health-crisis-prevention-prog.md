@@ -8,6 +8,9 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Luther G Kalb", "Jeremy Perrin", "Elie Sollins", "Jennifer Horton", "Elizabeth A Cross", "Roma A Vasa"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved 49 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
 participants: 49
 age_range: "3-12 years"
 age_min: 3

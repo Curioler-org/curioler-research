@@ -8,6 +8,9 @@ year: 2026
 journal: "Molecular psychiatry"
 authors: ["Qi Liu", "Jiawei Zhang", "Xinyu Duan", "Ping Zhang", "Yang Yang", "Guanzhong Yao", "Bulideerqing Jiaerheng", "Xiao-Jing Shou", "Yong He", "Kaiyue Han", "Meixiang Jia", "Lifang Wang", "Weijun Gong", "Wuxiang Xie", "Kai Sun", "Danhong Wang", "Xiao-Dan Wu", "Hua Cao", "Hao Zhang", "Hesheng Liu"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 12 weeks. That is a short window, so it says nothing about whether the effects last.", "not_stated": [], "size": "It involved 67 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
 participants: 67
 age_range: "6-30 years"
 age_min: 6

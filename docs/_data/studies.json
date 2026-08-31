@@ -5,12 +5,24 @@
       "Anxiety Disorders"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved 148 people, a reasonably sized group for this kind of research."
+    },
     "intervention": "Cognitive behavioral therapy",
     "journal": "Journal of autism and developmental disorders",
     "pmid": "39930281",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/39930281/",
     "study_type": "Randomized Controlled Trial",
     "title": "Caregiver Satisfaction with Anxiety Treatment for Autistic Youth: A Mixed Methods Examination.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID39930281-caregiver-satisfaction-with-anxiety-treatment-for-autistic-youth-a-mixed/",
     "year": 2026
   },
@@ -18,12 +30,24 @@
     "age_range": "3-12 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved 49 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "brief mental health crisis prevention program",
     "journal": "Journal of autism and developmental disorders",
     "pmid": "39948293",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/39948293/",
     "study_type": "Randomized Controlled Trial",
     "title": "A Pilot Randomized Trial of a Brief Mental Health Crisis Prevention Program for Autistic Youth.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID39948293-a-pilot-randomized-trial-of-a-brief-mental-health-crisis-prevention-prog/",
     "year": 2026
   },
@@ -31,12 +55,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Implications highlight the need for more attention on professional development research for autism providers, to examine pre-service training, and for clinical leaders to examine their workplace environment to promote effective and fair practices.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "professional development training",
     "journal": "Journal of autism and developmental disorders",
     "pmid": "39951211",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/39951211/",
     "study_type": "Randomized Controlled Trial",
     "title": "Professional Development in Autism and Multilingualism for Behavior Analysts: A Randomized Waitlist Control Trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID39951211-professional-development-in-autism-and-multilingualism-for-behavior-anal/",
     "year": 2026
   },
@@ -44,12 +81,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "self-determination promotion program",
     "journal": "Journal of autism and developmental disorders",
     "pmid": "39954217",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/39954217/",
     "study_type": "Randomized Controlled Trial",
     "title": "Promoting Self-Determination in Young Adults with Autism: A Multicenter, Mixed Methods Study.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID39954217-promoting-self-determination-in-young-adults-with-autism-a-multicenter-m/",
     "year": 2026
   },
@@ -57,12 +107,22 @@
     "age_range": "11-35 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 4 weeks. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "AI-supported social communication training",
     "journal": "Journal of autism and developmental disorders",
     "pmid": "39954218",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/39954218/",
     "study_type": "Randomized Controlled Trial",
     "title": "Using Artificial Intelligence to Improve Empathetic Statements in Autistic Adolescents and Adults: A Randomized Clinical Trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID39954218-using-artificial-intelligence-to-improve-empathetic-statements-in-autist/",
     "year": 2026
   },
@@ -70,12 +130,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 107 people, a reasonably sized group for this kind of research."
+    },
     "intervention": "a short-term synergic growth mindset intervention towards abilities and towards stress on reducing parental st",
     "journal": "Journal of autism and developmental disorders",
     "pmid": "39984783",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/39984783/",
     "study_type": "Randomized Controlled Trial",
     "title": "Can a Short-Term Intervention Promote Growth Among Parents of Children with ASD?",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID39984783-can-a-short-term-intervention-promote-growth-among-parents-of-children-w/",
     "year": 2026
   },
@@ -83,12 +156,24 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 3-month.",
+      "not_stated": [
+        "the ages of the people who took part"
+      ],
+      "size": "It involved 41 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "Acceptance",
     "journal": "Journal of autism and developmental disorders",
     "pmid": "40016545",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/40016545/",
     "study_type": "Randomized Controlled Trial",
     "title": "AutInsight: A Pilot Randomised Controlled Trial (RCT) of a Consumer-Informed Parent Support Program for Parents of Autistic Children.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID40016545-autinsight-a-pilot-randomised-controlled-trial-rct-of-a-consumer-informe/",
     "year": 2026
   },
@@ -96,12 +181,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "Air pollution",
     "journal": "Journal of autism and developmental disorders",
     "pmid": "40120015",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/40120015/",
     "study_type": "Observational Study",
     "title": "Prenatal Exposure to Ambient Particulate Matter and Autism Spectrum Disorder in Children, a Case Control Study in France.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID40120015-prenatal-exposure-to-ambient-particulate-matter-and-autism-spectrum-diso/",
     "year": 2026
   },
@@ -109,12 +207,22 @@
     "age_range": "6-12 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 12-week. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [],
+      "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "Gross motor skills",
     "journal": "Journal of autism and developmental disorders",
     "pmid": "40178785",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/40178785/",
     "study_type": "Randomized Controlled Trial",
     "title": "Effects of VR-Based Serious Games on Gross Motor Skills in Chinese Children with Autism Spectrum Disorder in Special Education: A Pilot Study.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID40178785-effects-of-vr-based-serious-games-on-gross-motor-skills-in-chinese-child/",
     "year": 2026
   },
@@ -124,12 +232,24 @@
       "Affective Symptoms"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Findings suggest that EASE improves emotion dysregulation for autistic adolescents and young adults. PLAIN LANGUAGE SUMMARY: This study tested a mindfulness-based intervention to improve autistic adolescents' and young adults' ability to manage emotions.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved 109 people, a reasonably sized group for this kind of research."
+    },
     "intervention": "emotion regulation",
     "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
     "pmid": "40750084",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/40750084/",
     "study_type": "Randomized Controlled Trial",
     "title": "Efficacy of the Emotion Awareness and Skills Enhancement (EASE) Program in Autism: A Randomized Controlled Trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID40750084-efficacy-of-the-emotion-awareness-and-skills-enhancement-ease-program-in/",
     "year": 2026
   },
@@ -139,12 +259,24 @@
       "Sleep Wake Disorders"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    },
     "intervention": "neurodevelopmental condition",
     "journal": "Journal of sleep research",
     "pmid": "41392642",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41392642/",
     "study_type": "Observational Study",
     "title": "Home Polysomnography in Children With Autism Spectrum Disorder: A Prospective Observational Study.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID41392642-home-polysomnography-in-children-with-autism-spectrum-disorder-a-prospec/",
     "year": 2026
   },
@@ -152,12 +284,24 @@
     "age_range": "6-8 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"We found no indication that higher-than-normal vitamin D3 supplementation between ages 0 and 2 years decreases ASD-related trait scores at ages 6-8 years. Sex-stratified analysis suggested an inverse association, among boys, between early life 25(OH)D concentrations and ASD-related traits, warranting further studies on potential causal direction and sex specificity of associations.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved 366 people, a reasonably sized group for this kind of research."
+    },
     "intervention": "vitamin D",
     "journal": "Journal of child psychology and psychiatry, and allied disciplines",
     "pmid": "41486975",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41486975/",
     "study_type": "Randomized Controlled Trial",
     "title": "Vitamin D supplementation in the first 2 years and autism spectrum traits at 6-8 years - a randomized clinical trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID41486975-vitamin-d-supplementation-in-the-first-2-years-and-autism-spectrum-trait/",
     "year": 2026
   },
@@ -167,12 +311,22 @@
       "Attention Deficit Disorder with Hyperactivity"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"This pragmatic RCT, conducted in a clinical environment including participants with complex difficulties, showed that both LGO-S and individual occupational therapy are clinically useful/applicable interventions that effectively improve time-management skills. Time-management skills are essential for carrying out daily routine, leading a balanced and satisfying life, and maintaining employment.People with attention deficit hyperactivity disorder (ADHD), autism or mental disorders often experience time-management difficulties and rate their capacity for these skills lower than the general population.While the participants did not change the number of daily activities performed, their satisfaction with the way they were performed increased.This study demonstrated that both the intervention Let’s Get Organised(LGO-S) and individual occupational therapy are clinically useful/applicable interventions which effectively improve time-management skills.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 3-month.",
+      "not_stated": [],
+      "size": "It involved 75 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "ADHD",
     "journal": "Disability and rehabilitation",
     "pmid": "41527987",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41527987/",
     "study_type": "Randomized Controlled Trial",
     "title": "Effectiveness of a group-based time-management intervention: a pragmatic randomised controlled trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID41527987-effectiveness-of-a-group-based-time-management-intervention-a-pragmatic/",
     "year": 2026
   },
@@ -180,12 +334,22 @@
     "age_range": "3-12 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"This study provides important information about placebo effects and placebo lead-in designs for clinical trials in the autism field. We show widespread clinically significant improvement during placebo lead-in, utility of identifying placebo responders for informing clinical trial analyses, similarities in symptom measure effect sizes for placebo effects, and a lack of influence of caregiver beliefs on placebo responses.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 3-week. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [],
+      "size": "It involved 87 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "oxytocin",
     "journal": "Journal of child psychology and psychiatry, and allied disciplines",
     "pmid": "41550040",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41550040/",
     "study_type": "Randomized Controlled Trial",
     "title": "Evaluating placebo responses to intranasal oxytocin in autism: findings from the placebo lead-in phase of a randomised controlled trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID41550040-evaluating-placebo-responses-to-intranasal-oxytocin-in-autism-findings-f/",
     "year": 2026
   },
@@ -193,12 +357,22 @@
     "age_range": "14-28 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Using HR-based measures of adherence may underestimate device use in individuals with ASD, potentially setting unrealistic expectations for continuous wear. Step-based metrics provides a more inclusive and pragmatic approach for assessing WD adherence in this population, with implications for future intervention design and evaluation.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 8-week. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [],
+      "size": "It involved only 27 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    },
     "intervention": "wearable device physical activity monitoring",
     "journal": "Physiotherapy theory and practice",
     "pmid": "41578977",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41578977/",
     "study_type": "Observational Study",
     "title": "Comparing methods to measure wearable device adherence for physical activity monitoring for persons with autism: A prospective observational cohort study.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID41578977-comparing-methods-to-measure-wearable-device-adherence-for-physical-acti/",
     "year": 2026
   },
@@ -209,12 +383,25 @@
       "Intellectual Disability"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"BD in adults with ASD-noID presents a distinct clinical phenotype, characterized by atypical mood presentations, emotional dysregulation, complex comorbidity, and reduced treatment tolerability. These findings highlight the importance of improving diagnostic accuracy and adopting personalized treatment approaches for adults with this comorbidity.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 62 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "Bipolar disorder",
     "journal": "Journal of affective disorders",
     "pmid": "41765239",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41765239/",
     "study_type": "Observational Study",
     "title": "Clinical characterization of bipolar disorder in adults with autism without intellectual disability: a cross-sectional study.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID41765239-clinical-characterization-of-bipolar-disorder-in-adults-with-autism-with/",
     "year": 2026
   },
@@ -222,12 +409,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "oxytocin",
     "journal": "Molecular psychiatry",
     "pmid": "41904269",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41904269/",
     "study_type": "Randomized Controlled Trial",
     "title": "A key gene modulating oxytocin efficacy in autism: genome-wide discovery and verification in randomized controlled trials datasets.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID41904269-a-key-gene-modulating-oxytocin-efficacy-in-autism-genome-wide-discovery/",
     "year": 2026
   },
@@ -235,12 +435,24 @@
     "age_range": "15-30 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"BBAT and TAU were superior to TAU alone for improving movement quality. BBAT is a relevant intervention for autistic young adults to improve everyday functionality.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "interventions targeting these aspects in autistic persons",
     "journal": "Journal of bodywork and movement therapies",
     "pmid": "41927180",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41927180/",
     "study_type": "Randomized Controlled Trial",
     "title": "Effects of Basic Body Awareness Therapy on movement quality in autistic young adults: a superiority pragmatic randomized controlled trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID41927180-effects-of-basic-body-awareness-therapy-on-movement-quality-in-autistic/",
     "year": 2026
   },
@@ -250,12 +462,25 @@
       "Dysbiosis"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "oxytocin",
     "journal": "Brain, behavior, and immunity",
     "pmid": "41941984",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41941984/",
     "study_type": "Randomized Controlled Trial",
     "title": "A pilot study on the role of the oxytocinergic system in gut microbiome composition in children with autism: baseline associations and effects of intranasal oxytocin.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID41941984-a-pilot-study-on-the-role-of-the-oxytocinergic-system-in-gut-microbiome/",
     "year": 2026
   },
@@ -266,12 +491,25 @@
       "Attention Deficit Disorder with Hyperactivity"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"iTBS is effective for MDD in routine clinical practice; however, its therapeutic impact appears moderately reduced in patients with ASD and/or ADHD. These findings underscore the need for individualized neuromodulation strategies and further investigation into neurobiological and sensory factors contributing to treatment heterogeneity.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "intermittent theta-burst stimulation (iTBS)",
     "journal": "Journal of psychiatric research",
     "pmid": "41967364",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41967364/",
     "study_type": "Observational Study",
     "title": "Effectiveness of intermittent theta-burst stimulation for major depressive disorder with and without neurodevelopmental comorbidities: A real-world retrospective observational study.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID41967364-effectiveness-of-intermittent-theta-burst-stimulation-for-major-depressi/",
     "year": 2026
   },
@@ -279,12 +517,22 @@
     "age_range": "6-30 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 12 weeks. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [],
+      "size": "It involved 67 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "a double-blind, randomized controlled trial",
     "journal": "Molecular psychiatry",
     "pmid": "41986743",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/41986743/",
     "study_type": "Randomized Controlled Trial",
     "title": "Accelerated intermittent theta burst stimulation targeting personalized fronto-parietal control network improves core symptoms of autism spectrum disorder: a double-blind, randomized controlled trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID41986743-accelerated-intermittent-theta-burst-stimulation-targeting-personalized/",
     "year": 2026
   },
@@ -295,12 +543,25 @@
       "Intellectual Disability"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "16p11.2 deletion syndrome",
     "journal": "Expert review of neurotherapeutics",
     "pmid": "42080302",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42080302/",
     "study_type": "Randomized Controlled Trial",
     "title": "Rationale and study design for the first precision medicine randomized placebo-controlled trial in the 16p11.2 deletion syndrome.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42080302-rationale-and-study-design-for-the-first-precision-medicine-randomized-p/",
     "year": 2026
   },
@@ -310,12 +571,25 @@
       "Developmental Disabilities"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"At a telephone-based care coordination program in LA County, the amount and duration of engagement by coordinators for children with autism or developmental delays was substantial. There was a significant relationship between the number of service provider referrals and service receipt, but not for total number of contacts.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "care coordination",
     "journal": "Academic pediatrics",
     "pmid": "42092454",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42092454/",
     "study_type": "Observational Study",
     "title": "What Does Care Coordination Do? Profiling a Large Telephone-based 211 Program Serving Young Children.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID42092454-what-does-care-coordination-do-profiling-a-large-telephone-based-211-pro/",
     "year": 2026
   },
@@ -323,12 +597,24 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"In this large prospective cohort, adverse long-term outcomes following maternal primary infection were observed only after first-trimester exposure. Autism spectrum disorder occurred exclusively in this group and was consistently associated with temporal lobe white matter abnormalities.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 48 months.",
+      "not_stated": [
+        "the ages of the people who took part"
+      ],
+      "size": "It involved 642 people, which is a large group for autism research and makes the findings steadier."
+    },
     "intervention": "congenital cytomegalovirus",
     "journal": "American journal of obstetrics and gynecology",
     "pmid": "42092723",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42092723/",
     "study_type": "Observational Study",
     "title": "Maternal cytomegalovirus infection in the first trimester of pregnancy: timing, fetal brain injury, and long-term neurodevelopmental outcomes including autism spectrum disorder.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID42092723-maternal-cytomegalovirus-infection-in-the-first-trimester-of-pregnancy-t/",
     "year": 2026
   },
@@ -339,12 +625,25 @@
       "Periodontal Diseases"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Children with ASD exhibit a distinct salivary miRNA profile with increased caries burden and gingival inflammation, indicating shared molecular influences on neurodevelopment and oral disease susceptibility. CLINICAL RELEVANCE: Salivary miRNAs offer a non-invasive biomarker platform to support earlier ASD identification, individualized preventive dental strategies, and interdisciplinary management of this high-risk paediatric population.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "Biomarkers",
     "journal": "International dental journal",
     "pmid": "42160813",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42160813/",
     "study_type": "Observational Study",
     "title": "Salivary MicroRNA Reflects Neurodevelopment and Oral Health Traits in Children With Autism.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID42160813-salivary-microrna-reflects-neurodevelopment-and-oral-health-traits-in-ch/",
     "year": 2026
   },
@@ -355,12 +654,25 @@
       "Depression"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"The MBSR program was effective in reducing depression, anxiety, and stress among parents of children with ASD. However, overall hopelessness did not change significantly, suggesting that this construct may be less responsive to short-term interventions.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 96 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "mindfulness-based intervention",
     "journal": "Journal of pediatric nursing",
     "pmid": "42166881",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42166881/",
     "study_type": "Randomized Controlled Trial",
     "title": "Effects of mindfulness-based stress reduction on levels of depression, anxiety, stress, and hopelessness in parents of children with autism: A randomized controlled trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42166881-effects-of-mindfulness-based-stress-reduction-on-levels-of-depression-an/",
     "year": 2026
   },
@@ -368,12 +680,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved only 12 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    },
     "intervention": "Emotion dysregulation",
     "journal": "Research in developmental disabilities",
     "pmid": "42217453",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42217453/",
     "study_type": "Randomized Controlled Trial",
     "title": "Regulating Together: Caregivers' experiences in a shared journey through an emotion dysregulation intervention for autistic youth.",
+    "trust_tier": 3,
+    "trust_tier_label": "Randomized Controlled Trial (small sample)",
     "url": "/studies/PMID42217453-regulating-together-caregivers-experiences-in-a-shared-journey-through-a/",
     "year": 2026
   },
@@ -381,12 +706,24 @@
     "age_range": "19-36 months",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved 177 people, a reasonably sized group for this kind of research."
+    },
     "intervention": "assess",
     "journal": "Autism : the international journal of research and practice",
     "pmid": "42224253",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42224253/",
     "study_type": "Randomized Controlled Trial",
     "title": "Assess the Fidelity, Validity and Responsiveness of the Brief Observation of Social Communication Change (BOSCC) to Measure Changes in the Social Interactions of Preschool Children With Autism Spectrum Disorder.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42224253-assess-the-fidelity-validity-and-responsiveness-of-the-brief-observation/",
     "year": 2026
   },
@@ -394,12 +731,24 @@
     "age_range": "3-18 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Long-term treatment with purified CBD in children with severe ASD was well tolerated and associated with sustained improvement in caregiver-reported outcomes and standardized scales.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."
+    },
     "intervention": "cannabidiol (CBD)",
     "journal": "Pharmacology, biochemistry, and behavior",
     "pmid": "42248366",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42248366/",
     "study_type": "Observational Study",
     "title": "Long-term follow-up of children with autism spectrum disorder and severe treatment-resistant behavioral symptoms treated with purified cannabidiol.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID42248366-long-term-follow-up-of-children-with-autism-spectrum-disorder-and-severe/",
     "year": 2026
   },
@@ -407,12 +756,24 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 3-month.",
+      "not_stated": [
+        "the ages of the people who took part"
+      ],
+      "size": "It involved 178 people, a reasonably sized group for this kind of research."
+    },
     "intervention": "Yizhi Kaiqiao",
     "journal": "Developmental neurobiology",
     "pmid": "42281150",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42281150/",
     "study_type": "Randomized Controlled Trial",
     "title": "A Randomized Controlled Trial of Yizhi Kaiqiao Formula Combined With Repetitive Transcranial Magnetic Stimulation on Neurocognitive and Social Outcomes in Preschool Children With Autism Spectrum Disorder.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42281150-a-randomized-controlled-trial-of-yizhi-kaiqiao-formula-combined-with-rep/",
     "year": 2026
   },
@@ -420,12 +781,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "the health check, clinicians who delivered it, and carers/supporters who attended the appointment",
     "journal": "Autism : the international journal of research and practice",
     "pmid": "42303595",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42303595/",
     "study_type": "Randomized Controlled Trial",
     "title": "Acceptability and Implementation of a Primary Care Health Check for Autistic People: Findings From Evaluation Questionnaires and Interviews.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42303595-acceptability-and-implementation-of-a-primary-care-health-check-for-auti/",
     "year": 2026
   },
@@ -433,12 +807,24 @@
     "age_range": "2-8 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "It involved 30 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "Ayres sensory integration",
     "journal": "JPMA. The Journal of the Pakistan Medical Association",
     "pmid": "42363339",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42363339/",
     "study_type": "Randomized Controlled Trial",
     "title": "Effects of Ayres sensory integration therapy versus conservative treatment in autism spectrum disorder.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42363339-effects-of-ayres-sensory-integration-therapy-versus-conservative-treatme/",
     "year": 2026
   },
@@ -448,12 +834,24 @@
       "Anxiety"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Treatment with CBMPs was associated with improvements in HRQoL, anxiety, and sleep outcomes in autistic patients over an 18-month period. Given the absence of a control group, these findings represent associations rather than proven treatment effects.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 18 months.",
+      "not_stated": [
+        "the ages of the people who took part"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "cannabis-based medicinal products",
     "journal": "Neuropsychopharmacology reports",
     "pmid": "42387975",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42387975/",
     "study_type": "Observational Study",
     "title": "UK Medical Cannabis Registry: A Clinical Outcomes Analysis for Autism Spectrum Disorder.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID42387975-uk-medical-cannabis-registry-a-clinical-outcomes-analysis-for-autism-spe/",
     "year": 2026
   },
@@ -461,12 +859,22 @@
     "age_range": "24-60 months",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"This study provides evidence supporting a culturally grounded PII associated with improvements in social functioning and language outcomes in autistic preschoolers, alongside increases in parental self-efficacy and reductions in parenting stress. Although no consistent differences between delivery formats were observed, SLT-led support appeared particularly beneficial for families with greater needs, whereas the Self-study format was sufficient for families with stronger baseline capacity, underscoring the importance of tailoring intervention formats to child and family characteristics.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 20-week.",
+      "not_stated": [],
+      "size": "It involved 112 people, a reasonably sized group for this kind of research."
+    },
     "intervention": "parent-implemented intervention",
     "journal": "Molecular autism",
     "pmid": "42393738",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42393738/",
     "study_type": "Randomized Controlled Trial",
     "title": "Who benefits most? A randomized controlled trial for Parent-implemented social communication intervention for chinese-speaking autistic preschoolers.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42393738-who-benefits-most-a-randomized-controlled-trial-for-parent-implemented-s/",
     "year": 2026
   },
@@ -474,12 +882,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 249 people, a reasonably sized group for this kind of research."
+    },
     "intervention": "brief, scalable PRF-based programs for caregivers of autistic children",
     "journal": "Autism research : official journal of the International Society for Autism Research",
     "pmid": "42394366",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42394366/",
     "study_type": "Randomized Controlled Trial",
     "title": "Seeing the Child Within: A Randomized Controlled Trial of Reflective Functioning Intervention for Parents of Autistic Children.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42394366-seeing-the-child-within-a-randomized-controlled-trial-of-reflective-func/",
     "year": 2026
   },
@@ -487,12 +908,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "theory of mind",
     "journal": "Autism research : official journal of the International Society for Autism Research",
     "pmid": "42410944",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42410944/",
     "study_type": "Randomized Controlled Trial",
     "title": "Visual Perspective Taking Training Improves Theory of Mind in Autistic Children.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42410944-visual-perspective-taking-training-improves-theory-of-mind-in-autistic-c/",
     "year": 2026
   },
@@ -500,12 +934,24 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Quercetin supplementation showed potential benefits in select social quality of life and social domain responsiveness in participants with ASD. Larger, well-designed trials are needed to confirm its clinical effectiveness.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 60 days. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [
+        "the ages of the people who took part"
+      ],
+      "size": "It involved 52 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "quercetin",
     "journal": "Human psychopharmacology",
     "pmid": "42438230",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42438230/",
     "study_type": "Randomized Controlled Trial",
     "title": "Assessment of the Efficacy of Quercetin in Adult Patients With Autism Spectrum Disorder: A Randomized, Triple-Blind, Placebo-Controlled Trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42438230-assessment-of-the-efficacy-of-quercetin-in-adult-patients-with-autism-sp/",
     "year": 2026
   },
@@ -513,12 +959,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 38 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "washed microbiota transplantation",
     "journal": "Frontiers in cellular and infection microbiology",
     "pmid": "42459342",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42459342/",
     "study_type": "Observational Study",
     "title": "Analysis of washed microbiota transplant efficacy for autism and donor-recipient gut microbiota characteristics.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID42459342-analysis-of-washed-microbiota-transplant-efficacy-for-autism-and-donor-r/",
     "year": 2026
   },
@@ -528,12 +987,22 @@
       "Language Development Disorders"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"In this exploratory RCT, group-based music therapy was feasible to integrate with speech therapy and was not associated with intervention-related adverse events. Although language performance and selected autism-related behavioral features showed improvements over time, adjunctive group-based music therapy did not demonstrate statistically significant superiority over speech therapy alone.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 8 weeks. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [],
+      "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "group-based music therapy combined with speech therapy",
     "journal": "Research in developmental disabilities",
     "pmid": "42468411",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42468411/",
     "study_type": "Randomized Controlled Trial",
     "title": "Effects of group-based music therapy combined with speech therapy on language and social skills in preschool children with autism spectrum disorder: An exploratory randomized controlled trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42468411-effects-of-group-based-music-therapy-combined-with-speech-therapy-on-lan/",
     "year": 2026
   },
@@ -541,12 +1010,24 @@
     "age_range": "6-12 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "how long the study ran"
+      ],
+      "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+    },
     "intervention": "family",
     "journal": "Frontiers in public health",
     "pmid": "42491294",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42491294/",
     "study_type": "Randomized Controlled Trial",
     "title": "\"My child before and now\": parental perceptions of changes in functioning following participation in the global integration method (Método de Integração Global) in children with autism spectrum disorder.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42491294-my-child-before-and-now-parental-perceptions-of-changes-in-functioning-f/",
     "year": 2026
   },
@@ -554,12 +1035,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"The mixed linkage strategy optimised match quality while limiting bias, confirming the feasibility of linking clinical ASD cohort data to the SNDS and strengthening future research on healthcare use among children with autism. TRIAL REGISTRATION NUMBER: NCT04292522.\"",
+      "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 876 people, which is a large group for autism research and makes the findings steadier."
+    },
     "intervention": "Cohort",
     "journal": "Journal of epidemiology and population health",
     "pmid": "42492413",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42492413/",
     "study_type": "Observational Study",
     "title": "Linking the national health database to the cohort of children with autism spectrum disorders: a mixed approach to optimising the linkage.",
+    "trust_tier": 3,
+    "trust_tier_label": "Observational Study",
     "url": "/studies/PMID42492413-linking-the-national-health-database-to-the-cohort-of-children-with-auti/",
     "year": 2026
   },
@@ -567,12 +1061,25 @@
     "age_range": null,
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"Alpha-training NFB was associated with improvements in caregiver-rated behavioral scores and modulated spectral features of resting-state EEG in children with ASD. These findings validate the utility of spectral parameterization markers in evaluating neuromodulatory interventions.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": null,
+      "not_stated": [
+        "the ages of the people who took part",
+        "how long the study ran"
+      ],
+      "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "Alpha Oscillations",
     "journal": "Behavioural brain research",
     "pmid": "42492845",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42492845/",
     "study_type": "Randomized Controlled Trial",
     "title": "Disentangling oscillatory and aperiodic neural activity in autism: A spectral parameterization analysis of neurofeedback intervention.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42492845-disentangling-oscillatory-and-aperiodic-neural-activity-in-autism-a-spec/",
     "year": 2026
   },
@@ -580,12 +1087,22 @@
     "age_range": "2-5 years",
     "co_occurring_conditions": [],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 12 weeks. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [],
+      "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "two sessions per week over 12 weeks, with 19 receiving the group program and 19 receiving the therapist-delive",
     "journal": "Autism : the international journal of research and practice",
     "pmid": "42494078",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42494078/",
     "study_type": "Randomized Controlled Trial",
     "title": "Feasibility and Preliminary Efficacy of a Caregiver-Assisted Group-Based Naturalistic Developmental Behavioral Intervention Program for Autistic Preschoolers: A Pilot Randomized Controlled Trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42494078-feasibility-and-preliminary-efficacy-of-a-caregiver-assisted-group-based/",
     "year": 2026
   },
@@ -595,12 +1112,24 @@
       "Sleep Initiation and Maintenance Disorders"
     ],
     "diagnosis": "Autism Spectrum Disorder",
+    "easy_explainer": {
+      "conclusion": "The researchers concluded: \"This study provides multiscale evidence for the biological context underlying iTBS-related changes in overlapping network architecture in ASD with chronic insomnia.\"",
+      "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+      "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+      "duration": "The study ran for 8 weeks. That is a short window, so it says nothing about whether the effects last.",
+      "not_stated": [
+        "the ages of the people who took part"
+      ],
+      "size": "It involved 70 people — a modest group, enough to be interesting but not enough to settle a question on its own."
+    },
     "intervention": "real or sham iTBS targeting the left orbitofrontal cortex, administered once daily for 8 weeks",
     "journal": "CNS neuroscience & therapeutics",
     "pmid": "42590803",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42590803/",
     "study_type": "Randomized Controlled Trial",
     "title": "Intermittent Theta Burst Stimulation Improves Sleep in Autism Spectrum Disorder by Reorganizing Overlapping Brain Networks With Neurochemical and Transcriptomic Signatures: A Randomized Controlled Trial.",
+    "trust_tier": 2,
+    "trust_tier_label": "Randomized Controlled Trial",
     "url": "/studies/PMID42590803-intermittent-theta-burst-stimulation-improves-sleep-in-autism-spectrum-d/",
     "year": 2026
   }

@@ -8,6 +8,9 @@ year: 2026
 journal: "Journal of sleep research"
 authors: ["Uchenna Ezedinma", "Scott Burgess", "Janet Greenhill", "Jyoti Singh", "Evan Jones", "Andrew Ladhams", "Gary Campbell", "Shauna Fjaagesund", "Piotr Swierkowski", "Alexandra Metse", "Terri Downer", "Florin Oprescu"]
 study_type: "Observational Study"
+trust_tier: 3
+trust_tier_label: "Observational Study"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved only 20 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."}
 participants: 20
 age_range: "6-12 years"
 age_min: 6

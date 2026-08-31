@@ -8,6 +8,9 @@ year: 2026
 journal: "Journal of pediatric nursing"
 authors: ["Selverhan Yurttutan", "Emine Geçkil"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The researchers concluded: \"The MBSR program was effective in reducing depression, anxiety, and stress among parents of children with ASD. However, overall hopelessness did not change significantly, suggesting that this construct may be less responsive to short-term interventions.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "It involved 96 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
 participants: 96
 age_range: ""
 age_min: ""

@@ -8,6 +8,9 @@ year: 2026
 journal: "Academic pediatrics"
 authors: ["John A Romley", "Bergen B Nelson", "Rebecca N Dudovitz", "Lindsey R Thompson", "Sitaram Vangala", "Amanda Gulsrud", "Abraham Gallegos", "Lorena Porras-Javier", "Patricia Herrera", "Irene Aceves", "Paul J Chung"]
 study_type: "Observational Study"
+trust_tier: 3
+trust_tier_label: "Observational Study"
+easy_explainer: {"conclusion": "The researchers concluded: \"At a telephone-based care coordination program in LA County, the amount and duration of engagement by coordinators for children with autism or developmental delays was substantial. There was a significant relationship between the number of service provider referrals and service receipt, but not for total number of contacts.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
 participants: ""
 age_range: ""
 age_min: ""

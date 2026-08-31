@@ -8,6 +8,9 @@ year: 2026
 journal: "Developmental neurobiology"
 authors: ["Dongling Yin", "Linlin Fan", "Ke Huang", "Cheng Deng", "Shurong Huang", "Qiling Li"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 3-month.", "not_stated": ["the ages of the people who took part"], "size": "It involved 178 people, a reasonably sized group for this kind of research."}
 participants: 178
 age_range: ""
 age_min: ""

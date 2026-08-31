@@ -8,6 +8,9 @@ year: 2026
 journal: "Research in developmental disabilities"
 authors: ["Sungeun Kang", "Karen Burkett", "Shivali Sarawgi", "Jenna Ruberg", "Jamisen Paustian", "Debra L Reisinger", "Lauren M Schmitt", "Rebecca C Shaffer"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 3
+trust_tier_label: "Randomized Controlled Trial (small sample)"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "It involved only 12 people. With a group this small, results can shift a lot by chance, so treat this as an early signal rather than an answer."}
 participants: 12
 age_range: ""
 age_min: ""

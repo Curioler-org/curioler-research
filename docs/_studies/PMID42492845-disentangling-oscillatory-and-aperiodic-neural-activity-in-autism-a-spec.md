@@ -8,6 +8,9 @@ year: 2026
 journal: "Behavioural brain research"
 authors: ["Yuqi Li", "Juanmei Wu", "Nan Liu", "Xiaoli Li", "Tianyi Zhou", "Jiannan Kang"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The researchers concluded: \"Alpha-training NFB was associated with improvements in caregiver-rated behavioral scores and modulated spectral features of resting-state EEG in children with ASD. These findings validate the utility of spectral parameterization markers in evaluating neuromodulatory interventions.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "It involved 40 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
 participants: 40
 age_range: ""
 age_min: ""

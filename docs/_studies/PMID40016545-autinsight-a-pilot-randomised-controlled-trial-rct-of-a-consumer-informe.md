@@ -8,6 +8,9 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Jia Ying Sarah Lee", "Koa Whittingham", "Amy E Mitchell"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 3-month.", "not_stated": ["the ages of the people who took part"], "size": "It involved 41 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
 participants: 41
 age_range: ""
 age_min: ""

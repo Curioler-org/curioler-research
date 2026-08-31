@@ -8,6 +8,9 @@ year: 2026
 journal: "Journal of autism and developmental disorders"
 authors: ["Lesley A Norris", "Jonathan C Rabner", "Marika Marklin", "Margaret E Crane", "Kathrin Renschler", "Emma Jenkins", "Joshua Kemp", "Eric A Storch", "Jeffrey J Wood", "Connor M Kerns", "Adam B Lewin", "Brent J Small", "Philip C Kendall"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved 148 people, a reasonably sized group for this kind of research."}
 participants: 148
 age_range: "7-13 years"
 age_min: 7

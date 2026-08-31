@@ -8,6 +8,9 @@ year: 2026
 journal: "Frontiers in public health"
 authors: ["Reinaldo da Costa Paulino Netto", "Deisiane Oliveira Souto", "Iolanda Costa Rodrigues", "Amanda Aparecida Alves Cunha Nascimento", "Camila de Oliveira Schumann", "Millene Cézar Nunes", "Ana Clara Schaper Fernandes", "Ana Clara de Carvalho Silva", "Patricia Aparecida Neves Santana", "Thalita Karla Flores Cruz"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The researchers concluded: \"Parents reported perceived changes in functioning following participation in MIG and described positive experiences related to the intervention process.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
 participants: ""
 age_range: "6-12 years"
 age_min: 6

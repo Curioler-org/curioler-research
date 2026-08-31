@@ -8,6 +8,9 @@ year: 2026
 journal: "CNS neuroscience & therapeutics"
 authors: ["Huashuang Zhang", "Bincan Xiong", "Hongchi Liu", "Yilin Huang", "Jingwen Zhang", "Ruimin Yu", "Wenqi Jiang", "Tongjia She"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The researchers concluded: \"This study provides multiscale evidence for the biological context underlying iTBS-related changes in overlapping network architecture in ASD with chronic insomnia.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 8 weeks. That is a short window, so it says nothing about whether the effects last.", "not_stated": ["the ages of the people who took part"], "size": "It involved 70 people — a modest group, enough to be interesting but not enough to settle a question on its own."}
 participants: 70
 age_range: ""
 age_min: ""

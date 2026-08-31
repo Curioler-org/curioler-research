@@ -8,6 +8,9 @@ year: 2026
 journal: "Molecular psychiatry"
 authors: ["Hitoshi Kuwabara", "Masaki Kojima", "Seico Benner", "Takeshi Otowa", "Takamitsu Watanabe", "Miho Kuroda", "Keiho Owada", "Walid Yassin", "Junko Hamada", "Yukiko Kano", "Yota Uno", "Itaru Kushima", "Daisuke Mori", "Yuko Arioka", "Toshio Munesue", "Kiyoto Kasai", "Haruhiro Higashida", "Osamu Abe", "Hidemasa Takao", "Tomoyasu Wakuda", "Yosuke Kameno", "Jun Inoue", "Taeko Harada", "Aya Yamauchi", "Nanayo Ogawa", "Nami Honda", "Saya Kikuchi", "Moe Seto", "Hiroaki Tomita", "Noriko Miyoshi", "Megumi Matsumoto", "Yuko Kawaguchi", "Koji Kanai", "Manabu Ikeda", "Itta Nakamura", "Shuichi Isomura", "Yoji Hirano", "Toshiaki Onitsuka", "Nagahide Takahashi", "Mitsuko Nakashima", "Hirotomo Saitsu", "Kenji Kondo", "Masashi Ikeda", "Nakao Iwata", "Mihoko Shimada", "Tsukasa Sasaki", "Nori Takei", "Norio Ozaki", "Hirotaka Kosaka", "Takashi Okada", "Hidenori Yamasue"]
 study_type: "Randomized Controlled Trial"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
 participants: ""
 age_range: ""
 age_min: ""
