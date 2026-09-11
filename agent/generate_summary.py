@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import re
 import json
+import shutil
 import glob
 import subprocess
 from datetime import date
@@ -102,6 +103,12 @@ def build_sources_text(results: list[dict]) -> str:
     return text
 
 
+def claude_cli() -> str:
+    """Resolve the Claude CLI. On Windows the launcher is claude.cmd, which
+    CreateProcess will not find from the bare name."""
+    return os.environ.get("CLAUDE_CLI") or shutil.which("claude") or "claude"
+
+
 def extract_structured_data(query: str, domain: str, sources_text: str) -> dict:
     today = date.today().isoformat()
 
@@ -119,8 +126,11 @@ Sources:
 {sources_text}
 """
 
+    # The prompt carries whole source pages, so it is passed on stdin: Windows
+    # caps a command line at 32k and CreateProcess refuses anything longer.
     result = subprocess.run(
-        ["claude", "-p", full_prompt, "--model", "claude-haiku-4-5-20251001"],
+        [claude_cli(), "-p", "--model", "claude-haiku-4-5-20251001"],
+        input=full_prompt,
         capture_output=True,
         text=True,
         encoding="utf-8",
