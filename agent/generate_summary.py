@@ -109,6 +109,59 @@ def claude_cli() -> str:
     return os.environ.get("CLAUDE_CLI") or shutil.which("claude") or "claude"
 
 
+AUTH_HELP = """The Claude CLI is not authenticated, so the extraction step cannot run.
+
+Fix it once, in an interactive terminal (not through this script):
+
+    claude setup-token          # long-lived token, needs a Claude subscription
+    setx CLAUDE_CODE_OAUTH_TOKEN "<the token it prints>"
+
+or, for a browser sign-in stored in ~/.claude/.credentials.json:
+
+    claude auth login
+
+Either way, open a NEW terminal afterwards and confirm with:
+
+    claude auth status
+
+Being signed in to the Claude desktop app is not enough -- the standalone CLI
+keeps its own credentials, and this script shells out to the CLI.
+"""
+
+
+def preflight() -> None:
+    """Fail fast, with an actionable message, before spending a Tavily search
+    on a run that cannot finish. The CLI reports 'Not logged in' on stdout with
+    a nonzero exit and an empty stderr, which is otherwise a silent failure."""
+    if not os.environ.get("TAVILY_API_KEY"):
+        raise SystemExit(
+            "TAVILY_API_KEY is not set.\n"
+            'Set it for future sessions with: setx TAVILY_API_KEY "<key>"'
+        )
+
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return  # the CLI will use the API key and never touch OAuth
+
+    try:
+        result = subprocess.run(
+            [claude_cli(), "auth", "status"],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            timeout=60,
+        )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        raise SystemExit(f"Could not run the Claude CLI ({exc}).\n\n{AUTH_HELP}")
+
+    try:
+        logged_in = json.loads(result.stdout).get("loggedIn", False)
+    except (ValueError, AttributeError):
+        logged_in = False
+
+    if not logged_in:
+        raise SystemExit(AUTH_HELP)
+
+
 def extract_structured_data(query: str, domain: str, sources_text: str) -> dict:
     today = date.today().isoformat()
 
@@ -137,7 +190,10 @@ Sources:
     )
 
     if result.returncode != 0:
-        raise RuntimeError(f"Claude CLI error:\n{result.stderr}")
+        # The CLI puts 'Not logged in' and most other diagnostics on stdout,
+        # so reporting stderr alone leaves the caller with a blank error.
+        detail = (result.stderr or "").strip() or (result.stdout or "").strip()
+        raise RuntimeError(f"Claude CLI error (exit {result.returncode}):\n{detail}")
 
     raw = result.stdout.strip()
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
@@ -336,6 +392,8 @@ def main():
 
     if not query:
         raise SystemExit("Error: SEARCH_QUERY env var is required")
+
+    preflight()
 
     print(f"Searching: {query}")
     results = search_web(query)
