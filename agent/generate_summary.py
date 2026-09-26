@@ -11,6 +11,7 @@ from datetime import date
 from tavily import TavilyClient
 
 from dedupe import drop_repeats
+from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
 
 
@@ -71,7 +72,14 @@ Return ONLY this JSON (no markdown, no explanation):
   "tags": ["autism", "relevant-tag-2"]
 }
 
-For non-clinical-trial types, set sample_size/demographics/researchers/institutes to null where not applicable.
+Study details are what a caregiver uses to judge the research, so they are
+never cut for length:
+- sample_size and demographics: fill them from whichever source reports
+  participants (how many, what age, autistic or not), whatever the
+  content_type. Use null only when no source states them.
+- researchers and institutes: fill them when a source names them, else null.
+- If several studies are cited, give the main one's figures and mention the
+  others' participants in what_they_found.
 Always populate methodology and key_outcome if possible.
 
 Keep it short. A caregiver reads short_summary first, then the sections, so:
@@ -81,6 +89,9 @@ Keep it short. A caregiver reads short_summary first, then the sections, so:
 - The bullet counts are ranges, not targets. If the sources support two
   distinct points, write two. Never pad to reach a count.
 - One sentence per bullet, at most 25 words.
+- Never write "Source 1", "Source 3" and so on; readers never see those
+  numbers. Name a study by what it is and when, e.g. "a 2022 survey of 385
+  college students" or "a 2022 scoping review of 24 studies".
 - Name the population actually studied. If a source studied adults or
   non-autistic children, say so; never present it as a finding about
   autistic children.
@@ -102,7 +113,7 @@ def search_web(query: str) -> list[dict]:
         max_results=5,
         include_raw_content=True,
     )
-    return response.get("results", [])
+    return fill_thin_pubmed_sources(response.get("results", []))
 
 
 def build_sources_text(results: list[dict]) -> str:

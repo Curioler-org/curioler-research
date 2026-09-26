@@ -11,6 +11,7 @@ from datetime import date
 from tavily import TavilyClient
 
 from dedupe import drop_repeats
+from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
 
 
@@ -92,7 +93,13 @@ Keep it short. A caregiver reads short_summary first, then the sections, so:
   verdict. If a study's weakness is already mentioned, do not repeat it.
 - what_this_means gives practical steps, not the verdict reworded.
 - Counts are ranges, not targets. Never pad to reach a count.
-- Keep each bullet to 1-2 sentences.
+- Keep each bullet to 1-2 sentences, but never cut study details for length:
+  each what_evidence_says bullet about a study states its design and its
+  participants (how many, what age, autistic or not) whenever the source
+  gives them, e.g. "A randomised trial of 152 autistic children aged 2-5...".
+- Never write "Source 1", "Source 3" and so on; readers never see those
+  numbers. Name a study by what it is and when, e.g. "a 2022 survey of 385
+  college students" or "a 2022 scoping review of 24 studies".
 - Name the population actually studied. If a source studied adults or
   non-autistic children, say so; never present it as a finding about
   autistic children.
@@ -114,7 +121,7 @@ def search_web(statement: str) -> list[dict]:
         max_results=5,
         include_raw_content=True,
     )
-    return response.get("results", [])
+    return fill_thin_pubmed_sources(response.get("results", []))
 
 
 def build_sources_text(results: list[dict]) -> str:
