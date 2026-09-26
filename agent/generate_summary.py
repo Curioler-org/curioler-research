@@ -52,15 +52,13 @@ Return ONLY this JSON (no markdown, no explanation):
     "demographics": "e.g. Adults 40–70, 62% female, multi-ethnic — or null",
     "researchers": ["Name 1", "Name 2"],
     "institutes": ["Institute 1", "Institute 2"],
-    "methodology": "1-2 sentences on study design",
-    "key_outcome": "The single most important finding, with statistic if available",
-    "limitations": ["Limitation 1", "Limitation 2", "Limitation 3"]
+    "methodology": "1 sentence: study design, who was studied, and source quality",
+    "key_outcome": "The single most important finding, with statistic if available"
   },
   "sections": {
-    "what_they_found": ["bullet 1", "bullet 2", "bullet 3", "bullet 4", "bullet 5"],
-    "what_this_means": ["implication 1", "implication 2", "implication 3"],
-    "important_caveats": ["caveat 1", "caveat 2", "caveat 3"],
-    "about_the_research": "2-3 sentences on methodology and source quality"
+    "what_they_found": ["2-4 bullets"],
+    "what_this_means": ["2-3 bullets"],
+    "important_caveats": ["2-4 bullets: the study's limitations and the limits of what it can tell a caregiver, together in one list"]
   },
   "sources": [
     {
@@ -73,7 +71,18 @@ Return ONLY this JSON (no markdown, no explanation):
 }
 
 For non-clinical-trial types, set sample_size/demographics/researchers/institutes to null where not applicable.
-Always populate methodology, key_outcome, and limitations if possible.
+Always populate methodology and key_outcome if possible.
+
+Keep it short. A caregiver reads short_summary first, then the sections, so:
+- Say each fact once. key_outcome and short_summary already state the headline
+  finding; what_they_found must add findings beyond it, not restate it.
+- what_this_means gives practical implications, not the findings reworded.
+- The bullet counts are ranges, not targets. If the sources support two
+  distinct points, write two. Never pad to reach a count.
+- One sentence per bullet, at most 25 words.
+- Name the population actually studied. If a source studied adults or
+  non-autistic children, say so; never present it as a finding about
+  autistic children.
 """
 
 
@@ -248,6 +257,33 @@ def find_related_summaries(query: str, current_slug: str, max_related: int = 3) 
     return related[:max_related]
 
 
+STOPWORDS = {
+    "the", "a", "an", "and", "or", "of", "in", "for", "to", "is", "are", "be",
+    "that", "this", "it", "with", "on", "as", "can", "may", "their", "your",
+    "not", "more", "by", "at", "from", "was", "were", "has", "have",
+}
+
+
+def _content_words(text: str) -> set[str]:
+    return set(re.findall(r"[a-z]+", text.lower())) - STOPWORDS
+
+
+def drop_repeats(bullets: list[str], said: list[str], threshold: float = 0.6) -> list[str]:
+    """Keep bullets that add something. A bullet is a repeat when most of its
+    content words already appear in one earlier piece of text. Kept bullets
+    are appended to `said`, so later sections are checked against them too."""
+    kept = []
+    for bullet in bullets:
+        words = _content_words(bullet)
+        if words and any(
+            len(words & _content_words(prior)) / len(words) >= threshold for prior in said
+        ):
+            continue
+        kept.append(bullet)
+        said.append(bullet)
+    return kept
+
+
 def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
     sf = data.get("structured_fields", {})
     sources = data.get("sources", [])
@@ -302,34 +338,21 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
 
     lines.append("")
 
-    # --- Limitations ---
-    if sf.get("limitations"):
-        lines += ["**Limitations:**", ""]
-        for lim in sf["limitations"]:
-            lines.append(f"- {lim}")
-        lines.append("")
-
     # --- Main sections ---
-    if sections.get("what_they_found"):
-        lines += ["## What this research found", ""]
-        for bullet in sections["what_they_found"]:
-            lines.append(f"- {bullet}")
-        lines.append("")
-
-    if sections.get("what_this_means"):
-        lines += ["## What this means for caregivers", ""]
-        for item in sections["what_this_means"]:
-            lines.append(f"- {item}")
-        lines.append("")
-
-    if sections.get("important_caveats"):
-        lines += ["## Important caveats", ""]
-        for caveat in sections["important_caveats"]:
-            lines.append(f"- {caveat}")
-        lines.append("")
-
-    if sections.get("about_the_research"):
-        lines += ["## About this research", "", sections["about_the_research"], ""]
+    # The page header already shows short_summary and At a glance shows the
+    # key outcome, so both seed the "already said" set.
+    said = [data.get("short_summary", ""), sf.get("key_outcome") or ""]
+    # Older extractions kept study limitations apart from caveats; they are one
+    # list now.
+    caveats = (sf.get("limitations") or []) + (sections.get("important_caveats") or [])
+    for heading, bullets in (
+        ("What this research found", sections.get("what_they_found")),
+        ("What this means for caregivers", sections.get("what_this_means")),
+        ("Important caveats", caveats),
+    ):
+        kept = drop_repeats(bullets or [], said)
+        if kept:
+            lines += [f"## {heading}", ""] + [f"- {b}" for b in kept] + [""]
 
     # --- Sources ---
     if sources:
@@ -352,12 +375,8 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
             lines.append(f"- [{r['title']}](/curioler-research/summaries/{url_slug}/) — {r['domain']}")
         lines.append("")
 
-    lines += [
-        "---",
-        "*This summary was prepared by the Curioler research agent. It is not medical advice. Always consult a qualified professional before making decisions about your child's care.*",
-    ]
-
-    return "\n".join(lines)
+    # The disclaimer is not written here: the summary layout's footer carries it.
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def save_summary(content: str, query: str) -> str:
