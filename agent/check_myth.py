@@ -10,6 +10,7 @@ from datetime import date
 
 from tavily import TavilyClient
 
+from dedupe import drop_repeats
 from pipeline_secrets import require_tavily_key
 
 
@@ -55,11 +56,11 @@ EXTRACTION_PROMPT = """Analyse the statement and sources provided. Return a JSON
   "when": "1-2 plain sentences: the situation that makes this relevant right now -- e.g. what a caregiver has just been told, or is deciding.",
   "short_summary": "2-3 sentence plain-language summary of the verdict for the card listing.",
   "sections": {
-    "the_claim": "1-2 sentences restating what people believe and why it persists.",
-    "what_evidence_says": ["finding 1", "finding 2", "finding 3", "finding 4"],
-    "the_verdict_explained": "2-3 paragraphs explaining the verdict in full, honestly acknowledging what we know and don't know.",
-    "what_this_means": ["practical implication 1", "practical implication 2", "practical implication 3"],
-    "important_caveats": ["caveat 1", "caveat 2"]
+    "the_claim": "1-2 sentences on why people believe it and why it persists. The page already shows the statement; do not restate it.",
+    "what_evidence_says": ["2-5 bullets, one per distinct finding or source"],
+    "the_verdict_explained": "1-2 short paragraphs, at most 150 words in total: the reasoning that turns the evidence into this verdict.",
+    "what_this_means": ["2-4 practical bullets"],
+    "important_caveats": ["1-3 bullets"]
   },
   "sources": [
     {
@@ -79,6 +80,22 @@ Domain guide:
 - Adaptive: daily living, self-care, independence
 - Motor: coordination, fine/gross motor
 - General: spans multiple domains or doesn't fit above
+
+Keep it short. A caregiver reads short_summary first, then the sections, so:
+- Say each fact once. Each study is described in what_evidence_says and
+  nowhere else; the_verdict_explained refers to the evidence ("the trials
+  above") instead of describing studies again.
+- the_verdict_explained explains the reasoning: the grain of truth, where the
+  claim goes wrong, what remains unknown. It does not list implications or
+  caveats; those have their own sections.
+- important_caveats covers only limits not already stated in the evidence or
+  verdict. If a study's weakness is already mentioned, do not repeat it.
+- what_this_means gives practical steps, not the verdict reworded.
+- Counts are ranges, not targets. Never pad to reach a count.
+- Keep each bullet to 1-2 sentences.
+- Name the population actually studied. If a source studied adults or
+  non-autistic children, say so; never present it as a finding about
+  autistic children.
 """
 
 
@@ -138,7 +155,9 @@ Sources:
         encoding="utf-8",
     )
     if result.returncode != 0:
-        raise RuntimeError(f"Claude CLI error:\n{result.stderr}")
+        # The CLI puts 'Not logged in' and most other diagnostics on stdout.
+        detail = (result.stderr or "").strip() or (result.stdout or "").strip()
+        raise RuntimeError(f"Claude CLI error (exit {result.returncode}):\n{detail}")
 
     raw = result.stdout.strip()
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
@@ -230,29 +249,29 @@ def render_markdown(data: dict, statement: str, slug: str, today: str) -> str:
         "",
     ]
 
+    # The page header already shows the statement and short_summary, so both
+    # seed the "already said" set the bullet sections are checked against.
+    said = [data.get("statement", statement), data.get("short_summary", "")]
+
     if sections.get("the_claim"):
         lines += ["## The claim", "", sections["the_claim"], ""]
+        said.append(sections["the_claim"])
 
-    if sections.get("what_evidence_says"):
-        lines += ["## What the evidence says", ""]
-        for item in sections["what_evidence_says"]:
-            lines.append(f"- {item}")
-        lines.append("")
+    evidence = drop_repeats(sections.get("what_evidence_says") or [], said)
+    if evidence:
+        lines += ["## What the evidence says", ""] + [f"- {b}" for b in evidence] + [""]
 
     if sections.get("the_verdict_explained"):
         lines += ["## The verdict explained", "", sections["the_verdict_explained"], ""]
+        said += re.split(r"(?<=[.!?])\s+", sections["the_verdict_explained"])
 
-    if sections.get("what_this_means"):
-        lines += ["## What this means for caregivers", ""]
-        for item in sections["what_this_means"]:
-            lines.append(f"- {item}")
-        lines.append("")
-
-    if sections.get("important_caveats"):
-        lines += ["## Important caveats", ""]
-        for item in sections["important_caveats"]:
-            lines.append(f"- {item}")
-        lines.append("")
+    for heading, key in (
+        ("What this means for caregivers", "what_this_means"),
+        ("Important caveats", "important_caveats"),
+    ):
+        kept = drop_repeats(sections.get(key) or [], said)
+        if kept:
+            lines += [f"## {heading}", ""] + [f"- {b}" for b in kept] + [""]
 
     if sources:
         lines += ["## Sources", ""]

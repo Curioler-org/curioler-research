@@ -10,6 +10,7 @@ from datetime import date
 
 from tavily import TavilyClient
 
+from dedupe import drop_repeats
 from pipeline_secrets import require_tavily_key
 
 
@@ -255,33 +256,6 @@ def find_related_summaries(query: str, current_slug: str, max_related: int = 3) 
 
     related.sort(key=lambda x: x["overlap"], reverse=True)
     return related[:max_related]
-
-
-STOPWORDS = {
-    "the", "a", "an", "and", "or", "of", "in", "for", "to", "is", "are", "be",
-    "that", "this", "it", "with", "on", "as", "can", "may", "their", "your",
-    "not", "more", "by", "at", "from", "was", "were", "has", "have",
-}
-
-
-def _content_words(text: str) -> set[str]:
-    return set(re.findall(r"[a-z]+", text.lower())) - STOPWORDS
-
-
-def drop_repeats(bullets: list[str], said: list[str], threshold: float = 0.6) -> list[str]:
-    """Keep bullets that add something. A bullet is a repeat when most of its
-    content words already appear in one earlier piece of text. Kept bullets
-    are appended to `said`, so later sections are checked against them too."""
-    kept = []
-    for bullet in bullets:
-        words = _content_words(bullet)
-        if words and any(
-            len(words & _content_words(prior)) / len(words) >= threshold for prior in said
-        ):
-            continue
-        kept.append(bullet)
-        said.append(bullet)
-    return kept
 
 
 def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
