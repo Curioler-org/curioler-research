@@ -10,6 +10,8 @@ from datetime import date
 
 from tavily import TavilyClient
 
+from pipeline_secrets import require_tavily_key
+
 
 SYSTEM_PROMPT = """You are a research summarisation agent for Curioler, a platform that helps caregivers of autistic children understand research.
 
@@ -114,7 +116,12 @@ AUTH_HELP = """The Claude CLI is not authenticated, so the extraction step canno
 Fix it once, in an interactive terminal (not through this script):
 
     claude setup-token          # long-lived token, needs a Claude subscription
-    setx CLAUDE_CODE_OAUTH_TOKEN "<the token it prints>"
+
+then store the token it prints on Railway, next to the Tavily key, so every
+run picks it up with no setx:
+
+    railway variable set CLAUDE_CODE_OAUTH_TOKEN --stdin --skip-deploys \\
+        -p 57be53e0-bf1b-48cb-b0b3-d15a223e91bf -e production -s curioler-research-secrets
 
 or, for a browser sign-in stored in ~/.claude/.credentials.json:
 
@@ -133,11 +140,7 @@ def preflight() -> None:
     """Fail fast, with an actionable message, before spending a Tavily search
     on a run that cannot finish. The CLI reports 'Not logged in' on stdout with
     a nonzero exit and an empty stderr, which is otherwise a silent failure."""
-    if not os.environ.get("TAVILY_API_KEY"):
-        raise SystemExit(
-            "TAVILY_API_KEY is not set.\n"
-            'Set it for future sessions with: setx TAVILY_API_KEY "<key>"'
-        )
+    require_tavily_key()  # also pulls a stored Claude token from Railway
 
     if os.environ.get("ANTHROPIC_API_KEY"):
         return  # the CLI will use the API key and never touch OAuth

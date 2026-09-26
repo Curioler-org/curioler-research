@@ -69,6 +69,15 @@ The daily GitHub Action uses repository secrets for PubMed and LLM access:
 
 Set `AI_PROVIDER` and `AI_MODEL` as repository variables when a provider or model override is needed.
 
+## Summary and Myth-Check Secrets
+
+`agent/generate_summary.py` and `agent/check_myth.py` read `TAVILY_API_KEY` and,
+for the Claude CLI, `CLAUDE_CODE_OAUTH_TOKEN` or `ANTHROPIC_API_KEY`. Anything
+missing from the environment is fetched from the never-deployed
+`curioler-research-secrets` service in the `brave-flexibility` Railway project,
+through the Railway CLI's login (`railway login` once per machine). See
+`agent/pipeline_secrets.py`. An environment variable always wins over Railway.
+
 ## Data Rules
 
 - Never overwrite raw PubMed XML or abstract files.

@@ -10,6 +10,8 @@ from datetime import date
 
 from tavily import TavilyClient
 
+from pipeline_secrets import require_tavily_key
+
 
 SYSTEM_PROMPT = """You are a myth-checking agent for Curioler, a platform that helps caregivers of autistic children understand research.
 
@@ -293,6 +295,8 @@ def main():
     statement = os.environ.get("MYTH_STATEMENT", "").strip()
     if not statement:
         raise SystemExit("Error: MYTH_STATEMENT env var is required")
+
+    require_tavily_key()  # also pulls a stored Claude token from Railway
 
     print(f"Checking: {statement}")
     results = search_web(statement)
