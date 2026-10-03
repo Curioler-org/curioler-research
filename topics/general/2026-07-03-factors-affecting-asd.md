@@ -33,7 +33,9 @@ related:
 
 ---
 
-## Why there is no single cause
+## What this research found
+
+### Why there is no single cause
 
 Autism spectrum disorder is not caused by one thing. It is a neurodevelopmental condition that emerges from the interaction of many factors — most of which act during prenatal brain development, long before birth.
 
@@ -41,7 +43,7 @@ The clearest way to understand this: genetics loads the gun, and the prenatal en
 
 ---
 
-## 1. Genetics — the dominant factor
+### 1. Genetics — the dominant factor
 
 **What the evidence shows:**
 
@@ -55,7 +57,7 @@ The clearest way to understand this: genetics loads the gun, and the prenatal en
 
 ---
 
-## 2. Parental age
+### 2. Parental age
 
 A consistent finding across multiple meta-analyses: both advanced maternal and paternal age increase autism risk independently.
 
@@ -67,36 +69,36 @@ A consistent finding across multiple meta-analyses: both advanced maternal and p
 
 ---
 
-## 3. Prenatal environmental exposures
+### 3. Prenatal environmental exposures
 
 A comprehensive 2024 review in *BMC Medicine* synthesised evidence across multiple prenatal environmental risk factors. The most consistently supported include:
 
-### Maternal infections during pregnancy
+#### Maternal infections during pregnancy
 Immune activation during pregnancy — particularly from viral infections in the first trimester — is one of the more robust environmental findings. The proposed mechanism involves maternal immune activation disrupting fetal brain development.
 
-### Gestational diabetes and maternal obesity
+#### Gestational diabetes and maternal obesity
 Both are established risk factors with consistent evidence across studies. The mechanism likely involves inflammatory pathways and metabolic disruption during a critical window of fetal brain development.
 
-### Medication exposures
+#### Medication exposures
 - **Valproate** (an anti-epileptic medication): one of the strongest environmental risk factors identified — prenatal exposure is associated with significantly elevated autism risk. Women of childbearing age are advised to discuss alternatives with their doctor
 - **SSRIs (antidepressants)**: association has been studied but the evidence is inconsistent; much of the apparent risk may reflect the underlying maternal depression rather than the medication itself
 
-### Air pollution
+#### Air pollution
 Growing and consistent evidence links prenatal exposure to air pollutants — particularly fine particulate matter (PM2.5) — with elevated autism risk:
 - A 2025 Danish nationwide cohort study found prenatal air pollution exposure was associated with increased ASD risk
 - A 2025 California study found multipollutant risks with sociodemographic influences
 - Meta-analyses suggest PM2.5 exposure during pregnancy is associated with up to 15% increased autism risk
 - The mechanism involves oxidative stress and neuroinflammation during fetal brain development
 
-### Pesticide exposure
+#### Pesticide exposure
 A study of nearly 3,000 children found increased ASD risk associated with prenatal exposure to agricultural pesticides, including chlorpyrifos. Meta-analyses support this association. Risk appears concentrated in areas of high agricultural pesticide use.
 
-### Heavy metals and endocrine disruptors
+#### Heavy metals and endocrine disruptors
 Prenatal exposure to lead, mercury, and endocrine-disrupting chemicals (including bisphenol A / BPA) has been associated with increased neurodevelopmental risk including ASD, though evidence is still accumulating.
 
 ---
 
-## 4. Birth and perinatal factors
+### 4. Birth and perinatal factors
 
 Preterm birth is consistently associated with elevated ASD risk — a 2025 systematic review and meta-analysis of population-based studies confirmed this across multiple countries. The proposed mechanisms include hypoxia (oxygen deprivation), inflammation, and disruption to late-stage brain development that occurs in the third trimester.
 
@@ -107,7 +109,7 @@ Other birth factors with supporting evidence:
 
 ---
 
-## 5. What does NOT cause autism
+### 5. What does NOT cause autism
 
 - **Vaccines.** The original 1998 study claiming a link was retracted, the lead author lost his medical licence for data fraud, and dozens of large-scale studies involving millions of children have found no link. This is settled.
 - **Parenting style.** The discredited "refrigerator mother" theory from the 1950s has no scientific basis whatsoever.
@@ -116,7 +118,7 @@ Other birth factors with supporting evidence:
 
 ---
 
-## The bigger picture
+## What this means for caregivers
 
 Autism is not a disease caused by something that went wrong. In most cases, it reflects a neurodevelopmental profile shaped primarily by genetics, with environmental factors playing a secondary, modulating role — mostly during prenatal development.
 

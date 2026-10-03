@@ -33,7 +33,9 @@ related:
 
 ---
 
-## The myth: sugar causes hyperactivity
+## What this research found
+
+### The myth: sugar causes hyperactivity
 
 This one has been thoroughly tested. Controlled double-blind trials — including meta-analyses — consistently find that sugar does not cause hyperactivity in children, with or without ADHD. The belief persists largely because of expectation bias: parents told their child consumed sugar rated behaviour as more hyperactive, even when the child had consumed a placebo.
 
@@ -41,9 +43,9 @@ This one has been thoroughly tested. Controlled double-blind trials — includin
 
 ---
 
-## What the evidence actually shows
+### What the evidence actually shows
 
-### For autistic children
+#### For autistic children
 
 A 2022 study published in *Frontiers in Nutrition* examined 107 autistic children and 207 typically developing children aged 6–12. Key findings:
 
@@ -55,7 +57,7 @@ A separate 2022 PMC study found that SSB intake was specifically linked to **wor
 
 A 2025 case-control study from Iran found that higher total carbohydrate intake (including added sugars) was associated with greater autism symptom severity in school-aged children, though direction of causality remains unclear — children with more restricted diets may consume more processed, sugary foods as a result of sensory preferences.
 
-### For ADHD
+#### For ADHD
 
 A systematic review and meta-analysis published in *Nutrition Research* (2020, updated in later reviews) found:
 
@@ -68,7 +70,7 @@ Importantly, these are associations — not proof that reducing sugar reduces AD
 
 ---
 
-## The gut-brain axis: the most plausible mechanism
+### The gut-brain axis: the most plausible mechanism
 
 The most compelling explanation for why diet affects neurodevelopmental behaviour is not sugar's direct neurological effects but its impact on the **gut microbiome**.
 

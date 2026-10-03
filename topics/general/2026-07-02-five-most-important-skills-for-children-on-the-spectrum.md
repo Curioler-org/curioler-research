@@ -25,7 +25,7 @@ tags: [autism, skills, communication, social, emotional-regulation, play, adapti
 - Most research focuses on younger children; evidence for adolescents is thinner
 - Skill development is highly individual — priorities differ for every child
 
-## The five skills — and why they matter
+## What this research found
 
 ### 1. Functional communication
 
