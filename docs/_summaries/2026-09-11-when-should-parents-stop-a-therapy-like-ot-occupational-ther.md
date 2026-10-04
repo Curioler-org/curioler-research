@@ -9,7 +9,8 @@ why: "Parents are often unsure whether stopping means giving up, and there is ra
 when: "This is relevant when your child has been in OT for a while and you are wondering how much longer it will go on, when progress seems to have flattened, when a re-evaluation is due, or when cost, time or your child's willingness to attend is becoming a strain."
 search_topic: "When should parents stop a therapy like OT (occupational therapy) - criteria for discontinuing, pausing, or graduating from pediatric therapy"
 summary_date: "2026-09-11"
-short_summary: "Professional guidelines from AOTA, APTA and ASHA, along with hospital discharge policies, converge on three main reasons to end pediatric therapy: goals are met, therapy is no longer producing functional change, or the family decides to conclude care. Guidelines also describe stepping down to less frequent or consultative therapy rather than stopping outright, and treat therapy as something a child may return to at later stages. None of this comes from controlled trials of when to stop."
+short_summary: "The main US groups for occupational, physical and speech therapists agree on three main reasons to end a child's therapy. The goals have been met, therapy is no longer making a real difference to daily life, or the family decides to stop. They also suggest cutting down to fewer sessions rather than stopping all at once, and expect that a child may come back later. These are expert agreements, not studies. No trial has tested when it is best to stop."
+scientific_summary: "Professional guidelines from AOTA, APTA and ASHA, along with hospital discharge policies, converge on three main reasons to end pediatric therapy: goals are met, therapy is no longer producing functional change, or the family decides to conclude care. Guidelines also describe stepping down to less frequent or consultative therapy rather than stopping outright, and treat therapy as something a child may return to at later stages. None of this comes from controlled trials of when to stop."
 status: published
 tags: [autism, occupational-therapy, discharge, therapy-goals, parent-decisions]
 ---
@@ -25,40 +26,51 @@ tags: [autism, occupational-therapy, discharge, therapy-goals, parent-decisions]
 - These are consensus guidelines and clinic policies, not trials - no study here compared children who stopped therapy with children who continued
 - Nothing in these sources tells you how long a particular child should stay in therapy, or what happens to skills after discharge
 - Two of the five sources are individual clinic posts written partly as marketing, so they carry less weight than the association guidelines
-- The guidance is US-centred and shaped by American insurance and school (IDEA) systems, which may not match how services work where you live
+- The guidance is US-centered and shaped by American insurance and school (IDEA) systems, which may not match how services work where you live
 - The sources are about pediatric therapy generally, not specifically about autistic children
 
 ## What this research found
 
-- AOTA's Practice Framework states that discontinuation happens when the client has met short- and long-term goals, or chooses to stop receiving services.
-- APTA lists four discharge criteria: goals achieved, the person is unable to keep progressing toward goals, the person chooses to conclude care, or the therapist judges that further therapy will not help.
-- ASHA adds two further situations: when attendance has been inconsistent and efforts to address that have not worked, and when the family asks to be discharged or to move to a different provider.
-- Guidance for practitioners stresses that the decision should rest on data gathered over time - how many sessions were delivered, which interventions were tried, whether they were followed through at home, and what progress was actually measured - rather than on a hunch.
-- Meeting a goal ends the need for therapy attached to that goal only. If the team sets a new goal, therapy may be needed again, and children with lifelong disabilities are expected to have several separate episodes of care across childhood.
-- Hospital guidelines describe a ladder of frequency - intensive, weekly, block, periodic, consultative - so a child can step down to monthly or as-needed support instead of stopping abruptly.
-- Children's Mercy lists discharge as happening when goals are met, when the family decides skilled services are no longer needed, or when re-evaluation shows therapy is no longer producing functional change.
-- Clinic guidance describes readiness for discharge as the child using the learned skills consistently and independently across home, school and community - not just inside the therapy room.
+- The American Occupational Therapy Association (AOTA), the main US professional body for occupational therapists, says therapy ends when the child has met their short- and long-term goals, or when the client chooses to stop.
+- The American Physical Therapy Association (APTA) lists four reasons to end therapy, a step therapists call discharge. The goals are achieved. The person can no longer keep making progress toward them. The person chooses to end care. Or the therapist judges that more therapy will not help.
+- The American Speech-Language-Hearing Association (ASHA), the body for speech therapists, adds two more. One is when the child has missed sessions often and efforts to fix that have not worked. The other is when the family asks to end therapy or to move to a different therapist or clinic.
+- Guidance for therapists says the decision should rest on records kept over time, not on a hunch. That means how many sessions took place, which approaches were tried, whether they were kept up at home, and what progress was actually measured.
+- Meeting a goal ends the need for therapy for that goal only. If the team sets a new goal, therapy may be needed again. Children with lifelong disabilities are expected to have several separate rounds of therapy across childhood.
+- Hospital guidelines describe a ladder of how often therapy happens: intensive, weekly, in blocks, every so often, and consultative. Consultative means check-ins every few weeks or months, with a program for you to follow at home. So a child can step down to monthly or as-needed support instead of stopping all at once.
+- Children's Mercy, a children's hospital in Kansas City, ends therapy in three cases. The goals are met. The family decides the child no longer needs a trained therapist's help. Or a fresh assessment shows therapy is no longer making a real difference to what the child can do day to day.
+- Clinic guidance says a child is ready to finish when they use the skills they learned steadily and on their own, at home, at school and out in the community. Using them only inside the therapy room is not enough.
 
 ## What this means for caregivers
 
-- You can reasonably ask your therapist: what goal is each session working toward right now, and what would tell us it has been reached? If nobody can answer that clearly, that is worth pursuing.
-- Stopping is explicitly the family's call as well as the clinician's. Guidelines name the client choosing to conclude care as a legitimate reason, so raising it is not going against professional advice.
-- Flat progress over a reasonable stretch is a prompt to review, not automatically to quit. The same guidance lists reasons to keep going: a different intervention has not been tried yet, there has not been enough time, or carryover at home needs to change first.
-- There is a middle option between weekly sessions and nothing. Ask whether periodic or consultative therapy - check-ins every few weeks or months with a home programme - would suit your child now.
-- Ending therapy need not be permanent. Guidelines expect children to come back for new goals at new life stages, such as starting school or moving toward transition.
-- If your child is persistently unwilling to take part, that is treated in the guidelines as clinically relevant information, not as a behaviour problem to push through.
+- You can fairly ask your therapist: what goal is each session working toward right now, and what would tell us it has been reached? If nobody can answer that clearly, keep asking.
+- Stopping is the family's call as well as the therapist's, and the guidelines say so. They name the family choosing to end care as a legitimate reason. So raising it is not going against professional advice.
+- Progress that has stalled for a fair stretch is a reason to review, not automatically to quit. The same guidance lists reasons to keep going: a different approach has not been tried yet, there has not been enough time, or the way skills are practiced at home needs to change first.
+- There is a middle option between weekly sessions and nothing. Ask whether occasional or consultative therapy would suit your child now: check-ins every few weeks or months, with a program to follow at home.
+- Ending therapy does not have to be permanent. Guidelines expect children to come back for new goals at new stages of life, such as starting school or the move from school toward adult life.
+- If your child keeps refusing to take part, the guidelines treat that as useful information for the therapist, not as a behavior problem to push through.
 
 ## Important caveats
 
-- This is professional consensus, not evidence about outcomes. No source here shows what happens to children after they stop, or whether gains are kept.
-- Practitioners warn in both directions: stopping too early risks losing functional gains, and continuing past usefulness uses up your child's time and your money.
-- Guidelines were written for clinicians in US systems. Insurance limits, school eligibility rules and waiting lists where you live may drive decisions more than the guidelines do.
-- None of this is a rule you can apply to your own child alone - it is a framework for the conversation with your child's therapist and team.
-- Autism-specific evidence on stopping OT was not part of these sources.
+- This is what professionals agree on, not evidence about results. No source here shows what happens to children after they stop, or whether their gains last.
+- Therapists warn in both directions. Stopping too early risks losing gains in everyday skills. Carrying on after therapy has stopped helping uses up your child's time and your money.
+- The guidelines were written for therapists working in US systems. Where you live, insurance limits, school rules about who qualifies, and waiting lists may drive decisions more than the guidelines do.
+- None of this is a rule you can apply to your own child on your own. It is a way to frame the conversation with your child's therapist and team.
+- These sources did not include any evidence specific to autism about stopping OT.
 
 ## About this research
 
 This summary draws on practice guidelines from the three main US therapy associations (AOTA, APTA and ASHA), a children's hospital's published therapy frequency and discharge policy, and clinic guidance written for families. Guidelines of this kind represent agreed professional practice rather than experimental evidence, which places them at trust tier 3. No controlled study comparing stopping with continuing therapy appeared among these sources.
+
+**The research in its own terms.** The findings above are written in everyday words. Here are the guidelines' own terms, so you can match them to the sources:
+
+- **AOTA (Occupational Therapy Practice Framework):** discontinuation when the client has met short- and long-term goals, or chooses to stop receiving services.
+- **APTA discharge criteria:** goals achieved; unable to continue progressing toward goals; the person chooses to conclude care; or the therapist judges that further therapy will not help.
+- **ASHA:** inconsistent attendance that efforts to address have not resolved; the family requests discharge or transfer to a different provider.
+- **Decision data:** sessions delivered, interventions tried, home follow-through (carryover), and measured progress.
+- **Episodes of care:** meeting a goal ends therapy for that goal only; children with lifelong disabilities are expected to have several separate episodes of care.
+- **Frequency levels (hospital guidelines):** intensive, weekly, block, periodic, consultative.
+- **Children's Mercy discharge:** goals met; the family decides skilled services are no longer needed; or re-evaluation shows therapy is no longer producing functional change.
+- **Readiness:** consistent, independent use of skills across home, school and community; persistent unwillingness to participate is treated as clinically relevant information.
 
 ## Sources
 

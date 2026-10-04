@@ -6,7 +6,8 @@ trust_tier_label: "Systematic review or meta-analysis"
 domain: "General"
 search_topic: "factors affecting ASD"
 summary_date: "2026-07-03"
-short_summary: "Autism does not have a single cause. It emerges from a complex interaction between genetic predisposition and environmental influences — mostly acting before birth. Genetics is the dominant driver, accounting for roughly half of the risk, but prenatal exposures, parental age, birth complications, and environmental toxins each contribute. None of these factors act in isolation."
+short_summary: "Autism has no single cause. Genes play the biggest part. Some things before birth can raise the chance, such as older parents, certain infections and medicines in pregnancy, air pollution, and being born early, but none of them acts alone. Vaccines, parenting, screens and sugar do not cause autism."
+scientific_summary: "Autism does not have a single cause. It emerges from a complex interaction between genetic predisposition and environmental influences — mostly acting before birth. Genetics is the dominant driver, accounting for roughly half of the risk, but prenatal exposures, parental age, birth complications, and environmental toxins each contribute. None of these factors act in isolation."
 status: published
 tags: [autism, causes, genetics, environment, prenatal, risk-factors, research-overview]
 related:
@@ -28,7 +29,7 @@ related:
 - Most environmental risk studies are observational — they show association, not proof of cause
 - Heritability estimates vary widely across studies (50–90%) depending on methodology
 - Gene–environment interactions are poorly understood — we know both matter but not precisely how they interact
-- Many studies are conducted in specific populations and may not generalise
+- Many studies are conducted in specific populations and may not generalize
 - ASD is heterogeneous — what drives one person's autism may differ from another's
 
 ---
@@ -37,92 +38,109 @@ related:
 
 ### Why there is no single cause
 
-Autism spectrum disorder is not caused by one thing. It is a neurodevelopmental condition that emerges from the interaction of many factors — most of which act during prenatal brain development, long before birth.
+Autism is not caused by one thing. It is a neurodevelopmental condition, meaning a difference in how the brain develops. It comes from many factors working together, and most of them act while the baby's brain is forming in the womb, long before birth.
 
-The clearest way to understand this: genetics loads the gun, and the prenatal environment (sometimes) pulls the trigger. But for many autistic people, genetics alone is sufficient — the environment adds relatively little.
+A simple way to picture it: genes set up the likelihood, and things in the womb sometimes add to it. For many autistic people, genes alone are enough. The environment adds relatively little.
 
 ---
 
-### 1. Genetics — the dominant factor
+### 1. Genes: the biggest factor
 
 **What the evidence shows:**
 
-- Twin studies find concordance rates of 60–90% in identical twins and 0–30% in fraternal twins — the gap tells us genes matter enormously
-- Heritability is estimated at approximately 50–80% across major reviews
-- More than 200 susceptibility genes have been identified and linked to ASD
-- No single gene causes autism — it is polygenic, meaning many genes each contribute a small amount
-- Some cases involve rare, high-impact mutations (de novo variants) that arise spontaneously and are not inherited from parents
+- Studies of twins show how much genes matter. When one identical twin is autistic, the other is too in 60 to 90% of pairs. For non-identical twins, who share fewer genes, it is 0 to 30%. That gap tells us genes matter a great deal.
+- Across the major reviews, genes explain roughly 50 to 80% of the differences in who becomes autistic. Researchers call this share heritability.
+- More than 200 genes have been found that are linked to a higher chance of autism.
+- No single gene causes autism. Many genes each add a small amount.
+- Some children have a rare gene change with a big effect. These changes happen by chance in the child. They are not passed down from the parents.
 
-**What this means for families:** Having one autistic child raises the probability of a second autistic child to approximately 10–20%, compared to roughly 1–2% in the general population. This reflects shared genetic background, not parenting or environment.
-
----
-
-### 2. Parental age
-
-A consistent finding across multiple meta-analyses: both advanced maternal and paternal age increase autism risk independently.
-
-- A 2024 meta-analysis of 41 studies found maternal age above average was associated with 47% increased odds; paternal age with 51% increased odds
-- Each additional 10 years of maternal age was associated with an 18% higher risk; paternal age with 21% higher risk
-- The mechanism is thought to involve accumulation of de novo (spontaneous, non-inherited) genetic mutations in sperm and eggs as parents age — these mutations do not require a family history of autism
-
-**Important note:** These are population-level statistics. The absolute risk for any individual family remains low regardless of parental age.
+**What this means for families:** If you have one autistic child, the chance that a second child is autistic is about 10 to 20%. Across the whole population it is roughly 1 to 2%. This reflects genes the family shares, not parenting or environment.
 
 ---
 
-### 3. Prenatal environmental exposures
+### 2. Parents' age
 
-A comprehensive 2024 review in *BMC Medicine* synthesised evidence across multiple prenatal environmental risk factors. The most consistently supported include:
+Many large reviews that pool studies together agree on this: older mothers and older fathers each, on their own, have a higher chance of having an autistic child.
 
-#### Maternal infections during pregnancy
-Immune activation during pregnancy — particularly from viral infections in the first trimester — is one of the more robust environmental findings. The proposed mechanism involves maternal immune activation disrupting fetal brain development.
+- A 2024 review that pooled 41 studies looked at parents older than average. For mothers, the odds of an autistic child were 47% higher. For fathers, they were 51% higher. (Odds are one way researchers measure how much more likely something is.)
+- Each extra 10 years of a mother's age went with an 18% higher risk. For fathers it was 21%.
+- The likely reason: as parents age, more chance gene changes build up in sperm and eggs. These changes can happen with no family history of autism at all.
 
-#### Gestational diabetes and maternal obesity
-Both are established risk factors with consistent evidence across studies. The mechanism likely involves inflammatory pathways and metabolic disruption during a critical window of fetal brain development.
+**Important note:** These numbers describe large groups of people. For any one family, the actual chance stays low whatever the parents' age.
 
-#### Medication exposures
-- **Valproate** (an anti-epileptic medication): one of the strongest environmental risk factors identified — prenatal exposure is associated with significantly elevated autism risk. Women of childbearing age are advised to discuss alternatives with their doctor
-- **SSRIs (antidepressants)**: association has been studied but the evidence is inconsistent; much of the apparent risk may reflect the underlying maternal depression rather than the medication itself
+---
+
+### 3. Things in the womb
+
+A large 2024 review in *BMC Medicine* brought together the evidence on many risk factors during pregnancy. These have the most consistent support:
+
+#### Infections during pregnancy
+An infection during pregnancy, especially a viral one in the first three months, is one of the more solid findings. The idea is that the mother's immune system, busy fighting the infection, can disrupt how the baby's brain develops.
+
+#### Diabetes in pregnancy and the mother's weight
+Diabetes that starts in pregnancy (gestational diabetes) and obesity in the mother are both established risk factors, with consistent evidence across studies. The likely reason is inflammation and disrupted metabolism, the way the body handles energy, during a key window for the baby's brain.
+
+#### Medicines in pregnancy
+- **Valproate** (a medicine for epilepsy): one of the strongest environmental risk factors found. Taking it in pregnancy is linked to a clearly higher chance of autism. Women who could become pregnant are advised to talk with their doctor about alternatives.
+- **SSRIs** (a common type of antidepressant): the link has been studied, but the results are mixed. Much of the apparent risk may come from the mother's depression itself rather than the medicine.
 
 #### Air pollution
-Growing and consistent evidence links prenatal exposure to air pollutants — particularly fine particulate matter (PM2.5) — with elevated autism risk:
-- A 2025 Danish nationwide cohort study found prenatal air pollution exposure was associated with increased ASD risk
-- A 2025 California study found multipollutant risks with sociodemographic influences
-- Meta-analyses suggest PM2.5 exposure during pregnancy is associated with up to 15% increased autism risk
-- The mechanism involves oxidative stress and neuroinflammation during fetal brain development
+The evidence is growing, and it is consistent. Breathing polluted air in pregnancy, especially the tiniest particles of dust and soot, is linked to a higher chance of autism:
+- A 2025 study that followed children across all of Denmark found that pollution in pregnancy went with a higher chance of autism.
+- A 2025 study in California found risks from several pollutants together, shaped by social and economic factors.
+- Reviews that pool studies suggest these tiny particles in pregnancy are linked to up to 15% higher autism risk.
+- The likely reason is wear on cells and inflammation in the baby's developing brain.
 
-#### Pesticide exposure
-A study of nearly 3,000 children found increased ASD risk associated with prenatal exposure to agricultural pesticides, including chlorpyrifos. Meta-analyses support this association. Risk appears concentrated in areas of high agricultural pesticide use.
+#### Pesticides
+A study of nearly 3,000 children found a higher chance of autism linked to farm pesticides in pregnancy, including one called chlorpyrifos. Reviews that pool studies support this link. The risk seems concentrated in areas where farms use a lot of pesticide.
 
-#### Heavy metals and endocrine disruptors
-Prenatal exposure to lead, mercury, and endocrine-disrupting chemicals (including bisphenol A / BPA) has been associated with increased neurodevelopmental risk including ASD, though evidence is still accumulating.
+#### Heavy metals and hormone-disrupting chemicals
+Some chemicals interfere with the body's hormones, including one called BPA. Exposure in the womb to these, or to lead or mercury, has been linked to a higher chance of differences in brain development, including autism. The evidence is still building.
 
 ---
 
-### 4. Birth and perinatal factors
+### 4. Around birth
 
-Preterm birth is consistently associated with elevated ASD risk — a 2025 systematic review and meta-analysis of population-based studies confirmed this across multiple countries. The proposed mechanisms include hypoxia (oxygen deprivation), inflammation, and disruption to late-stage brain development that occurs in the third trimester.
+Being born early (preterm) is consistently linked to a higher chance of autism. A 2025 review that pooled studies of whole populations confirmed this across several countries. The likely reasons include too little oxygen, inflammation, and disruption to brain growth that normally happens in the last three months of pregnancy.
 
-Other birth factors with supporting evidence:
+Other birth factors with some supporting evidence:
 - Low birth weight
-- Birth complications involving foetal distress
-- Caesarean section (association found in some studies, mechanism unclear, may reflect underlying maternal health factors)
+- Complications at birth where the baby showed signs of distress
+- Cesarean section (some studies find a link; the reason is unclear, and it may reflect the mother's own health)
 
 ---
 
 ### 5. What does NOT cause autism
 
-- **Vaccines.** The original 1998 study claiming a link was retracted, the lead author lost his medical licence for data fraud, and dozens of large-scale studies involving millions of children have found no link. This is settled.
-- **Parenting style.** The discredited "refrigerator mother" theory from the 1950s has no scientific basis whatsoever.
-- **Screen time.** Does not cause autism — autistic children are drawn to screens, not the other way around.
-- **Sugar.** Does not cause or worsen core autism traits, though high sugar intake may worsen co-occurring difficulties.
+- **Vaccines.** The 1998 study that claimed a link was withdrawn by its journal. Its lead author lost his medical license for data fraud. Dozens of large studies involving millions of children have found no link. This is settled.
+- **Parenting style.** The "refrigerator mother" theory from the 1950s blamed cold mothers. It has been thrown out and has no scientific basis whatsoever.
+- **Screen time.** Screens do not cause autism. Autistic children are drawn to screens, not the other way around.
+- **Sugar.** Sugar does not cause autism or make its main traits worse. Those are the differences in social communication and repeated behaviors. A lot of sugar may make other difficulties that often come alongside autism worse.
 
 ---
 
 ## What this means for caregivers
 
-Autism is not a disease caused by something that went wrong. In most cases, it reflects a neurodevelopmental profile shaped primarily by genetics, with environmental factors playing a secondary, modulating role — mostly during prenatal development.
+Autism is not a disease caused by something that went wrong. In most cases it reflects a way of developing that is shaped mainly by genes. The environment plays a smaller part that can nudge things, mostly before birth.
 
-For caregivers: the factors above are population-level risk associations. They do not explain any individual child's autism, and they carry no implication of fault. The vast majority of autistic children were born to parents with no known risk factors at all.
+The factors above are patterns of risk seen across large groups of people. They do not explain any one child's autism, and they carry no suggestion that anyone is at fault. The vast majority of autistic children were born to parents with no known risk factors at all.
+
+---
+
+## About this research
+
+**The research in its own terms.** The findings above are written in everyday words. Here are the terms the papers use, so you can match them:
+
+- **Twins and genes:** twin studies find concordance rates of 60–90% in identical twins and 0–30% in fraternal twins; heritability is estimated at approximately 50–80%; more than 200 susceptibility genes have been identified; autism is polygenic; some cases involve rare, high-impact de novo variants, which arise spontaneously and are not inherited.
+- **Parental age:** a 2024 meta-analysis of 41 studies found advanced maternal age associated with 47% increased odds and paternal age with 51% increased odds; per 10 years, 18% (maternal) and 21% (paternal) higher risk. The proposed mechanism is accumulation of de novo mutations in sperm and eggs. These are population-level statistics; absolute risk for any individual family remains low.
+- **Maternal infection:** maternal immune activation, particularly from viral infection in the first trimester, is the proposed mechanism for disrupted fetal brain development.
+- **Gestational diabetes and maternal obesity:** the mechanism likely involves inflammatory pathways and metabolic disruption.
+- **Medications:** valproate is an anti-epileptic; for SSRIs, much of the apparent risk may reflect underlying maternal depression.
+- **Air pollution:** fine particulate matter (PM2.5); a 2025 Danish nationwide cohort study; a 2025 California study of multipollutant risks with sociodemographic influences; meta-analyses put PM2.5 exposure during pregnancy at up to 15% increased risk; the proposed mechanism is oxidative stress and neuroinflammation.
+- **Heavy metals and endocrine disruptors:** lead, mercury and endocrine-disrupting chemicals, including bisphenol A (BPA), are associated with increased neurodevelopmental risk including ASD.
+- **Birth and perinatal factors:** preterm birth, confirmed in a 2025 systematic review and meta-analysis of population-based studies; proposed mechanisms include hypoxia (oxygen deprivation), inflammation and disruption to third-trimester brain development; also fetal distress and Cesarean section.
+- **What does not cause autism:** the 1998 vaccine study was retracted. High sugar intake may worsen co-occurring difficulties but not core autism traits.
+- **For caregivers:** a neurodevelopmental profile shaped primarily by genetics, with environmental factors playing a secondary, modulating role; the factors above are population-level risk associations.
 
 ---
 
