@@ -155,7 +155,7 @@ Sources:
     # The prompt carries whole source pages, so it is passed on stdin: Windows
     # caps a command line at 32k and CreateProcess refuses anything longer.
     result = subprocess.run(
-        [claude_cli(), "-p", "--model", "claude-haiku-4-5-20251001"],
+        [claude_cli(), "-p", "--model", "claude-sonnet-5-5"],
         input=full_prompt,
         capture_output=True,
         text=True,

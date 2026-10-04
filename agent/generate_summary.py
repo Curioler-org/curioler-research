@@ -15,7 +15,7 @@ from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
 
 
-SYSTEM_PROMPT = """You are a research summarisation agent for Curioler, a platform that helps caregivers of autistic children understand research.
+SYSTEM_PROMPT = """You are a research summarization agent for Curioler, a platform that helps caregivers of autistic children understand research.
 
 Rules:
 - Write in plain, warm language for a parent, not a clinician
@@ -48,7 +48,8 @@ Return ONLY this JSON (no markdown, no explanation):
   "what": "1-2 plain sentences: what this research is actually about -- the concept, finding, or mechanism, not just the topic searched.",
   "why": "1-2 plain sentences: why this matters to a caregiver -- the practical relevance to their child.",
   "when": "1-2 plain sentences: the journey stage, situation, or trigger that makes this relevant to a caregiver right now.",
-  "short_summary": "2-3 sentence plain-language summary for the card on the listing page. What did they study and what did they find?",
+  "short_summary": "2-4 very plain sentences for a parent, shown under the title and on the listing card: what was tested and what it found, in everyday words, with no study jargon, scale names or unexplained terms.",
+  "scientific_summary": "2-3 sentences for a reader who wants the science: the study design, its size, the main result with any statistic, and how strong the evidence is. Scientific terms are fine here.",
   "structured_fields": {
     "sample_size": "e.g. 1,243 participants — or null if not applicable",
     "demographics": "e.g. Adults 40–70, 62% female, multi-ethnic — or null",
@@ -82,13 +83,28 @@ never cut for length:
   others' participants in what_they_found.
 Always populate methodology and key_outcome if possible.
 
-Keep it short. A caregiver reads short_summary first, then the sections, so:
-- Say each fact once. key_outcome and short_summary already state the headline
-  finding; what_they_found must add findings beyond it, not restate it.
+A caregiver reads short_summary first, then the three sections. Those are
+written for a parent, aiming at about a US grade 8 reading level:
+- Keep every finding, number and caveat. Never drop a fact to make the text
+  simpler or shorter; explain it instead.
+- Explain a clinical term in the same sentence or the next one ("a placebo,
+  a dummy pill that looks the same"). If a term only matters to researchers
+  (a rating scale's name, "primary outcome"), describe what it measured in
+  plain words and leave the name to scientific_summary and At a glance.
+- Short sentences. A bullet may have two or three of them when a finding
+  needs its context.
+- American spelling (behavior, randomized, pediatrician), except in the
+  titles of papers.
+- Length follows value: a longer summary is fine when every point is useful
+  to a caregiver. Padding is still padding.
+
+Say each fact once:
+- key_outcome, short_summary and scientific_summary already state the
+  headline finding; what_they_found must add findings beyond it, not
+  restate it.
 - what_this_means gives practical implications, not the findings reworded.
 - The bullet counts are ranges, not targets. If the sources support two
   distinct points, write two. Never pad to reach a count.
-- One sentence per bullet, at most 25 words.
 - Never write "Source 1", "Source 3" and so on; readers never see those
   numbers. Name a study by what it is and when, e.g. "a 2022 survey of 385
   college students" or "a 2022 scoping review of 24 studies".
@@ -206,7 +222,7 @@ Sources:
     # The prompt carries whole source pages, so it is passed on stdin: Windows
     # caps a command line at 32k and CreateProcess refuses anything longer.
     result = subprocess.run(
-        [claude_cli(), "-p", "--model", "claude-haiku-4-5-20251001"],
+        [claude_cli(), "-p", "--model", "claude-sonnet-5-5"],
         input=full_prompt,
         capture_output=True,
         text=True,
@@ -277,6 +293,7 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
 
     # --- Frontmatter ---
     short_summary_escaped = data.get("short_summary", "").replace('"', '\\"')
+    scientific_summary_escaped = data.get("scientific_summary", "").replace('"', '\\"')
     what_escaped = data.get("what", "").replace('"', '\\"')
     why_escaped = data.get("why", "").replace('"', '\\"')
     when_escaped = data.get("when", "").replace('"', '\\"')
@@ -296,6 +313,8 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
         f'search_topic: "{query}"',
         f'summary_date: "{today}"',
         f'short_summary: "{short_summary_escaped}"',
+        # The abstract that opens "The science behind it" (platform PDR-0037).
+        f'scientific_summary: "{scientific_summary_escaped}"',
         "status: published",
         f'tags: [{", ".join(data.get("tags", ["autism"]))}]',
         "---",
@@ -324,9 +343,14 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
     lines.append("")
 
     # --- Main sections ---
-    # The page header already shows short_summary and At a glance shows the
-    # key outcome, so both seed the "already said" set.
-    said = [data.get("short_summary", ""), sf.get("key_outcome") or ""]
+    # The page shows short_summary under the title, scientific_summary at the
+    # top of the science part and the key outcome in At a glance, so all
+    # three seed the "already said" set.
+    said = [
+        data.get("short_summary", ""),
+        data.get("scientific_summary", ""),
+        sf.get("key_outcome") or "",
+    ]
     # Older extractions kept study limitations apart from caveats; they are one
     # list now.
     caveats = (sf.get("limitations") or []) + (sections.get("important_caveats") or [])
