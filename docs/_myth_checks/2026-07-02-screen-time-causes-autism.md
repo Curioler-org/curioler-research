@@ -7,6 +7,7 @@ domain: "General"
 check_date: "2026-07-02"
 trust_tier: 1
 short_summary: "Screen time does not cause autism. Autism originates in genetics and prenatal brain development — long before any child picks up a tablet. What studies actually show is a correlation that runs the other way: autistic children are drawn to screens more, which inflates the apparent link. The belief persists because the association is real, but the direction of cause and effect has been misread."
+card_summary: "Autism starts in genes and early brain development; autistic children are simply more drawn to screens, which makes the link look the wrong way round."
 status: published
 tags: [autism, screen-time, causes, myths, genetics]
 ---

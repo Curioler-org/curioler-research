@@ -10,6 +10,7 @@ when: "This is relevant when constant movement, restlessness or impulsivity is g
 search_topic: "managing hyperactivity in autistic children"
 summary_date: "2026-09-18"
 short_summary: "Across many trials, two medicines also used for ADHD, methylphenidate and atomoxetine, eased overactivity and trouble paying attention in autistic children. Regular exercise helped behavior, parent coaching helped with difficult behavior at home, and melatonin helped sleep, which often feeds daytime restlessness. Omega-3 supplements and sensory therapies had much weaker support. Most of the studies were small and short, so the evidence is rated low quality."
+card_summary: "Two ADHD medicines eased overactivity in autistic children, exercise and parent coaching helped too, and omega-3 had much weaker support."
 scientific_summary: "A meta-analysis of 25 randomized trials found methylphenidate and atomoxetine reduce hyperactivity and inattention in autistic children, with small-to-moderate effects. On the therapy side, a meta-analysis of 23 exercise trials found a moderate reduction in behavioral problems, parent training beat parent education for disruptive behavior at home over 24 weeks, and melatonin reliably improves sleep, which often drives daytime restlessness. Omega-3 and sensory integration have much weaker support, and evidence quality across the board is rated low."
 status: published
 tags: [autism, hyperactivity, adhd, behaviour, medication, parent-training, exercise, sleep]

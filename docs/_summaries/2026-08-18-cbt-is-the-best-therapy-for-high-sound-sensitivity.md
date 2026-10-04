@@ -7,6 +7,7 @@ domain: "Sensory"
 search_topic: "CBT is the best therapy for high sound sensitivity"
 summary_date: "2026-08-18"
 short_summary: "CBT is a therapy that changes how a person thinks about and responds to something hard. For sound sensitivity, it is the only approach tested in a proper trial, and it worked, but that trial was in adults. No trial has tested it in autistic children, and none has compared it with other options. For many children, simpler steps like a hearing check and a quieter setting come first."
+card_summary: "CBT is the only treatment for sound sensitivity tested in a proper trial, but that trial was in adults, not autistic children."
 scientific_summary: "CBT does have the strongest evidence of anything offered for sound sensitivity — it is the only approach that has been through a proper trial, and it worked. But 'best' claims more than the research can back. No trial has ever tested it in autistic children, nothing has compared it head-to-head with the alternatives, and for many children the things that help first are not therapy at all."
 status: published
 tags: [autism, sensory, cbt, hyperacusis, sound-sensitivity, misophonia, therapy]

@@ -10,6 +10,7 @@ when: "Relevant when bedtime has become a battle, when a child takes hours to fa
 search_topic: "the connection between sleep and ASD"
 summary_date: "2026-08-29"
 short_summary: "Between 40% and 80% of autistic children have serious trouble sleeping, several times the rate in other children. Part of the reason is in the body: the body clock, and melatonin, the hormone that signals night, often work differently. The good news is that sleep problems are one of the more treatable parts of autism. Doctors' guidelines agree on the order: fix the bedtime routine and the bedroom first, and add melatonin only if that is not enough."
+card_summary: "Many autistic children sleep badly; a better bedtime routine comes first, with melatonin added only if that is not enough."
 scientific_summary: "Somewhere between 40% and 80% of autistic children have significant sleep problems — several times the rate in other children — and part of the reason is biological, not behavioral: the body clock and melatonin signal often work differently. The good news is that this is one of the more treatable things in autism. Guidelines agree on the order: fix the routine and the bedroom first, and add melatonin only if that is not enough."
 status: published
 tags: [autism, sleep, insomnia, melatonin, behaviour, co-occurring]

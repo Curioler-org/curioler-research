@@ -10,6 +10,7 @@ what: "This is the idea that therapy works better when caregivers stay outside, 
 why: "Caregiver involvement is one of the best-evidenced parts of early autism support, and it is also how you know what is being done with your child, so a rule that keeps you out permanently costs you both learning and oversight."
 when: "This matters when a clinic tells you at intake that parents wait outside, or when you are choosing between a centre that invites you in and one that does not."
 short_summary: "There are real, narrow reasons a therapist may ask you to step out of a particular session, usually while a child learns to work with a new person. But as a standing rule it is misleading: caregiver coaching and involvement are core to both OT and ABA, are backed by randomised trials and Cochrane review evidence, and are written into professional ethics codes. A service that never lets you in is not following best practice."
+card_summary: "A therapist may sometimes ask you to step out, but involving parents is a core part of good OT and ABA."
 status: published
 tags: [autism, aba, occupational-therapy, parent-involvement, caregiver-coaching]
 ---

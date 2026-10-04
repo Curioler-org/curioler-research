@@ -7,6 +7,7 @@ domain: "Sensory"
 search_topic: "Sensory Overload: Causes, Signs, and Management"
 summary_date: "2026-06-30"
 short_summary: "Sensory overload is when the brain takes in more sights, sounds and feelings than it can handle. Most autistic children have it, and it is now part of how autism is defined. Reviews of the research find that one kind of therapy, called sensory integration therapy, can help. Knowing your child's own triggers and changing their surroundings help too, though the proof for single tools is weaker."
+card_summary: "Sensory overload is when the brain takes in more than it can handle, and therapy, a calmer setting and knowing your child's triggers can help."
 scientific_summary: "Sensory overload — when the brain receives more input than it can process — affects the majority of autistic children and is now recognized as a core feature of autism. Multiple systematic reviews confirm that sensory integration therapy can help, though evidence for specific techniques varies, and the most effective approach combines environmental adjustments with knowing your child's individual sensory profile."
 status: published
 tags: [autism, sensory, meltdown, shutdown, sensory-processing, intervention]

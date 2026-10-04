@@ -7,6 +7,7 @@ domain: "Sensory"
 search_topic: "how to treat high sound sensitivity in an autistic 11-year-old"
 summary_date: "2026-08-18"
 short_summary: "Many autistic children find everyday sounds hard to bear, and it often gets worse in the school years. Nothing makes it go away. The listening programs sold to parents, where a child hears altered music through headphones, have not been shown to work. What helps is a hearing check, ear defenders saved for loud moments, a quieter setting, and slow practice the child controls, though most of that advice rests on small studies and clinical experience."
+card_summary: "Nothing makes sound sensitivity go away, but a hearing check, ear defenders for loud moments and slow, child-led practice can help."
 scientific_summary: "Somewhere between half and three-quarters of autistic people find everyday sounds harder to bear than most, and it often gets worse around the school years. There is no cure, but the research is clear about two things: the expensive listening programs sold to parents do not work, and what does help is a mix of a hearing check, ear defenders used for specific noisy moments rather than all day, changes to the environment, and slow, gentle practice at the child's own pace."
 status: published
 tags: [autism, sensory, hyperacusis, sound-sensitivity, misophonia, noise, intervention]

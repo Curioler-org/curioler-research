@@ -10,6 +10,7 @@ what: "This claim says caregivers should completely avoid the word \"no\" with a
 why: "Caregivers need to know how to set limits and communicate boundaries in ways that actually help a child with ASD, rather than avoiding an ordinary word they'll hear everywhere in life."
 when: "This comes up when a caregiver has seen gentle-parenting or social-media advice saying to \"never say no,\" often right when they're trying to set a safety limit or routine."
 short_summary: "There's no evidence the word \"no\" itself harms autistic children, and behavioral-therapy guidance actually recommends teaching kids to tolerate hearing it, since refusal is unavoidable in daily life. The real evidence-based practice is using clear, positive, directive phrasing (\"walk please\" instead of \"don't run\"), because negated instructions can be harder to process -- a narrower point than banning the word outright."
+card_summary: "Hearing \"no\" does not harm autistic children, but clear, positive instructions like \"walk, please\" are easier to follow than \"don't run\"."
 status: published
 tags: [autism, aba, communication, behavior-support]
 ---

@@ -7,6 +7,7 @@ domain: "General"
 search_topic: "5 most important skills for kids on spectrum"
 summary_date: "2026-07-02"
 short_summary: "This summary gathers research on five kinds of skills that make a big difference for autistic children: communicating, getting along with others, handling big feelings, playing, and everyday self-care. Support in these areas helps, most of all when it starts early and when parents take an active part. No study ranks the five against each other, and the right focus is different for every child."
+card_summary: "Communicating, getting along, handling feelings, play and self-care matter most for autistic children, and support works best when it starts early."
 scientific_summary: "Research consistently identifies five skill areas that have the greatest downstream impact for autistic children: communication, social skills, emotional regulation, play, and daily living independence. Evidence from multiple meta-analyses shows that early, targeted support in these areas — especially when caregivers are actively involved — leads to meaningful improvements across the board."
 status: published
 tags: [autism, skills, communication, social, emotional-regulation, play, adaptive, intervention]

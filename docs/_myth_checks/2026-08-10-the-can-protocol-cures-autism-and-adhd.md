@@ -7,6 +7,7 @@ domain: "General"
 check_date: "2026-08-10"
 trust_tier: 3
 short_summary: "The C.A.N. (Cure Autism Now) Protocol is a paid kit and clinic program marketed by a self-titled 'Dr.' with no formal medical qualifications, who has already been formally found to have made false health claims once before. There is no independent or peer-reviewed evidence it cures autism or ADHD, and mainstream science holds that autism has no cure."
+card_summary: "There is no independent evidence the C.A.N. Protocol cures autism or ADHD, and its promoter has been found to make false health claims before."
 status: published
 tags: [autism, adhd, pseudoscience, alternative-medicine, myth]
 ---

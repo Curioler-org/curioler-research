@@ -7,6 +7,7 @@ domain: "General"
 check_date: "2026-08-13"
 trust_tier: 1
 short_summary: "There is no reliable scientific evidence that homeopathy is effective for autism, or for any health condition. The single clinical trial that specifically tested homeopathy in autism found no benefit and was rated poor quality by reviewers."
+card_summary: "The one trial of homeopathy for autism found no benefit, and there is no reliable evidence that it works."
 status: published
 tags: [autism, homeopathy, alternative-medicine, pseudoscience, myth]
 ---

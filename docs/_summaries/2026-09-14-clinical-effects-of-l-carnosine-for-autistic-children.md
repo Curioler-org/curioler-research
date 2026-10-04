@@ -10,6 +10,7 @@ when: "This is relevant when you are weighing a supplement a clinic, a relative 
 search_topic: "Clinical effects of L-carnosine for autistic children"
 summary_date: "2026-09-14"
 short_summary: "L-carnosine is a supplement sold to parents as a natural way to ease autism. The careful trials so far found it does not change autism itself. A few saw a small gain in one area, such as sleep or overactive behavior, but no second trial has found the same gain. A 2025 review of the trials found no solid proof that it helps."
+card_summary: "Careful trials found L-carnosine does not change autism, and no small gain it showed has held up in a second trial."
 scientific_summary: "A 2025 systematic review of 20 antioxidant trials in autism found the L-carnosine studies contradictory and at high risk of bias, with no solid evidence of clinical benefit. The individual randomized trials mostly missed their main targets: no change in autism severity or irritability, with scattered improvements in single areas such as sleep quality or hyperactivity that no second trial has confirmed."
 status: published
 tags: [autism, l-carnosine, supplements, antioxidants, complementary-therapy, sleep]

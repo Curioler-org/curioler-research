@@ -56,6 +56,7 @@ EXTRACTION_PROMPT = """Analyse the statement and sources provided. Return a JSON
   "why": "1-2 plain sentences: why a caregiver would care whether this is true before acting on it.",
   "when": "1-2 plain sentences: the situation that makes this relevant right now -- e.g. what a caregiver has just been told, or is deciding.",
   "short_summary": "2-3 sentence plain-language summary of the verdict for the card listing.",
+  "card_summary": "ONE complete plain sentence, at most 25 words, shown in full on the article's card: what is actually true about the claim (the verdict badge is shown beside it, so do not restate the verdict). Everyday words, no jargon, American spelling.",
   "sections": {
     "the_claim": "1-2 sentences on why people believe it and why it persists. The page already shows the statement; do not restate it.",
     "what_evidence_says": ["2-5 bullets, one per distinct finding or source"],
@@ -226,6 +227,7 @@ def render_markdown(data: dict, statement: str, slug: str, today: str) -> str:
     related = find_related(statement, f"{today}-{slug}")
 
     short_summary_escaped = data.get("short_summary", "").replace('"', '\\"')
+    card_summary_escaped = data.get("card_summary", "").replace('"', '\\"')
     statement_escaped = data.get("statement", statement).replace('"', '\\"')
     what_escaped = data.get("what", "").replace('"', '\\"')
     why_escaped = data.get("why", "").replace('"', '\\"')
@@ -250,6 +252,7 @@ def render_markdown(data: dict, statement: str, slug: str, today: str) -> str:
         f'why: "{why_escaped}"',
         f'when: "{when_escaped}"',
         f'short_summary: "{short_summary_escaped}"',
+        f'card_summary: "{card_summary_escaped}"',
         "status: published",
         f'tags: [{", ".join(data.get("tags", ["autism"]))}]',
         "---",

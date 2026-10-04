@@ -8,6 +8,7 @@ domain: "Communication"
 search_topic: "echolalia autism research"
 summary_date: "2026-06-29"
 short_summary: "Echolalia means repeating words or phrases a child has heard. In a study of 2,555 autistic children and teens, parents said about 9 in 10 had done it at some point. Research suggests it is often a way of trying to communicate. It can also be calming or enjoyable for the child."
+card_summary: "Repeating words and phrases is very common in autistic children, and it is often a real attempt to communicate."
 scientific_summary: "McAllister et al. (2025) analyzed parent, teacher and clinician reports for 2,555 autistic children aged 4-17 in the Simons Simplex Collection: around 90% showed echolalia at some point in development, and its use was associated with language level. Reported prevalence across studies ranges from 25% to 91% depending on definition and measurement, and echolalia appears to serve both communicative and regulating functions."
 status: published
 tags: [autism]

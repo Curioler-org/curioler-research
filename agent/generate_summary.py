@@ -49,6 +49,7 @@ Return ONLY this JSON (no markdown, no explanation):
   "why": "1-2 plain sentences: why this matters to a caregiver -- the practical relevance to their child.",
   "when": "1-2 plain sentences: the journey stage, situation, or trigger that makes this relevant to a caregiver right now.",
   "short_summary": "2-4 very plain sentences for a parent, shown under the title and on the listing card: what was tested and what it found, in everyday words, with no study jargon, scale names or unexplained terms.",
+  "card_summary": "ONE complete plain sentence, at most 25 words, shown in full on the article's card: what the research found, not just what it is about. Everyday words, no jargon, American spelling.",
   "scientific_summary": "2-3 sentences for a reader who wants the science: the study design, its size, the main result with any statistic, and how strong the evidence is. Scientific terms are fine here.",
   "structured_fields": {
     "sample_size": "e.g. 1,243 participants — or null if not applicable",
@@ -294,6 +295,7 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
     # --- Frontmatter ---
     short_summary_escaped = data.get("short_summary", "").replace('"', '\\"')
     scientific_summary_escaped = data.get("scientific_summary", "").replace('"', '\\"')
+    card_summary_escaped = data.get("card_summary", "").replace('"', '\\"')
     what_escaped = data.get("what", "").replace('"', '\\"')
     why_escaped = data.get("why", "").replace('"', '\\"')
     when_escaped = data.get("when", "").replace('"', '\\"')
@@ -313,6 +315,9 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
         f'search_topic: "{query}"',
         f'summary_date: "{today}"',
         f'short_summary: "{short_summary_escaped}"',
+        # One sentence for the list cards and the Today tile (platform
+        # PDR-0034 addendum 2026-10-04).
+        f'card_summary: "{card_summary_escaped}"',
         # The abstract that opens "The science behind it" (platform PDR-0037).
         f'scientific_summary: "{scientific_summary_escaped}"',
         "status: published",

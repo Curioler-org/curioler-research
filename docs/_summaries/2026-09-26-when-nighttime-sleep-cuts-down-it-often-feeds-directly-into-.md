@@ -10,6 +10,7 @@ when: "Pay attention to this pattern if your child has nights with disrupted or 
 search_topic: "When nighttime sleep cuts down, it often feeds directly into daytime restlessness and sensory seeking"
 summary_date: "2026-09-27"
 short_summary: "A review of 24 studies found that sleep problems and a strong need for movement, touch and pressure often go together in autistic children. A separate study of 385 college students found that short or irregular sleep went with more thrill-seeking. So a restless, always-moving day may partly reflect a poor night. The studies show the two go together, not that one causes the other."
+card_summary: "Poor sleep and a strong need for movement and touch often go together in autistic children, though the studies cannot show which causes which."
 scientific_summary: "A systematic review of 24 studies found that sleep problems and sensory seeking frequently co-occur in autistic children. Separately, research on 385 college students showed that sleep deprivation and irregular sleep schedules predicted increased sensation-seeking behaviors. This suggests poor sleep doesn't just cause tiredness—it actively drives the body to seek more sensory input during the day."
 status: published
 tags: [autism, sensory-processing, sleep, restlessness, sensory-seeking, daytime-behavior, nervous-system-regulation]

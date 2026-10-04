@@ -8,6 +8,7 @@ domain: "Social"
 search_topic: "Social Communication and Interaction in Autism"
 summary_date: "2026-06-29"
 short_summary: "Autistic children communicate in their own ways, and these differ a lot from child to child. Trouble often comes from a mismatch between autistic and non-autistic people, not from a missing skill. Noise, light and crowds can make social moments much harder. This summary rests mostly on expert guidance rather than trials."
+card_summary: "Autistic children communicate in their own ways, and social trouble often comes from a mismatch between people, not a missing skill."
 scientific_summary: "Drawing on expert guidance and clinical consensus from five organizations, including the UK National Autistic Society, this summary describes autistic social communication as different rather than deficient (the double empathy problem), highly variable, and strongly affected by sensory processing differences, reported in around 94% of autistic adults. Lerner's research suggests flexible social thinking and emotional self-awareness may predict social outcomes more than social knowledge; therapies focused on masking, including forced eye contact, are associated with poorer mental health outcomes."
 status: published
 tags: [autism]

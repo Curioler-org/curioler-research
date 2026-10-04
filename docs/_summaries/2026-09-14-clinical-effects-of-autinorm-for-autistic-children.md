@@ -10,6 +10,7 @@ when: "This matters when you have seen Autinorm recommended in a parent group, a
 search_topic: "Clinical effects of Autinorm for autistic children"
 summary_date: "2026-09-14"
 short_summary: "No one has ever tested Autinorm in autistic children. The research its marketing points to was on leucovorin, a prescription form of folate, which is a B vitamin. Autinorm contains a different form, methylfolate, at a far smaller dose than those studies used. And groups of children's doctors say even leucovorin is not standard care for autism."
+card_summary: "Autinorm has never been tested in autistic children; its marketing points to research on a different form of folate at a far higher dose."
 scientific_summary: "There are no published clinical trials of Autinorm in autistic children — none. The evidence its marketing gestures at belongs to leucovorin (folinic acid), a prescription medicine, and a major review states plainly that folinic acid is the only form of folate used to treat cerebral folate deficiency apart from a single case report. Autinorm contains methylfolate instead, at a dose far below what those studies used, and pediatric bodies say even leucovorin is not standard care for autism."
 status: published
 tags: [autism, autinorm, folate, leucovorin, supplements, claim-check]

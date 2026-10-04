@@ -10,6 +10,7 @@ what: "The claim that ages 3 to 5 are when children develop fastest — the peak
 why: "If a parent believes the fastest development starts at 3, worries before then look like something to wait out. In practice the biggest brain growth has already happened by then, and waiting costs time that cannot be recovered."
 when: "Relevant when someone advises you to 'wait and see' with a child under 3, or when a preschool or therapy centre presents ages 3 to 5 as the make-or-break window."
 short_summary: "It depends entirely on what you mean by development. If you mean the brain growing, the answer is clearly earlier — the brain doubles in size in the first year and reaches about 80% of adult size by age 3. If you mean skills like reasoning, self-control and complex language, then 3 to 5 genuinely is a boom period. The dangerous version of this belief is the one that says there is no rush before 3."
+card_summary: "The brain grows fastest before age 3, while skills like reasoning and self-control grow fastest between 3 and 5."
 status: published
 tags: [autism, development, early-intervention, brain-development, milestones]
 ---

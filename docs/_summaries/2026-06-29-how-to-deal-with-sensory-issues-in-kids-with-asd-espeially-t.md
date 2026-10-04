@@ -8,6 +8,7 @@ domain: "Sensory"
 search_topic: "how to deal with sensory issues in kids with ASD especially the humming"
 summary_date: "2026-06-29"
 short_summary: "Most autistic children take in sights, sounds and textures differently. Humming is often a way to calm down or block out too much. A 2023 review calls humming a coping tool, and says stopping it suddenly can make a child more upset. Therapy, quieter spaces and simple sensory tools can help. The review did not look at all the research in a planned way, so take its findings with some caution."
+card_summary: "Humming often helps an autistic child calm down or block out too much, and stopping it suddenly can upset them more."
 scientific_summary: "A 2023 narrative review in Cureus, drawing on PubMed and the Cochrane Library for literature from 1999 to 2023, reports sensory processing differences in 53% to 95% of autistic children, linked to altered brain connectivity and sensory gating dysfunction. Vocal stimming such as humming serves self-regulation, and abrupt suppression may increase distress. Sensory Integration Therapy, ABA, environmental modifications and sensory tools have shown benefit, though the narrative design limits certainty."
 status: published
 tags: [autism]

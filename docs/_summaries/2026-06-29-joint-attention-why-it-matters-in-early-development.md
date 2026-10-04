@@ -7,6 +7,7 @@ domain: "Social"
 search_topic: "Joint Attention: Why It Matters in Early Development"
 summary_date: "2026-06-29"
 short_summary: "Joint attention is when a child shares focus on the same thing with another person, like both of you looking at a dog the child has pointed to. It usually starts between 9 and 12 months, and it is one of the earliest and most reliable signs of how language and social skills will grow. Delays in it are among the first signs of autism that can be seen. Reviews that pooled many studies found that focused support can really improve it in young autistic children."
+card_summary: "Sharing focus with another person is an early building block for language, and focused support can help autistic children get better at it."
 scientific_summary: "Joint attention — the ability to share focus on the same object with another person — typically emerges between 9 and 12 months and is one of the earliest and most reliable markers of later language and social development. Multiple meta-analyses confirm that delays in joint attention are among the first detectable signs of autism, and that targeted interventions can meaningfully improve these skills in autistic preschoolers."
 status: published
 tags: [autism, communication, early-development, joint-attention, intervention]

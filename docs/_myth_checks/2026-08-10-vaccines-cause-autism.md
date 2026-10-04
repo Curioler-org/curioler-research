@@ -7,6 +7,7 @@ domain: "General"
 check_date: "2026-08-10"
 trust_tier: 1
 short_summary: "This is one of the most thoroughly studied questions in medicine, and the evidence is clear: vaccines do not cause autism. The original 1998 study that started the scare was retracted for fraud, and dozens of studies covering well over a million children have found no link."
+card_summary: "Dozens of studies covering well over a million children have found no link between vaccines and autism."
 status: published
 tags: [autism, vaccines, MMR, thimerosal, myth]
 ---

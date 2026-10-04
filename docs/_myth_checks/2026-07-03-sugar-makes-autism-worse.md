@@ -7,6 +7,7 @@ domain: "General"
 check_date: "2026-07-03"
 trust_tier: 2
 short_summary: "Sugar does not worsen core autism traits — social communication, sensory processing, and repetitive behaviours are not diet-driven. But the statement isn't entirely wrong either. High sugar intake, especially from sweetened drinks, is consistently associated with worse emotional regulation and executive function in autistic children. The problem is the word 'autism' — it bundles together core traits and co-occurring difficulties that respond very differently to diet."
+card_summary: "Sugar does not change autism itself, but lots of sugary drinks go with a harder time managing big feelings."
 status: published
 tags: [autism, sugar, diet, behaviour, nutrition, myths, emotional-regulation]
 related:

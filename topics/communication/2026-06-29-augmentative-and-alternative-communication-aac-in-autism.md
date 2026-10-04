@@ -8,6 +8,7 @@ domain: "Communication"
 search_topic: "Augmentative and Alternative Communication (AAC) in Autism"
 summary_date: "2026-06-29"
 short_summary: "AAC means ways to communicate that add to speech or stand in for it, such as signs, picture boards and devices that speak. A review that brought together 17 earlier research reviews found it helps autistic children communicate. It does not stop them learning to talk. There is no single best system: the right one depends on the child."
+card_summary: "Picture boards, signs and talking devices help autistic children communicate, and using them does not stop a child learning to talk."
 scientific_summary: "A 2016 systematic review of 17 systematic reviews of AAC intervention research for autistic children up to age 21 rated AAC interventions effective to highly effective, particularly for teaching requesting. AAC does not hinder spoken language development, and growing evidence suggests it may support it; PECS has the strongest research base among specific methods."
 status: published
 tags: [autism]

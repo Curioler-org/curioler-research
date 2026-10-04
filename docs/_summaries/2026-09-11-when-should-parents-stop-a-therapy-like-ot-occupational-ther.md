@@ -10,6 +10,7 @@ when: "This is relevant when your child has been in OT for a while and you are w
 search_topic: "When should parents stop a therapy like OT (occupational therapy) - criteria for discontinuing, pausing, or graduating from pediatric therapy"
 summary_date: "2026-09-11"
 short_summary: "The main US groups for occupational, physical and speech therapists agree on three main reasons to end a child's therapy. The goals have been met, therapy is no longer making a real difference to daily life, or the family decides to stop. They also suggest cutting down to fewer sessions rather than stopping all at once, and expect that a child may come back later. These are expert agreements, not studies. No trial has tested when it is best to stop."
+card_summary: "Therapy usually ends when goals are met, when it stops making a real difference, or when the family decides, ideally by cutting down gradually."
 scientific_summary: "Professional guidelines from AOTA, APTA and ASHA, along with hospital discharge policies, converge on three main reasons to end pediatric therapy: goals are met, therapy is no longer producing functional change, or the family decides to conclude care. Guidelines also describe stepping down to less frequent or consultative therapy rather than stopping outright, and treat therapy as something a child may return to at later stages. None of this comes from controlled trials of when to stop."
 status: published
 tags: [autism, occupational-therapy, discharge, therapy-goals, parent-decisions]

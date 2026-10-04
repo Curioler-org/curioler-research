@@ -10,6 +10,7 @@ when: "This becomes relevant when aggression, self-injury or explosive meltdowns
 search_topic: "Clinical effect of Sizodone 0.5 (risperidone 0.5 mg) in autistic children"
 summary_date: "2026-09-14"
 short_summary: "Risperidone is a prescription medicine, and Sizodone is one brand of it. A large review of 41 studies found it reliably eased tantrums, aggression and self-injury in autistic children aged 2 to 17, along with overactive behavior, low energy, out-of-place speech and repeated movements, over both short and longer periods. It was also reliably linked with weight gain and a bigger waist. No study tested the 0.5 mg dose or the Sizodone brand on its own; 0.5 mg is simply a common starting or low dose."
+card_summary: "Risperidone reliably eases tantrums, aggression and self-injury in autistic children, and it also reliably causes weight gain."
 scientific_summary: "A meta-analysis of 41 studies found risperidone consistently reduced irritability, hyperactivity, lethargy, inappropriate speech and stereotypic behavior in autistic children aged 2 to 17, over both short and longer periods. It also found a consistent link with weight gain and increased waist circumference. No study looked at the 0.5 mg dose or the Sizodone brand in isolation — 0.5 mg is simply a common starting or low maintenance dose."
 status: published
 tags: [autism, risperidone, medication, irritability, behaviour, side-effects]

@@ -8,6 +8,7 @@ domain: "Communication"
 search_topic: "Prepare a comprehensive, evidence-based review of Communication in Autism Spectrum Disorder (ASD)"
 summary_date: "2026-06-29"
 short_summary: "Many autistic children find communication hard, but in very different ways. Around 25-30% do not develop spoken language they can use day to day. A careful review found only two strong trials of ways to help, and neither showed lasting gains for most children. Several tools, such as picture boards and devices that speak, still look promising."
+card_summary: "Communication varies widely among autistic children, and no single approach has been shown to help them all, though several tools look promising."
 scientific_summary: "A 2018 Cochrane systematic review (Brignell et al.) identified two randomized controlled trials, of PECS and of a home-based play program, in 154 minimally verbal autistic children aged 32 months to 11 years. Each showed some short-term gains in certain communication skills but no clearly maintained improvement for most children, and the evidence was rated very low quality. Baseline expressive language, joint attention and imitation may predict which children respond to which approach."
 status: published
 tags: [autism]

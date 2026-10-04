@@ -7,6 +7,7 @@ domain: "General"
 check_date: "2026-07-03"
 trust_tier: 1
 short_summary: "Formula milk does not cause autism. No study has established a causal link between infant formula and autism. Some research finds an association between shorter breastfeeding duration and higher autism rates, but this association runs backwards — autistic infants are harder to breastfeed, not the other way around. Autism originates in genetics and prenatal brain development, long before any feeding decision is made."
+card_summary: "Formula does not cause autism; autistic babies can be harder to breastfeed, which is why the two seem linked."
 status: published
 tags: [autism, formula, breastfeeding, infant-feeding, causes, myths, nutrition]
 related:
