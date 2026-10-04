@@ -4,61 +4,73 @@ content_type: "systematic_review"
 trust_tier: 1
 trust_tier_label: "Systematic review or meta-analysis"
 domain: "General"
-what: "L-carnosine is a dipeptide supplement — two amino acids, beta-alanine and L-histidine — sold over the counter and promoted as an antioxidant that might ease autism symptoms. Several randomised trials have now tested it in autistic children, and most found no meaningful change in core symptoms."
+what: "L-carnosine is a dipeptide supplement — two amino acids, beta-alanine and L-histidine — sold over the counter and promoted as an antioxidant that might ease autism symptoms. Several randomized trials have now tested it in autistic children, and most found no meaningful change in core symptoms."
 why: "Carnosine is widely marketed to parents as a safe, natural option, often at real cost. Knowing what the controlled trials actually showed helps you judge whether it is worth your money, your child's tolerance for another daily supplement, and the time it takes from other support."
 when: "This is relevant when you are weighing a supplement a clinic, a relative or an online group has recommended, or when a practitioner offers carnosine as part of a package alongside therapy."
 search_topic: "Clinical effects of L-carnosine for autistic children"
 summary_date: "2026-09-14"
-short_summary: "A 2025 systematic review of 20 antioxidant trials in autism found the L-carnosine studies contradictory and at high risk of bias, with no solid evidence of clinical benefit. The individual randomised trials mostly missed their main targets: no change in autism severity or irritability, with scattered improvements in single areas such as sleep quality or hyperactivity that no second trial has confirmed."
+short_summary: "L-carnosine is a supplement sold to parents as a natural way to ease autism. The careful trials so far found it does not change autism itself. A few saw a small gain in one area, such as sleep or overactive behavior, but no second trial has found the same gain. A 2025 review of the trials found no solid proof that it helps."
+scientific_summary: "A 2025 systematic review of 20 antioxidant trials in autism found the L-carnosine studies contradictory and at high risk of bias, with no solid evidence of clinical benefit. The individual randomized trials mostly missed their main targets: no change in autism severity or irritability, with scattered improvements in single areas such as sleep quality or hyperactivity that no second trial has confirmed."
 status: published
 tags: [autism, l-carnosine, supplements, antioxidants, complementary-therapy, sleep]
 ---
 
 ## At a glance
 
-**Sample size:** Systematic review of 20 antioxidant trials; the L-carnosine randomised trials within it enrolled 43, 63 and 70 children, with a further 2024 pilot trial  
+**Sample size:** Systematic review of 20 antioxidant trials; the L-carnosine randomized trials within it enrolled 43, 63 and 70 children, with a further 2024 pilot trial  
 **Demographics:** Autistic children roughly aged 3-12, across trials in Iran, India and elsewhere; most trials ran 8 to 10 weeks  
 **Key outcome:** No trial showed a reliable improvement in core autism symptoms. The largest (70 children, 800 mg/day added to risperidone for 10 weeks) missed its primary target of irritability entirely, improving only hyperactivity/non-compliance. The review concludes there is no solid evidence of clinical efficacy for carnosine.  
-**Methodology:** A PROSPERO-registered systematic review searched PubMed, Scopus, ClinicalTrials.gov and Cochrane-Ovid, included 20 antioxidant trials in autism and assessed them with the Cochrane Risk-of-Bias tool. Its L-carnosine findings are read here alongside the underlying randomised, double-blind, placebo-controlled trials and a 2024 pilot trial that also measured carnosine levels in blood.  
+**Methodology:** A PROSPERO-registered systematic review searched PubMed, Scopus, ClinicalTrials.gov and Cochrane-Ovid, included 20 antioxidant trials in autism and assessed them with the Cochrane Risk-of-Bias tool. Its L-carnosine findings are read here alongside the underlying randomized, double-blind, placebo-controlled trials and a 2024 pilot trial that also measured carnosine levels in blood.  
 **Researchers:** D. A. Abraham, Z. Mehrazad-Saber, S. Kheirouri, R. Hajizadeh-Zaker, S. Akhondzadeh, M. G. Rajanandh  
 **Institutes:** Journal of Autism and Developmental Disorders (PROSPERO CRD42023490581), Tehran University of Medical Sciences, Roozbeh Hospital, SRM College of Pharmacy, India (CTRI/2019/07/020102)  
 
 **Limitations:**
 
-- Trials are small — 43 to 70 children — and short, typically 8 to 10 weeks
+- Trials are small (43 to 70 children) and short, typically 8 to 10 weeks
 - Doses varied widely (500 mg/day, 800 mg/day, 10-15 mg/kg), so the trials are not directly comparable and a dose effect cannot be ruled out
 - The review judged the antioxidant trials overall to carry a high risk of bias
-- The scattered positive findings are single subscales in single trials, unreplicated — the pattern you would also expect from chance
+- The scattered positive findings are single subscales in single trials, unreplicated: the pattern you would also expect from chance
 - Including very young children risks mistaking normal developmental progress for a treatment effect
 
 ## What this research found
 
-- The 2025 systematic review classed L-carnosine as showing improvement in social cognition and communication in its qualitative synthesis, but concluded in the same paper that carnosine 'has no solid evidence of its clinical efficacy across the included trials'.
-- In a 70-child randomised double-blind trial, carnosine 800 mg/day added to risperidone for 10 weeks produced no significant benefit on irritability — the primary outcome — nor on lethargy, stereotypic behaviour or inappropriate speech; only hyperactivity/non-compliance improved more than placebo.
-- In a 43-child trial at 500 mg/day, carnosine did not change autism severity on the GARS-2, but did significantly reduce daytime sleepiness, parasomnias and total sleep disorder scores.
-- In a 63-child trial (32 carnosine, 31 placebo), there was no statistically significant improvement on the CARS2-ST autism rating or the BEARS sleep screen, apart from the single 'intellectual response' item.
-- A 2024 pilot trial confirmed carnosine does reach the bloodstream after supplementation, yet found no significant difference on any outcome measure and concluded it was ineffective for managing autism in children.
-- A possible reason: a separate trial found carnosine did not shift the oxidative-stress markers it is supposed to act on, suggesting the proposed mechanism may not translate into neurological change.
+- A 2025 review brought together 20 trials of antioxidant supplements in autism, including the carnosine trials. An antioxidant is a substance meant to protect the body's cells from a kind of wear called oxidative stress. The review's verdict on carnosine was that it "has no solid evidence of its clinical efficacy across the included trials." In plain words, there is no solid proof that it helps children.
+- The same review, when it described the trials one by one, listed carnosine among supplements linked to better social understanding and communication. Its overall verdict above is the one that weighs the trials together.
+- The largest trial had 70 children, all already taking risperidone, a prescription medicine [often used in autism](/curioler-research/summaries/2026-09-14-clinical-effect-of-sizodone-05-risperidone-05-mg-in-autistic/). Half also took 800 mg of carnosine a day for 10 weeks. The other half took a placebo, a dummy pill that looks the same. Neither the families nor the doctors knew who had which.
+- That trial was built mainly to test irritability: outbursts and getting upset quickly. Carnosine made no difference to it. It also made no difference to low energy, repeated movements, or speech that is repetitive or out of place. The one thing that improved more than with the placebo was overactive behavior and not following instructions.
+- In a trial of 43 children taking 500 mg a day, carnosine did not change how severe their autism was rated. It did help sleep. The children were less sleepy during the day, had fewer unusual events in their sleep (such as sleepwalking or night terrors), and scored better on sleep problems overall.
+- In a trial of 63 children (32 took carnosine, 31 took a placebo), autism ratings and a sleep questionnaire showed no change bigger than chance alone would explain. The only exception was a single item on the autism rating, called "intellectual response".
+- A small 2024 trial tested children's blood and confirmed that carnosine does get into the body. Even so, it found no difference on anything it measured. Its authors concluded that carnosine did not work for managing autism in children.
+- One possible reason comes from a separate trial. Carnosine did not change the blood markers of oxidative stress, the very cell wear it is supposed to reduce. So the idea behind it may never reach the brain as any real change.
 
 ## What this means for caregivers
 
-- If you are considering carnosine for core autism symptoms — social communication or repetitive behaviour — the controlled evidence does not support that expectation.
-- The one finding that recurs in a recognisable form is sleep. If sleep is your main concern, that is worth raising with your paediatrician, who can also check the more established causes first.
-- Carnosine was generally well tolerated in these trials, so the main costs are financial and practical rather than medical — but 'safe' is not the same as 'works'.
-- Nothing here suggests replacing therapy or prescribed medication with a supplement; the review is explicit that antioxidants are not justified as a standalone treatment.
-- Tell your child's doctor about any supplement you start, including over-the-counter ones, so it can be tracked alongside everything else.
+- If you are hoping carnosine will help with autism itself, meaning how your child connects and communicates or their repeated behaviors, the careful trials do not support that hope.
+- The one result that comes up more than once, in some form, is sleep. If sleep is what worries you most, raise it with your pediatrician. They can check the more common causes of poor sleep first.
+- Children in these trials generally coped well with carnosine. So the main costs are money and effort, not health. But safe is not the same as working.
+- Nothing here suggests swapping therapy or prescribed medicine for a supplement. The review says plainly that antioxidants are not justified as a treatment on their own.
+- Tell your child's doctor about any supplement you start, including ones bought over the counter, so it can be tracked alongside everything else.
 
 ## Important caveats
 
-- Marketing for carnosine often leans on an early 2002 trial that reported language and behaviour gains. The larger, better-controlled trials that followed have not reproduced that result, which is the more reliable signal.
-- Absence of proof is not proof of absence: these trials are small and short, and a modest benefit in some subgroup of children could still be missed.
-- Doses differed several-fold between trials, and none established what an effective dose would even be.
-- The positive results that do appear are isolated subscales in single studies. Treat any one of them as a hypothesis, not a finding.
-- Supplements are regulated far more loosely than medicines, so what is on the label may not match what is in the bottle.
+- Carnosine is often sold on the back of an early trial, from 2002, that reported gains in language and behavior. The larger, more careful trials since then have not found the same thing, and they are the better guide.
+- Not finding proof is not the same as proving it does nothing. These trials were small and short. A modest benefit for some children could still have been missed.
+- The trials used very different doses, some several times higher than others. None worked out what dose, if any, would help.
+- The good results that do appear are single measures in single trials. Treat each one as a question still to be tested, not an answer.
+- Supplements are checked far less strictly than medicines. What is on the label may not match what is in the bottle.
 
 ## About this research
 
-The anchor source is a 2025 PROSPERO-registered systematic review (CRD42023490581) in the Journal of Autism and Developmental Disorders, which searched four databases, included 20 antioxidant trials in autism and applied the Cochrane Risk-of-Bias tool. It is read here against the primary randomised, double-blind, placebo-controlled carnosine trials it covers and a 2024 registered pilot trial that measured plasma carnosine directly. The evidence base is real but thin: a handful of small, short trials with inconsistent dosing and a high risk of bias.
+The anchor source is a 2025 PROSPERO-registered systematic review (CRD42023490581) in the Journal of Autism and Developmental Disorders, which searched four databases, included 20 antioxidant trials in autism and applied the Cochrane Risk-of-Bias tool. It is read here against the primary randomized, double-blind, placebo-controlled carnosine trials it covers and a 2024 registered pilot trial that measured plasma carnosine directly. The evidence base is real but thin: a handful of small, short trials with inconsistent dosing and a high risk of bias.
+
+**The trials in their own terms.** The findings above are written without the names of the scales and outcomes. Here they are, so you can match them to the papers:
+
+- **The review:** in its qualitative synthesis (the trial-by-trial description), L-carnosine was classed as showing improvement in social cognition and communication; its conclusion across the included trials was no solid evidence of clinical efficacy.
+- **70 children, 800 mg/day with risperidone, 10 weeks:** irritability was the primary outcome, the one result the trial was designed to test, and it did not differ significantly from placebo. Lethargy, stereotypic behavior and inappropriate speech also did not; only hyperactivity/non-compliance improved more than placebo.
+- **43 children, 500 mg/day:** no change in autism severity on the GARS-2 (Gilliam Autism Rating Scale, Second Edition); significant reductions in daytime sleepiness, parasomnias and total sleep disorder scores.
+- **63 children (32 carnosine, 31 placebo):** no statistically significant improvement on the CARS2-ST (Childhood Autism Rating Scale, Second Edition, Standard Version) or the BEARS sleep screen, apart from the single "intellectual response" item.
+- **2024 pilot trial:** plasma carnosine rose after supplementation, with no significant difference on any outcome measure.
+- **Mechanism:** a separate trial found carnosine did not shift oxidative-stress markers.
 
 ## Sources
 
@@ -70,7 +82,7 @@ The anchor source is a 2025 PROSPERO-registered systematic review (CRD4202349058
 
 ## Related topics
 
-- [What risperidone 0.5 mg (sold as Sizodone) does — and does not do — for autistic children](/curioler-research/summaries/2026-09-14-clinical-effect-of-sizodone-05-risperidone-05-mg-in-autistic/) — Behaviour
+- [What risperidone 0.5 mg (sold as Sizodone) does — and does not do — for autistic children](/curioler-research/summaries/2026-09-14-clinical-effect-of-sizodone-05-risperidone-05-mg-in-autistic/) — Behavior
 - [Understanding Sensory Issues and Humming in Autistic Children: What Caregivers Need to Know](/curioler-research/summaries/2026-06-29-how-to-deal-with-sensory-issues-in-kids-with-asd-espeially-t/) — Sensory
 - [Echolalia in Autism: What the Research Tells Us About Why Children Repeat Words and Phrases](/curioler-research/summaries/2026-06-29-echolalia-autism-research/) — Communication
 
