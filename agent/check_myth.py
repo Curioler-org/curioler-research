@@ -13,6 +13,7 @@ from tavily import TavilyClient
 from dedupe import drop_repeats
 from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
+from request_output import request_settings
 
 
 SYSTEM_PROMPT = """You are a myth-checking agent for Curioler, a platform that helps caregivers of autistic children understand research.
@@ -221,7 +222,7 @@ def find_related(statement: str, current_slug: str, max_related: int = 3) -> lis
     return related[:max_related]
 
 
-def render_markdown(data: dict, statement: str, slug: str, today: str) -> str:
+def render_markdown(data: dict, statement: str, slug: str, today: str, request_id: str | None = None) -> str:
     sections = data.get("sections", {})
     sources = data.get("sources", [])
     related = find_related(statement, f"{today}-{slug}")
@@ -253,7 +254,9 @@ def render_markdown(data: dict, statement: str, slug: str, today: str) -> str:
         f'when: "{when_escaped}"',
         f'short_summary: "{short_summary_escaped}"',
         f'card_summary: "{card_summary_escaped}"',
-        "status: published",
+        # A topic-request run (REQUEST_ID set) is a draft until the founder
+        # approves it; requests:approve flips the status line when it moves the file.
+        *([f'request_id: "{request_id}"', "status: draft"] if request_id else ["status: published"]),
         f'tags: [{", ".join(data.get("tags", ["autism"]))}]',
         "---",
         "",
@@ -304,10 +307,18 @@ def render_markdown(data: dict, statement: str, slug: str, today: str) -> str:
     return "\n".join(lines)
 
 
-def save_check(content: str, statement: str) -> str:
+def save_check(content: str, statement: str, output_dir: str | None = None) -> str:
     today = date.today().isoformat()
     slug = slugify(statement)
     filename = f"{today}-{slug}.md"
+    if output_dir:
+        # A topic-request draft: the one file, outside docs/, no factchecks/ mirror.
+        path = os.path.join(output_dir, filename)
+        os.makedirs(output_dir, exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"Saved: {path}")
+        return path
     path = os.path.join("docs", "_myth_checks", filename)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -325,6 +336,8 @@ def main():
     if not statement:
         raise SystemExit("Error: MYTH_STATEMENT env var is required")
 
+    request_id, output_dir = request_settings()
+
     require_tavily_key()  # also pulls a stored Claude token from Railway
 
     print(f"Checking: {statement}")
@@ -338,8 +351,8 @@ def main():
 
     today = date.today().isoformat()
     slug = slugify(statement)
-    markdown = render_markdown(data, statement, slug, today)
-    save_check(markdown, statement)
+    markdown = render_markdown(data, statement, slug, today, request_id)
+    save_check(markdown, statement, output_dir)
     print(f"Verdict: {data['verdict_label']}")
 
 

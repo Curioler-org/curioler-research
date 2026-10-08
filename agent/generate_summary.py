@@ -13,6 +13,7 @@ from tavily import TavilyClient
 from dedupe import drop_repeats
 from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
+from request_output import request_settings
 
 
 SYSTEM_PROMPT = """You are a research summarization agent for Curioler, a platform that helps caregivers of autistic children understand research.
@@ -286,7 +287,7 @@ def find_related_summaries(query: str, current_slug: str, max_related: int = 3) 
     return related[:max_related]
 
 
-def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
+def render_markdown(data: dict, query: str, slug: str, today: str, request_id: str | None = None) -> str:
     sf = data.get("structured_fields", {})
     sources = data.get("sources", [])
     sections = data.get("sections", {})
@@ -320,7 +321,9 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
         f'card_summary: "{card_summary_escaped}"',
         # The abstract that opens "The science behind it" (platform PDR-0037).
         f'scientific_summary: "{scientific_summary_escaped}"',
-        "status: published",
+        # A topic-request run (REQUEST_ID set) is a draft until the founder
+        # approves it; requests:approve flips the status line when it moves the file.
+        *([f'request_id: "{request_id}"', "status: draft"] if request_id else ["status: published"]),
         f'tags: [{", ".join(data.get("tags", ["autism"]))}]',
         "---",
         "",
@@ -393,10 +396,18 @@ def render_markdown(data: dict, query: str, slug: str, today: str) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
-def save_summary(content: str, query: str) -> str:
+def save_summary(content: str, query: str, output_dir: str | None = None) -> str:
     today = date.today().isoformat()
     slug = slugify(query)
     filename = f"{today}-{slug}.md"
+    if output_dir:
+        # A topic-request draft: the one file, outside docs/, no topics/ mirror.
+        path = os.path.join(output_dir, filename)
+        os.makedirs(output_dir, exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"Saved: {path}")
+        return path
     path = os.path.join("docs", "_summaries", filename)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -429,6 +440,8 @@ def main():
     if not query:
         raise SystemExit("Error: SEARCH_QUERY env var is required")
 
+    request_id, output_dir = request_settings()
+
     preflight()
 
     print(f"Searching: {query}")
@@ -442,9 +455,9 @@ def main():
 
     today = date.today().isoformat()
     slug = slugify(query)
-    markdown = render_markdown(data, query, slug, today)
+    markdown = render_markdown(data, query, slug, today, request_id)
 
-    path = save_summary(markdown, query)
+    path = save_summary(markdown, query, output_dir)
     print(f"Done — {path}")
 
 
