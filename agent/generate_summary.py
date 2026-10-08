@@ -13,7 +13,7 @@ from tavily import TavilyClient
 from dedupe import drop_repeats
 from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
-from request_output import request_settings
+from request_output import request_settings, request_slug
 
 
 SYSTEM_PROMPT = """You are a research summarization agent for Curioler, a platform that helps caregivers of autistic children understand research.
@@ -396,9 +396,9 @@ def render_markdown(data: dict, query: str, slug: str, today: str, request_id: s
     return "\n".join(lines).rstrip() + "\n"
 
 
-def save_summary(content: str, query: str, output_dir: str | None = None) -> str:
+def save_summary(content: str, query: str, output_dir: str | None = None, request_id: str | None = None) -> str:
     today = date.today().isoformat()
-    slug = slugify(query)
+    slug = request_slug(slugify(query), request_id)
     filename = f"{today}-{slug}.md"
     if output_dir:
         # A topic-request draft: the one file, outside docs/, no topics/ mirror.
@@ -454,10 +454,10 @@ def main():
     data = extract_structured_data(query, domain, sources_text)
 
     today = date.today().isoformat()
-    slug = slugify(query)
+    slug = request_slug(slugify(query), request_id)
     markdown = render_markdown(data, query, slug, today, request_id)
 
-    path = save_summary(markdown, query, output_dir)
+    path = save_summary(markdown, query, output_dir, request_id)
     print(f"Done — {path}")
 
 

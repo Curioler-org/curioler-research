@@ -13,7 +13,7 @@ from tavily import TavilyClient
 from dedupe import drop_repeats
 from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
-from request_output import request_settings
+from request_output import request_settings, request_slug
 
 
 SYSTEM_PROMPT = """You are a myth-checking agent for Curioler, a platform that helps caregivers of autistic children understand research.
@@ -307,9 +307,9 @@ def render_markdown(data: dict, statement: str, slug: str, today: str, request_i
     return "\n".join(lines)
 
 
-def save_check(content: str, statement: str, output_dir: str | None = None) -> str:
+def save_check(content: str, statement: str, output_dir: str | None = None, request_id: str | None = None) -> str:
     today = date.today().isoformat()
-    slug = slugify(statement)
+    slug = request_slug(slugify(statement), request_id)
     filename = f"{today}-{slug}.md"
     if output_dir:
         # A topic-request draft: the one file, outside docs/, no factchecks/ mirror.
@@ -350,9 +350,9 @@ def main():
     data = extract_structured_data(statement, sources_text)
 
     today = date.today().isoformat()
-    slug = slugify(statement)
+    slug = request_slug(slugify(statement), request_id)
     markdown = render_markdown(data, statement, slug, today, request_id)
-    save_check(markdown, statement, output_dir)
+    save_check(markdown, statement, output_dir, request_id)
     print(f"Verdict: {data['verdict_label']}")
 
 

@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Topic-request drafts stay local until approved; this repository is public.
+_drafts/requests/

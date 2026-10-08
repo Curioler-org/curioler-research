@@ -7,12 +7,18 @@ environment so a run with neither set behaves exactly as it always has:
     REQUEST_ID   the platform's id for the request. Written into the front
                  matter as `request_id`, so a draft can be traced back.
     OUTPUT_DIR   where the file goes. Defaults to `_drafts/requests` when
-                 REQUEST_ID is set, and is outside `docs/` on purpose: GitHub
-                 Pages never serves it, and the platform ingests it as a
-                 draft until the founder approves it.
+                 REQUEST_ID is set. That directory is gitignored: this
+                 repository is PUBLIC, and a draft must never reach it before
+                 the founder approves it (platform spec, amended 2026-10-08).
+                 `requests:run` uploads the file to the platform instead, and
+                 `requests:approve` copies it into `docs/` and commits it.
 
 A request run writes the single draft file and nothing else: no mirror copy
 in `topics/` or `factchecks/`, which belong to published content.
+
+The file name carries the first eight characters of the request id
+(`<date>-<slug>-<id8>.md`), so the knowledge slug is unique per request and a
+draft can never collide with a published article of the same topic.
 """
 
 from __future__ import annotations
@@ -39,3 +45,8 @@ def request_settings() -> tuple[str | None, str | None]:
     if not _UUID.match(request_id):
         raise SystemExit("Error: REQUEST_ID must be a UUID")
     return request_id, output_dir or DEFAULT_REQUEST_DIR
+
+
+def request_slug(slug: str, request_id: str | None) -> str:
+    """The slug a request's file is named by: the topic slug plus the request id's first 8 characters."""
+    return f"{slug}-{request_id[:8].lower()}" if request_id else slug
