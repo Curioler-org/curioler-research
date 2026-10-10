@@ -14,6 +14,7 @@ from dedupe import drop_repeats
 from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
 from request_output import request_settings, request_slug
+from tier_guard import SOURCE_TYPE_PROMPT, cap_tier
 
 
 SYSTEM_PROMPT = """You are a myth-checking agent for Curioler, a platform that helps caregivers of autistic children understand research.
@@ -42,6 +43,12 @@ Rules:
   Clinical Consensus (3) at best — not Tier 1, however obviously false the
   claim is. Reserve Tier 1–2 for checks that actually cite a systematic
   review, meta-analysis, or named peer-reviewed study.
+  The tier comes from evidence that studied THIS CLAIM ITSELF. Tier 1-2 need
+  results published in a peer-reviewed journal; results known only from a
+  press release, news story, conference, trial-registry listing, preprint or
+  company page are Tier 4 at most. Evidence about a related thing (one
+  ingredient, a drug class, a neighboring therapy) may be cited but does not
+  set the tier.
 - Output ONLY valid JSON, no preamble, no markdown fences
 """
 
@@ -69,7 +76,8 @@ EXTRACTION_PROMPT = """Analyse the statement and sources provided. Return a JSON
     {
       "title": "Source title",
       "citation": "Author(s), Year, Journal",
-      "url": "https://..."
+      "url": "https://...",
+      "source_type": "journal_article"
     }
   ],
   "tags": ["autism", "relevant-tag"]
@@ -105,7 +113,11 @@ Keep it short. A caregiver reads short_summary first, then the sections, so:
 - Name the population actually studied. If a source studied adults or
   non-autistic children, say so; never present it as a finding about
   autistic children.
+
+{SOURCE_TYPE_RULE}
 """
+
+EXTRACTION_PROMPT = EXTRACTION_PROMPT.replace("{SOURCE_TYPE_RULE}", SOURCE_TYPE_PROMPT)
 
 
 def slugify(text: str) -> str:
@@ -348,6 +360,9 @@ def main():
 
     print("Analysing with Claude...")
     data = extract_structured_data(statement, sources_text)
+    lowered = cap_tier(data)
+    if lowered:
+        print(f"WARNING: {lowered}")
 
     today = date.today().isoformat()
     slug = request_slug(slugify(statement), request_id)

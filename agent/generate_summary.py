@@ -14,6 +14,7 @@ from dedupe import drop_repeats
 from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
 from request_output import request_settings, request_slug
+from tier_guard import SOURCE_TYPE_PROMPT, cap_tier
 
 
 SYSTEM_PROMPT = """You are a research summarization agent for Curioler, a platform that helps caregivers of autistic children understand research.
@@ -22,13 +23,20 @@ Rules:
 - Write in plain, warm language for a parent, not a clinician
 - Never make diagnostic statements or give prescriptive clinical advice
 - Be honest about what the research does NOT say
-- Trust tier: assign based on the STRONGEST evidence type actually described
-  in the sources, never a default and never based on how compelling the
-  finding sounds.
-  - Tier 1: Systematic review or meta-analysis
+- Trust tier: assign based on the STRONGEST evidence that studied THIS TOPIC
+  ITSELF, never a default, never based on how compelling the finding sounds,
+  and never based on the strongest source you happen to cite.
+  - Tier 1: Systematic review or meta-analysis, or a large RCT
   - Tier 2: Peer-reviewed study, smaller RCT, clinical trial
   - Tier 3: Clinical consensus or professional guideline
   - Tier 4: Expert commentary or opinion, not peer-reviewed
+  Tier 1-2 need results PUBLISHED in a peer-reviewed journal. A trial known
+  only from a press release, news story, conference presentation or
+  abstract, trial-registry listing, preprint or company page is Tier 4 at
+  most, whatever its design. Evidence about a related thing (one
+  ingredient of a product, a drug class, a neighboring therapy) may be
+  cited and explained, but it does not set the tier: if the topic itself
+  has no published research, say so and rate it Tier 4.
 - If multiple sources are provided, base the summary on the strongest evidence
 - Output ONLY valid JSON, no preamble, no markdown fences
 """
@@ -69,7 +77,8 @@ Return ONLY this JSON (no markdown, no explanation):
     {
       "title": "Source title",
       "citation": "Author(s), Year, Journal",
-      "url": "https://..."
+      "url": "https://...",
+      "source_type": "journal_article"
     }
   ],
   "tags": ["autism", "relevant-tag-2"]
@@ -84,6 +93,8 @@ never cut for length:
 - If several studies are cited, give the main one's figures and mention the
   others' participants in what_they_found.
 Always populate methodology and key_outcome if possible.
+
+{SOURCE_TYPE_RULE}
 
 A caregiver reads short_summary first, then the three sections. Those are
 written for a parent, aiming at about a US grade 8 reading level:
@@ -114,6 +125,16 @@ Say each fact once:
   non-autistic children, say so; never present it as a finding about
   autistic children.
 """
+
+EXTRACTION_PROMPT = EXTRACTION_PROMPT.replace("{SOURCE_TYPE_RULE}", SOURCE_TYPE_PROMPT)
+
+# The label written beside each tier, matching the list in SYSTEM_PROMPT.
+TIER_LABELS = {
+    1: "Systematic review or meta-analysis",
+    2: "Peer-reviewed study, smaller RCT, clinical trial",
+    3: "Clinical consensus or professional guideline",
+    4: "Expert commentary or opinion, not peer-reviewed",
+}
 
 
 def slugify(text: str) -> str:
@@ -452,6 +473,9 @@ def main():
 
     print("Extracting structured data with Claude...")
     data = extract_structured_data(query, domain, sources_text)
+    lowered = cap_tier(data, TIER_LABELS)
+    if lowered:
+        print(f"WARNING: {lowered}")
 
     today = date.today().isoformat()
     slug = request_slug(slugify(query), request_id)
