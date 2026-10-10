@@ -5,7 +5,7 @@ verdict: "nuanced"
 verdict_label: "This is nuanced"
 domain: "General"
 check_date: "2026-08-29"
-trust_tier: 1
+trust_tier: 2
 what: "The claim that ages 3 to 5 are when children develop fastest — the peak window for growth, learning and brain change."
 why: "If a parent believes the fastest development starts at 3, worries before then look like something to wait out. In practice the biggest brain growth has already happened by then, and waiting costs time that cannot be recovered."
 when: "Relevant when someone advises you to 'wait and see' with a child under 3, or when a preschool or therapy centre presents ages 3 to 5 as the make-or-break window."

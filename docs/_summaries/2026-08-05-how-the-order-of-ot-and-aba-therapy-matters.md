@@ -1,8 +1,8 @@
 ---
 title: "Does the Order of OT and ABA Therapy Matter?"
 content_type: "clinical_trial"
-trust_tier: 2
-trust_tier_label: "Peer-reviewed study"
+trust_tier: 4
+trust_tier_label: "Expert commentary or opinion, not peer-reviewed"
 domain: "General"
 search_topic: "How the order of OT and ABA therapy matters"
 summary_date: "2026-08-05"

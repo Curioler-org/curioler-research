@@ -1,8 +1,8 @@
 ---
 title: "Autinorm syrup: no trials of the product, and its folate is not the one the research used"
 content_type: "systematic_review"
-trust_tier: 1
-trust_tier_label: "Systematic review or meta-analysis"
+trust_tier: 4
+trust_tier_label: "Expert commentary or opinion, not peer-reviewed"
 domain: "General"
 what: "Autinorm is an over-the-counter syrup sold in India by Kepler Healthcare, containing Quatrefolic — a form of methylfolate (5-MTHF) — at 240 mcg per 5 ml serving, and marketed as a targeted therapy for cerebral folate deficiency in autism. No clinical trial has ever tested Autinorm itself; the research it borrows its story from used a different form of folate, at far higher doses."
 why: "The product is sold without a prescription and its marketing points at a real and serious condition, so it is easy to assume the evidence behind that condition belongs to the bottle. It does not, and knowing the difference protects both your money and your child's actual treatment path."

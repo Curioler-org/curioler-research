@@ -1,8 +1,8 @@
 ---
 title: "How poor nighttime sleep drives daytime restlessness and sensory seeking"
 content_type: "systematic_review"
-trust_tier: 1
-trust_tier_label: "Systematic review or meta-analysis"
+trust_tier: 2
+trust_tier_label: "Peer-reviewed study, smaller RCT, clinical trial"
 domain: "Sensory"
 what: "When children don't get enough or consistent nighttime sleep, their bodies compensate during the day by seeking more movement, pressure, touch, and sensory input—a cycle especially visible in autistic children and those with sensory differences."
 why: "This matters because daytime restlessness and sensory seeking often get labeled as behavioral problems or sensory preference, when they may actually be your child's attempt to stay alert and regulated because they're exhausted. Understanding this connection means better sleep at night could reduce daytime restlessness."

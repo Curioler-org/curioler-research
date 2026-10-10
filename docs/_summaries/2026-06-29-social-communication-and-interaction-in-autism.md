@@ -2,8 +2,8 @@
 title: "Social Communication and Interaction in Autism"
 source_citation: "National Autistic Society (autism.org.uk); SCADD Lab, University of Nebraska–Lincoln; University of Kansas School of Education; Autism Research Institute (Dr. Matthew Lerner); Indiana Resource Center for Autism, Indiana University"
 source_url: "https://www.autism.org.uk/advice-and-guidance/about-autism/autism-and-communication"
-trust_tier: 3
-trust_tier_label: "Clinical consensus and expert guidance drawing on peer-reviewed research"
+trust_tier: 4
+trust_tier_label: "Expert commentary or opinion, not peer-reviewed"
 domain: "Social"
 search_topic: "Social Communication and Interaction in Autism"
 summary_date: "2026-06-29"
@@ -17,7 +17,7 @@ tags: [autism]
 # Social Communication and Interaction in Autism
 
 **Source:** National Autistic Society (autism.org.uk); SCADD Lab, University of Nebraska–Lincoln; University of Kansas School of Education; Autism Research Institute (Dr. Matthew Lerner); Indiana Resource Center for Autism, Indiana University
-**Evidence level:** Tier 3 — Clinical consensus and expert guidance drawing on peer-reviewed research
+**Evidence level:** Tier 4 — Expert commentary or opinion, not peer-reviewed
 **Domain:** Social
 
 ## What this research found

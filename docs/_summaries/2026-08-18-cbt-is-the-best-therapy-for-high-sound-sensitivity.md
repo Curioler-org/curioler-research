@@ -1,8 +1,8 @@
 ---
 title: "Is CBT the Best Therapy for Sound Sensitivity?"
 content_type: "systematic_review"
-trust_tier: 1
-trust_tier_label: "Systematic review or meta-analysis"
+trust_tier: 2
+trust_tier_label: "Peer-reviewed study, smaller RCT, clinical trial"
 domain: "Sensory"
 search_topic: "CBT is the best therapy for high sound sensitivity"
 summary_date: "2026-08-18"

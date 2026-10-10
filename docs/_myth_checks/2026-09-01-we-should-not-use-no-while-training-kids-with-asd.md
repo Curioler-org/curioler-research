@@ -5,7 +5,7 @@ verdict: "misleading"
 verdict_label: "This is misleading"
 domain: "Communication"
 check_date: "2026-09-01"
-trust_tier: 3
+trust_tier: 4
 what: "This claim says caregivers should completely avoid the word \"no\" with autistic children, as if the word itself is harmful during training."
 why: "Caregivers need to know how to set limits and communicate boundaries in ways that actually help a child with ASD, rather than avoiding an ordinary word they'll hear everywhere in life."
 when: "This comes up when a caregiver has seen gentle-parenting or social-media advice saying to \"never say no,\" often right when they're trying to set a safety limit or routine."
