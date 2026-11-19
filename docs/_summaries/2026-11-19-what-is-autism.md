@@ -28,14 +28,48 @@ tags: [autism, definition, signs, diagnosis, dsm-5, causes, genetics, prevalence
 
 - The way doctors define autism changed in 2013. Several older labels, including autistic disorder, Asperger's disorder and PDD-NOS (a label for milder or less typical cases), were merged into one diagnosis called autism spectrum disorder. Sensitivity to sound, texture or light was added as a recognized feature, and levels describing how much support a person needs were introduced. The new criteria seem better at confirming that someone who is diagnosed really has autism, but they may miss some people, especially older children, teens, adults, and those who once had an Asperger's or PDD-NOS label. One systematic review found that only 50% to 75% of people kept their diagnosis under the new criteria, while another study found 91%.
 - Estimates of how common autism is have risen over time. In the US, they more than doubled between 2000–2002 and 2010–2012, reaching about 1 in 59 eight-year-olds in the CDC data the review used. Later CDC reports, cited by autism organizations, put the figure at 1 in 36 and then 1 in 31. The review says the rise is likely due partly to more awareness, insurance coverage for services, and changes in how cases are counted. A Danish study found that most of one earlier rise came from changes in criteria and reporting.
+
+<figure class="chart" aria-label="Bar chart of CDC autism estimates for US 8-year-olds, 2000 to 2022">
+<div class="chart-title">How many US 8-year-olds are diagnosed with autism</div>
+<p class="chart-sub">CDC estimates by surveillance year. Longer bar = more children diagnosed.</p>
+<div class="bar-row" title="2000: 6.7 per 1,000 children (about 1 in 150)"><span class="bar-label">2000</span><span class="bar-track"><span class="bar" style="width:19.1%"></span></span><span class="bar-value">1 in 150</span></div>
+<div class="bar-row" title="2002: 6.6 per 1,000 children (about 1 in 150)"><span class="bar-label">2002</span><span class="bar-track"><span class="bar" style="width:18.9%"></span></span><span class="bar-value">1 in 150</span></div>
+<div class="bar-row" title="2004: 8.0 per 1,000 children (about 1 in 125)"><span class="bar-label">2004</span><span class="bar-track"><span class="bar" style="width:22.9%"></span></span><span class="bar-value">1 in 125</span></div>
+<div class="bar-row" title="2006: 9.0 per 1,000 children (about 1 in 110)"><span class="bar-label">2006</span><span class="bar-track"><span class="bar" style="width:25.7%"></span></span><span class="bar-value">1 in 110</span></div>
+<div class="bar-row" title="2008: 11.3 per 1,000 children (about 1 in 88)"><span class="bar-label">2008</span><span class="bar-track"><span class="bar" style="width:32.3%"></span></span><span class="bar-value">1 in 88</span></div>
+<div class="bar-row" title="2010: 14.7 per 1,000 children (about 1 in 68)"><span class="bar-label">2010</span><span class="bar-track"><span class="bar" style="width:42.0%"></span></span><span class="bar-value">1 in 68</span></div>
+<div class="bar-row" title="2012: 14.5 per 1,000 children (about 1 in 69)"><span class="bar-label">2012</span><span class="bar-track"><span class="bar" style="width:41.4%"></span></span><span class="bar-value">1 in 69</span></div>
+<div class="bar-row" title="2014: 16.8 per 1,000 children (about 1 in 59)"><span class="bar-label">2014</span><span class="bar-track"><span class="bar" style="width:48.0%"></span></span><span class="bar-value">1 in 59</span></div>
+<div class="bar-row" title="2016: 18.5 per 1,000 children (about 1 in 54)"><span class="bar-label">2016</span><span class="bar-track"><span class="bar" style="width:52.9%"></span></span><span class="bar-value">1 in 54</span></div>
+<div class="bar-row" title="2018: 23.0 per 1,000 children (about 1 in 44)"><span class="bar-label">2018</span><span class="bar-track"><span class="bar" style="width:65.7%"></span></span><span class="bar-value">1 in 44</span></div>
+<div class="bar-row" title="2020: 27.6 per 1,000 children (about 1 in 36)"><span class="bar-label">2020</span><span class="bar-track"><span class="bar" style="width:78.9%"></span></span><span class="bar-value">1 in 36</span></div>
+<div class="bar-row" title="2022: 32.2 per 1,000 children (about 1 in 31)"><span class="bar-label">2022</span><span class="bar-track"><span class="bar" style="width:92.0%"></span></span><span class="bar-value">1 in 31</span></div>
+<p class="chart-note">Source: CDC Autism and Developmental Disabilities Monitoring (ADDM) Network. The number of reporting sites changed over the years. Much of the rise reflects more awareness and changes in how autism is defined and counted, not only more autistic children.</p>
+</figure>
+
 - Boys are diagnosed more often than girls, but a cited meta-analysis puts the true ratio nearer 3 boys to 1 girl than 4 to 1. Girls are more likely to be diagnosed late or missed, partly because their signs can be less obvious and some hide, or "camouflage," their social difficulties by copying others. White children are diagnosed more often than Black or Hispanic children. The authors link this to stigma, access to health care, and language barriers, and the gap seems to be shrinking.
 - Other conditions are common alongside autism. In a surveillance study of over 2,000 autistic children, 83% had another developmental diagnosis, 10% had a mental health diagnosis, and 16% had a nervous system diagnosis. The review cites rates of about 20% for epilepsy, 10% to 12% for stomach and bowel problems, 50% to 73% for sleep problems, and 25% to 81% for ADHD. The most recent CDC estimate is that about 31% have an intellectual disability. In a study of over 600 autistic children seeking treatment, 42% had an anxiety disorder, and about two-thirds had more than one additional condition.
+
+<figure class="chart" aria-label="Range chart of how often other conditions occur in autistic people">
+<div class="chart-title">How often other conditions come with autism</div>
+<p class="chart-sub">Share of autistic people with each condition. A wide bar means studies disagree a lot.</p>
+<div class="range-row" title="Sleep problems: 50% to 73% across studies"><span class="range-label">Sleep problems</span><span class="range-track"><span class="range-bar" style="left:50%;width:23%"></span></span><span class="bar-value">50–73%</span></div>
+<div class="range-row" title="ADHD: 25% to 81% across studies"><span class="range-label">ADHD</span><span class="range-track"><span class="range-bar" style="left:25%;width:56%"></span></span><span class="bar-value">25–81%</span></div>
+<div class="range-row" title="Anxiety disorder: 42%, in a study of over 600 autistic children seeking treatment"><span class="range-label">Anxiety<small>children seeking treatment</small></span><span class="range-track"><span class="range-bar" style="left:41%;width:2%"></span></span><span class="bar-value">42%</span></div>
+<div class="range-row" title="Intellectual disability: about 31%, CDC estimate"><span class="range-label">Intellectual disability<small>CDC estimate</small></span><span class="range-track"><span class="range-bar" style="left:30%;width:2%"></span></span><span class="bar-value">31%</span></div>
+<div class="range-row" title="Epilepsy: about 20%, from health-record studies"><span class="range-label">Epilepsy</span><span class="range-track"><span class="range-bar" style="left:19%;width:2%"></span></span><span class="bar-value">~20%</span></div>
+<div class="range-row" title="Stomach and bowel problems: 10% to 12%, from health-record studies"><span class="range-label">Stomach and bowel problems</span><span class="range-track"><span class="range-bar" style="left:10%;width:2%"></span></span><span class="bar-value">10–12%</span></div>
+<div class="range-axis" aria-hidden="true"><span></span><span class="range-axis-ticks"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span></span><span></span></div>
+<p class="chart-note">Figures from the main 2020 review. Rates depend on how each study counted, so treat them as rough guides.</p>
+</figure>
+
 
 ## Typical signs of autism
 
 The CDC lists signs in two main areas, plus other traits that often come along. Many children who are not autistic show one or two of these. What matters is a lasting pattern across both areas, and only a specialist evaluation can tell.
 
 **Social communication and interaction.** The ages are when most children have reached the skill.
+
 - Avoids eye contact or does not keep it.
 - Does not respond to their name by 9 months.
 - Does not show facial expressions such as happy, sad or surprised by 9 months.
@@ -49,6 +83,7 @@ The CDC lists signs in two main areas, plus other traits that often come along. 
 - Loses words or social skills they used to have. The review lists this as an early warning sign.
 
 **Repeated behaviors and focused interests**
+
 - Lines up toys or objects and gets upset when the order changes.
 - Repeats words or phrases over and over (called echolalia).
 - Plays with toys the same way every time, or focuses on parts of objects, such as wheels.
@@ -65,12 +100,29 @@ The CDC says signs usually begin before age 3. Some children show them in the fi
 
 No single cause has been found. The review describes autism as the result of many genetic and environmental influences acting together, and says no factor has been proven to cause it on its own.
 
+<div class="stack">
+<table>
+<caption>Causes at a glance</caption>
+<thead><tr><th>What the evidence says</th><th>Factors</th></tr></thead>
+<tbody>
+<tr><td>Strong evidence</td><td data-label="Factors">Genes: autism running in families, more than 700 linked genes, and conditions such as fragile X syndrome</td></tr>
+<tr><td>Linked to a higher chance</td><td data-label="Factors">Older parents, premature birth, valproic acid or thalidomide in pregnancy, very short or very long gaps between pregnancies</td></tr>
+<tr><td>Ruled out</td><td data-label="Factors">Vaccines (including MMR), thimerosal and mercury, parenting style</td></tr>
+<tr><td>Still unclear</td><td data-label="Factors">A mother's autoimmune conditions, infection or fever in pregnancy, acetaminophen (Tylenol) in pregnancy, folic acid</td></tr>
+</tbody>
+</table>
+</div>
+
+The details behind each group:
+
 **Strongly supported: genes**
+
 - Autism runs in families. Siblings of autistic children have a higher chance of being autistic. Identical twins are much more likely than other siblings to both be autistic, though not always.
 - Variants in more than 700 genes have been linked to autism. Some are inherited, and some are new changes that neither parent carries.
 - A few genetic conditions, such as fragile X syndrome, tuberous sclerosis and Down syndrome, raise the chance of autism. Together they explain only a small share of cases.
 
 **Linked to a higher chance (not causes on their own)**
+
 - Older mothers and older fathers.
 - Being born early (premature birth), and some birth complications, such as low birth weight and bleeding during pregnancy.
 - Exposure in the womb to certain medicines: valproic acid (a seizure medicine) and thalidomide.
@@ -79,10 +131,12 @@ No single cause has been found. The review describes autism as the result of man
 These are links found in studies. A large meta-analysis cited in the review found such big differences between studies that it could not say how much each factor matters.
 
 **Ruled out**
+
 - **Vaccines.** There is no evidence that vaccines, thimerosal or mercury are linked to autism. The 1998 article that started this fear was retracted. The largest single study, of a nationwide group of Danish children, found no higher chance of autism after the measles, mumps and rubella (MMR) vaccine.
 - **Parenting.** An idea from the mid-1900s blamed autism on cold, distant parenting. It was dropped decades ago, when twin studies began showing how strongly autism is tied to genes. How you raise your child does not cause autism.
 
 **Still unclear or mixed**
+
 - **A mother's autoimmune conditions,** such as diabetes, thyroid disease or psoriasis. Study results are mixed.
 - **Infection or fever during pregnancy.** Recent research suggests this may play a part, but it is not settled.
 - **Acetaminophen (Tylenol) during pregnancy.** In September 2025, the FDA began a label change about a possible link, while noting that other studies show no link and that an untreated fever in pregnancy carries its own risks. The largest study so far, of about 2.5 million children in Sweden, compared brothers and sisters from the same family. It found no link once family factors were taken into account. Many medical groups, including the American Academy of Pediatrics, say the evidence does not show that acetaminophen causes autism.
@@ -92,10 +146,18 @@ These are links found in studies. A large meta-analysis cited in the review foun
 
 A 2023 review in the BMJ, called Project AIM, pooled 252 studies of 13,304 autistic children under age 8. It looked at non-medicine therapies and how much their effects held up when only the most careful studies were counted.
 
-- **Naturalistic developmental behavioral interventions.** These mix behavioral teaching with play and the child's own interests, often at home or in everyday routines. Examples include the Early Start Denver Model, JASPER and Pivotal Response Treatment. They had the broadest support: in randomized trials they improved social communication, language, play, daily living skills, and measures of autism characteristics. They were the only approach whose effect held up in the strictest test, where the people scoring results did not know which children had been treated.
-- **Behavioral interventions,** including programs based on applied behavior analysis (ABA). Randomized trials showed improvements in challenging behavior and social-emotional skills, mostly as reported by parents and teachers who knew the child was in therapy.
-- **Developmental interventions.** These coach parents and caregivers to follow the child's lead and respond to their communication. They improved social communication during interactions with caregivers.
-- **Technology-based interventions,** such as apps and computer programs, improved specific social skills closely tied to what the program taught.
+<div class="stack">
+<table>
+<caption>Early therapies compared (Project AIM, randomized trials only)</caption>
+<thead><tr><th>Approach</th><th>What it involves</th><th>What improved</th><th>How well it held up</th></tr></thead>
+<tbody>
+<tr><td>Naturalistic developmental behavioral<span class="note">e.g. Early Start Denver Model, JASPER, Pivotal Response Treatment</span></td><td data-label="What it involves">Behavioral teaching built into play and everyday routines, following the child's interests</td><td data-label="What improved">Social communication, language, play, daily living skills, autism characteristics</td><td data-label="How well it held up"><strong>Best.</strong> The only effect left in the strictest test, where the people scoring results did not know which children were treated</td></tr>
+<tr><td>Behavioral<span class="note">including ABA-based programs</span></td><td data-label="What it involves">Structured teaching of specific skills and behaviors, step by step</td><td data-label="What improved">Challenging behavior, social-emotional skills</td><td data-label="How well it held up"><strong>Weaker.</strong> Mostly reported by parents and teachers who knew the child was in therapy; did not hold up without those reports</td></tr>
+<tr><td>Developmental<span class="note">often parent-coaching programs</span></td><td data-label="What it involves">Coaching caregivers to follow the child's lead and respond to their communication</td><td data-label="What improved">Social communication during interactions with caregivers</td><td data-label="How well it held up"><strong>Moderate.</strong> Held up without parent and teacher reports, but not in the strictest test</td></tr>
+<tr><td>Technology-based</td><td data-label="What it involves">Apps and computer programs</td><td data-label="What improved">Specific social skills closely tied to what the program taught</td><td data-label="How well it held up"><strong>Narrow.</strong> Did not hold up in the stricter tests</td></tr>
+</tbody>
+</table>
+</div>
 
 England's national clinical guideline (NICE) recommends considering a social-communication intervention for autism's core features. This includes play-based strategies, with parents, caregivers and teachers, that build shared attention, engagement and back-and-forth communication. It also suggests considering cognitive behavioral therapy (CBT, a talking therapy) adapted for autism to treat anxiety in children who have the language and thinking skills to take part.
 
@@ -107,29 +169,47 @@ Other therapies are a regular part of support even though this review did not ra
 
 No medicine treats autism itself. NICE advises against using antipsychotics, antidepressants or seizure medicines to treat autism's core features. Medicines are used instead for specific problems that often come with autism, and usually alongside therapy, not in place of it.
 
-**For severe irritability (tantrums, aggression, self-injury)**
-- **Risperidone** has been FDA-approved for irritability in autistic children ages 5 to 16 since 2006. **Aripiprazole** has been approved for ages 6 to 17 since 2009. A 2019 review of 8 trials with 878 children found both reduced irritability compared with a placebo (a dummy pill), and they worked about equally well with similar safety.
-- Both can cause weight gain. Risperidone can also cause movement side effects, such as stiffness or shaking. NICE suggests these medicines only when therapy and other support have not been enough, or cannot be given because the behavior is too severe.
+<div class="stack">
+<table>
+<caption>Medicines used alongside therapy</caption>
+<thead><tr><th>Medicine</th><th>Used for</th><th>What trials found</th><th>Watch for</th></tr></thead>
+<tbody>
+<tr><td>Risperidone</td><td data-label="Used for">Severe irritability: tantrums, aggression, self-injury</td><td data-label="What trials found">FDA-approved for ages 5 to 16 since 2006. Reduced irritability compared with a placebo (a dummy pill)<span class="note">2019 review of 8 trials, 878 children</span></td><td data-label="Watch for">Weight gain; movement side effects such as stiffness or shaking</td></tr>
+<tr><td>Aripiprazole</td><td data-label="Used for">Severe irritability</td><td data-label="What trials found">FDA-approved for ages 6 to 17 since 2009. Worked about as well as risperidone, with similar safety<span class="note">same 2019 review</span></td><td data-label="Watch for">Weight gain</td></tr>
+<tr><td>Methylphenidate<span class="note">a stimulant</span></td><td data-label="Used for">Hyperactivity and attention problems</td><td data-label="What trials found">49% improved clearly, a smaller benefit than in children with ADHD alone<span class="note">2005 trial, 72 children ages 5 to 14</span></td><td data-label="Watch for">Side effects more common than in ADHD alone; 18% stopped because of them</td></tr>
+<tr><td>Guanfacine<span class="note">extended-release</span></td><td data-label="Used for">Hyperactivity, impulsiveness, distractibility</td><td data-label="What trials found">50% much improved after 8 weeks, versus 9% on placebo. Hyperactivity scores fell 44%, versus 13%<span class="note">2015 trial, 62 children, average age 8</span></td><td data-label="Watch for">Drowsiness, tiredness, lower appetite; blood pressure dips in the first weeks</td></tr>
+<tr><td>Melatonin<span class="note">slow-release</span></td><td data-label="Used for">Trouble falling or staying asleep</td><td data-label="What trials found">About 58 more minutes of sleep a night (versus 9 on placebo), and fell asleep about 40 minutes faster (versus 13)<span class="note">2017 trial, 125 children whose sleep had not improved with behavioral steps; 13 weeks</span></td><td data-label="Watch for">Generally well tolerated in this trial</td></tr>
+<tr><td>SSRIs<span class="note">antidepressants such as fluoxetine</span></td><td data-label="Used for">Tried for repetitive behaviors and other autism features</td><td data-label="What trials found">No evidence they help autistic children with these features<span class="note">2013 Cochrane review, 9 trials, 320 participants</span></td><td data-label="Watch for">Side effects are possible</td></tr>
+</tbody>
+</table>
+</div>
 
-**For hyperactivity and attention problems**
-- **Methylphenidate** (a stimulant): in a 2005 trial of 72 autistic children ages 5 to 14, about half (49%) improved clearly. The benefit was smaller than in children with ADHD alone, side effects were more common, and 18% stopped taking it because of them.
-- **Guanfacine (extended-release)**: in a 2015 trial of 62 autistic children (average age 8), 50% were much improved after 8 weeks, compared with 9% on placebo. Hyperactivity scores dropped by 44%, versus 13% on placebo. Common side effects were drowsiness, tiredness and lower appetite, and blood pressure dipped in the first few weeks.
+- NICE suggests risperidone or aripiprazole only when therapy and other support have not been enough, or cannot be given because the behavior is too severe.
+- For sleep, NICE advises starting with a sleep plan and routines, and trying medicine only with a specialist's advice if problems continue.
 
-**For sleep**
-- **Melatonin**: in a 2017 trial of 125 children and teens whose sleep had not improved with behavioral steps, a slow-release form added about 58 minutes of sleep a night (versus 9 minutes on placebo). Children also fell asleep about 40 minutes faster (versus 13 minutes). It was generally well tolerated over the 13 weeks. NICE advises starting with a sleep plan and routines, and trying medicine only with a specialist's advice if problems continue.
-
-**Not supported for autism features**
-- **SSRIs** (antidepressants such as fluoxetine) have been tried for repetitive behaviors and other autism features. A 2013 Cochrane review of 9 trials with 320 participants found no evidence that they help autistic children with these features, and they can cause side effects.
-
-**In the news**
-- **Leucovorin (folinic acid)** has been in the news. In September 2025 the FDA approved it for cerebral folate deficiency, a rare condition in which the brain gets too little folate. That is not an approval for autism. The American Academy of Pediatrics calls its use for autism experimental, and the main review notes that one small positive trial is not enough to recommend it.
+**In the news: leucovorin (folinic acid).** In September 2025 the FDA approved it for cerebral folate deficiency, a rare condition in which the brain gets too little folate. That is not an approval for autism. The American Academy of Pediatrics calls its use for autism experimental, and the main review notes that one small positive trial is not enough to recommend it.
 
 Medicines for other conditions that come with autism, such as seizures or stomach problems, are chosen by the child's doctor for that condition.
 
 ## What this means for caregivers
 
 - Autism is not one single profile. Children differ widely in speech, in how much support they need, and in their strengths. Having some of the signs above does not by itself mean a child is autistic.
-- Pediatric guidelines described in the review call for developmental check-ins at 9, 15 and 30 months and autism-specific screening at 18 months and again at 24 or 30 months. If screening raises concerns, the next steps are early intervention services for children under 3, or a school evaluation for children 3 and older, plus referral to a specialist for a full diagnosis. You do not need to wait for a diagnosis to start early intervention.
+- Pediatric guidelines described in the review set out a schedule of check-ins, shown below. If screening raises concerns, the next steps are early intervention services for children under 3, or a school evaluation for children 3 and older, plus referral to a specialist for a full diagnosis. You do not need to wait for a diagnosis to start early intervention.
+
+<div class="stack">
+<table>
+<caption>Recommended check-ins in the first 3 years</caption>
+<thead><tr><th>Age</th><th>What happens</th></tr></thead>
+<tbody>
+<tr><td>9 months</td><td data-label="What happens">General developmental check</td></tr>
+<tr><td>15 months</td><td data-label="What happens">General developmental check</td></tr>
+<tr><td>18 months</td><td data-label="What happens">Autism-specific screening</td></tr>
+<tr><td>24 months</td><td data-label="What happens">Autism-specific screening again (at 24 or 30 months)</td></tr>
+<tr><td>30 months</td><td data-label="What happens">General developmental check</td></tr>
+</tbody>
+</table>
+</div>
+
 - Because other health needs are common, a full evaluation often looks at sleep, digestion, seizures and anxiety too. The review says several professional groups recommend genetic testing as part of the first medical workup.
 - When weighing a therapy, it is reasonable to ask what goals it targets, how progress will be measured, and what side effects or downsides to watch for. Be cautious about any product or treatment that claims to cure autism, especially ones listed above as not recommended.
 - Medicines can make a real difference for irritability, hyperactivity or sleep, but each has side effects that need regular check-ins. Decisions about starting, changing or stopping a medicine belong with your child's doctor.

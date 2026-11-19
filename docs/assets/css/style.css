@@ -569,3 +569,141 @@ a { color: inherit; text-decoration: none; }
 .easy-explainer p:last-child { margin-bottom: 0; }
 .easy-explainer-missing { font-style: italic; }
 .easy-explainer-disclaimer { font-size: .85rem; opacity: .8; }
+
+/* ── Tables in articles ── */
+.summary-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Inter', sans-serif;
+  font-size: .9rem;
+  line-height: 1.5;
+  margin: 8px 0 24px;
+}
+.summary-body caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 600;
+  font-size: .95rem;
+  color: var(--text);
+  padding-bottom: 10px;
+}
+.summary-body th {
+  text-align: left;
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: var(--text-muted);
+  background: var(--bg-alt);
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: bottom;
+}
+.summary-body td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.summary-body td:first-child { font-weight: 600; color: var(--text); }
+.summary-body td .note { display: block; color: var(--text-muted); font-size: .82rem; margin-top: 2px; font-weight: 400; }
+
+/* ── Charts in articles (HTML bars, so text stays full size on phones) ── */
+.chart {
+  font-family: 'Inter', sans-serif;
+  margin: 8px 0 28px;
+  padding: 18px 20px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+}
+.chart-title { font-weight: 600; font-size: .95rem; line-height: 1.4; color: var(--text); }
+.chart-sub { font-size: .82rem; color: var(--text-muted); margin: 2px 0 14px !important; line-height: 1.5; }
+.chart-note { font-size: .8rem; color: var(--text-muted); margin: 12px 0 0 !important; line-height: 1.5; }
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr 4.6rem;
+  align-items: center;
+  gap: 10px;
+  padding: 3px 4px;
+  border-radius: 6px;
+  font-size: .85rem;
+}
+.bar-row:hover { background: var(--bg-alt); }
+.bar-label { color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.bar-track { position: relative; height: 16px; border-left: 1px solid #d1d5db; }
+.bar {
+  position: absolute; left: 0; top: 0; bottom: 0;
+  background: var(--brand);
+  border-radius: 0 4px 4px 0;
+}
+.bar-row:hover .bar, .range-row:hover .range-bar { background: #4338ca; }
+.bar-value { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.range-row {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr 4.6rem;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 4px;
+  border-radius: 6px;
+  font-size: .85rem;
+}
+.range-row:hover { background: var(--bg-alt); }
+.range-label { color: var(--text); line-height: 1.3; }
+.range-label small { display: block; color: var(--text-muted); font-size: .75rem; }
+.range-track {
+  position: relative; height: 16px;
+  background: linear-gradient(var(--border), var(--border)) center / 100% 1px no-repeat;
+}
+.range-bar {
+  position: absolute; top: 2px; bottom: 2px;
+  min-width: 10px;
+  background: var(--brand);
+  border-radius: 4px;
+}
+.range-axis {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr 4.6rem;
+  gap: 10px;
+  padding: 4px 4px 0;
+  font-size: .72rem;
+  color: var(--text-muted);
+}
+.range-axis-ticks { position: relative; height: 1.2em; font-variant-numeric: tabular-nums; }
+.range-axis-ticks > span { position: absolute; top: 0; transform: translateX(-50%); }
+.range-axis-ticks > span:nth-child(1) { left: 0; transform: none; }
+.range-axis-ticks > span:nth-child(2) { left: 25%; }
+.range-axis-ticks > span:nth-child(3) { left: 50%; }
+.range-axis-ticks > span:nth-child(4) { left: 75%; }
+.range-axis-ticks > span:nth-child(5) { left: 100%; transform: translateX(-100%); }
+
+@media (max-width: 600px) {
+  .chart { padding: 14px 12px 12px; }
+  .bar-row { grid-template-columns: 2.8rem 1fr 4.2rem; gap: 8px; }
+  .range-row { grid-template-columns: 1fr 4.2rem; row-gap: 2px; }
+  .range-label { grid-column: 1 / -1; }
+  .range-axis { grid-template-columns: 1fr 4.2rem; }
+  .range-axis > span:first-child { display: none; }
+
+  /* Tables marked .stack become one card per row */
+  .summary-body .stack table, .summary-body .stack tbody,
+  .summary-body .stack tr, .summary-body .stack td { display: block; width: 100%; }
+  .summary-body .stack thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .summary-body .stack tr {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 12px;
+  }
+  .summary-body .stack td { border: none; padding: 4px 0; }
+  .summary-body .stack td:first-child { font-size: 1rem; padding-bottom: 6px; }
+  .summary-body .stack td[data-label]:not(:first-child)::before {
+    content: attr(data-label);
+    display: block;
+    font-size: .72rem; font-weight: 600;
+    letter-spacing: .04em; text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  /* Plain tables without .stack scroll sideways instead of squashing */
+  .summary-body > table { display: block; overflow-x: auto; }
+}
