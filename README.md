@@ -59,6 +59,12 @@ XML and abstract with no API key. Ingestion tries the LLM first and falls back t
 abstract rules, so a fetched paper always produces a record even when the LLM call
 fails, and any capture still missing a record is backfilled at the end of the run.
 
+A fetched paper whose PMID has no reviewed entry in `config/study_domains.json` is
+not extracted yet, because a record without a `domain` fails the schema and domain is
+never inferred. The run summary lists those papers under "Awaiting domain review"
+with their titles. Add a domain for each to `config/study_domains.json`; the next run's
+backfill builds and publishes the record.
+
 The daily GitHub Action uses repository secrets for PubMed and LLM access:
 
 - `OPENROUTER_API_KEY`
@@ -93,8 +99,10 @@ through the Railway CLI's login (`railway login` once per machine). See
   months and `7-13` years are indistinguishable without it.
 - `python -m pipelines.pubmed.validate` checks records against
   `schemas/study.schema.json`, which is the contract.
-- Every raw capture must have a study record. `python -m scripts.check_raw_coverage`
-  enforces it and the daily Action runs it, so a fetched paper cannot sit unpublished.
+- Every raw capture with a reviewed domain must have a study record.
+  `python -m scripts.check_raw_coverage` enforces it and the daily Action runs it, so a
+  fetched paper cannot sit unpublished by accident. Captures still awaiting a domain
+  review are listed as a warning instead, by the same rule ingestion uses to skip them.
 - XML-derived fields (`doi`, `study_type`, `year`, `title`, `journal`, `authors`,
   `mesh_terms`, `keywords`, `co_occurring_conditions`) are authoritative. The LLM
   extractor fills the interpretive fields only and cannot overwrite them.

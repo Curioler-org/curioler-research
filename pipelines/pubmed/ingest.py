@@ -5,9 +5,16 @@ import json
 import time
 from pathlib import Path
 
-from pipelines.pubmed.common import RAW_ABSTRACT_DIR, existing_dois, existing_pmids, study_path
+from pipelines.pubmed.common import (
+    RAW_ABSTRACT_DIR,
+    RAW_XML_DIR,
+    existing_dois,
+    existing_pmids,
+    load_study_domains,
+    study_path,
+)
 from pipelines.pubmed.discover import discover_new_pmids
-from pipelines.pubmed.extract import extract_study
+from pipelines.pubmed.extract import extract_study, metadata_from_xml
 from pipelines.pubmed.fetch import fetch_and_store
 from pipelines.pubmed.index import write_indexes
 from pipelines.pubmed.validate import validate_study
@@ -46,13 +53,29 @@ def raw_pmids() -> list[str]:
     return sorted(path.stem.replace("PMID", "") for path in RAW_ABSTRACT_DIR.glob("PMID*.txt"))
 
 
+def raw_title(pmid: str) -> str | None:
+    try:
+        xml_text = (RAW_XML_DIR / f"PMID{pmid}.xml").read_text(encoding="utf-8")
+        return metadata_from_xml(pmid, xml_text).get("title")
+    except Exception:
+        return None
+
+
 def backfill_orphans(summary: dict, seen_pmids: set[str], seen_dois: set[str]) -> None:
     """Give a study record to every raw capture that does not have one yet.
 
-    Covers captures orphaned by earlier runs and any raw file added by hand.
+    Covers captures orphaned by earlier runs, captures whose domain was reviewed
+    since they were fetched, and any raw file added by hand. A capture with no
+    reviewed domain cannot become a valid record yet (domain is never inferred), so
+    it is listed as awaiting review rather than counted as a validation failure;
+    scripts/check_raw_coverage.py applies the same rule.
     """
+    reviewed = load_study_domains()
     for pmid in raw_pmids():
         if pmid in seen_pmids:
+            continue
+        if pmid not in reviewed:
+            summary["awaiting_domain_review"].append({"pmid": pmid, "title": raw_title(pmid)})
             continue
         try:
             study = build_study(pmid)
@@ -77,14 +100,8 @@ def backfill_orphans(summary: dict, seen_pmids: set[str], seen_dois: set[str]) -
         summary["saved_files"].append(str(path))
 
 
-def run(limit: int | None = None) -> dict:
-    started = time.monotonic()
-    pmids = discover_new_pmids()
-    if limit:
-        pmids = pmids[:limit]
-    seen_pmids = existing_pmids()
-    seen_dois = existing_dois()
-    summary = {
+def new_summary() -> dict:
+    return {
         "new_studies": 0,
         "backfilled": 0,
         "duplicates": 0,
@@ -96,7 +113,19 @@ def run(limit: int | None = None) -> dict:
         "failures": [],
         "llm_errors": [],
         "saved_files": [],
+        "awaiting_domain_review": [],
     }
+
+
+def run(limit: int | None = None) -> dict:
+    started = time.monotonic()
+    pmids = discover_new_pmids()
+    if limit:
+        pmids = pmids[:limit]
+    seen_pmids = existing_pmids()
+    seen_dois = existing_dois()
+    reviewed = load_study_domains()
+    summary = new_summary()
 
     for pmid in pmids:
         try:
@@ -104,6 +133,11 @@ def run(limit: int | None = None) -> dict:
                 summary["duplicates"] += 1
                 continue
             fetch_and_store(pmid)
+            if pmid not in reviewed:
+                # No reviewed domain yet, so no valid record can be built; skip the
+                # extraction call. backfill_orphans lists it as awaiting review and
+                # builds it on the first run after its domain is added.
+                continue
             study = extract_with_fallback(pmid, summary)
             doi = study.get("doi")
             if doi and str(doi).lower() in seen_dois:
@@ -148,7 +182,13 @@ def print_summary(summary: dict) -> None:
     print(f"Extraction Failures: {summary['extraction_failures']}")
     print(f"Validation Failures: {summary['validation_failures']}")
     print(f"Indexes Updated: {summary['indexes_updated']}")
+    print(f"Awaiting Domain Review: {len(summary['awaiting_domain_review'])}")
     print(f"Completed In: {summary['completed_in']}")
+    if summary["awaiting_domain_review"]:
+        print()
+        print("Awaiting domain review (add each PMID to config/study_domains.json to publish it):")
+        for item in summary["awaiting_domain_review"]:
+            print(f"- PMID {item['pmid']}: {item['title'] or '(title unavailable)'}")
     if summary["llm_errors"]:
         print()
         print("LLM extraction fell back to abstract rules:")
