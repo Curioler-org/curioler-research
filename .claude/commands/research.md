@@ -1,7 +1,7 @@
 Run the Curioler research pipeline for the topic: $ARGUMENTS
 
 Steps:
-1. cd to the curioler-research repo root: `C:\Users\Bhavin\Desktop\Git Projects\Curioler-org\curioler-research`
+1. cd to the curioler-research repo root: `B:\Git Projects\Curioler-org\curioler-research`
 2. Infer the best-fit SEARCH_DOMAIN from the topic using this guide — do not ask the user:
    - Communication: language, speech, AAC, echolalia, PECS, verbal, nonverbal communication
    - Social: joint attention, friendship, peer interaction, social skills, play with others, eye contact
