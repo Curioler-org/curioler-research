@@ -64,6 +64,43 @@ tags: [autism, definition, signs, diagnosis, dsm-5, causes, genetics, prevalence
 </figure>
 
 
+## How public interest in autism has grown
+
+Worldwide Google searches for "autism" stayed roughly level from 2004 to 2021, then about doubled by 2026. Searches peak almost every April, which is Autism Awareness Month. The busiest single month was September 2025, when a US government announcement about acetaminophen (Tylenol) and leucovorin drew wide news coverage. More searching means more people are looking for information. It does not show how many people are autistic.
+
+<figure class="chart" aria-label="Column chart of yearly Google search interest in autism worldwide, 2004 to 2026">
+<div class="chart-title">Worldwide Google searches for "autism", by year</div>
+<p class="chart-sub">Average search interest each year. Google scores the busiest month as 100 and rates every other month against it, so this shows relative interest, not the number of searches.</p>
+<div class="col-chart">
+<div class="col" title="2004: average interest 28"><span class="col-val" style="bottom:calc(39.8% + 4px)">28</span><span class="col-bar" style="height:39.8%"></span></div>
+<div class="col" title="2005: average interest 32"><span class="col-bar" style="height:45.2%"></span></div>
+<div class="col" title="2006: average interest 29"><span class="col-bar" style="height:42.0%"></span></div>
+<div class="col" title="2007: average interest 33"><span class="col-bar" style="height:46.8%"></span></div>
+<div class="col" title="2008: average interest 31"><span class="col-bar" style="height:44.6%"></span></div>
+<div class="col" title="2009: average interest 28"><span class="col-bar" style="height:39.9%"></span></div>
+<div class="col" title="2010: average interest 27"><span class="col-bar" style="height:38.9%"></span></div>
+<div class="col" title="2011: average interest 26"><span class="col-bar" style="height:37.9%"></span></div>
+<div class="col" title="2012: average interest 27"><span class="col-bar" style="height:39.2%"></span></div>
+<div class="col" title="2013: average interest 27"><span class="col-bar" style="height:38.5%"></span></div>
+<div class="col" title="2014: average interest 27"><span class="col-bar" style="height:38.5%"></span></div>
+<div class="col" title="2015: average interest 27"><span class="col-bar" style="height:38.9%"></span></div>
+<div class="col" title="2016: average interest 29"><span class="col-bar" style="height:41.2%"></span></div>
+<div class="col" title="2017: average interest 31"><span class="col-bar" style="height:44.9%"></span></div>
+<div class="col" title="2018: average interest 32"><span class="col-bar" style="height:45.2%"></span></div>
+<div class="col" title="2019: average interest 34"><span class="col-bar" style="height:48.0%"></span></div>
+<div class="col" title="2020: average interest 28"><span class="col-bar" style="height:40.7%"></span></div>
+<div class="col" title="2021: average interest 32"><span class="col-val" style="bottom:calc(45.6% + 4px)">32</span><span class="col-bar" style="height:45.6%"></span></div>
+<div class="col" title="2022: average interest 39"><span class="col-bar" style="height:55.2%"></span></div>
+<div class="col" title="2023: average interest 44"><span class="col-bar" style="height:63.6%"></span></div>
+<div class="col" title="2024: average interest 48"><span class="col-bar" style="height:68.9%"></span></div>
+<div class="col" title="2025: average interest 61"><span class="col-bar" style="height:87.6%"></span></div>
+<div class="col partial" title="2026 (January to mid-November): average interest 65"><span class="col-val" style="bottom:calc(92.7% + 4px)">65</span><span class="col-bar" style="height:92.7%"></span></div>
+</div>
+<div class="col-axis" aria-hidden="true"><span style="left:2.17%">2004</span><span style="left:28.26%">2010</span><span style="left:54.35%">2016</span><span style="left:80.43%">2022</span><span style="left:97.83%">2026</span></div>
+<div class="chart-key"><span><i></i>Full year</span><span><i class="partial"></i>2026 so far (January to mid-November)</span></div>
+<p class="chart-note">Source: Google Trends, worldwide, 2004 to November 2026. The single busiest month was September 2025 (100).</p>
+</figure>
+
 ## Typical signs of autism
 
 The CDC lists signs in two main areas, plus other traits that often come along. Many children who are not autistic show one or two of these. What matters is a lasting pattern across both areas, and only a specialist evaluation can tell.
@@ -239,6 +276,7 @@ Medicines for other conditions that come with autism, such as seizures or stomac
 - [Acetaminophen Use During Pregnancy and Children's Risk of Autism, ADHD, and Intellectual Disability](https://pubmed.ncbi.nlm.nih.gov/38592388/) — Ahlqvist VH, Sjöqvist H, Dalman C, et al., 2024, JAMA
 - [FDA announces label changes for acetaminophen in pregnancy, approves leucovorin calcium for CFD](https://www.contemporarypediatrics.com/view/fda-announces-label-changes-for-acetaminophen-in-pregnancy-approves-leucovorin-calcium-for-cfd) — Contemporary Pediatrics, 2025, news report
 - [AAP: 'Dangerous claims' about causes of autism confuse parents, harm children](https://publications.aap.org/aapnews/news/33405/AAP-Dangerous-claims-about-causes-of-autism) — American Academy of Pediatrics, AAP News, 2025
+- [Google Trends: "autism", worldwide, 2004 to present](https://trends.google.com/trends/explore?date=all&q=autism) — Google, search interest data downloaded November 19, 2026
 - [Autism - Definition and Signs](https://autism.unc.edu/resources/autism-definition-and-signs) — UNC Autism Research Center, University of North Carolina at Chapel Hill, web page
 - [What is Autism Spectrum Disorder (ASD)?](https://neurosciences.ucsd.edu/centers-programs/autism/about-autism/what-is-autism.html) — UC San Diego Autism Center of Excellence, web page
 - [Autism spectrum disorder (ASD)](https://www.autismspeaks.org/what-autism) — Autism Speaks, web page
