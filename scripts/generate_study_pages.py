@@ -8,7 +8,6 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 STUDIES_DIR = ROOT / "research" / "studies"
 DOCS_STUDIES_DIR = ROOT / "docs" / "_studies"
-DOCS_DATA_DIR = ROOT / "docs" / "_data"
 
 
 def slugify(text: str) -> str:
@@ -77,47 +76,25 @@ def render_study_page(study: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-def public_study_summary(study: dict[str, Any]) -> dict[str, Any]:
-    slug = f"PMID{study['pmid']}-{slugify(study.get('title') or '')}"
-    return {
-        "title": study.get("title"),
-        "pmid": study.get("pmid"),
-        "year": study.get("year"),
-        "study_type": study.get("study_type"),
-        "domain": study.get("domain"),
-        "trust_tier": study.get("trust_tier"),
-        "trust_tier_label": study.get("trust_tier_label"),
-        "easy_explainer": study.get("easy_explainer"),
-        "intervention": study.get("intervention"),
-        "diagnosis": study.get("diagnosis"),
-        "co_occurring_conditions": study.get("co_occurring_conditions", []),
-        "age_range": study.get("age_range"),
-        "journal": study.get("journal"),
-        "url": f"/studies/{slug}/",
-        "source_url": study.get("source_url"),
-    }
-
-
 def generate_pages() -> None:
+    """Write one docs/_studies/*.md per study record.
+
+    curioler-platform's knowledge ingest reads these files; they are not a
+    website of their own any more (the GitHub Pages site was retired).
+    """
     studies = load_studies()
     DOCS_STUDIES_DIR.mkdir(parents=True, exist_ok=True)
-    DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
     for old in DOCS_STUDIES_DIR.glob("*.md"):
         old.unlink()
     for study in studies:
         title = study.get("title") or f"PMID {study['pmid']}"
         slug = f"PMID{study['pmid']}-{slugify(title)}"
         (DOCS_STUDIES_DIR / f"{slug}.md").write_text(render_study_page(study), encoding="utf-8")
-    data = [public_study_summary(study) for study in studies]
-    DOCS_DATA_DIR.joinpath("studies.json").write_text(
-        json.dumps(data, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
-        encoding="utf-8",
-    )
 
 
 def main() -> None:
     generate_pages()
-    print("Generated study pages and docs/_data/studies.json")
+    print("Generated docs/_studies pages")
 
 
 if __name__ == "__main__":

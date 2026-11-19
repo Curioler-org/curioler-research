@@ -12,5 +12,5 @@ Steps:
    - General: anything that spans multiple domains or doesn't fit cleanly above (e.g. "most important skills", diagnosis, co-occurring conditions, research overviews)
 3. Run: `SEARCH_QUERY="<full topic>" SEARCH_DOMAIN="<inferred domain>" python agent/generate_summary.py` (use Bash tool, set env vars inline)
 4. Show the saved file path, the inferred domain, and a preview of the frontmatter
-5. Run: `git add docs/_summaries/ && git commit -m "research: <topic>" && git push`
-6. Report the GitHub Pages URL where it will publish
+5. Run: `git add docs/_summaries/ topics/ && git commit -m "research: <topic>" && git push`
+6. Report where it will publish: `https://www.curioler.com/knowledge/<slug>`, where `<slug>` is the file name without its date prefix and `.md` (e.g. `2026-11-19-what-is-autism.md` → `what-is-autism`). The site imports from this repo every 30 minutes, and a page can take up to another hour to refresh.

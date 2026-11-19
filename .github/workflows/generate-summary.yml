@@ -63,6 +63,6 @@ jobs:
             **Domain:** ${{ github.event.inputs.domain }}
 
             Review the file in `docs/_summaries/` before merging.
-            Merging this PR publishes the summary directly to GitHub Pages.
+            Merging this PR publishes the summary to www.curioler.com/knowledge within about an hour.
           commit-message: "Add draft summary: ${{ github.event.inputs.search_query }}"
           labels: draft, research-summary

@@ -18,7 +18,7 @@ This repository is the canonical evidence store for:
 - `raw/pubmed/xml/` and `raw/pubmed/abstracts/` preserve original PubMed responses.
 - `research/indexes/` contains generated indexes. Do not edit these manually.
 - `pipelines/pubmed/` contains modular ingestion steps.
-- `docs/` remains the GitHub Pages source so existing URLs keep working.
+- `docs/_summaries/`, `docs/_myth_checks/` and `docs/_studies/` are what the Curioler platform publishes: its `knowledge-ingest` job reads them every 30 minutes and serves each one at `www.curioler.com/knowledge/<slug>`. The GitHub Pages site that used to be built from `docs/` was retired in November 2026, so `docs/` holds content only, with no site templates.
 
 ## PubMed Ingestion
 
