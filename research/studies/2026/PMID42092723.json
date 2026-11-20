@@ -36,7 +36,7 @@
     ],
     "size": "It involved 642 people, which is a large group for autism research and makes the findings steadier."
   },
-  "intervention": "congenital cytomegalovirus",
+  "intervention": null,
   "journal": "American journal of obstetrics and gynecology",
   "keywords": [
     "autism spectrum disorder",
@@ -46,7 +46,7 @@
     "prenatal MRI",
     "sensorineural hearing loss"
   ],
-  "last_updated": "2026-08-31T13:10:30Z",
+  "last_updated": "2026-11-20T13:12:00Z",
   "limitations": [
     "observational cohort study including children with confirmed congenital cytomegalovirus infec"
   ],

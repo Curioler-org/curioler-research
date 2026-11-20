@@ -111,6 +111,12 @@ through the Railway CLI's login (`railway login` once per machine). See
   trial arm, and never a count of observations or of other studies.
   `python -m scripts.check_participants` holds it to a hand-read fixture of every
   abstract.
+- `intervention` is the treatment or program the title names, or `null`. It is never
+  taken from PubMed keywords (topics such as `ADHD`), from the abstract (which also
+  names control arms and dosing), or from a design phrase, and a paper that studies
+  an exposure, biomarker or measurement method has `null`.
+  `python -m scripts.check_intervention` holds it to a hand-read fixture of every
+  paper.
 - `trust_tier`, `trust_tier_label` and `easy_explainer` are derived in
   `normalize_study()` and must never be hand-edited. Tier 4 means "design not stated";
   a small sample demotes one step but never past tier 3.

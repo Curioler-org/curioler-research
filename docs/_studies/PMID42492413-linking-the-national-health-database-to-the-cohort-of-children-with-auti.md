@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "Cohort"
+intervention: ""
 duration: ""
 primary_outcomes: ["We matched 96 % of the reference sample and 53 % of the other sample using either deterministic or probabilistic approach, resulting in a total match rate of 79 % with deterministi…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Child", "Child, Preschool", "Female", "Humans", "Male", "Autism Sp
 keywords: ["Autism spectrum disorder", "Cohort", "Deterministic matching", "Probabilistic matching", "SNDS"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42492413/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

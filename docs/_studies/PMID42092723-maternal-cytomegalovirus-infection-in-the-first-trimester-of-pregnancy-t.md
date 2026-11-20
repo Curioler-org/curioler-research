@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "congenital cytomegalovirus"
+intervention: ""
 duration: "48 months"
 primary_outcomes: ["Among 642 children with confirmed congenital cytomegalovirus infection, 504 (78.5%) were exposed to a maternal primary infection with known timing. Of these, 288 (57.1%) followed f…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Cytomegalovirus Infections", "Pregnancy", "Female", "Pre
 keywords: ["autism spectrum disorder", "congenital cytomegalovirus", "first-trimester infection", "neurodevelopmental outcomes", "prenatal MRI", "sensorineural hearing loss"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42092723/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

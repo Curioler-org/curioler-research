@@ -19,17 +19,17 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "family navigation on service and clinical outcomes while gathering information on implementation"
+intervention: "ATTAIN NAV"
 duration: ""
 primary_outcomes: []
 secondary_outcomes: []
 limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
-clinical_implications: "May be relevant to family navigation on service and clinical outcomes while gathering information on implementation in Autism Spectrum Disorder, based on abstract-reported findings."
+clinical_implications: "May be relevant to ATTAIN NAV in Autism Spectrum Disorder, based on abstract-reported findings."
 abstract: "ATTAIN NAV (Access to Tailored Autism Integrated Care through Family Navigation) was delivered by family navigators to promote access to and engagement with mental health services for school-age autistic youth. This study used a mixed method, stepped wedge design to test the effects of family navigation on service and clinical outcomes while gathering information on implementation. Primary care providers from six clinics in California and 56 caregiver-child dyads enrolled in and completed the study. Clinics were randomized to either a technology-enhanced or standard family navigation condition. Caregivers completed assessments at baseline and post about child, family and services outcomes, and a subset participated in a post qualitative interview. Quantitative findings demonstrated improvements in child challenging behavior and parent activation across conditions although these improvements were more pronounced for families in the standard FN condition. At post-intervention, families in the standard FN condition reported higher levels of navigation satisfaction, a shorter time to attend their first mental health appointment, and higher engagement with their navigator. Qualitative findings complemented and expanded the quantitative survey findings. The ATTAIN NAV model of family navigation for autistic children with co-occurring mental health needs demonstrates promising implementation, service, and clinical benefits. Clinical Trials Registration. NCT05344378."
 conclusion: ""
 mesh_terms: ["Humans", "Male", "Child", "Female", "Mental Health Services", "Adolescent", "Autistic Disorder", "Health Services Accessibility", "Autism Spectrum Disorder", "Caregivers", "Patient Navigation", "California"]
 keywords: ["Family navigation,autism", "Hybrid implementation effectiveness", "Mental health", "Mixed methods", "Stepped wedge"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40338511/"
 created_at: "2026-11-20T10:29:18Z"
-last_updated: "2026-11-20T10:29:18Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

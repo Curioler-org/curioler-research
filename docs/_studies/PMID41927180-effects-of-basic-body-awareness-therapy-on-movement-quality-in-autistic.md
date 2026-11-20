@@ -19,7 +19,7 @@ age_max: 30
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "interventions targeting these aspects in autistic persons"
+intervention: "Basic Body Awareness Therapy"
 duration: ""
 primary_outcomes: ["Primary outcome was a person-reported measure of an individualized movement"]
 secondary_outcomes: ["Secondary outcome was Body Awareness Scale Movement Quality (BAS MQ)"]
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Young Adult", "Adolescent", "Autistic Disorder
 keywords: ["Autism", "Autistic", "Basic Body Awareness Therapy", "Body awareness", "Movement quality", "Physiotherapy"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41927180/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

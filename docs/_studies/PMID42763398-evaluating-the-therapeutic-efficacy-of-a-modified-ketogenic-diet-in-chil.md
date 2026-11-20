@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "a modified KD, comprising ketogenic nutritional powder and a structured dietary plan, with lunch provided at t"
+intervention: "modified ketogenic diet"
 duration: "2-month"
 primary_outcomes: ["ABC) and Childhood Autism Rating Scale (CARS)", "ABC and CARS scores compared with baseline (P < 0", "ABC (U = 324"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Diet, Ketogenic", "Male", "Female", "Autism Spectrum Dis
 keywords: ["Autism spectrum disorder", "Childhood autism rating scale", "Ketogenic diet", "Treatment"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42763398/"
 created_at: "2026-11-20T10:29:20Z"
-last_updated: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

@@ -19,7 +19,7 @@ age_max: 28
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "wearable device physical activity monitoring"
+intervention: ""
 duration: "8-week"
 primary_outcomes: ["Data from twenty-seven subjects (21 males, 6 females) ages 14 to 28 years (mean: 18.85 years) were analyzed. Adherence was significantly higher when calculated using Method B (mean…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Adolescent", "Male", "Prospective Studies", "A
 keywords: ["Wearable device adherence", "adolescents and adults", "autism spectrum disorder", "fitness tracker", "physical activity"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41578977/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

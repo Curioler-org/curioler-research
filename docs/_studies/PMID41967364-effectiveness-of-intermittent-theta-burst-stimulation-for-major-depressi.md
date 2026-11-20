@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Major Depressive Disorder", "Attention Deficit Disorder with Hyperactivity"]
-intervention: "intermittent theta-burst stimulation (iTBS)"
+intervention: "intermittent theta-burst stimulation"
 duration: ""
 primary_outcomes: ["Primary outcomes included percentage changes in Montgomery-Åsberg Depressio"]
 secondary_outcomes: ["adverse events", "adverse events occurred"]
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Male", "Retrospective Studies", "Major Depress
 keywords: ["Attention deficit hyperactivity disorder", "Autistic spectrum disorder", "Intermittent theta-burst stimulation", "Neurodevelopmental disorders"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41967364/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

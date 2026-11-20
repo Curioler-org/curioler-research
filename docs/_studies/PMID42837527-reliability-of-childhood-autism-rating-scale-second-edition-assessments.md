@@ -19,7 +19,7 @@ age_max: 17
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Attention Deficit Disorder with Hyperactivity"]
-intervention: "Childhood Autism Rating Scale"
+intervention: ""
 duration: ""
 primary_outcomes: ["The overall ICC for CARS2 total scores between face-to-face and telepsychiatry assessments was 0.582 (95% CI 0.407-0.717), indicating moderate agreement. The ICC was 0.546 among pa…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Child", "Female", "Feasibility Studies", "Male", "Reprod
 keywords: ["Childhood Autism Rating Scale", "attention-deficit/hyperactivity disorder", "autism spectrum disorder", "online assessment", "telepsychiatry"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42837527/"
 created_at: "2026-11-20T10:29:20Z"
-last_updated: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Attention Deficit Disorder with Hyperactivity"]
-intervention: "ADHD"
+intervention: ""
 duration: ""
 primary_outcomes: ["Primary outcomes measured included unbuckling frequency over the approximat"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Seat Belts", "Female", "Accidents, Traffic", "Young Adul
 keywords: ["ADHD", "Developmental disabilities", "autism", "motor vehicle accident", "seatbelt safety"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42584897/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

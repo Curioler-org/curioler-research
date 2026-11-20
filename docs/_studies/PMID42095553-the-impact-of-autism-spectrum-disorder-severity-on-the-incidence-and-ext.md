@@ -19,7 +19,7 @@ age_max: 15
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "their health and dental care at a major pediatric health center between 2016 and 2024"
+intervention: ""
 duration: ""
 primary_outcomes: ["Among the 441 participants, 9.1% experienced at least one dental trauma. No statistically significant associations were found between autism severity and dental trauma incidence (p…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Tooth Injuries", "Retrospective Studies", "Child", "Male
 keywords: ["autism", "children", "retrospective chart review", "severity of disorder", "traumatic dental injury"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42095553/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

@@ -19,7 +19,7 @@ age_max: 15
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "Children with disabilities"
+intervention: ""
 duration: ""
 primary_outcomes: ["Findings indicate that the motor coordination component significantly increased physical activity and engagement. The music and video components contributed to emotional comfort an…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Child", "Indonesia", "Down Syndrome", "Child, Preschool"
 keywords: ["Children with disabilities", "Sustainable Development goal", "affordable technology", "down syndrome", "interactive learning room"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42172186/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

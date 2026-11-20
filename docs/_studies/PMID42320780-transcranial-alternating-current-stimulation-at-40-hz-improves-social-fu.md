@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "21 sessions of 40-Hz high-definition transcranial alternating current stimulation (tACS) targeting the rTPJ (3"
+intervention: "Transcranial Alternating Current Stimulation at 40 Hz"
 duration: "7 days"
 primary_outcomes: ["primary outcome was change in Ohio State University Autism Rating Scale-DSM", "Social Responsiveness Scale-Second Edition"]
 secondary_outcomes: ["Secondary outcomes included the Aberrant Behavior Checklist-Second Edition", "adverse events occurred"]
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Autism Spectrum Disorder", "Male", "Transcranial Direct 
 keywords: ["Autism spectrum disorder", "Eye tracking", "Gamma oscillations", "Right temporoparietal junction", "Theory of mind", "Transcranial alternating current stimulation"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42320780/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

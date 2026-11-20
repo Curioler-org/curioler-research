@@ -26,7 +26,7 @@
     "Sara Jane Webb",
     "Paul P Wang"
   ],
-  "clinical_implications": "May be relevant to 16p11.2 deletion syndrome in Autism Spectrum Disorder, based on abstract-reported findings.",
+  "clinical_implications": "May be relevant to clinical care in Autism Spectrum Disorder; interpret cautiously from abstract-level evidence.",
   "co_occurring_conditions": [
     "Chromosome Disorders",
     "Intellectual Disability"
@@ -48,7 +48,7 @@
     ],
     "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
   },
-  "intervention": "16p11.2 deletion syndrome",
+  "intervention": null,
   "journal": "Expert review of neurotherapeutics",
   "keywords": [
     "16p11.2 deletion syndrome",
@@ -58,7 +58,7 @@
     "speech",
     "youth"
   ],
-  "last_updated": "2026-08-31T13:10:30Z",
+  "last_updated": "2026-11-20T13:12:00Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

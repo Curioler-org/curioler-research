@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Schizophrenia"]
-intervention: "social cognitive skills training (SCST), focusing on both common and different effects on SCZ and ASD"
+intervention: "social cognitive skills training"
 duration: "6 weeks"
 primary_outcomes: ["SCST significantly improved facial emotion perception across diagnoses and demonstrated a trend-level ASD-specific improvement in theory of mind. These effects were maintained and…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Adult", "Female", "Humans", "Male", "Middle Aged", "Young Adult", 
 keywords: ["facial emotion recognition", "mentalizing", "reading the mind in the eyes test", "social cognition training", "social functioning"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42487254/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

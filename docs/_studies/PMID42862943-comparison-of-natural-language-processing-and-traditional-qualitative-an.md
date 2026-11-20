@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "natural language processing"
+intervention: ""
 duration: ""
 primary_outcomes: []
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Child", "Female", "Humans", "Male", "Autistic Disorder", "Caregive
 keywords: ["autism", "natural language processing", "parent perspectives", "program evaluation", "qualitative analysis"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42862943/"
 created_at: "2026-11-20T10:29:20Z"
-last_updated: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

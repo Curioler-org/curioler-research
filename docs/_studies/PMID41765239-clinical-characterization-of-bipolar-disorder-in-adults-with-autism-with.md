@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Bipolar Disorder", "Intellectual Disability"]
-intervention: "Bipolar disorder"
+intervention: ""
 duration: ""
 primary_outcomes: ["anxiety disorders"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Bipolar Disorder", "Cross-Sectional Studies", "Female", 
 keywords: ["Autism spectrum disorder", "Bipolar disorder", "High-functioning autism"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41765239/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

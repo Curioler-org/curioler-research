@@ -19,7 +19,7 @@ age_max: 50
 age_unit: "months"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "cerebral folate deficiency"
+intervention: "folinic acid"
 duration: ""
 primary_outcomes: ["ADOS-2", "Vineland-3", "ADOS-2 scores (p = 0", "Vineland-3 Adaptive Behaviour Composite scores (p = 0"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Leucovorin", "Pregnancy", "Pilot Projects", "C
 keywords: ["autism spectrum disorder", "cerebral folate deficiency", "folate receptor alpha autoantibodies", "folinic acid", "prenatal supplementation", "preschool neurodevelopment"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42796952/"
 created_at: "2026-11-20T10:29:20Z"
-last_updated: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

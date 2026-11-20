@@ -18,7 +18,7 @@
     "Terri Downer",
     "Florin Oprescu"
   ],
-  "clinical_implications": "May be relevant to neurodevelopmental condition in Autism Spectrum Disorder, based on abstract-reported findings.",
+  "clinical_implications": "May be relevant to clinical care in Autism Spectrum Disorder; interpret cautiously from abstract-level evidence.",
   "co_occurring_conditions": [
     "Sleep Wake Disorders"
   ],
@@ -38,7 +38,7 @@
     ],
     "size": "It involved only 20 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."
   },
-  "intervention": "neurodevelopmental condition",
+  "intervention": null,
   "journal": "Journal of sleep research",
   "keywords": [
     "neurodevelopmental condition",
@@ -46,7 +46,7 @@
     "treatment",
     "young people"
   ],
-  "last_updated": "2026-08-31T13:10:30Z",
+  "last_updated": "2026-11-20T13:12:00Z",
   "limitations": [
     "observational study reports on the feasibility and adequacy of Level 2 polysomnography involv"
   ],

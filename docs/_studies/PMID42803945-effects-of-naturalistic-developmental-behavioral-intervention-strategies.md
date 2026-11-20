@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Humans"
 co_occurring_conditions: []
-intervention: "embedding VSDs within a dynamic play-based NDBI for young autistic children"
+intervention: "Naturalistic Developmental Behavioral Intervention Strategies and Visual Scene Displays"
 duration: ""
 primary_outcomes: ["When NDBI strategies were introduced, there was a large positive effect on child joint engagement and a corresponding large negative effect on child isolated attention. After aided…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Male", "Behavior Therapy", "Child, Preschool",
 keywords: []
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42803945/"
 created_at: "2026-11-20T10:29:20Z"
-last_updated: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

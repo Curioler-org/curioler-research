@@ -19,17 +19,17 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Bipolar Disorder", "Affective Symptoms", "Depression"]
-intervention: "Emotional dysregulation"
+intervention: "omega-3 fatty acids plus inositol"
 duration: "6 weeks"
 primary_outcomes: []
 secondary_outcomes: []
 limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
-clinical_implications: "May be relevant to Emotional dysregulation in Autism Spectrum Disorder, based on abstract-reported findings."
+clinical_implications: "May be relevant to omega-3 fatty acids plus inositol in Autism Spectrum Disorder, based on abstract-reported findings."
 abstract: "The aim of this study was to assess the effectiveness of the nutraceutical treatments combined omega-3 fatty acid plus inositol (O3I) versus N-acetylcysteine (NAC) in children and adolescents with emotional dysregulation and the impact of the co-occurrence of autism traits (AT). Participants were male and female children (5-17) with emotional dysregulation and the presence/absence of AT, as defined by Child Behavior Checklist score, randomized to receive open-label O3I (1020 mg EPA and 1000-2000 mg Inositol) or NAC (1800-2700 mg) daily for 6 weeks. Clinicians measured severity and improvement of depression and mania with the NIMH Clinical Global Improvement Scale (CGI). Parents completed Parent-Youth Mania Rating Scale (P-YMRS) and Children's Depression Inventory (CDI). Both O3I and NAC resulted in modest improvements in mania and depression and did not differ significantly in between group comparison in their effectiveness. Participants taking O3I, but not NAC, demonstrated statistically significant within group improvement in depression per CDI. Participants taking NAC had a greater decrease in P-YMRS scores versus O3I, but the difference did not reach statistical significance. In the presence of AT, NAC was more effective than O3I for mania but not for depression. Further, participants taking NAC, but not O3I, demonstrated significant within group improvement in SRS and BRIEF scores. These results suggest that O3I and NAC may be beneficial for mania and depression in youth, with trends towards O3I more effective for depression and NAC more effective for mania. The presence of AT in youth with emotional dysregulation may moderate the impact of NAC."
 conclusion: ""
 mesh_terms: ["Humans", "Acetylcysteine", "Female", "Inositol", "Child", "Male", "Fatty Acids, Omega-3", "Mania", "Adolescent", "Child, Preschool", "Autistic Disorder", "Bipolar Disorder", "Drug Therapy, Combination", "Treatment Outcome", "Dietary Supplements", "Affective Symptoms", "Psychiatric Status Rating Scales", "Depression"]
 keywords: ["Autism spectrum disorder", "Emotional dysregulation", "Inositol", "N-acetylcysteine", "Omega-3 fatty acids"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42462928/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

@@ -74,6 +74,9 @@ jobs:
       - name: Check participants against the truth fixture
         run: python -m scripts.check_participants
 
+      - name: Check interventions against the truth fixture
+        run: python -m scripts.check_intervention
+
       - name: Check Easy explainer invariants
         run: python -m scripts.check_explainer
 

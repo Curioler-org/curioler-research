@@ -19,17 +19,17 @@ age_max: 30
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "a double-blind, randomized controlled trial"
+intervention: "Accelerated intermittent theta burst stimulation targeting personalized fronto-parietal control network"
 duration: "12 weeks"
 primary_outcomes: []
 secondary_outcomes: []
 limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
-clinical_implications: "May be relevant to a double-blind, randomized controlled trial in Autism Spectrum Disorder, based on abstract-reported findings."
+clinical_implications: "May be relevant to Accelerated intermittent theta burst stimulation targeting personalized fronto-parietal control network in Autism Spectrum Disorder, based on abstract-reported findings."
 abstract: "Autism Spectrum Disorder (ASD) presents a substantial global challenge, yet no pharmacological treatments effectively target its core symptoms, especially in individuals with severe cognitive or adaptive impairments. This double-blind, sham-controlled, randomized clinical trial assessed accelerated intermittent theta burst stimulation (iTBS) targeting the personalized fronto-parietal network (FPN) in ASD. Participants (6-30 years) were randomized in a 2:1 ratio to active or sham iTBS (three daily sessions, 1800 pulses/session) over 12 weeks (324k pulses) alongside behavioral training. The primary outcome was defined as the response rate, charaterized by a ≥ 1-point reduction in ADOS-2 SA at week 12. Of 132 individuals screened, 67 were randomized (mean age 10.04 ± 4.22 years; 88.1% male; all with cognitive/adaptive delays), with 59 completing the study. Active iTBS resulted in a significantly higher response rate (55% vs. 29%) and higher symptom improvement than sham (cohen's d = -0.53), with mild local pain in only 5% of iTBS group. In the profound autism subgroup, the active group exhibited language improvement alongside amelioration of core symptoms. These findings suggest that prolonged, accelerated FPN-targeted iTBS is a safe and efficacious intervention for severe ASD, offering a promising therapeutic approach.Registration ClinicalTrials.gov Identifier: NCT05890846."
 conclusion: ""
 mesh_terms: ["Humans", "Male", "Double-Blind Method", "Child", "Autism Spectrum Disorder", "Female", "Parietal Lobe", "Adolescent", "Transcranial Magnetic Stimulation", "Treatment Outcome", "Adult", "Young Adult", "Frontal Lobe", "Theta Rhythm"]
 keywords: []
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41986743/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

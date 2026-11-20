@@ -19,17 +19,17 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "the ASSIST program or comprehensive written materials on disability services"
+intervention: "Parent Advocacy Intervention"
 duration: "12-month"
 primary_outcomes: []
 secondary_outcomes: []
 limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
-clinical_implications: "May be relevant to the ASSIST program or comprehensive written materials on disability services in Autism Spectrum Disorder, based on abstract-reported findings."
+clinical_implications: "May be relevant to Parent Advocacy Intervention in Autism Spectrum Disorder, based on abstract-reported findings."
 abstract: "Autistic youth face significant challenges accessing adult disability services as they transition out of school-based services. Advocating for Supports to Improve Service Transitions (ASSIST), a group-based program, was developed to address this issue by teaching parents about the service system and how to advocate for services for their youth. Through a randomized controlled trial, previous findings showed that ASSIST improved parent advocacy ability and increased access to government programs for youth who had exited high school. To identify which families may benefit most from ASSIST, the current study used a baseline target moderation framework to examine whether parents' baseline levels of advocacy ability (i.e., knowledge of adult services, perceived advocacy skills, and empowerment) modified the effect of intervention modality (ASSIST vs. written materials) on the primary outcome. The primary outcome for this study was having one or more service needs met at the 6- or 12-month follow-up. Participants included 138 parents of transition-aged autistic youth who received the ASSIST program or comprehensive written materials on disability services. We found that parents taking ASSIST who reported high levels of perceived advocacy skills and empowerment at baseline were more likely to have a service need met compared to those who received written materials. These findings help clarify which families are most likely to benefit from a parent advocacy program and underscore the importance of parental empowerment and perceived advocacy skills in securing needed services for their autistic youth.\nAfter high school, services can be hard to access for autistic youth. To help, we developed a parent advocacy training program called Advocating for Supports to Improve Service Transitions (ASSIST). In this study, we wanted to understand which families may benefit the most from ASSIST, which we defined as receiving at least one service that they needed. We found that families in ASSIST were more likely to receive a needed service when parents came into the study with high levels of perceived advocacy skills and empowerment."
 conclusion: ""
 mesh_terms: ["Humans", "Adolescent", "Parents", "Female", "Male", "Health Services Accessibility", "Autistic Disorder", "Patient Advocacy", "Child"]
 keywords: ["adult disability services", "autism", "parent advocacy", "transition to adulthood", "treatment moderators"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42649086/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

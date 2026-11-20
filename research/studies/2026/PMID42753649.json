@@ -35,7 +35,7 @@
     ],
     "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
   },
-  "intervention": "Electroencephalography",
+  "intervention": null,
   "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
   "keywords": [
     "Autism Spectrum Disorder",
@@ -43,7 +43,7 @@
     "Sleep",
     "Sleep spindle"
   ],
-  "last_updated": "2026-11-20T10:29:20Z",
+  "last_updated": "2026-11-20T13:12:00Z",
   "limitations": [
     "observational cross-sectional study, polysomnography-derived sleep spindle parameters includi",
     "limited, and sleep spindle alterations reflecting thalamocortical network function are"

@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "Biomarker"
+intervention: "Transcranial direct current stimulation"
 duration: "5-week"
 primary_outcomes: ["ABC and SRS scales", "ABC and SRS scores"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Transcranial Direct Current Stimulation", "Male", "Elect
 keywords: ["Autism Spectrum Disorder", "Biomarker", "Brain dynamics", "EEG microstates", "Spatiotemporal variability", "tDCS"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42492722/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

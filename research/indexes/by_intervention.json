@@ -1,106 +1,94 @@
 {
-  "12 weeks of low-frequency (1 Hz) rTMS over the left DLPFC in addition to conventional rehabilitation, while th": [
-    "42723030"
-  ],
-  "16p11.2 deletion syndrome": [
-    "42080302"
-  ],
-  "21 sessions of 40-Hz high-definition transcranial alternating current stimulation (tACS) targeting the rTPJ (3": [
-    "42320780"
-  ],
-  "A Randomized Trial": [
-    "42849910"
-  ],
-  "ADHD": [
-    "41527987",
-    "42584897"
-  ],
   "AI-supported social communication training": [
     "39954218"
   ],
-  "Acceptance": [
-    "40016545"
+  "ATTAIN NAV": [
+    "40338511"
   ],
-  "Air pollution": [
-    "40120015"
-  ],
-  "Alpha Oscillations": [
-    "42492845"
+  "Accelerated intermittent theta burst stimulation targeting personalized fronto-parietal control network": [
+    "41986743"
   ],
   "Ayres sensory integration": [
     "42363339"
   ],
-  "Baby sibs": [
-    "40549283"
+  "Basic Body Awareness Therapy": [
+    "41927180"
   ],
-  "Biomarker": [
+  "Caregiver-Assisted Group-Based Naturalistic Developmental Behavioral Intervention Program": [
+    "42494078"
+  ],
+  "Consumer-Informed Parent Support Program": [
+    "40016545"
+  ],
+  "Developmental Reciprocity Treatment": [
+    "40488923"
+  ],
+  "Dialogic Reading Intervention": [
+    "40402336"
+  ],
+  "Emotion Awareness and Skills Enhancement (EASE) Program": [
+    "40750084"
+  ],
+  "Intermittent Theta Burst Stimulation": [
+    "42590803"
+  ],
+  "Naturalistic Developmental Behavioral Intervention Strategies and Visual Scene Displays": [
+    "42803945"
+  ],
+  "Parent Advocacy Intervention": [
+    "42649086"
+  ],
+  "Reflective Functioning Intervention": [
+    "42394366"
+  ],
+  "Rhythmic Motor and Behavioral Intervention": [
+    "40498260"
+  ],
+  "Transcranial Alternating Current Stimulation at 40 Hz": [
+    "42320780"
+  ],
+  "Transcranial direct current stimulation": [
     "42492722"
   ],
-  "Biomarkers": [
-    "42160813"
+  "Unknown": [
+    "39930281",
+    "39984783",
+    "40120015",
+    "40549283",
+    "41392642",
+    "41578977",
+    "41765239",
+    "42080302",
+    "42092723",
+    "42095553",
+    "42160813",
+    "42172186",
+    "42217453",
+    "42224253",
+    "42303595",
+    "42435380",
+    "42473297",
+    "42491294",
+    "42492413",
+    "42584897",
+    "42753649",
+    "42837527",
+    "42862943"
   ],
-  "Bipolar disorder": [
-    "41765239"
-  ],
-  "Brain networks": [
-    "42680022"
-  ],
-  "Childhood Autism Rating Scale": [
-    "42837527"
-  ],
-  "Children with disabilities": [
-    "42172186"
-  ],
-  "Cognitive behavioral therapy": [
-    "39930281"
-  ],
-  "Cohort": [
-    "42492413"
-  ],
-  "Electroencephalography": [
-    "42753649"
-  ],
-  "Emotion dysregulation": [
-    "42217453"
-  ],
-  "Emotion regulation": [
-    "40728221"
-  ],
-  "Emotional dysregulation": [
-    "42462928"
-  ],
-  "Gross motor skills": [
+  "VR-Based Serious Games": [
     "40178785"
   ],
-  "PRT education only": [
-    "40498260"
+  "Visual Perspective Taking Training": [
+    "42410944"
   ],
   "Yizhi Kaiqiao": [
     "42281150"
   ],
-  "a Developmental Reciprocity Treatment package (DRT-P), a developmentally-based intervention that includes both": [
-    "40488923"
-  ],
-  "a double-blind, randomized controlled trial": [
-    "41986743"
-  ],
-  "a modified KD, comprising ketogenic nutritional powder and a structured dietary plan, with lunch provided at t": [
-    "42763398"
-  ],
-  "a short-term synergic growth mindset intervention towards abilities and towards stress on reducing parental st": [
-    "39984783"
-  ],
   "acupuncture": [
     "42852593"
   ],
-  "assess": [
-    "42224253"
-  ],
   "brief mental health crisis prevention program": [
     "39948293"
-  ],
-  "brief, scalable PRF-based programs for caregivers of autistic children": [
-    "42394366"
   ],
   "cannabidiol (CBD)": [
     "40410546",
@@ -115,57 +103,40 @@
   "care coordination": [
     "42092454"
   ],
-  "cerebral folate deficiency": [
-    "42796952"
-  ],
-  "cerebrospinal fluid": [
-    "42435380"
-  ],
   "cognitive behavioral therapy": [
     "40332656",
     "42472472"
   ],
-  "community": [
-    "42473297"
+  "dialectical behaviour therapy (DBT)": [
+    "40728221"
   ],
-  "congenital cytomegalovirus": [
-    "42092723"
+  "fecal microbiota transplantation and ketogenic diet": [
+    "42687165"
   ],
-  "dialogic reading on promoting verbal interaction": [
-    "40402336"
-  ],
-  "embedding VSDs within a dynamic play-based NDBI for young autistic children": [
-    "42803945"
-  ],
-  "emotion regulation": [
-    "40750084"
-  ],
-  "family": [
-    "42491294"
-  ],
-  "family navigation on service and clinical outcomes while gathering information on implementation": [
-    "40338511"
+  "folinic acid": [
+    "42796952",
+    "42941870"
   ],
   "group-based music therapy combined with speech therapy": [
     "42468411"
   ],
-  "intermittent theta-burst stimulation (iTBS)": [
+  "group-based time-management intervention": [
+    "41527987"
+  ],
+  "intermittent theta-burst stimulation": [
     "41967364"
-  ],
-  "interventions targeting these aspects in autistic persons": [
-    "41927180"
-  ],
-  "leucovorin (2 mg/kg/day, maximum 50 mg/day) or a matched placebo for 12 weeks": [
-    "42941870"
   ],
   "mindfulness-based intervention": [
     "42166881"
   ],
-  "natural language processing": [
-    "42862943"
+  "modified ketogenic diet": [
+    "42763398"
   ],
-  "neurodevelopmental condition": [
-    "41392642"
+  "neurofeedback": [
+    "42492845"
+  ],
+  "omega-3 fatty acids plus inositol": [
+    "42462928"
   ],
   "oxytocin": [
     "41550040",
@@ -181,38 +152,25 @@
   "quercetin": [
     "42438230"
   ],
-  "real or sham iTBS targeting the left orbitofrontal cortex, administered once daily for 8 weeks": [
-    "42590803"
+  "rTMS intervention": [
+    "42723030"
   ],
   "self-determination promotion program": [
     "39954217"
   ],
-  "social cognitive skills training (SCST), focusing on both common and different effects on SCZ and ASD": [
+  "social cognitive skills training": [
     "42487254"
   ],
-  "the ASSIST program or comprehensive written materials on disability services": [
-    "42649086"
+  "therapeutic horseback riding": [
+    "42849910"
   ],
-  "the health check, clinicians who delivered it, and carers/supporters who attended the appointment": [
-    "42303595"
-  ],
-  "their health and dental care at a major pediatric health center between 2016 and 2024": [
-    "42095553"
-  ],
-  "theory of mind": [
-    "42410944"
-  ],
-  "two sessions per week over 12 weeks, with 19 receiving the group program and 19 receiving the therapist-delive": [
-    "42494078"
+  "transcranial direct current stimulation (tDCS)": [
+    "42680022"
   ],
   "vitamin D": [
     "41486975"
   ],
   "washed microbiota transplantation": [
-    "42459342",
-    "42687165"
-  ],
-  "wearable device physical activity monitoring": [
-    "41578977"
+    "42459342"
   ]
 }

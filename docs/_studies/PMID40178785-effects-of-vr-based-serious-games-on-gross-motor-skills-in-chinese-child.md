@@ -19,17 +19,17 @@ age_max: 12
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "Gross motor skills"
+intervention: "VR-Based Serious Games"
 duration: "12-week"
 primary_outcomes: []
 secondary_outcomes: []
 limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
-clinical_implications: "May be relevant to Gross motor skills in Autism Spectrum Disorder, based on abstract-reported findings."
+clinical_implications: "May be relevant to VR-Based Serious Games in Autism Spectrum Disorder, based on abstract-reported findings."
 abstract: "Serious games are digital games designed for education or therapy. Virtual reality (VR)-based serious games have shown potential in enhancing motor learning, but their role in improving gross motor skills in children with ASD in special education remains underexplored. This randomized controlled trial examined the effectiveness of VR-based serious games in improving gross motor skills in children with ASD. Forty children (6-12 years) from Changsha Special Educational School were randomly assigned to an experimental group (n = 20) receiving VR-based serious game training, or a control group (n = 20) attending traditional physical education classes. The 12-week intervention was assessed using the Test of Gross Motor Development-2 (TGMD-2). The experimental group used a multimedia VR system with nine motor rehabilitation games. After the intervention, both groups showed significant improvements in gross motor skills, but the experimental group showed greater gains in locomotor and object control skills, with significant time × group interaction effects. Despite improvements, average gross motor scores remained below the expected norms, highlighting persistent motor skill challenges. These findings support VR-based serious games as a valuable tool in special education, warranting further exploration for long-term interventions and broader adoption in school settings."
 conclusion: ""
 mesh_terms: ["Humans", "Child", "Pilot Projects", "Motor Skills", "Female", "Male", "Video Games", "Autism Spectrum Disorder", "Education, Special", "Virtual Reality", "China", "East Asian People"]
 keywords: ["Autism spectrum disorder", "Gross motor skills", "Serious game", "Virtue reality"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40178785/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

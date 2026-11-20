@@ -11,7 +11,7 @@
     "Paul J Yoder",
     "Tiffany G Woynaroski"
   ],
-  "clinical_implications": "May be relevant to Baby sibs in Autism Spectrum Disorder, based on abstract-reported findings.",
+  "clinical_implications": "May be relevant to clinical care in Autism Spectrum Disorder; interpret cautiously from abstract-level evidence.",
   "co_occurring_conditions": [
     "Language Development Disorders"
   ],
@@ -31,7 +31,7 @@
     ],
     "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
   },
-  "intervention": "Baby sibs",
+  "intervention": null,
   "journal": "Journal of autism and developmental disorders",
   "keywords": [
     "Autism",
@@ -41,7 +41,7 @@
     "Prevention",
     "Sensory"
   ],
-  "last_updated": "2026-11-20T10:29:19Z",
+  "last_updated": "2026-11-20T13:12:00Z",
   "limitations": [
     "limited"
   ],

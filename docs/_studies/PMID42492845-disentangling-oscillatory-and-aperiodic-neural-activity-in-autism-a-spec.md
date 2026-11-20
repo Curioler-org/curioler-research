@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "Alpha Oscillations"
+intervention: "neurofeedback"
 duration: ""
 primary_outcomes: ["SRS", "ABC) were collected pre- and post-intervention"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Neurofeedback", "Male", "Female", "Autism Spectrum Disor
 keywords: ["Alpha Oscillations", "Aperiodic Activity", "Autism Spectrum Disorder", "E/I Balance", "Neurofeedback", "Spectral Parameterization"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42492845/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

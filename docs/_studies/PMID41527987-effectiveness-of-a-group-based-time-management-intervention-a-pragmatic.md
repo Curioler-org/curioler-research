@@ -19,7 +19,7 @@ age_max: 61
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Attention Deficit Disorder with Hyperactivity"]
-intervention: "ADHD"
+intervention: "group-based time-management intervention"
 duration: "3-month"
 primary_outcomes: ["Both intervention groups showed statistically significant improvements in time-management skills, organisation and planning, emotional regulation, general self-efficacy and satisfa…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Adult", "Occupational Therapy", "Middle Aged",
 keywords: ["ADHD", "ClinicalTrials.gov NCT03654248", "Occupational therapy", "autism", "neurodevelopmental disorders"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41527987/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

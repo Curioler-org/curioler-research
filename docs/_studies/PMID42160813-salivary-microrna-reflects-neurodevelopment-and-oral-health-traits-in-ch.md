@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Dental Caries", "Periodontal Diseases"]
-intervention: "Biomarkers"
+intervention: ""
 duration: ""
 primary_outcomes: ["A total of 125 salivary miRNAs were differentially expressed between ASD and control groups (FDR < 0.05). Principal component analysis showed clear group separation, with PC1 accou…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "MicroRNAs", "Male", "Saliva", "Female", "Child", "Oral H
 keywords: ["Autism spectrum disorder", "Biomarkers", "Dental caries", "MicroRNAs", "Periodontal diseases", "RNA sequencing"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42160813/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

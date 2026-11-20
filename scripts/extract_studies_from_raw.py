@@ -293,63 +293,112 @@ def clean_intervention(value: str | None) -> str | None:
     return cleaned[:140]
 
 
+# `intervention` is the treatment, program or exposure-free practice the paper
+# studies, or None. It is read from the title only: the title names what was
+# tested, while the abstract also names control arms ("parents in the control
+# group received PRT education only"), dosing clauses and measures, and PubMed
+# keywords are topics ("ADHD", "Biomarker", "community"), not treatments. Those
+# fallbacks are what stored a keyword, a design phrase ("A Randomized Trial") or a
+# control arm here. A paper with no intervention (an exposure, a biomarker, a
+# measurement method) must come out None, so anything unclear returns None.
+# scripts/check_intervention.py holds this to a hand-read fixture.
+
+# Named treatments, checked first, in order: the first needle found in the title
+# wins, so a more specific needle must come before a broader one.
+INTERVENTION_VOCABULARY = [
+    (r"cannabidiol", "cannabidiol (CBD)"),
+    (r"cannabis", "cannabis-based medicinal products"),
+    (r"quercetin", "quercetin"),
+    (r"oxytocin", "oxytocin"),
+    (r"yizhi kaiqiao", "Yizhi Kaiqiao"),
+    (r"music therapy", "group-based music therapy combined with speech therapy"),
+    (r"mindfulness", "mindfulness-based intervention"),
+    (r"ayres sensory", "Ayres sensory integration"),
+    (r"washed microbiota", "washed microbiota transplantation"),
+    (r"dialectical behaviou?r therapy", "dialectical behaviour therapy (DBT)"),
+    (r"cognitive[- ]behaviou?ral", "cognitive behavioral therapy"),
+    (r"parent-implemented", "parent-implemented intervention"),
+    (r"speech therapy", "speech therapy"),
+    (r"artificial intelligence", "AI-supported social communication training"),
+    (r"professional development", "professional development training"),
+    (r"self-determination", "self-determination promotion program"),
+    (r"crisis prevention", "brief mental health crisis prevention program"),
+    (r"telehealth", "telehealth program"),
+    (r"vitamin d\b", "vitamin D"),
+    (r"care coordination", "care coordination"),
+    (r"horseback riding", "therapeutic horseback riding"),
+    (r"acupuncture", "acupuncture"),
+    (r"neurofeedback", "neurofeedback"),
+    (r"folinic acid|leucovorin", "folinic acid"),
+    (r"\btdcs\b", "transcranial direct current stimulation (tDCS)"),
+]
+
+# Where a title names what was tested. Group 1 is the candidate; it ends at a word
+# that introduces the outcome, population or comparator, or at the end of a clause.
+# The flag says whether the candidate must also contain a TREATMENT_WORD: "Effects
+# of X on Y" and "X improves Y" fit a risk factor just as well ("Effects of
+# maternal obesity on ...", "Screen time increases ..."), while "trial of X" and
+# "treated with X" already say X was given to people.
+_INTERVENTION_END = r"(?=\s+(?:on|in|for|among|versus|vs\.?|compared)\b|\s*[:.?]|$)"
+INTERVENTION_TITLE_PATTERNS = [
+    # "Effects of VR-Based Serious Games on ...", "Efficacy of the EASE Program in ..."
+    (re.compile(rf"(?i)\b(?:effects?|efficacy|effectiveness)\s+of\s+(.+?){_INTERVENTION_END}"), True),
+    # "Randomized Controlled Trial of Developmental Reciprocity Treatment in ..."
+    (re.compile(rf"(?i)\btrial\s+(?:\([^)]*\)\s+)?of\s+(.+?){_INTERVENTION_END}"), False),
+    # "... treated with fecal microbiota transplantation and ketogenic diet."
+    (re.compile(rf"(?i)\btreated with\s+(.+?){_INTERVENTION_END}"), False),
+    # "Visual Perspective Taking Training Improves Theory of Mind ..." - third-person
+    # verbs only, so "Can a Short-Term Intervention Promote ..." is not a subject.
+    (
+        re.compile(
+            r"^(.+?)\s+(?:improves|reduces|reshapes|enhances|promotes|increases|decreases|alleviates)\b",
+            re.IGNORECASE,
+        ),
+        True,
+    ),
+]
+
+TREATMENT_WORD = re.compile(
+    r"(?i)\b(?:therap(?:y|ies)|treatments?|interventions?|training|programs?|programmes?|"
+    r"stimulation|diets?|supplementation|supplements?|games?|reading|riding|transplant\w*|"
+    r"navigation|acids?|medications?|drugs?|coaching|exercise|education|strategies|displays?|"
+    r"devices?|tACS|tDCS|rTMS|iTBS|TMS)\b"
+)
+
+# A candidate that is a study design, a population or an exposure is not an
+# intervention.
+NOT_INTERVENTION = re.compile(
+    r"(?i)^(?:a |an |the )?(?:(?:pilot|randomi[sz]ed|controlled|clinical|double-blind|pragmatic|"
+    r"placebo-controlled|feasibility)\s+)*(?:trial|study|rct)$|\b(?:exposure|severity|placebo)\b"
+)
+
+
+def clean_title_candidate(value: str) -> str | None:
+    cleaned = re.sub(r"\s+", " ", value).strip(" ,.;:-")
+    cleaned = re.sub(r"(?i)^(?:a|an|the)\s+", "", cleaned)
+    if NOT_INTERVENTION.search(cleaned) or len(cleaned) > 120:
+        return None
+    return clean_intervention(cleaned)
+
+
 def infer_intervention(title: str, abstract: str, keywords: list[str]) -> str | None:
-    title_l = (title or "").lower()
-    candidates = [
-        ("cannabidiol", "cannabidiol (CBD)"),
-        ("cannabis", "cannabis-based medicinal products"),
-        ("quercetin", "quercetin"),
-        ("oxytocin", "oxytocin"),
-        ("mindfulness", "mindfulness-based intervention"),
-        ("wearable", "wearable device physical activity monitoring"),
-        ("ayres sensory", "Ayres sensory integration"),
-        ("theta-burst", "intermittent theta-burst stimulation (iTBS)"),
-        ("microbiota", "washed microbiota transplantation"),
-        ("yizhi kaiqiao", "Yizhi Kaiqiao"),
-        ("cognitive behavioral", "cognitive behavioral therapy"),
-        ("parent-implemented", "parent-implemented intervention"),
-        ("music therapy", "group-based music therapy combined with speech therapy"),
-        ("speech therapy", "speech therapy"),
-        ("artificial intelligence", "AI-supported social communication training"),
-        ("professional development", "professional development training"),
-        ("self-determination", "self-determination promotion program"),
-        ("crisis prevention", "brief mental health crisis prevention program"),
-        ("telehealth", "telehealth program"),
-        ("vitamin d", "vitamin D"),
-        ("care coordination", "care coordination"),
-        ("placebo", None),
-    ]
-    for needle, label in candidates:
-        if needle in title_l and label:
+    """The intervention the title names, or None.
+
+    `abstract` and `keywords` are accepted for the call signature but deliberately
+    not read; see the comment above INTERVENTION_VOCABULARY.
+    """
+    title = title or ""
+    for needle, label in INTERVENTION_VOCABULARY:
+        if re.search(rf"(?i){needle}", title):
             return label
-
-    abstract_l = abstract or ""
-    patterns = [
-        r"(?i)\b(?:treated with|received|assigned to receive(?: either)?|evaluated the (?:effects|efficacy) of|effects of|efficacy of)\s+([^.;]{8,110})",
-        r"(?i)\b(?:using|via|with)\s+((?:AI|artificial intelligence|CBT|cognitive behavioral therapy|wearable devices?|telehealth)[^.;]{0,80})",
-    ]
-    for pattern in patterns:
-        match = re.search(pattern, abstract_l)
+    for pattern, needs_treatment_word in INTERVENTION_TITLE_PATTERNS:
+        match = pattern.search(title)
         if match:
-            cleaned = clean_intervention(match.group(1))
-            if cleaned:
-                return cleaned
-
-    for kw in keywords:
-        cleaned = clean_intervention(kw)
-        if cleaned and not DIAGNOSIS_LIKE.search(cleaned):
-            return cleaned
-
-    if title:
-        # Prefer the clause after a colon when present (often names the approach).
-        if ":" in title:
-            after = clean_intervention(title.split(":", 1)[1])
-            if after:
-                return after
-        before = clean_intervention(re.split(r"[.?]", title, maxsplit=1)[0])
-        if before and "autism" not in before.lower():
-            return before
+            candidate = clean_title_candidate(match.group(1))
+            if candidate and (not needs_treatment_word or TREATMENT_WORD.search(candidate)):
+                return candidate
     return None
+
 
 def infer_outcomes(sections: dict[str, str], abstract: str) -> tuple[list[str], list[str]]:
     primary: list[str] = []

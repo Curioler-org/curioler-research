@@ -19,7 +19,7 @@ age_max: 6
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "12 weeks of low-frequency (1 Hz) rTMS over the left DLPFC in addition to conventional rehabilitation, while th"
+intervention: "rTMS intervention"
 duration: ""
 primary_outcomes: ["ABC", "RBS-R", "RBS-R (Z = - 2", "ABC (rₚ = -0"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Magnetic Resonance Imaging", "Male", "Child", "Female", 
 keywords: ["Amplitude of low-frequency fluctuation", "Autism spectrum disorder", "Dorsolateral prefrontal cortex", "Regional homogeneity", "Repetitive transcranial magnetic stimulation", "Resting-state functional magnetic resonance imaging"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42723030/"
 created_at: "2026-11-20T10:29:20Z"
-last_updated: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

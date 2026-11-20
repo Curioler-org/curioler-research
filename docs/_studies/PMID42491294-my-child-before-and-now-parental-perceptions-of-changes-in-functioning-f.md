@@ -19,7 +19,7 @@ age_max: 12
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "family"
+intervention: ""
 duration: ""
 primary_outcomes: ["Findings were organized into three categories: previous experiences with conventional interventions, perceived changes following participation in MIG, and general perceptions of th…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Child", "Autism Spectrum Disorder", "Parents", "Male", "
 keywords: ["autism spectrum disorder", "family", "functioning", "motor activity", "psychomotor performance"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42491294/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

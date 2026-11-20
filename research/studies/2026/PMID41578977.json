@@ -26,7 +26,7 @@
     "not_stated": [],
     "size": "It involved only 27 people. Without random assignment, a group this small makes it especially easy for something other than what was studied to explain the difference researchers saw. Treat this as a very early signal rather than an answer."
   },
-  "intervention": "wearable device physical activity monitoring",
+  "intervention": null,
   "journal": "Physiotherapy theory and practice",
   "keywords": [
     "Wearable device adherence",
@@ -35,7 +35,7 @@
     "fitness tracker",
     "physical activity"
   ],
-  "last_updated": "2026-08-31T13:10:30Z",
+  "last_updated": "2026-11-20T13:12:00Z",
   "limitations": [
     "observational cohort design was used to compare two methods for determining WD adherence for",
     "limited among this understudied population"

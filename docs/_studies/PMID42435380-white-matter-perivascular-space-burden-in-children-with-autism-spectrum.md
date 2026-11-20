@@ -19,7 +19,7 @@ age_max: 8
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "cerebrospinal fluid"
+intervention: ""
 duration: ""
 primary_outcomes: ["In the adjusted models, no significant differences between ASD and TD were observed, as the diagnostic group was not independently associated with either WM-PVSv (ASD: 2.3 ± 1.2 cm…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Child", "Male", "Female", "Autism Spectrum Disorder", "W
 keywords: ["autism spectrum disorder", "cerebrospinal fluid", "deep learning", "neurodevelopment", "pediatric", "perivascular spaces"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42435380/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

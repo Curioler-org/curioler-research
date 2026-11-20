@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "washed microbiota transplantation"
+intervention: "fecal microbiota transplantation and ketogenic diet"
 duration: ""
 primary_outcomes: ["ADOS-2", "ABC", "ABC score reduced from 79"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Child", "Child, Preschool", "Female", "Humans", "Male", "Autism Sp
 keywords: ["Autism spectrum disorder", "Fecal microbiota transplantation", "Gut microbiota", "Ketogenic Diet", "Short-chain fatty acids"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42687165/"
 created_at: "2026-11-20T10:29:20Z"
-last_updated: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

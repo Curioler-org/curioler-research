@@ -19,17 +19,17 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "PRT education only"
+intervention: "Rhythmic Motor and Behavioral Intervention"
 duration: "8-week"
 primary_outcomes: []
 secondary_outcomes: []
 limitations: ["further research with larger samples and longer follow-up is needed to confirm its efficacy and generalizability"]
-clinical_implications: "May be relevant to PRT education only in Autism Spectrum Disorder, based on abstract-reported findings."
+clinical_implications: "May be relevant to Rhythmic Motor and Behavioral Intervention in Autism Spectrum Disorder, based on abstract-reported findings."
 abstract: "This study aimed to explore the potential effectiveness of the Rhythmic Motor and Behavioral Intervention (RMBI) program for preschool children with Autism Spectrum Disorder (ASD). Thirty children with ASD (median age: 5.8 years; 20 males) were randomly assigned to either the RMBI group or a control group. Participants in the RMBI group underwent an 8-week program comprising a music-based rhythmic motor intervention and parent education in Pivotal Response Treatment (PRT), while parents in the control group received PRT education only. Changes in motor performance were assessed using the Peabody Developmental Motor Scales, Second Edition (PDMS-2) and the Movement Assessment Battery for Children, Second Edition (MABC-2). Parent-reported social impairments were evaluated using the Social Responsiveness Scale, Second Edition (SRS-2). A micro-analytic behavioral analysis was conducted to examine changes in imitation accuracy and movement synchrony during the intervention. The RMBI program showed medium-to-large improvements in gross motor skills, including stationary and locomotor abilities, visual-motor integration, and balance. Significant improvements were observed in autistic symptoms and social communication abilities. Furthermore, children in the RMBI group demonstrated enhanced imitation accuracy and movement synchrony compared to their baseline performance. These preliminary findings were further supported by parental reports of satisfaction with the program. This pilot study provides preliminary evidence of the feasibility and potential benefits of the RMBI program in enhancing motor and social skills in preschool children with ASD. Although the results are promising, further research with larger samples and longer follow-up is needed to confirm its efficacy and generalizability."
 conclusion: ""
 mesh_terms: ["Humans", "Male", "Child, Preschool", "Autism Spectrum Disorder", "Pilot Projects", "Female", "Motor Skills", "Behavior Therapy", "Social Behavior", "Treatment Outcome", "Music Therapy", "Social Skills", "Parents"]
 keywords: ["Autism spectrum disorder", "Intervention", "Motor", "Preschool", "Rhythm", "Social"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40498260/"
 created_at: "2026-11-20T10:29:19Z"
-last_updated: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

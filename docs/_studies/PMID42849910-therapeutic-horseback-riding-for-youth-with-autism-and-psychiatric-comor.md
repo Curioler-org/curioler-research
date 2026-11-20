@@ -19,7 +19,7 @@ age_max: 16
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "A Randomized Trial"
+intervention: "therapeutic horseback riding"
 duration: ""
 primary_outcomes: ["primary outcomes of irritability (P <"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Child", "Male", "Equine-Assisted Therapy", "Female", "Ad
 keywords: []
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42849910/"
 created_at: "2026-11-20T10:29:20Z"
-last_updated: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

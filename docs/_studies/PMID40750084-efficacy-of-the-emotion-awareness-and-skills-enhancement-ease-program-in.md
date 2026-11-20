@@ -19,7 +19,7 @@ age_max: 22
 age_unit: "years"
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Affective Symptoms"]
-intervention: "emotion regulation"
+intervention: "Emotion Awareness and Skills Enhancement (EASE) Program"
 duration: ""
 primary_outcomes: ["Primary outcomes included emotion dysregulation severity and its interferen"]
 secondary_outcomes: ["secondary outcomes assessed mental health symptoms"]
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Adolescent", "Male", "Young Adult", "Emotional
 keywords: ["autism", "emotion regulation", "intervention", "mental health", "mindfulness"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/40750084/"
 created_at: "2026-08-10T07:28:06Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

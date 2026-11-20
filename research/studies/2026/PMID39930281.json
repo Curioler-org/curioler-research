@@ -19,7 +19,7 @@
     "Brent J Small",
     "Philip C Kendall"
   ],
-  "clinical_implications": "May be relevant to Cognitive behavioral therapy in Autism Spectrum Disorder, based on abstract-reported findings.",
+  "clinical_implications": "May be relevant to clinical care in Autism Spectrum Disorder; interpret cautiously from abstract-level evidence.",
   "co_occurring_conditions": [
     "Anxiety Disorders"
   ],
@@ -39,7 +39,7 @@
     ],
     "size": "It involved 148 people, a reasonably sized group for this kind of research."
   },
-  "intervention": "Cognitive behavioral therapy",
+  "intervention": null,
   "journal": "Journal of autism and developmental disorders",
   "keywords": [
     "Cognitive behavioral therapy",
@@ -49,7 +49,7 @@
     "Treatment satisfaction",
     "Youth anxiety"
   ],
-  "last_updated": "2026-08-31T13:10:29Z",
+  "last_updated": "2026-11-20T13:11:59Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

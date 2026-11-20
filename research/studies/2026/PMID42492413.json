@@ -30,7 +30,7 @@
     ],
     "size": "It involved 876 people, which is a large group for autism research and makes the findings steadier."
   },
-  "intervention": "Cohort",
+  "intervention": null,
   "journal": "Journal of epidemiology and population health",
   "keywords": [
     "Autism spectrum disorder",
@@ -39,7 +39,7 @@
     "Probabilistic matching",
     "SNDS"
   ],
-  "last_updated": "2026-08-31T13:10:30Z",
+  "last_updated": "2026-11-20T13:12:00Z",
   "limitations": [
     "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
   ],

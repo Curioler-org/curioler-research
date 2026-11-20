@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: []
-intervention: "Electroencephalography"
+intervention: ""
 duration: ""
 primary_outcomes: ["The amplitude, number, density, and activity of sleep spindles were significantly reduced in children with ASD compared to the control group, while spindle duration was significant…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Autism Spectrum Disorder", "Male", "Female", "Child", "C
 keywords: ["Autism Spectrum Disorder", "Electroencephalography", "Sleep", "Sleep spindle"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42753649/"
 created_at: "2026-11-20T10:29:20Z"
-last_updated: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---

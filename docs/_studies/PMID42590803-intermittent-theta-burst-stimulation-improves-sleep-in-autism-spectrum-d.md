@@ -19,7 +19,7 @@ age_max: ""
 age_unit: ""
 diagnosis: "Autism Spectrum Disorder"
 co_occurring_conditions: ["Sleep Initiation and Maintenance Disorders"]
-intervention: "real or sham iTBS targeting the left orbitofrontal cortex, administered once daily for 8 weeks"
+intervention: "Intermittent Theta Burst Stimulation"
 duration: "8 weeks"
 primary_outcomes: ["Sleep improvement following real iTBS was accompanied by changes in overlapping network architecture across 13 cortical regions. These changes showed spatial correspondence with mG…"]
 secondary_outcomes: []
@@ -31,5 +31,5 @@ mesh_terms: ["Humans", "Female", "Male", "Autism Spectrum Disorder", "Magnetic R
 keywords: ["autism spectrum disorder", "biological context", "insomnia", "theta burst stimulation"]
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42590803/"
 created_at: "2026-08-31T05:13:47Z"
-last_updated: "2026-08-31T13:10:30Z"
+last_updated: "2026-11-20T13:12:00Z"
 ---
