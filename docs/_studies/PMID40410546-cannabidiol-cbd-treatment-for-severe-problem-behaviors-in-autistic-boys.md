@@ -1,0 +1,35 @@
+---
+layout: study
+title: "Cannabidiol (CBD) Treatment for Severe Problem Behaviors in Autistic Boys: A Randomized Clinical Trial."
+slug: "PMID40410546-cannabidiol-cbd-treatment-for-severe-problem-behaviors-in-autistic-boys"
+pmid: "40410546"
+doi: "10.1007/s10803-025-06884-y"
+year: 2026
+journal: "Journal of autism and developmental disorders"
+authors: ["Doris Trauner", "Anya Umlauf", "David J Grelotti", "Robert Fitzgerald", "Andrew Hannawi", "Thomas D Marcotte", "Caitlin Knight", "Lauren Smith", "Gisselle Paez", "Jennifer Crowhurst", "Alyson Brown", "Raymond T Suhandynata", "Kyle Lund", "Marlen Menlyadiev", "Igor Grant"]
+study_type: "Randomized Controlled Trial"
+domain: "behaviour"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
+participants: ""
+age_range: "7-14 years"
+age_min: 7
+age_max: 14
+age_unit: "years"
+diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
+intervention: "cannabidiol (CBD)"
+duration: ""
+primary_outcomes: []
+secondary_outcomes: []
+limitations: ["observational studies suggest cannabidiol (CBD) reduces problematic behaviors in autistic chi"]
+clinical_implications: "May be relevant to cannabidiol (CBD) in Autism Spectrum Disorder, based on abstract-reported findings."
+abstract: "Open-label and observational studies suggest cannabidiol (CBD) reduces problematic behaviors in autistic children. No controlled clinical trials have addressed safety, tolerability, and efficacy. We conducted a double-blind, placebo-controlled crossover study of plant-derived CBD (Epidiolex®) to determine safety, tolerability, and behavior effects in autistic boys. Autistic boys with severe behavior problems age 7-14 years were randomized to eight weeks of CBD up to 20 mg/kg/day and eight weeks of placebo separated by a four-week washout. Behavioral assessments were completed before and after each treatment phase. Plasma concentrations of CBD were quantified. Primary outcomes were changes in total score of the Repetitive Behavior Scale-Revised (RBS-R), Child Behavior Checklist (CBCL), and Autism Diagnostic Observation Schedule-2 (ADOS-2). Both groups improved on the RBS-R and CBCL, with no significant difference between groups. ADOS-2 scores improved in placebo group only, but this improvement disappeared when other medications taken by the children were included in the analyses. Blinded clinical impressions showed almost 2/3 of the participants had behavioral improvements with CBD; 1/3 showed either no change or improvement on placebo. A strong placebo effect was observed. CBD had an acceptable safety profile. We did not find CBD to be clearly effective at reducing the broad range of behaviors characterized by the primary outcome measures. There was clinically evident improvement with CBD in 2/3 of participants. A prominent placebo effect demonstrates the importance of placebo control in treatment studies. Medications taken for behavior may reduce blood levels of CBD and may affect outcome measures.Trial Registration https://clinicaltrials.gov NCT04517799 start date 6/1/2020."
+conclusion: ""
+mesh_terms: ["Humans", "Cannabidiol", "Male", "Child", "Double-Blind Method", "Adolescent", "Cross-Over Studies", "Autistic Disorder", "Problem Behavior", "Treatment Outcome"]
+keywords: ["Aggressive behaviors", "Autism", "Cannabidiol", "Self-injurious behaviors"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/40410546/"
+created_at: "2026-11-20T10:29:18Z"
+last_updated: "2026-11-20T10:29:18Z"
+---

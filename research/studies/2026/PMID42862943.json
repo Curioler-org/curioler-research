@@ -1,0 +1,74 @@
+{
+  "abstract": "BACKGROUND: Satisfaction data is a commonly used construct to evaluate programs, products, and experiences. This data is collected through forced choice (scales, surveys) and/or open-ended measures. While open-ended questions have the greatest potential for more useful and candid feedback, analysis of this data can be time-consuming.\nOBJECTIVE: This paper compares two evaluation methods, traditional qualitative analysis (TQA) and Natural Language Processing (NLP), to analyze themes from open-ended satisfaction data of a caregiver-mediated intervention for families of autistic children, called 'Mind the Gap (MTG)'.\nMETHODS: This secondary analysis utilized existing survey data from 73 caregivers that participated in the MTG trial. To identify themes, TQA was performed using latent coding, and R statistical software was used for NLP, with strategies including term frequency and sentiment analysis. Methods were evaluated independently and in combination.\nRESULTS AND CONCLUSION: Both methods are comparable in thoroughly analysing this type of data, with each method contributing both unique and overlapping themes. TQA and NLP showed parent satisfaction with materials and organization, as well as peer coach support. NLP may provide more thorough results while also reducing the time burden associated with TQA, although this strategy may also overlook important nuance in data. This clinical trial is registered as 'Mind the Gap (AIRB-3) (MTG)' at clinicaltrials.gov, registration number NCT03711799.",
+  "age_max": null,
+  "age_min": null,
+  "age_range": null,
+  "age_unit": null,
+  "authors": [
+    "Carmen Caruthers",
+    "Samantha Hochheimer",
+    "Melanie Pellecchia",
+    "Amanda Gulsrud",
+    "Elizabeth McGhee Hassrick",
+    "David Mandell",
+    "Aubyn Stahmer",
+    "Connie Kasari",
+    "Suzannah Iadarola"
+  ],
+  "clinical_implications": "Both methods are comparable in thoroughly analysing this type of data, with each method contributing both unique and overlapping themes.",
+  "co_occurring_conditions": [],
+  "conclusion": "Both methods are comparable in thoroughly analysing this type of data, with each method contributing both unique and overlapping themes. TQA and NLP showed parent satisfaction with materials and organization, as well as peer coach support. NLP may provide more thorough results while also reducing the time burden associated with TQA, although this strategy may also overlook important nuance in data. This clinical trial is registered as 'Mind the Gap (AIRB-3) (MTG)' at clinicaltrials.gov, registration number NCT03711799.",
+  "created_at": "2026-11-20T10:29:20Z",
+  "diagnosis": "Autism Spectrum Disorder",
+  "doi": "10.1111/jep.70667",
+  "domain": "general",
+  "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"Both methods are comparable in thoroughly analysing this type of data, with each method contributing both unique and overlapping themes. TQA and NLP showed parent satisfaction with materials and organization, as well as peer coach support.\"",
+    "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
+  "intervention": "natural language processing",
+  "journal": "Journal of evaluation in clinical practice",
+  "keywords": [
+    "autism",
+    "natural language processing",
+    "parent perspectives",
+    "program evaluation",
+    "qualitative analysis"
+  ],
+  "last_updated": "2026-11-20T10:29:20Z",
+  "limitations": [
+    "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+  ],
+  "mesh_terms": [
+    "Child",
+    "Female",
+    "Humans",
+    "Male",
+    "Autistic Disorder",
+    "Caregivers",
+    "Feedback",
+    "Natural Language Processing",
+    "Parents",
+    "Qualitative Research",
+    "Multicenter Studies as Topic",
+    "Randomized Controlled Trials as Topic"
+  ],
+  "participants": null,
+  "pmid": "42862943",
+  "primary_outcomes": [],
+  "secondary_outcomes": [],
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42862943/",
+  "study_type": "Observational Study",
+  "title": "Comparison of Natural Language Processing and Traditional Qualitative Analyses of Caregiver Feedback From a Community-Based Intervention for Children With Autism.",
+  "trust_tier": 3,
+  "trust_tier_label": "Observational Study",
+  "year": 2026
+}

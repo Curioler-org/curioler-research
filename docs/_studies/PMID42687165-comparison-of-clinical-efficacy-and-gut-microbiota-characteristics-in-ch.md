@@ -1,0 +1,35 @@
+---
+layout: study
+title: "Comparison of clinical efficacy and gut microbiota characteristics in children with ASD treated with fecal microbiota transplantation and ketogenic diet."
+slug: "PMID42687165-comparison-of-clinical-efficacy-and-gut-microbiota-characteristics-in-ch"
+pmid: "42687165"
+doi: "10.1186/s12888-026-08547-3"
+year: 2026
+journal: "BMC psychiatry"
+authors: ["Yu Wang", "Lihong Wang", "Zhifeng Cai", "Lianhu Yu", "Yanshuo Guo", "Linlin Zhang", "Mengna Zhu", "Zhiyue Liu", "YongHeng Zhao", "Lili Liu", "Aihua Cao"]
+study_type: "Randomized Controlled Trial"
+domain: "general"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The researchers concluded: \"Both interventions significantly improved clinical symptoms among children with ASD, potentially through distinct patterns of gut microbiota modulation. CLINICAL TRIALS NUMBER: NCT06348433 (03/21/2024).\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["the ages of the people who took part", "how long the study ran"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
+participants: ""
+age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
+diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
+intervention: "washed microbiota transplantation"
+duration: ""
+primary_outcomes: ["ADOS-2", "ABC", "ABC score reduced from 79"]
+secondary_outcomes: []
+limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
+clinical_implications: "Both interventions significantly improved clinical symptoms among children with ASD, potentially through distinct patterns of gut microbiota modulation."
+abstract: "OBJECTIVE: Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder characterized by impairments in social communication and interaction, along with restricted, repetitive patterns of behavior. It is often accompanied by gastrointestinal dysfunction and gut microbiota dysbiosis. Fecal Microbiota Transplantation (FMT) and the Ketogenic Diet (KD) are interventions targeting the gut microbiota for ASD.\nMETHODS: 30 participants were diagnosed with ASD according to DSM-5 and ADOS-2. ASD core symptoms were evaluated with CARS and ABC. Gut microbiota composition was analyzed by shotgun metagenomic sequencing.\nRESULTS: Both groups demonstrated significant improvements in core symptoms. In the FMT group, the mean CARS score significantly decreased from 34.87 to 33.53 (p < 0.01); in the KD group, it declined from 35.13 to 33 (p < 0.01). The mean ABC score reduced from 79.93 to 69.33 (p = 0.064) in the FMT group and from 63.07 to 42.73 (p < 0.01) in the KD group. Following the intervention, no statistically significant changes were observed in α-diversity or β-diversity within either group. LEfSe analysis revealed distinct post-intervention microbial signatures: FMT significantly enriched butyrate-producing taxa (Wujia chipingensis, Eubacterium sp. MSJ-33, and Butyrivibrio crossotus), while KD elevated Blautia massiliensis and decreased propionate metabolism -associated taxa (Veillonella sp. S12025-13 and Veillonella nakazawae). KEGG enrichment analysis revealed that KD enriched propionate metabolism (Fold enrichment = 3.747, q = 0.010) and aromatic compound degradation (Fold enrichment = 3.591, q = 0.010).\nCONCLUSIONS: Both interventions significantly improved clinical symptoms among children with ASD, potentially through distinct patterns of gut microbiota modulation.\nCLINICAL TRIALS NUMBER: NCT06348433 (03/21/2024)."
+conclusion: "Both interventions significantly improved clinical symptoms among children with ASD, potentially through distinct patterns of gut microbiota modulation.\nCLINICAL TRIALS NUMBER: NCT06348433 (03/21/2024)."
+mesh_terms: ["Child", "Child, Preschool", "Female", "Humans", "Male", "Autism Spectrum Disorder", "Diet, Ketogenic", "Fecal Microbiota Transplantation", "Gastrointestinal Microbiome", "Treatment Outcome"]
+keywords: ["Autism spectrum disorder", "Fecal microbiota transplantation", "Gut microbiota", "Ketogenic Diet", "Short-chain fatty acids"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/42687165/"
+created_at: "2026-11-20T10:29:20Z"
+last_updated: "2026-11-20T10:29:20Z"
+---

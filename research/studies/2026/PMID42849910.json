@@ -1,0 +1,68 @@
+{
+  "abstract": "OBJECTIVE: Autism spectrum disorder care is often complicated by co-occurring psychiatric symptoms. Equine-assisted services show promise for improving behavioral outcomes in this population. We aimed to examine benefits of equine-assisted services for youth with autism at higher risk for mental health interventions.\nMETHODS: A total of 236 youth with autism and psychiatric comorbidity (aged 6-16 years.) were enrolled in a randomized controlled multisite clinical trial, stratified by nonverbal IQ, and assigned to 1 of 3 intervention arms: therapeutic horseback riding (THR), no horse contact barn activity (BA), or waiting period followed by a BA/THR hybrid. Caregivers completed outcome measures. Speech outcomes were evaluated by blinded raters. Intervention methods expand those from a previous efficacy trial.\nRESULTS: Intent-to-treat analyses with 169 participants completing at least 1 intervention lesson revealed that compared with the waitlist control (n = 28), both THR (n = 74) and BA (n = 67) interventions showed clinically significant reductions in co-primary outcomes of irritability (P < .0001; THR effect size d = 1.15; BA effect size d = 1.04) and hyperactivity (THR P < .0001, effect size d = 1.06; BA P = .005, effect size d = 0.68). The THR group showed significantly greater reductions in hyperactivity compared with the BA group (P = .03; effect size d = 0.39) beginning at intervention week 4. Additional significant improvements in THR and BA groups vs the waitlist control were seen in emotional regulation and social behaviors.\nCONCLUSIONS: Equine-assisted activities are an effective intervention to address behavior challenges in youth with autism and psychiatric comorbidity; THR may offer additive reductions in hyperactivity.",
+  "age_max": 16,
+  "age_min": 6,
+  "age_range": "6-16 years",
+  "age_unit": "years",
+  "authors": [
+    "Robin L Gabriels",
+    "Caiti Peters",
+    "Zhaoxing Pan",
+    "Tamara Merritt",
+    "Madison Widick",
+    "Carla Mazefsky",
+    "Mathew Siegel"
+  ],
+  "clinical_implications": "Equine-assisted activities are an effective intervention to address behavior challenges in youth with autism and psychiatric comorbidity; THR may offer additive reductions in hyperactivity.",
+  "co_occurring_conditions": [],
+  "conclusion": "Equine-assisted activities are an effective intervention to address behavior challenges in youth with autism and psychiatric comorbidity; THR may offer additive reductions in hyperactivity.",
+  "created_at": "2026-11-20T10:29:20Z",
+  "diagnosis": "Autism Spectrum Disorder",
+  "doi": "10.1542/peds.2026-077263",
+  "domain": "behaviour",
+  "duration": null,
+  "easy_explainer": {
+    "conclusion": "The researchers concluded: \"Equine-assisted activities are an effective intervention to address behavior challenges in youth with autism and psychiatric comorbidity; THR may offer additive reductions in hyperactivity.\"",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "how long the study ran"
+    ],
+    "size": "It involved 236 people, a reasonably sized group for this kind of research."
+  },
+  "intervention": "A Randomized Trial",
+  "journal": "Pediatrics",
+  "keywords": [],
+  "last_updated": "2026-11-20T10:29:20Z",
+  "limitations": [
+    "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+  ],
+  "mesh_terms": [
+    "Humans",
+    "Child",
+    "Male",
+    "Equine-Assisted Therapy",
+    "Female",
+    "Adolescent",
+    "Animals",
+    "Mental Disorders",
+    "Comorbidity",
+    "Autistic Disorder",
+    "Horses",
+    "Treatment Outcome",
+    "Autism Spectrum Disorder"
+  ],
+  "participants": 236,
+  "pmid": "42849910",
+  "primary_outcomes": [
+    "primary outcomes of irritability (P <"
+  ],
+  "secondary_outcomes": [],
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42849910/",
+  "study_type": "Randomized Controlled Trial",
+  "title": "Therapeutic Horseback Riding for Youth With Autism and Psychiatric Comorbidities: A Randomized Trial.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
+  "year": 2026
+}

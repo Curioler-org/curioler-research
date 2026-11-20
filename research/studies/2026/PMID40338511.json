@@ -1,0 +1,78 @@
+{
+  "abstract": "ATTAIN NAV (Access to Tailored Autism Integrated Care through Family Navigation) was delivered by family navigators to promote access to and engagement with mental health services for school-age autistic youth. This study used a mixed method, stepped wedge design to test the effects of family navigation on service and clinical outcomes while gathering information on implementation. Primary care providers from six clinics in California and 56 caregiver-child dyads enrolled in and completed the study. Clinics were randomized to either a technology-enhanced or standard family navigation condition. Caregivers completed assessments at baseline and post about child, family and services outcomes, and a subset participated in a post qualitative interview. Quantitative findings demonstrated improvements in child challenging behavior and parent activation across conditions although these improvements were more pronounced for families in the standard FN condition. At post-intervention, families in the standard FN condition reported higher levels of navigation satisfaction, a shorter time to attend their first mental health appointment, and higher engagement with their navigator. Qualitative findings complemented and expanded the quantitative survey findings. The ATTAIN NAV model of family navigation for autistic children with co-occurring mental health needs demonstrates promising implementation, service, and clinical benefits. Clinical Trials Registration. NCT05344378.",
+  "age_max": null,
+  "age_min": null,
+  "age_range": null,
+  "age_unit": null,
+  "authors": [
+    "Nicole A Stadnick",
+    "Kassandra Martinez",
+    "Felice Navarro",
+    "Pollyanna Gomez-Patino",
+    "Kimberly Holmquist",
+    "Sonya Negriff",
+    "Scott Roesch",
+    "Isaac Bouchard",
+    "Sara Walpole",
+    "Romina Espinosa",
+    "Sarabeth Broder-Fingert",
+    "Miya Barnett",
+    "Lauren Brookman-Frazee"
+  ],
+  "clinical_implications": "May be relevant to family navigation on service and clinical outcomes while gathering information on implementation in Autism Spectrum Disorder, based on abstract-reported findings.",
+  "co_occurring_conditions": [],
+  "conclusion": null,
+  "created_at": "2026-11-20T10:29:18Z",
+  "diagnosis": "Autism Spectrum Disorder",
+  "doi": "10.1007/s10803-025-06851-7",
+  "domain": "general",
+  "duration": null,
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": null,
+    "not_stated": [
+      "the ages of the people who took part",
+      "how long the study ran"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
+  "intervention": "family navigation on service and clinical outcomes while gathering information on implementation",
+  "journal": "Journal of autism and developmental disorders",
+  "keywords": [
+    "Family navigation,autism",
+    "Hybrid implementation effectiveness",
+    "Mental health",
+    "Mixed methods",
+    "Stepped wedge"
+  ],
+  "last_updated": "2026-11-20T10:29:18Z",
+  "limitations": [
+    "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+  ],
+  "mesh_terms": [
+    "Humans",
+    "Male",
+    "Child",
+    "Female",
+    "Mental Health Services",
+    "Adolescent",
+    "Autistic Disorder",
+    "Health Services Accessibility",
+    "Autism Spectrum Disorder",
+    "Caregivers",
+    "Patient Navigation",
+    "California"
+  ],
+  "participants": null,
+  "pmid": "40338511",
+  "primary_outcomes": [],
+  "secondary_outcomes": [],
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40338511/",
+  "study_type": "Randomized Controlled Trial",
+  "title": "Mixed Methods Findings from a Stepped Wedge Hybrid Implementation Trial of ATTAIN NAV: A Mental Health Family Navigation Intervention for Autistic Youth.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
+  "year": 2026
+}

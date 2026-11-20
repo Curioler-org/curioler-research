@@ -1,0 +1,84 @@
+{
+  "abstract": "The aim of this study was to assess the effectiveness of the nutraceutical treatments combined omega-3 fatty acid plus inositol (O3I) versus N-acetylcysteine (NAC) in children and adolescents with emotional dysregulation and the impact of the co-occurrence of autism traits (AT). Participants were male and female children (5-17) with emotional dysregulation and the presence/absence of AT, as defined by Child Behavior Checklist score, randomized to receive open-label O3I (1020 mg EPA and 1000-2000 mg Inositol) or NAC (1800-2700 mg) daily for 6 weeks. Clinicians measured severity and improvement of depression and mania with the NIMH Clinical Global Improvement Scale (CGI). Parents completed Parent-Youth Mania Rating Scale (P-YMRS) and Children's Depression Inventory (CDI). Both O3I and NAC resulted in modest improvements in mania and depression and did not differ significantly in between group comparison in their effectiveness. Participants taking O3I, but not NAC, demonstrated statistically significant within group improvement in depression per CDI. Participants taking NAC had a greater decrease in P-YMRS scores versus O3I, but the difference did not reach statistical significance. In the presence of AT, NAC was more effective than O3I for mania but not for depression. Further, participants taking NAC, but not O3I, demonstrated significant within group improvement in SRS and BRIEF scores. These results suggest that O3I and NAC may be beneficial for mania and depression in youth, with trends towards O3I more effective for depression and NAC more effective for mania. The presence of AT in youth with emotional dysregulation may moderate the impact of NAC.",
+  "age_max": null,
+  "age_min": null,
+  "age_range": null,
+  "age_unit": null,
+  "authors": [
+    "Janet Wozniak",
+    "Maria Iorini",
+    "Maura DiSalvo",
+    "Hannah O'Connor",
+    "Mai Uchida",
+    "Hagar Kandel",
+    "Atilla Tolga Ceranoglu",
+    "Meredith O'Connor",
+    "Stephen Faraone",
+    "Gagan Joshi"
+  ],
+  "clinical_implications": "May be relevant to Emotional dysregulation in Autism Spectrum Disorder, based on abstract-reported findings.",
+  "co_occurring_conditions": [
+    "Bipolar Disorder",
+    "Affective Symptoms",
+    "Depression"
+  ],
+  "conclusion": null,
+  "created_at": "2026-11-20T10:29:19Z",
+  "diagnosis": "Autism Spectrum Disorder",
+  "doi": "10.1016/j.jad.2026.122277",
+  "domain": "general",
+  "duration": "6 weeks",
+  "easy_explainer": {
+    "conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.",
+    "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.",
+    "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.",
+    "duration": "The study ran for 6 weeks. That is a short window, so it says nothing about whether the effects last.",
+    "not_stated": [
+      "the ages of the people who took part"
+    ],
+    "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."
+  },
+  "intervention": "Emotional dysregulation",
+  "journal": "Journal of affective disorders",
+  "keywords": [
+    "Autism spectrum disorder",
+    "Emotional dysregulation",
+    "Inositol",
+    "N-acetylcysteine",
+    "Omega-3 fatty acids"
+  ],
+  "last_updated": "2026-11-20T10:29:19Z",
+  "limitations": [
+    "Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."
+  ],
+  "mesh_terms": [
+    "Humans",
+    "Acetylcysteine",
+    "Female",
+    "Inositol",
+    "Child",
+    "Male",
+    "Fatty Acids, Omega-3",
+    "Mania",
+    "Adolescent",
+    "Child, Preschool",
+    "Autistic Disorder",
+    "Bipolar Disorder",
+    "Drug Therapy, Combination",
+    "Treatment Outcome",
+    "Dietary Supplements",
+    "Affective Symptoms",
+    "Psychiatric Status Rating Scales",
+    "Depression"
+  ],
+  "participants": null,
+  "pmid": "42462928",
+  "primary_outcomes": [],
+  "secondary_outcomes": [],
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42462928/",
+  "study_type": "Randomized Controlled Trial",
+  "title": "A randomized trial of omega-3 fatty acids plus inositol versus N-acetylcysteine for the treatment of depression and mania in emotionally dysregulated youth age 5-17 with and without autism traits.",
+  "trust_tier": 2,
+  "trust_tier_label": "Randomized Controlled Trial",
+  "year": 2026
+}

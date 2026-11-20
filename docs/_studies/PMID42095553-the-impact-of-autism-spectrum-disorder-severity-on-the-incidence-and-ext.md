@@ -1,0 +1,35 @@
+---
+layout: study
+title: "The Impact of Autism Spectrum Disorder Severity on the Incidence and Extent of Traumatic Dental Injuries in Children: A Retrospective Observational Cohort Study."
+slug: "PMID42095553-the-impact-of-autism-spectrum-disorder-severity-on-the-incidence-and-ext"
+pmid: "42095553"
+doi: "10.1111/edt.70080"
+year: 2026
+journal: "Dental traumatology : official publication of International Association for Dental Traumatology"
+authors: ["Parisa Ghanouni", "Pierre-Luc Michaud", "Annika Nobbe", "Isabel Mello", "Shannon Fitzpatrick", "Erin Quigley", "Jarrett Miller", "Tracy Doyle"]
+study_type: "Observational Study"
+domain: "general"
+trust_tier: 3
+trust_tier_label: "Observational Study"
+easy_explainer: {"conclusion": "The researchers concluded: \"The severity of autism spectrum disorder and sex are not associated with the occurrence or severity of dental trauma among children. These findings suggest that factors beyond the severity of autism may play a more significant role in the risk and impact of dental trauma in this population.\"", "design": "This was an observational study — researchers watched what happened rather than assigning treatments. It can show that two things happen together, but it cannot show that one caused the other.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": null, "not_stated": ["how long the study ran"], "size": "It involved 441 people, a reasonably sized group for this kind of research."}
+participants: 441
+age_range: "3-15 years"
+age_min: 3
+age_max: 15
+age_unit: "years"
+diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
+intervention: "their health and dental care at a major pediatric health center between 2016 and 2024"
+duration: ""
+primary_outcomes: ["Among the 441 participants, 9.1% experienced at least one dental trauma. No statistically significant associations were found between autism severity and dental trauma incidence (p…"]
+secondary_outcomes: []
+limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
+clinical_implications: "The severity of autism spectrum disorder and sex are not associated with the occurrence or severity of dental trauma among children."
+abstract: "INTRODUCTION: Traumatic dental injuries are a common oral health problem among children and have significant health consequences. Children with autism spectrum disorder may face an increased risk of traumatic dental injuries, potentially due to developmental delays, sensory difficulties, and behavioral challenges. However, the relationship between the severity of autism and the extent and occurrence of dental trauma remains unclear. To our knowledge, this is the first study to aim at evaluating the association between the severity of autism and the incidence and severity of dental trauma.\nMETHODS: This retrospective chart review analyzed data from children aged 3-15 years with autism spectrum disorder, who received their health and dental care at a major pediatric health center between 2016 and 2024. A total of 441 patients with autism were included in the study. Statistical analyses were used to examine associations between sex, autism severity, and dental trauma incidence and type/severity.\nRESULTS: Among the 441 participants, 9.1% experienced at least one dental trauma. No statistically significant associations were found between autism severity and dental trauma incidence (p = 0.136) or severity (p = 0.517). Furthermore, sex was not associated with the occurrence of dental trauma (p = 0.591).\nCONCLUSION: The severity of autism spectrum disorder and sex are not associated with the occurrence or severity of dental trauma among children. These findings suggest that factors beyond the severity of autism may play a more significant role in the risk and impact of dental trauma in this population. A clearer understanding of additional contributing variables is essential to inform more effective prevention and management strategies for high-risk individuals within this population."
+conclusion: "The severity of autism spectrum disorder and sex are not associated with the occurrence or severity of dental trauma among children. These findings suggest that factors beyond the severity of autism may play a more significant role in the risk and impact of dental trauma in this population. A clearer understanding of additional contributing variables is essential to inform more effective prevention and management strategies for high-risk individuals within this population."
+mesh_terms: ["Humans", "Tooth Injuries", "Retrospective Studies", "Child", "Male", "Female", "Child, Preschool", "Incidence", "Adolescent", "Autism Spectrum Disorder", "Severity of Illness Index", "Risk Factors"]
+keywords: ["autism", "children", "retrospective chart review", "severity of disorder", "traumatic dental injury"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/42095553/"
+created_at: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T10:29:19Z"
+---

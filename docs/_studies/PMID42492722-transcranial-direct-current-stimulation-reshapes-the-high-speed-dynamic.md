@@ -1,0 +1,35 @@
+---
+layout: study
+title: "Transcranial direct current stimulation reshapes the high-speed dynamic Organization of the autistic brain: An EEG microstate and brain network analysis."
+slug: "PMID42492722-transcranial-direct-current-stimulation-reshapes-the-high-speed-dynamic"
+pmid: "42492722"
+doi: "10.1016/j.pnpbp.2026.111850"
+year: 2026
+journal: "Progress in neuro-psychopharmacology & biological psychiatry"
+authors: ["Jiannan Kang", "Yuqi Li", "Juanmei Wu", "Xiaoli Li", "Tianyi Zhou"]
+study_type: "Randomized Controlled Trial"
+domain: "general"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The researchers concluded: \"Targeted tDCS reduces neural rigidity in children with ASD by enhancing spatiotemporal flexibility and optimizing information processing efficiency. Microstate A dynamics may serve as a robust electrophysiological biomarker for monitoring intervention efficacy in pediatric ASD populations.\"", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 5-week. That is a short window, so it says nothing about whether the effects last.", "not_stated": ["the ages of the people who took part"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
+participants: ""
+age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
+diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
+intervention: "Biomarker"
+duration: "5-week"
+primary_outcomes: ["ABC and SRS scales", "ABC and SRS scores"]
+secondary_outcomes: []
+limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
+clinical_implications: "Targeted tDCS reduces neural rigidity in children with ASD by enhancing spatiotemporal flexibility and optimizing information processing efficiency."
+abstract: "BACKGROUND: Autism Spectrum Disorder (ASD) is characterized by atypical brain network organization and reduced neural flexibility. While transcranial direct current stimulation (tDCS) shows promise in alleviating symptoms, the underlying neurophysiological mechanisms and objective biomarkers remain poorly understood.\nOBJECTIVE: This study aimed to investigate how targeted tDCS modulates the high-speed dynamic organization of the autistic brain using EEG microstate and complex network analysis.\nMETHODS: In this randomized controlled trial, 52 children with ASD were assigned to either an experimental group (n = 26) receiving a 5-week course of tDCS targeting the left dorsolateral prefrontal cortex (DLPFC) or a control group (n = 26). Clinical symptoms were assessed using the ABC and SRS scales. Resting-state EEG data were analyzed using microstate segmentation, wPLI-based functional connectivity, spatiotemporal variability, and first-order autoregressive modeling of state transitions.\nRESULTS: Post-intervention, the experimental group showed a significant increase in the occurrence and coverage of microstate A and microstate B, alongside a decrease in microstate C and D duration. Graph theoretical analysis revealed enhanced global and local efficiency, particularly in microstate B networks. Furthermore, tDCS significantly increased temporal variability while reducing spatial noise across microstate windows. Notably, the increase in microstate A occurrence was exclusively and negatively correlated with reductions in ABC and SRS scores, while no such correlations were found for other metrics.\nCONCLUSION: Targeted tDCS reduces neural rigidity in children with ASD by enhancing spatiotemporal flexibility and optimizing information processing efficiency. Microstate A dynamics may serve as a robust electrophysiological biomarker for monitoring intervention efficacy in pediatric ASD populations."
+conclusion: "Targeted tDCS reduces neural rigidity in children with ASD by enhancing spatiotemporal flexibility and optimizing information processing efficiency. Microstate A dynamics may serve as a robust electrophysiological biomarker for monitoring intervention efficacy in pediatric ASD populations."
+mesh_terms: ["Humans", "Transcranial Direct Current Stimulation", "Male", "Electroencephalography", "Female", "Child", "Autism Spectrum Disorder", "Brain", "Dorsolateral Prefrontal Cortex"]
+keywords: ["Autism Spectrum Disorder", "Biomarker", "Brain dynamics", "EEG microstates", "Spatiotemporal variability", "tDCS"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/42492722/"
+created_at: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T10:29:19Z"
+---

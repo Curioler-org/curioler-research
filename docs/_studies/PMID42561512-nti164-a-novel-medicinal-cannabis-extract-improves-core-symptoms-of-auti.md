@@ -1,0 +1,35 @@
+---
+layout: study
+title: "NTI164, a novel medicinal cannabis extract, improves core symptoms of autism spectrum disorder: Results from a double-blind, randomised, controlled trial (The Harmony study)."
+slug: "PMID42561512-nti164-a-novel-medicinal-cannabis-extract-improves-core-symptoms-of-auti"
+pmid: "42561512"
+doi: "10.1016/j.neurot.2026.e01033"
+year: 2026
+journal: "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics"
+authors: ["Brooke A Keating", "Yelda Ogru", "Esra Isikgel", "Kanan Sharma", "Dima El-Sukkari", "Michael C Fahey"]
+study_type: "Randomized Controlled Trial"
+domain: "general"
+trust_tier: 2
+trust_tier_label: "Randomized Controlled Trial"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 8-week. That is a short window, so it says nothing about whether the effects last.", "not_stated": ["the ages of the people who took part"], "size": "The number of people who took part is not stated in this record, so the result cannot be judged on size."}
+participants: ""
+age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
+diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
+intervention: "cannabis-based medicinal products"
+duration: "8-week"
+primary_outcomes: []
+secondary_outcomes: []
+limitations: ["Extracted from abstract only; full-text methods and risk-of-bias details were not reviewed."]
+clinical_implications: "May be relevant to cannabis-based medicinal products in Autism Spectrum Disorder, based on abstract-reported findings."
+abstract: "Autism spectrum disorder (ASD) is a heterogeneous neurodevelopmental disorder, characterised by difficulties with communication, social interaction, repetitive behaviours, restricted interests, and varying levels of intellectual disability. Aetiology remains unclear for many patients and the underlying physiology is complex. Approved pharmacological treatments of ASD target irritability, temper tantrums, and agitation, with no therapies targeting core ASD symptoms. This double-blind, randomised, placebo-controlled Phase II/III clinical trial investigated the efficacy and safety of NTI164, a novel full-spectrum medicinal cannabis product with <0.3% tetrahydrocannabinol (THC), in paediatric patients with Level II/III ASD. Participants were recruited from a tertiary paediatric neurology clinic and randomised to receive NTI164 up to 20 mg/kg/day or placebo for an 8-week double-blind phase; participants receiving placebo were able to receive NTI164 in an 8-week open label phase following the double-blind phase. Safety assessments, clinician-, and caregiver-rated tools measuring symptoms were utilised at baseline and Week 8. Analysis of Covariance (ANCOVA) was used for statistical analyses. NTI164 demonstrated an excellent safety profile, and statistically significant and meaningful improvements compared to placebo in overall clinical severity, adaptive functioning, social responsiveness, and affective symptoms. Caregivers also reported improved family experiences and quality of life with NTI164. Participants who transitioned from placebo to NTI164 open label reported similar improvements as those reported during the double-blind phase. NTI164 significantly improved core and associated symptoms of ASD compared to placebo. Consistent benefits reported by both clinicians and caregivers in both open label and double-blind contexts supports further clinical development of NTI164 in ASD."
+conclusion: ""
+mesh_terms: ["Humans", "Double-Blind Method", "Autism Spectrum Disorder", "Child", "Female", "Plant Extracts", "Male", "Medical Marijuana", "Adolescent", "Treatment Outcome", "Child, Preschool"]
+keywords: ["Autism", "Cannabis", "Mood", "NTI164", "Social responsiveness"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/42561512/"
+created_at: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T10:29:19Z"
+---

@@ -1,0 +1,35 @@
+---
+layout: study
+title: "Effects of Cannabidiol-Rich Cannabis Oil on Facial Expression Recognition and Theory of Mind in Children With Autism Spectrum Disorder: A Randomized Clinical Trial."
+slug: "PMID42644517-effects-of-cannabidiol-rich-cannabis-oil-on-facial-expression-recognitio"
+pmid: "42644517"
+doi: "10.1002/aur.70353"
+year: 2026
+journal: "Autism research : official journal of the International Society for Autism Research"
+authors: ["Wandersonia Moreira Brito Medeiros", "Estácio Amaro da Silva Junior", "Katy Lísias Gondim Dias de Albuquerque", "Marine Diniz da Rosa", "Amanda Gleiciane de Lima Oliveira", "Maycon Jônatas da Silva", "João Vitor Andrade Fernandes", "Emily Caroline Costa Vieira", "João Paulo Mendes Dos Santos", "Thais Cavalcanti Borges", "Ana Hermínia Andrade E Silva", "Carlos Espínola Neto Segundo", "Nelson Torro-Alves"]
+study_type: "Randomized Controlled Trial"
+domain: "cognitive"
+trust_tier: 3
+trust_tier_label: "Randomized Controlled Trial (small sample)"
+easy_explainer: {"conclusion": "The abstract does not include a conclusions section, so this page does not state what the researchers concluded.", "design": "This was a randomised controlled trial — people were assigned to treatments by chance, which is the most reliable way to tell whether a treatment itself caused a change.", "disclaimer": "This is a plain-language summary of one paper's abstract, not medical advice. Talk to your child's clinician before changing anything.", "duration": "The study ran for 12 weeks. That is a short window, so it says nothing about whether the effects last.", "not_stated": ["the ages of the people who took part"], "size": "It involved only 19 people. Random assignment still means the groups started out comparable, but with so few people the result can shift a lot by chance — a larger trial could easily find something different. Treat this as an early signal rather than an answer."}
+participants: 19
+age_range: ""
+age_min: ""
+age_max: ""
+age_unit: ""
+diagnosis: "Autism Spectrum Disorder"
+co_occurring_conditions: []
+intervention: "cannabidiol (CBD)"
+duration: "12 weeks"
+primary_outcomes: []
+secondary_outcomes: []
+limitations: ["small sample size and exploratory post hoc design, these findings should be interpreted caut"]
+clinical_implications: "May be relevant to cannabidiol (CBD) in Autism Spectrum Disorder, based on abstract-reported findings."
+abstract: "To evaluate, in a post hoc subanalysis, the effects of cannabidiol (CBD)-rich cannabis oil on facial expression recognition and theory of mind in children with autism spectrum disorder (ASD). This post hoc subanalysis included children from a double-blind, randomized, placebo-controlled trial who completed social cognition assessments at baseline and after treatment. Participants received CBD-rich cannabis oil or placebo for 12 weeks. Facial expression recognition and theory of mind were assessed using neuropsychological tasks. Between-group differences were evaluated using the Mann-Whitney U test, whereas within-group changes were assessed using the Wilcoxon signed-rank test. Nineteen Brazilian children with ASD were included (72.7% male; mean age, 7.82 years). Within-group analyses showed significant improvements in facial expression recognition (p = 0.030) and verbal theory of mind (p = 0.016) after treatment in the CBD group, whereas corresponding changes in the placebo group were not statistically significant. However, between-group comparisons showed no significant differences after treatment in facial expression recognition (p = 0.527) or verbal theory of mind (p = 0.901). Total theory of mind scores improved significantly within both groups, with no significant between-group difference (p = 0.967). Although significant within-group improvements in facial expression recognition and verbal theory of mind were observed following CBD-rich cannabis oil treatment, these changes were not significantly different from those observed with placebo. Given the small sample size and exploratory post hoc design, these findings should be interpreted cautiously and do not establish a treatment effect of CBD on social cognition in children with ASD. TRIAL REGISTRATION: Brazilian Clinical Trials Registry (ReBEC), RBR-5wr2cqq (UTN: U1111-1261-4178), accessible at https://ensaiosclinicos.gov.br/rg/RBR-5wr2cqq."
+conclusion: ""
+mesh_terms: ["Humans", "Autism Spectrum Disorder", "Theory of Mind", "Male", "Child", "Cannabidiol", "Female", "Double-Blind Method", "Facial Expression", "Brazil", "Facial Recognition", "Plant Oils", "Cannabis", "Treatment Outcome"]
+keywords: ["anxiety", "autism spectrum disorder", "cannabidiol", "children", "randomized controlled trial"]
+source_url: "https://pubmed.ncbi.nlm.nih.gov/42644517/"
+created_at: "2026-11-20T10:29:19Z"
+last_updated: "2026-11-20T10:29:19Z"
+---

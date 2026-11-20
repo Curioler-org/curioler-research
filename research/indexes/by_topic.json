@@ -3,7 +3,8 @@
     "42080302"
   ],
   "ADHD": [
-    "41527987"
+    "41527987",
+    "42584897"
   ],
   "ASD": [
     "39984783"
@@ -16,10 +17,14 @@
   ],
   "Adolescent": [
     "41904269",
-    "41986743"
+    "41986743",
+    "42849910"
   ],
   "Adult": [
     "41986743"
+  ],
+  "Aggressive behaviors": [
+    "40410546"
   ],
   "Air pollution": [
     "40120015"
@@ -27,7 +32,14 @@
   "Alpha Oscillations": [
     "42492845"
   ],
+  "Amplitude of low-frequency fluctuation": [
+    "42723030"
+  ],
+  "Animals": [
+    "42849910"
+  ],
   "Anxiety": [
+    "40332656",
     "42166881"
   ],
   "Aperiodic Activity": [
@@ -35,6 +47,9 @@
   ],
   "Artificial intelligence": [
     "39954218"
+  ],
+  "Attention": [
+    "42803945"
   ],
   "Attention deficit hyperactivity disorder": [
     "41967364"
@@ -44,26 +59,43 @@
     "39951211",
     "39954217",
     "40016545",
+    "40332656",
+    "40410546",
+    "40549283",
     "41927180",
     "42092454",
-    "42393738"
+    "42393738",
+    "42561512",
+    "42680022"
   ],
   "Autism Spectrum Disorder": [
     "41904269",
     "41986743",
     "42166881",
-    "42492845"
+    "42492722",
+    "42492845",
+    "42753649",
+    "42849910"
+  ],
+  "Autism Spectrum Disorders (ASD)": [
+    "40402336"
   ],
   "Autism spectrum disorder": [
     "40120015",
     "40178785",
+    "40498260",
     "41765239",
     "42160813",
     "42217453",
     "42248366",
     "42281150",
+    "42320780",
+    "42462928",
     "42468411",
-    "42492413"
+    "42492413",
+    "42687165",
+    "42723030",
+    "42763398"
   ],
   "Autistic": [
     "39954218",
@@ -71,7 +103,9 @@
   ],
   "Autistic Disorder": [
     "41904269",
-    "41941984"
+    "41941984",
+    "42803945",
+    "42849910"
   ],
   "Autistic spectrum disorder": [
     "41967364"
@@ -79,11 +113,17 @@
   "Ayres Sensory Integration, Autism Spectrum Disorder, Conservative treatment, Behaviour therapy, Sensory Integration Dysfunction.": [
     "42363339"
   ],
+  "Baby sibs": [
+    "40549283"
+  ],
   "Basic Body Awareness Therapy": [
     "41927180"
   ],
   "Behavior": [
     "39948293"
+  ],
+  "Behavior Therapy": [
+    "42803945"
   ],
   "Behavior analysis": [
     "39951211"
@@ -94,6 +134,9 @@
   "Bilingualism": [
     "39951211"
   ],
+  "Biomarker": [
+    "42492722"
+  ],
   "Biomarkers": [
     "42160813"
   ],
@@ -103,8 +146,18 @@
   "Body awareness": [
     "41927180"
   ],
+  "Brain dynamics": [
+    "42492722"
+  ],
+  "Brain networks": [
+    "42680022"
+  ],
   "Cannabidiol": [
+    "40410546",
     "42248366"
+  ],
+  "Cannabis": [
+    "42561512"
   ],
   "Care coordination": [
     "42092454"
@@ -112,16 +165,33 @@
   "Case control study": [
     "40120015"
   ],
+  "Cerebellum": [
+    "42680022"
+  ],
   "Child": [
     "41904269",
     "41941984",
-    "41986743"
+    "41986743",
+    "42849910"
+  ],
+  "Child Behavior": [
+    "42803945"
   ],
   "Child, Preschool": [
-    "41941984"
+    "41941984",
+    "42803945"
+  ],
+  "Childhood Autism Rating Scale": [
+    "42837527"
+  ],
+  "Childhood autism rating scale": [
+    "42763398"
   ],
   "Children": [
     "40016545"
+  ],
+  "Children with disabilities": [
+    "42172186"
   ],
   "ClinicalTrials.gov NCT03654248": [
     "41527987"
@@ -129,8 +199,17 @@
   "Cognitive behavioral therapy": [
     "39930281"
   ],
+  "Cognitive-behavioral therapy": [
+    "40332656"
+  ],
   "Cohort": [
     "42492413"
+  ],
+  "Communication Devices for People with Disabilities": [
+    "42803945"
+  ],
+  "Comorbidity": [
+    "42849910"
   ],
   "Crisis": [
     "39948293"
@@ -144,6 +223,18 @@
   "Developmental delays": [
     "42092454"
   ],
+  "Developmental disabilities": [
+    "42584897"
+  ],
+  "Developmental interventions": [
+    "40488923"
+  ],
+  "Dialogic reading": [
+    "40402336"
+  ],
+  "Dorsolateral prefrontal cortex": [
+    "42723030"
+  ],
   "Double-Blind Method": [
     "41986743"
   ],
@@ -153,8 +244,17 @@
   "E/I Balance": [
     "42492845"
   ],
+  "EEG": [
+    "42852593"
+  ],
+  "EEG microstates": [
+    "42492722"
+  ],
   "Early childhood": [
     "42092454"
+  ],
+  "Electroencephalography": [
+    "42753649"
   ],
   "Emergency": [
     "39948293"
@@ -163,7 +263,11 @@
     "42217453"
   ],
   "Emotion regulation": [
+    "40728221",
     "42217453"
+  ],
+  "Emotional dysregulation": [
+    "42462928"
   ],
   "Empathy": [
     "39954218"
@@ -171,15 +275,35 @@
   "Environmental risk factor": [
     "40120015"
   ],
+  "Equine-Assisted Therapy": [
+    "42849910"
+  ],
   "Exposure therapy": [
     "39930281"
   ],
+  "Eye tracking": [
+    "42320780"
+  ],
+  "Family navigation,autism": [
+    "40338511"
+  ],
+  "Fecal microbiota transplantation": [
+    "42687165"
+  ],
   "Female": [
     "41941984",
-    "41986743"
+    "41986743",
+    "42803945",
+    "42849910"
+  ],
+  "Fidelity of implementation": [
+    "40488923"
   ],
   "Frontal Lobe": [
     "41986743"
+  ],
+  "Gamma oscillations": [
+    "42320780"
   ],
   "Gastrointestinal Microbiome": [
     "41941984"
@@ -190,22 +314,47 @@
   "Gross motor skills": [
     "40178785"
   ],
+  "Gut microbiota": [
+    "42687165"
+  ],
   "High-functioning autism": [
     "41765239"
   ],
   "Hopelessness": [
     "42166881"
   ],
+  "Horses": [
+    "42849910"
+  ],
   "Humans": [
     "41904269",
     "41941984",
-    "41986743"
+    "41986743",
+    "42803945",
+    "42849910"
+  ],
+  "Hybrid implementation effectiveness": [
+    "40338511"
+  ],
+  "Inositol": [
+    "42462928"
   ],
   "Intermittent theta-burst stimulation": [
     "41967364"
   ],
   "Intervention": [
-    "39954217"
+    "39954217",
+    "40402336",
+    "40498260"
+  ],
+  "Ketogenic Diet": [
+    "42687165"
+  ],
+  "Ketogenic diet": [
+    "42763398"
+  ],
+  "Language": [
+    "40549283"
   ],
   "Language development": [
     "42468411"
@@ -216,13 +365,24 @@
   "Machine Learning": [
     "39954218"
   ],
+  "Magnetoencephalography (meg)": [
+    "42680022"
+  ],
   "Male": [
     "41904269",
     "41941984",
-    "41986743"
+    "41986743",
+    "42803945",
+    "42849910"
+  ],
+  "Mental Disorders": [
+    "42849910"
   ],
   "Mental Health": [
     "39948293"
+  ],
+  "Mental health": [
+    "40338511"
   ],
   "MicroRNAs": [
     "42160813"
@@ -235,7 +395,14 @@
   ],
   "Mixed methods": [
     "39930281",
-    "39954217"
+    "39954217",
+    "40338511"
+  ],
+  "Mood": [
+    "42561512"
+  ],
+  "Motor": [
+    "40498260"
   ],
   "Movement quality": [
     "41927180"
@@ -245,6 +412,12 @@
   ],
   "Music therapy": [
     "42468411"
+  ],
+  "N-acetylcysteine": [
+    "42462928"
+  ],
+  "NTI164": [
+    "42561512"
   ],
   "Neurodevelopmental disorders": [
     "41967364"
@@ -258,11 +431,15 @@
   "Occupational therapy": [
     "41527987"
   ],
+  "Omega-3 fatty acids": [
+    "42462928"
+  ],
   "Oxytocin": [
     "41904269",
     "41941984"
   ],
   "Parent training": [
+    "40488923",
     "42217453"
   ],
   "Parent-implemented intervention": [
@@ -292,14 +469,21 @@
   "Polymorphism, Single Nucleotide": [
     "41904269"
   ],
+  "Preemptive intervention": [
+    "40549283"
+  ],
   "Prefrontal Cortex": [
     "41904269"
+  ],
+  "Preschool": [
+    "40498260"
   ],
   "Preschoolers": [
     "42393738"
   ],
   "Prevention": [
-    "39948293"
+    "39948293",
+    "40549283"
   ],
   "Probabilistic matching": [
     "42492413"
@@ -313,6 +497,9 @@
   "Qualitative methodology": [
     "42217453"
   ],
+  "RCT": [
+    "42472472"
+  ],
   "RNA sequencing": [
     "42160813"
   ],
@@ -322,11 +509,29 @@
   "Receptors, Oxytocin": [
     "41941984"
   ],
+  "Regional homogeneity": [
+    "42723030"
+  ],
   "Regulating Together": [
     "42217453"
   ],
+  "Repetitive transcranial magnetic stimulation": [
+    "42723030"
+  ],
+  "Resting-state functional magnetic resonance imaging": [
+    "42723030"
+  ],
+  "Rhythm": [
+    "40498260"
+  ],
+  "Right temporoparietal junction": [
+    "42320780"
+  ],
   "Ryanodine Receptor Calcium Release Channel": [
     "41904269"
+  ],
+  "S-adenosylmethionine": [
+    "42941870"
   ],
   "SNDS": [
     "42492413"
@@ -340,27 +545,62 @@
   "Self-directed alternative": [
     "42393738"
   ],
+  "Self-injurious behaviors": [
+    "40410546"
+  ],
+  "Sensory": [
+    "40549283"
+  ],
   "Serious game": [
     "40178785"
+  ],
+  "Short-chain fatty acids": [
+    "42687165"
   ],
   "Short-term intervention": [
     "39984783"
   ],
+  "Single-Case Studies as Topic": [
+    "42803945"
+  ],
+  "Sleep": [
+    "42753649"
+  ],
+  "Sleep spindle": [
+    "42753649"
+  ],
+  "Social": [
+    "40498260"
+  ],
   "Social Behavior": [
     "41904269"
   ],
+  "Social cognition": [
+    "42680022"
+  ],
   "Social communication": [
     "39954218",
+    "40488923",
     "42393738"
+  ],
+  "Social responsiveness": [
+    "40332656",
+    "42561512"
   ],
   "Social skills": [
     "42468411"
+  ],
+  "Spatiotemporal variability": [
+    "42492722"
   ],
   "Spectral Parameterization": [
     "42492845"
   ],
   "Speech therapy": [
     "42468411"
+  ],
+  "Stepped wedge": [
+    "40338511"
   ],
   "Stress": [
     "39984783",
@@ -375,8 +615,17 @@
   "Supports": [
     "39954217"
   ],
+  "Sustainable Development goal": [
+    "42172186"
+  ],
   "Systematic inductive thematic analysis": [
     "39930281"
+  ],
+  "Theory of mind": [
+    "42320780"
+  ],
+  "Theta": [
+    "42680022"
   ],
   "Theta Rhythm": [
     "41986743"
@@ -384,19 +633,34 @@
   "Transcranial Magnetic Stimulation": [
     "41986743"
   ],
+  "Transcranial alternating current stimulation": [
+    "42320780"
+  ],
+  "Transcranial direct current stimulation (tdcs)": [
+    "42680022"
+  ],
   "Treatment": [
     "41550040",
-    "42248366"
+    "42248366",
+    "42763398"
   ],
   "Treatment Outcome": [
     "41904269",
-    "41986743"
+    "41986743",
+    "42803945",
+    "42849910"
   ],
   "Treatment satisfaction": [
     "39930281"
   ],
+  "Verbal interaction": [
+    "40402336"
+  ],
   "Virtue reality": [
     "40178785"
+  ],
+  "Visual Perception": [
+    "42803945"
   ],
   "Vitamin D": [
     "41486975"
@@ -410,18 +674,34 @@
   "Young Adult": [
     "41986743"
   ],
+  "Young children": [
+    "40402336"
+  ],
   "Youth anxiety": [
     "39930281"
   ],
   "acceptability": [
     "42303595"
   ],
+  "acupuncture": [
+    "42852593"
+  ],
   "adolescents and adults": [
     "41578977"
   ],
+  "adult disability services": [
+    "42649086"
+  ],
+  "adults": [
+    "42472472"
+  ],
+  "affordable technology": [
+    "42172186"
+  ],
   "anxiety": [
     "41550040",
-    "42387975"
+    "42387975",
+    "42644517"
   ],
   "arbaclofen": [
     "42080302"
@@ -429,14 +709,25 @@
   "assess": [
     "42224253"
   ],
+  "attention-deficit/hyperactivity disorder": [
+    "42837527"
+  ],
   "autism": [
+    "40728221",
     "40750084",
     "41527987",
     "41550040",
+    "42095553",
     "42303595",
     "42394366",
     "42459342",
-    "42494078"
+    "42472472",
+    "42473297",
+    "42494078",
+    "42584897",
+    "42649086",
+    "42862943",
+    "42981179"
   ],
   "autism spectrum disorder": [
     "41486975",
@@ -445,9 +736,15 @@
     "42224253",
     "42387975",
     "42410944",
+    "42435380",
     "42438230",
     "42491294",
-    "42590803"
+    "42590803",
+    "42644517",
+    "42796952",
+    "42837527",
+    "42852593",
+    "42941870"
   ],
   "autistic children": [
     "42394366"
@@ -455,26 +752,70 @@
   "biological context": [
     "42590803"
   ],
+  "biomarker substudy": [
+    "42941870"
+  ],
+  "brain connectivity": [
+    "42852593"
+  ],
   "cannabidiol": [
-    "42387975"
+    "42387975",
+    "42644517",
+    "42981179"
   ],
   "cannabis": [
     "42387975"
   ],
+  "cerebral folate deficiency": [
+    "42796952"
+  ],
+  "cerebrospinal fluid": [
+    "42435380"
+  ],
   "children": [
-    "42410944"
+    "42095553",
+    "42410944",
+    "42473297",
+    "42644517"
+  ],
+  "community": [
+    "42473297"
   ],
   "congenital cytomegalovirus": [
     "42092723"
   ],
+  "deep learning": [
+    "42435380"
+  ],
+  "dialectical behaviour therapy": [
+    "40728221"
+  ],
+  "disability and health": [
+    "42473297"
+  ],
   "donor-recipient": [
     "42459342"
+  ],
+  "down syndrome": [
+    "42172186"
+  ],
+  "electroencephalogram": [
+    "42852593"
+  ],
+  "electroencephalography": [
+    "42981179"
   ],
   "emotion regulation": [
     "40750084"
   ],
   "enterotype": [
     "42459342"
+  ],
+  "fNIRS": [
+    "42852593"
+  ],
+  "facial emotion recognition": [
+    "42487254"
   ],
   "family": [
     "42491294"
@@ -487,6 +828,22 @@
   ],
   "fitness tracker": [
     "41578977"
+  ],
+  "folate receptor alpha autoantibodies": [
+    "42796952"
+  ],
+  "folinic acid": [
+    "42796952",
+    "42941870"
+  ],
+  "fronto-parietal": [
+    "42981179"
+  ],
+  "functional connectivity": [
+    "42981179"
+  ],
+  "functional near-infrared spectroscopy": [
+    "42852593"
   ],
   "functioning": [
     "42491294"
@@ -504,7 +861,17 @@
     "42303595"
   ],
   "insomnia": [
+    "42472472",
     "42590803"
+  ],
+  "interactive learning room": [
+    "42172186"
+  ],
+  "international classification of functioning": [
+    "42473297"
+  ],
+  "internet-delivered CBT-I": [
+    "42472472"
   ],
   "intervention": [
     "40750084"
@@ -512,23 +879,48 @@
   "language": [
     "42080302"
   ],
+  "leucovorin": [
+    "42941870"
+  ],
   "mental health": [
     "40750084"
+  ],
+  "mentalizing": [
+    "42487254"
+  ],
+  "methylation": [
+    "42941870"
   ],
   "mindfulness": [
     "40750084"
   ],
+  "mitochondrial respiration": [
+    "42941870"
+  ],
   "motor activity": [
     "42491294"
   ],
+  "motor vehicle accident": [
+    "42584897"
+  ],
+  "multimodal imaging": [
+    "42852593"
+  ],
+  "natural language processing": [
+    "42862943"
+  ],
   "naturalistic developmental behavioral intervention": [
     "42494078"
+  ],
+  "neural mechanism": [
+    "42852593"
   ],
   "neurocognition": [
     "42281150"
   ],
   "neurodevelopment": [
-    "41486975"
+    "41486975",
+    "42435380"
   ],
   "neurodevelopmental condition": [
     "41392642"
@@ -539,17 +931,53 @@
   "neurodevelopmental outcomes": [
     "42092723"
   ],
+  "neurodevelopmental regression": [
+    "42941870"
+  ],
+  "neuroimaging": [
+    "42852593"
+  ],
+  "one-carbon metabolism": [
+    "42941870"
+  ],
+  "online assessment": [
+    "42837527"
+  ],
   "online intervention": [
     "42394366"
   ],
   "oxytocin": [
     "41550040"
   ],
+  "parent advocacy": [
+    "42649086"
+  ],
+  "parent perspectives": [
+    "42862943"
+  ],
   "parental intervention": [
     "42394366"
   ],
   "parental reflective functioning": [
     "42394366"
+  ],
+  "participation": [
+    "42473297"
+  ],
+  "participatory action research": [
+    "42472472"
+  ],
+  "patient and public involvement": [
+    "42473297"
+  ],
+  "pediatric": [
+    "42435380"
+  ],
+  "peripheral blood mononuclear cells": [
+    "42941870"
+  ],
+  "perivascular spaces": [
+    "42435380"
   ],
   "physical activity": [
     "41578977"
@@ -560,14 +988,26 @@
   "prenatal MRI": [
     "42092723"
   ],
+  "prenatal supplementation": [
+    "42796952"
+  ],
   "preschool": [
     "42281150"
+  ],
+  "preschool neurodevelopment": [
+    "42796952"
   ],
   "primary care": [
     "42303595"
   ],
+  "program evaluation": [
+    "42862943"
+  ],
   "psychomotor performance": [
     "42491294"
+  ],
+  "qualitative analysis": [
+    "42862943"
   ],
   "quality of life": [
     "42438230"
@@ -580,7 +1020,12 @@
   ],
   "randomized controlled trial": [
     "42080302",
-    "42438230"
+    "42438230",
+    "42644517",
+    "42852593"
+  ],
+  "reading the mind in the eyes test": [
+    "42487254"
   ],
   "repetitive transcranial magnetic stimulation": [
     "42281150"
@@ -588,11 +1033,32 @@
   "responsiveness": [
     "42224253"
   ],
+  "retrospective chart review": [
+    "42095553"
+  ],
+  "seatbelt safety": [
+    "42584897"
+  ],
   "sensorineural hearing loss": [
     "42092723"
   ],
+  "severity of disorder": [
+    "42095553"
+  ],
+  "sleep intervention": [
+    "42472472"
+  ],
   "sleep studies": [
     "41392642"
+  ],
+  "social cognition training": [
+    "42487254"
+  ],
+  "social environment": [
+    "42473297"
+  ],
+  "social functioning": [
+    "42487254"
   ],
   "social interaction": [
     "41550040"
@@ -606,6 +1072,18 @@
   "speech": [
     "42080302"
   ],
+  "structural equation modelling": [
+    "40728221"
+  ],
+  "suicidal ideation": [
+    "40728221"
+  ],
+  "tDCS": [
+    "42492722"
+  ],
+  "telepsychiatry": [
+    "42837527"
+  ],
   "tetrahydrocannabinol": [
     "42387975"
   ],
@@ -618,8 +1096,17 @@
   "training": [
     "42410944"
   ],
+  "transition to adulthood": [
+    "42649086"
+  ],
+  "traumatic dental injury": [
+    "42095553"
+  ],
   "treatment": [
     "41392642"
+  ],
+  "treatment moderators": [
+    "42649086"
   ],
   "validity": [
     "42224253"
