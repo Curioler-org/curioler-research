@@ -13,8 +13,7 @@ environment so a run with neither set behaves exactly as it always has:
                  `requests:run` uploads the file to the platform instead, and
                  `requests:approve` copies it into `docs/` and commits it.
 
-A request run writes the single draft file and nothing else: no mirror copy
-in `topics/` or `factchecks/`, which belong to published content.
+A request run writes the single draft file and nothing else.
 
 The file name carries the first eight characters of the request id
 (`<date>-<slug>-<id8>.md`), so the knowledge slug is unique per request and a

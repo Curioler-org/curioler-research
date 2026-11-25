@@ -329,7 +329,7 @@ def save_check(content: str, statement: str, output_dir: str | None = None, requ
     slug = request_slug(slugify(statement), request_id)
     filename = f"{today}-{slug}.md"
     if output_dir:
-        # A topic-request draft: the one file, outside docs/, no factchecks/ mirror.
+        # A topic-request draft: the one file, outside docs/.
         path = os.path.join(output_dir, filename)
         os.makedirs(output_dir, exist_ok=True)
         with open(path, "w", encoding="utf-8") as f:
@@ -340,10 +340,9 @@ def save_check(content: str, statement: str, output_dir: str | None = None, requ
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
-    mirror_path = os.path.join("factchecks", filename)
-    os.makedirs(os.path.dirname(mirror_path), exist_ok=True)
-    with open(mirror_path, "w", encoding="utf-8") as f:
-        f.write(content)
+    # docs/_myth_checks/ is the one home of a published check. The factchecks/
+    # mirror for the retired GitHub Pages site was removed on 2026-11-25:
+    # nothing read it, and its copies had drifted from the real articles.
     print(f"Saved: {path}")
     return path
 

@@ -469,7 +469,7 @@ def save_summary(content: str, query: str, output_dir: str | None = None, reques
     slug = request_slug(slugify(query), request_id)
     filename = f"{today}-{slug}.md"
     if output_dir:
-        # A topic-request draft: the one file, outside docs/, no topics/ mirror.
+        # A topic-request draft: the one file, outside docs/.
         path = os.path.join(output_dir, filename)
         os.makedirs(output_dir, exist_ok=True)
         with open(path, "w", encoding="utf-8") as f:
@@ -480,23 +480,9 @@ def save_summary(content: str, query: str, output_dir: str | None = None, reques
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
-    domain_match = re.search(r'^domain:\s*"?([^"\r\n]+)"?', content, re.MULTILINE)
-    domain = domain_match.group(1).strip().lower() if domain_match else "general"
-    domain = {
-        "communication": "communication",
-        "sensory": "sensory",
-        "social": "social",
-        "adaptive": "adaptive",
-        "behaviour": "behavior",
-        "behavior": "behavior",
-        "motor": "motor",
-        "general": "general",
-        "statistics": "statistics",
-    }.get(domain, "general")
-    topic_path = os.path.join("topics", domain, filename)
-    os.makedirs(os.path.dirname(topic_path), exist_ok=True)
-    with open(topic_path, "w", encoding="utf-8") as f:
-        f.write(content)
+    # docs/_summaries/ is the one home of a published summary. The topics/
+    # mirror for the retired GitHub Pages site was removed on 2026-11-25:
+    # nothing read it, and its copies had drifted from the real articles.
     print(f"Saved: {path}")
     return path
 

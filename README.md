@@ -12,8 +12,6 @@ This repository is the canonical evidence store for:
 
 ## Repository Layout
 
-- `topics/` mirrors published topic summaries by domain.
-- `factchecks/` mirrors published fact checks.
 - `research/studies/<year>/PMID<id>.json` stores one structured study per file.
 - `raw/pubmed/xml/` and `raw/pubmed/abstracts/` preserve original PubMed responses.
 - `research/indexes/` contains generated indexes. Do not edit these manually.
