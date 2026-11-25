@@ -59,6 +59,11 @@ tags: [autism]
 - [Limitation or caveat 2]
 - When to consult a professional
 
+## A Curioler thought
+[2–3 warm sentences that zoom out to the bigger picture the topic touches — a moment of wonder about minds, brains or science. No new facts, no advice, never framing autism as something to fix.]
+
+*Keep looking up.*
+
 ## About this research
 [2–3 sentences: study design, sample size, who conducted it]
 

@@ -73,6 +73,7 @@ Return ONLY this JSON (no markdown, no explanation):
     "what_this_means": ["2-3 bullets"],
     "important_caveats": ["2-4 bullets: the study's limitations and the limits of what it can tell a caregiver, together in one list"]
   },
+  "curioler_thought": "2-3 sentences that close the article: the Curioler thought (rules below).",
   "sources": [
     {
       "title": "Source title",
@@ -124,9 +125,28 @@ Say each fact once:
 - Name the population actually studied. If a source studied adults or
   non-autistic children, say so; never present it as a finding about
   autistic children.
+
+curioler_thought is the article's last word, "A Curioler thought": a small,
+thought-provoking moment of wonder, in the spirit of a science show that
+ends by zooming out to the cosmic perspective. Rules:
+- Step back from the details to something bigger the topic touches: how a
+  brain wires itself, how every mind is built from the same stardust yet
+  turns out its own way, how much science still does not know, how a single
+  observation can change what we look for.
+- Two or three short sentences, plain and warm. Awe, not a lecture; one
+  idea, not a list. Leave the reader with something to wonder about.
+- Stay honest: add no new facts, numbers or claims, and never stretch what
+  the research found. No advice; what_this_means already gave it.
+- Respect the child. Never frame autism as a tragedy, a puzzle to solve or
+  something to fix; wonder at minds, not at deficits.
+- Do not name or quote any real person, and do not write a sign-off; the
+  page adds "Keep looking up." after it.
 """
 
 EXTRACTION_PROMPT = EXTRACTION_PROMPT.replace("{SOURCE_TYPE_RULE}", SOURCE_TYPE_PROMPT)
+
+# Written under every Curioler thought, so the sign-off is the same on each article.
+CURIOLER_SIGN_OFF = "Keep looking up."
 
 # The label written beside each tier, matching the list in SYSTEM_PROMPT.
 TIER_LABELS = {
@@ -391,6 +411,14 @@ def render_markdown(data: dict, query: str, slug: str, today: str, request_id: s
         kept = drop_repeats(bullets or [], said)
         if kept:
             lines += [f"## {heading}", ""] + [f"- {b}" for b in kept] + [""]
+
+    # --- A Curioler thought ---
+    # The last section a parent reads: the platform keeps a heading it does
+    # not recognize in view, after the three parent sections and before the
+    # collapsed science part.
+    thought = (data.get("curioler_thought") or "").strip()
+    if thought:
+        lines += ["## A Curioler thought", "", thought, "", f"*{CURIOLER_SIGN_OFF}*", ""]
 
     # --- Sources ---
     if sources:
