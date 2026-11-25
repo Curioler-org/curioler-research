@@ -15,6 +15,7 @@ from pubmed_fill import fill_thin_pubmed_sources
 from pipeline_secrets import require_tavily_key
 from request_output import request_settings, request_slug
 from tier_guard import SOURCE_TYPE_PROMPT, cap_tier
+from voice import VOICE_PROMPT
 
 
 SYSTEM_PROMPT = """You are a myth-checking agent for Curioler, a platform that helps caregivers of autistic children understand research.
@@ -70,7 +71,7 @@ EXTRACTION_PROMPT = """Analyse the statement and sources provided. Return a JSON
     "what_evidence_says": ["2-5 bullets, one per distinct finding or source"],
     "the_verdict_explained": "1-2 short paragraphs, at most 150 words in total: the reasoning that turns the evidence into this verdict.",
     "what_this_means": ["2-4 practical bullets"],
-    "important_caveats": ["1-3 bullets"]
+    "important_caveats": ["1-3 short bullets, each with a bold lead-in (caveat rules below)"]
   },
   "sources": [
     {
@@ -115,9 +116,13 @@ Keep it short. A caregiver reads short_summary first, then the sections, so:
   autistic children.
 
 {SOURCE_TYPE_RULE}
+
+{VOICE_RULES}
 """
 
-EXTRACTION_PROMPT = EXTRACTION_PROMPT.replace("{SOURCE_TYPE_RULE}", SOURCE_TYPE_PROMPT)
+EXTRACTION_PROMPT = EXTRACTION_PROMPT.replace("{SOURCE_TYPE_RULE}", SOURCE_TYPE_PROMPT).replace(
+    "{VOICE_RULES}", VOICE_PROMPT
+)
 
 
 def slugify(text: str) -> str:
