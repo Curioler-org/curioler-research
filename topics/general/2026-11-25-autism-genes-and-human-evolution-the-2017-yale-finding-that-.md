@@ -46,7 +46,7 @@ tags: [autism, evolution, genetics, archaeology, neurodiversity, natural-selecti
 
 The deep past is pieced together from a few bones, tools and painted walls, and the rest is careful imagination. It is humbling and a little thrilling that we are still learning how many different kinds of minds it took to build the world we live in.
 
-*Keep looking up.*
+*Be curious, keep exploring.*
 
 ## Sources
 

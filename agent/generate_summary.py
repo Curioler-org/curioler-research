@@ -140,13 +140,13 @@ ends by zooming out to the cosmic perspective. Rules:
 - Respect the child. Never frame autism as a tragedy, a puzzle to solve or
   something to fix; wonder at minds, not at deficits.
 - Do not name or quote any real person, and do not write a sign-off; the
-  page adds "Keep looking up." after it.
+  page adds "Be curious, keep exploring." after it.
 """
 
 EXTRACTION_PROMPT = EXTRACTION_PROMPT.replace("{SOURCE_TYPE_RULE}", SOURCE_TYPE_PROMPT)
 
 # Written under every Curioler thought, so the sign-off is the same on each article.
-CURIOLER_SIGN_OFF = "Keep looking up."
+CURIOLER_SIGN_OFF = "Be curious, keep exploring."
 
 # The label written beside each tier, matching the list in SYSTEM_PROMPT.
 TIER_LABELS = {
