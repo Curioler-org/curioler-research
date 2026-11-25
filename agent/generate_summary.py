@@ -57,7 +57,7 @@ Return ONLY this JSON (no markdown, no explanation):
   "what": "1-2 plain sentences: what this research is actually about -- the concept, finding, or mechanism, not just the topic searched.",
   "why": "1-2 plain sentences: why this matters to a caregiver -- the practical relevance to their child.",
   "when": "1-2 plain sentences: the journey stage, situation, or trigger that makes this relevant to a caregiver right now.",
-  "short_summary": "2-4 very plain sentences for a parent, shown under the title and on the listing card: what was tested and what it found, in everyday words, with no study jargon, scale names or unexplained terms.",
+  "short_summary": "2-4 very plain sentences for a parent, shown under the title and on the listing card: a hook that opens with the most surprising or relatable fact, raises the question it leads to, then gives what the research found or argues. Everyday words, no study jargon, scale names or unexplained terms, and no caveats (they go in important_caveats).",
   "card_summary": "ONE complete plain sentence, at most 25 words, shown in full on the article's card: what the research found, not just what it is about. Everyday words, no jargon, American spelling.",
   "scientific_summary": "2-3 sentences for a reader who wants the science: the study design, its size, the main result with any statistic, and how strong the evidence is. Scientific terms are fine here.",
   "structured_fields": {
@@ -69,7 +69,7 @@ Return ONLY this JSON (no markdown, no explanation):
     "key_outcome": "The single most important finding, with statistic if available"
   },
   "sections": {
-    "what_they_found": ["2-4 bullets"],
+    "what_they_found": ["3-7 short paragraphs that tell the research as a story, each starting with a bold lead-in (story rules below)"],
     "what_this_means": ["2-3 bullets"],
     "important_caveats": ["2-4 bullets: the study's limitations and the limits of what it can tell a caregiver, together in one list"]
   },
@@ -112,10 +112,29 @@ written for a parent, aiming at about a US grade 8 reading level:
 - Length follows value: a longer summary is fine when every point is useful
   to a caregiver. Padding is still padding.
 
+Tell the research as a story, then test it. what_they_found is read as
+the heart of the article, so it explains the idea well before any doubt:
+- Each paragraph does one job and opens with a short bold lead-in ending
+  in a full stop, e.g. "**The puzzle.**", "**The clue from DNA.**",
+  "**What the trial tested.**", "**A real example.**".
+- Pick the beats that fit the topic, in an order that builds, such as:
+  the question or puzzle; each line of evidence in turn; what it looks
+  like in real life, with concrete details a parent can picture; one
+  human example a source actually describes; the big idea in one line;
+  how the idea grew (its history and turning points). Skip any beat the
+  sources do not support. Never invent an example, a scene or a detail.
+- Name the people, places and years. Explain a technical term at once
+  ("positive selection. In plain words, ...").
+- Give the idea at full strength, in the researchers' own terms and
+  attributed to them ("Spikins argues", "the trial found", "may have").
+  Attribution keeps it honest; hedging every sentence buries the idea.
+- No doubts, limits or criticisms here: every one goes in
+  important_caveats, which must still state them all plainly.
+
 Say each fact once:
 - key_outcome, short_summary and scientific_summary already state the
   headline finding; what_they_found must add findings beyond it, not
-  restate it.
+  restate it. Its one-line big idea sums up the story in fresh words.
 - what_this_means gives practical implications, not the findings reworded.
 - The bullet counts are ranges, not targets. If the sources support two
   distinct points, write two. Never pad to reach a count.
@@ -409,7 +428,13 @@ def render_markdown(data: dict, query: str, slug: str, today: str, request_id: s
         ("Important caveats", caveats),
     ):
         kept = drop_repeats(bullets or [], said)
-        if kept:
+        if not kept:
+            continue
+        if heading == "What this research found":
+            # The findings are told as a story, one paragraph per beat.
+            paras = [re.sub(r"^\s*[-*]\s+", "", p).strip() for p in kept]
+            lines += [f"## {heading}", ""] + [x for p in paras for x in (p, "")]
+        else:
             lines += [f"## {heading}", ""] + [f"- {b}" for b in kept] + [""]
 
     # --- A Curioler thought ---

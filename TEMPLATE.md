@@ -44,10 +44,15 @@ tags: [autism]
 **Domain:** [domain]
 
 ## What this research found
-- [Plain language finding 1]
-- [Plain language finding 2]
-- [Plain language finding 3]
-- (up to 5 bullets)
+**[The puzzle.]** [The question the research answers, in a parent's words.]
+
+**[The first clue.]** [One line of evidence: who, where, when, and what they found, with any term explained at once.]
+
+**[What it looks like in real life.]** [Concrete details a parent can picture; a human example only if a source describes one.]
+
+**[The big idea, in one line.]** [The story summed up in fresh words.]
+
+(3–7 short paragraphs, each with a bold lead-in. Give the idea at full strength, attributed to the researchers; every doubt goes in Important caveats.)
 
 ## What this means for caregivers of autistic children
 - [Warm, practical implication 1]
